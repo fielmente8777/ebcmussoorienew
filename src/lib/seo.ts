@@ -11,7 +11,7 @@ export const SITE_NAME = "EBC Mussoorie";
 export const DEFAULT_OG_IMAGE = "/og/ebc-mussoorie.jpg";
 export const HOME_TITLE = "Luxury Glamping Resort in Mussoorie – EBC Mussoorie";
 export const HOME_DESCRIPTION =
-  "Luxury tents, forest cottages and a private villa at Park Estate, Hathipaon Road, Mussoorie. Breakfast, bonfire evenings and guided nature walks included.";
+  "14 luxury tents, cottages and villas at Park Estate, Hathipaon Road, Mussoorie. Breakfast, bonfire evenings and guided nature walks included with every stay.";
 
 /** Absolute URL on the canonical host, always with a trailing slash for pages. */
 export function absoluteUrl(path = "/"): string {

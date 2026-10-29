@@ -9,7 +9,7 @@ import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata = pageMeta({
   title: "Tents, Cottages & Private Villa – Rooms at EBC Mussoorie",
-  description: "Compare seven ways to stay at EBC Mussoorie, from The Camper forest tent to Andrew's Villa. Every stay includes breakfast, Wi-Fi and free parking.",
+  description: "14 rooms across seven categories at EBC Mussoorie, from The Camper forest tent to Andrew's Villa. Every stay includes breakfast, Wi-Fi and free parking.",
   path: "/rooms/",
 });
 

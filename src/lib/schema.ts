@@ -42,7 +42,7 @@ export function resortSchema(): Json {
     name: SITE_NAME,
     alternateName: "Everest Base Camp Mussoorie",
     description:
-      "Luxury glamping resort in Mussoorie with forest tents, luxury cottages and a private villa at Park Estate, Hathipaon Road, home to Park Café and The Den.",
+      "Luxury glamping resort in Mussoorie with 14 rooms across seven categories (forest tents, luxury cottages and villas) at Park Estate, Hathipaon Road, home to Park Café and The Den.",
     url: `${SITE_URL}/`,
     logo: absoluteUrl("/LogoEBC.png"),
     image: [
@@ -58,6 +58,7 @@ export function resortSchema(): Json {
     checkinTime: "14:00",
     checkoutTime: "11:00",
     petsAllowed: true,
+    numberOfRooms: 14,
     priceRange: "₹10,000 – ₹20,000 per night (plus GST)",
     currenciesAccepted: "INR",
     amenityFeature: [
