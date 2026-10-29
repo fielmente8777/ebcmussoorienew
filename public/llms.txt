@@ -1,8 +1,9 @@
 # EBC Mussoorie (Everest Base Camp Mussoorie)
 
-> Luxury glamping resort in Mussoorie, Uttarakhand, India, with forest tents, luxury cottages and a private villa at Park Estate, Hathipaon Road. Home to Park Café and The Den, a private event venue.
+> Luxury glamping resort in Mussoorie, Uttarakhand, India, with 14 rooms across seven categories (forest tents, luxury cottages and villas) at Park Estate, Hathipaon Road. Home to Park Café and The Den, a private event venue.
 
 ## Key facts
+- Rooms: 14, in seven categories; sleeps 28 guests (up to 50 with extra beds)
 - Address: Everest Base Camp Mussoorie, Park Estate, Hathipaon Road, Mussoorie, Uttarakhand 248179, India
 - Phone / WhatsApp: +91 91190 01126
 - Email: info@ebcmussoorie.com
@@ -14,7 +15,7 @@
 - Corporate groups: 8 to 48 guests
 - Booking: https://live.ipms247.com/booking/book-rooms-everestbasecamp
 
-## Rooms and nightly rates (from, plus GST)
+## Room categories and nightly rates (from, plus GST)
 - [The Andrew's Villa](https://www.ebcmussoorie.com/rooms/the-andrews-villa/): flagship private villa with its own entrance, terrace and bonfire area. From ₹20,000
 - [Twin Luxury Cottages](https://www.ebcmussoorie.com/rooms/twin-luxury-cottages/): two interconnected cottages for families or two couples. From ₹20,000
 - [Zenith Luxury Cottage](https://www.ebcmussoorie.com/rooms/zenith-luxury-cottage/): signature freestanding forest cottage with a private veranda. From ₹18,000
