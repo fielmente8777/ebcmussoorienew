@@ -59,7 +59,7 @@ const articleData = {
          <li>The Delhi‑Dehradun Expressway has changed the calculus. The expressway has cut Delhi to Dehradun driving time to around 3.5 to 4 hours in good conditions, making a Friday evening departure and Mussoorie arrival before midnight genuinely feasible.</li>
          <li>Travel insurance is worth considering. Pre‑monsoon weather in the hills can shift quickly. A hailstorm at Mussoorie in late May is not unusual. Travel insurance that covers accommodation cancellations due to weather events gives you flexibility.</li>
        </ul>
-       <p>For a traveller's‑eye view of what an adventure‑style stay near Mussoorie looks like in this season, this <a href="/activities/" class="text-secondary underline">Tripoto account of EBC Mussoorie</a> is worth reading before you plan.</p>`,
+       <p>For a traveller's‑eye view of what an adventure‑style stay near Mussoorie looks like in this season, this <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto account of EBC Mussoorie</a> is worth reading before you plan.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Why the Pre‑Monsoon Window Suits Families Specifically</h2>
        <p>Families with school‑age children face a specific scheduling challenge: summer holidays in most Indian schools begin in late May, which means the window overlaps almost perfectly with peak pre‑monsoon hill conditions. What this means in practice:</p>
@@ -114,7 +114,7 @@ const articleData = {
            </tr>
          </tbody>
        </table>
-       <p>For first‑time hill station travellers from Delhi, pre‑monsoon is the more forgiving window. For experienced mountain travellers who have done Mussoorie in summer before, October‑November offers a noticeably different and clearer experience. As covered in this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a>, the property is designed to work across seasons, which makes it a reliable choice regardless of which window you choose.</p>`,
+       <p>For first‑time hill station travellers from Delhi, pre‑monsoon is the more forgiving window. For experienced mountain travellers who have done Mussoorie in summer before, October‑November offers a noticeably different and clearer experience. As covered in this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a>, the property is designed to work across seasons, which makes it a reliable choice regardless of which window you choose.</p>`,
     ],
   },
   faqs: [

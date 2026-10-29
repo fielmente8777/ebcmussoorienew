@@ -57,7 +57,7 @@ const articleData = {
          <li><strong>Named location specificity:</strong> A listing that names its exact location (e.g., near George Everest Peak, Hathipaon, or Landour ridge) is more credible than one that says only "near Mussoorie" or "in the Uttarakhand hills."</li>
          <li><strong>Activity access from the property:</strong> Confirm whether trekking, bonfires, or nature walks are done from the property itself or require a booked excursion to a separate location.</li>
        </ul>
-       <p>For a detailed look at what the George Everest Peak glamping zone includes as an experience, this piece on <a href="/activities/" class="text-secondary underline">adventure in Mussoorie with EBC Mussoorie</a> provides specific on-ground context.</p>`,
+       <p>For a detailed look at what the George Everest Peak glamping zone includes as an experience, this piece on <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">adventure in Mussoorie with EBC Mussoorie</a> provides specific on-ground context.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Seasonal Considerations for Glamping Near Mussoorie</h2>
        <ul class="list-disc pl-6 space-y-1">

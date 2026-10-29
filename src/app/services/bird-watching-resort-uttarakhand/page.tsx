@@ -80,8 +80,8 @@ const articleData = {
          <li>Binoculars with a minimum 8x42 specification for forest birding; 10x42 for open habitat and high altitude</li>
          <li>Corbett jeep safari permits require booking; self‑booking through the official Uttarakhand Forest Department portal</li>
        </ul>
-       <p>For a sense of how the forest and nature experience around the Mussoorie hills is designed at a well‑run outdoor property, this <a href="/activities/" class="text-secondary underline">Tripoto account of EBC Mussoorie</a> gives useful ground‑level detail.</p>
-       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a> also covers how the property integrates natural surroundings into the overall guest experience.</p>`,
+       <p>For a sense of how the forest and nature experience around the Mussoorie hills is designed at a well‑run outdoor property, this <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto account of EBC Mussoorie</a> gives useful ground‑level detail.</p>
+       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> also covers how the property integrates natural surroundings into the overall guest experience.</p>`,
     ],
   },
   faqs: [

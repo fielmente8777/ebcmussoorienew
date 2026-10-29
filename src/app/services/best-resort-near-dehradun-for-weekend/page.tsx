@@ -75,7 +75,7 @@ const articleData = {
          <li><strong>December to February:</strong> Cold, with overnight temperatures near or below freezing. Properties with proper heating provide a genuinely memorable winter mountain experience. Best for travellers who specifically want a cold‑weather glamping stay.</li>
          <li><strong>July to August:</strong> Monsoon season. Trail access is reduced, outdoor setups are weather‑dependent, and road conditions can be slower. Not recommended for activity‑focused weekend trips.</li>
        </ul>
-       <p>As detailed in this piece on <a href="/activities/" class="text-secondary underline">adventure in the heart of Mussoorie with EBC Mussoorie</a>, the property's seasonal experience varies significantly and choosing the right window materially improves the stay.</p>
+       <p>As detailed in this piece on <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">adventure in the heart of Mussoorie with EBC Mussoorie</a>, the property's seasonal experience varies significantly and choosing the right window materially improves the stay.</p>
        <p>For travellers arriving by rail or air from outside Uttarakhand, Dehradun is the natural staging point, and the straightforward logic of this trip is covered well in this travel piece on <a href="/rooms/" class="text-secondary underline">reaching the EBC Mussoorie experience from a major city</a>.</p>`,
     ],
   },

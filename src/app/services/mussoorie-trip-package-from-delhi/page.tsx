@@ -89,7 +89,7 @@ const articleData = {
          <li>You want to combine Mussoorie with Dhanaulti or another stop</li>
          <li>You are experienced with mountain travel and prefer to organise each element separately</li>
        </ul>
-       <p>For most Delhi NCR first‑timers, a well‑structured glamping package from a property like <a href="/" class="text-secondary underline">Everest Base Camp Mussoorie</a> reduces friction significantly. As covered in <a href="/rooms/" class="text-secondary underline">this travel piece</a>, getting from Delhi to an Everest Base Camp in Mussoorie is more straightforward than most people expect.</p>`,
+       <p>For most Delhi NCR first‑timers, a well‑structured glamping package from a property like <a href="/" class="text-secondary underline">Everest Base Camp Mussoorie</a> reduces friction significantly. As covered in <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">this travel piece</a>, getting from Delhi to an Everest Base Camp in Mussoorie is more straightforward than most people expect.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Key Distances and Travel Times From Delhi to Mussoorie</h2>
        <table class="w-full border-collapse my-4 text-sm md:text-base">

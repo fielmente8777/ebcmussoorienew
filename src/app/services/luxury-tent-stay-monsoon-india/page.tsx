@@ -69,13 +69,13 @@ const articleData = {
          <li>The <strong>Park Cafe</strong> with indoor and alfresco dining, the private bonfire estate setup, and the outdoor BBQ arrangements give guests the full range of outdoor and indoor social spaces that a monsoon luxury tent stay needs beyond the accommodation unit itself.</li>
        </ul>
        <p>Confirm operational status, tent specifications, and monsoon-specific availability directly with EBC Mussoorie before booking July to August dates.</p>
-       <p>As described in the <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a>, the property's approach to outdoor hospitality is designed around genuine quality rather than seasonal limitation.</p>`,
+       <p>As described in the <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a>, the property's approach to outdoor hospitality is designed around genuine quality rather than seasonal limitation.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What to Expect on Each Day of a Monsoon Luxury Tent Stay</h2>
        <p><strong>A good day (light rain and clear morning):</strong> Forest walk at 6 AM in mist. Breakfast at 8 AM either in the tent's private sit-out or the communal restaurant. Morning activity (nature walk, birdwatching, photography) before 11 AM. Afternoon in the tent with a book or journaling while rain falls on the canvas. Clearing by evening. Bonfire outside with the smell of post-rain forest.</p>
        <p><strong>A full-rain day:</strong> Morning walk before the rain builds. Indoor rest or reading from late morning. Long lunch. Afternoon indoor activity. Bonfire or verandah time if the evening clears. The quality of the tent's interior, the view from its windows, and the quality of the indoor communal space determine how enjoyable this day is.</p>
        <p><strong>What not to plan for:</strong> Sightseeing excursions that require 2-hour drives. Long outdoor treks. Activities that assume dry conditions all day.</p>
-       <p>For a ground-level view of the EBC Mussoorie estate and outdoor experience, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Tripoto account</a> gives useful traveller-level detail.</p>`,
+       <p>For a ground-level view of the EBC Mussoorie estate and outdoor experience, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">this Tripoto account</a> gives useful traveller-level detail.</p>`,
     ],
   },
   faqs: [

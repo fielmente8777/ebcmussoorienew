@@ -92,12 +92,12 @@ const articleData = {
          <li><strong>Day 3 morning:</strong> Breakfast, checkout, scenic drive back through Dhanaulti or Kempty Falls if time allows</li>
        </ul>
        <p>This structure leaves enough white space for the stay to feel restorative rather than itinerary‑driven.</p>
-       <p>For a traveller's perspective on what the better Mussoorie hill properties feel like from the inside, this <a href="/activities/" class="text-secondary underline">Tripoto trip account of EBC Mussoorie</a> gives useful ground‑level detail on the experience of being at a premium Mussoorie outdoor property.</p>`,
+       <p>For a traveller's perspective on what the better Mussoorie hill properties feel like from the inside, this <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto trip account of EBC Mussoorie</a> gives useful ground‑level detail on the experience of being at a premium Mussoorie outdoor property.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What the Luxury Private Villa Market in Mussoorie Looks Like Right Now</h2>
        <p>The Mussoorie villa market has grown significantly since 2020. A combination of remote work demand, post‑pandemic preference for private over shared spaces, and rising incomes among urban Indian professionals has driven investment in boutique and private villa properties across the Mussoorie hills.</p>
        <p>This growth means more options, but also more variation in quality. The term "luxury" is applied loosely. Properties that opened recently without a track record of reviews require more due diligence than established properties.</p>
-       <p>The safest approach is to book properties that have been independently covered by travel media or that have a verified review history across multiple platforms. As covered in this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline">Hotelier India feature</a>, the better Mussoorie properties earn coverage through what they actually deliver rather than marketing spend.</p>`,
+       <p>The safest approach is to book properties that have been independently covered by travel media or that have a verified review history across multiple platforms. As covered in this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature</a>, the better Mussoorie properties earn coverage through what they actually deliver rather than marketing spend.</p>`,
     ],
   },
   faqs: [

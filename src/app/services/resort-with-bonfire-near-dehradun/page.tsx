@@ -76,8 +76,8 @@ const articleData = {
          <li><strong>Ask about rain contingency:</strong> What happens if it rains? Is there a covered outdoor area or an indoor fireplace alternative?</li>
          <li><strong>Book evening snacks or dinner around the fire specifically:</strong> If bonfire dining is something you want, request it specifically when booking rather than assuming the property will offer it.</li>
        </ul>
-       <p>The <a href="/activities/" class="text-secondary underline">Tripoto community documentation of EBC Mussoorie</a> includes traveller‑level detail on what the outdoor evening experience at a premium Mussoorie hill property actually looks like.</p>
-       <p>For a broader view of how hospitality properties in the Mussoorie hills are designing the evening experience around the outdoor setting, this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline">Hotelier India feature</a> covers the philosophy well.</p>`,
+       <p>The <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto community documentation of EBC Mussoorie</a> includes traveller‑level detail on what the outdoor evening experience at a premium Mussoorie hill property actually looks like.</p>
+       <p>For a broader view of how hospitality properties in the Mussoorie hills are designing the evening experience around the outdoor setting, this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature</a> covers the philosophy well.</p>`,
     ],
   },
   faqs: [

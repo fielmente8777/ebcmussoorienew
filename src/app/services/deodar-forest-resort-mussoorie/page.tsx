@@ -65,8 +65,8 @@ const articleData = {
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Ecological Context: Why Forest Resorts Matter Beyond Tourism</h2>
        <p>Mussoorie's forest cover has declined significantly over the decades due to construction. Properties that actively conserve the deodar and oak cover within their boundaries are doing something ecologically meaningful, not just aesthetically desirable.</p>
        <p>Guests choosing to stay at a property that protects its forest cover are choosing to support that outcome. This is worth factoring into your selection beyond the purely experiential dimension.</p>
-       <p>For a traveller account of the forest setting and outdoor experience at a property in the Mussoorie hills, the <a href="/activities/" class="text-secondary underline">Tripoto piece on EBC Mussoorie</a> gives a grounded, first‑person view of what this environment feels like from the inside.</p>
-       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a> also places the property within the broader shift toward nature‑first hospitality in the Mussoorie hills.</p>`,
+       <p>For a traveller account of the forest setting and outdoor experience at a property in the Mussoorie hills, the <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto piece on EBC Mussoorie</a> gives a grounded, first‑person view of what this environment feels like from the inside.</p>
+       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> also places the property within the broader shift toward nature‑first hospitality in the Mussoorie hills.</p>`,
     ],
   },
   faqs: [

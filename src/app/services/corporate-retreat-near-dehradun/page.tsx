@@ -75,7 +75,7 @@ const articleData = {
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Productivity Case for Taking Your Team to the Hills</h2>
        <p>Research on cognitive function at moderate altitudes (1,500 to 2,500 metres) consistently points toward improved focus and working memory in acclimatised individuals. While a 2‑night stay does not constitute genuine altitude acclimatisation, the environmental change, reduced ambient noise, and absence of city‑pattern interruptions (commute stress, office drop‑ins, phone signal dependency) create a measurably different working environment.</p>
-       <p>As covered in this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a>, the property is designed around the idea that tranquil adventure in a mountain setting produces a different quality of experience than a standard conference retreat. For corporate use, this translates into better conversations, clearer decisions, and group cohesion that persists after the team returns to the office.</p>`,
+       <p>As covered in this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a>, the property is designed around the idea that tranquil adventure in a mountain setting produces a different quality of experience than a standard conference retreat. For corporate use, this translates into better conversations, clearer decisions, and group cohesion that persists after the team returns to the office.</p>`,
     ],
   },
   faqs: [

@@ -7,7 +7,8 @@ import ExploreMoreBLogs from "./components/ExploreMoreBLogs";
 
 import { notFound, permanentRedirect } from "next/navigation";
 import JsonLd from "@/components/seo/JsonLd";
-import { pageMeta } from "@/lib/seo";
+import { DEFAULT_OG_IMAGE, pageMeta } from "@/lib/seo";
+import { existingPublicAsset } from "@/lib/publicAsset";
 import { blogPostingSchema, breadcrumbSchema, faqSchema } from "@/lib/schema";
 
 interface Params {
@@ -52,7 +53,7 @@ export async function generateMetadata({ params }: Params) {
     title: clean(post.title).length <= 44 ? `${clean(post.title)} | EBC Mussoorie` : clean(post.title),
     description: describe(post),
     path: `/blogs/${post.slug}/`,
-    image: post.image,
+    image: existingPublicAsset(post.image, DEFAULT_OG_IMAGE),
     type: "article",
   });
 }
@@ -93,7 +94,7 @@ export default async function LandingPage({ params }: Params) {
             title: clean(data.title),
             description: describe(data),
             path: postPath,
-            image: data.image,
+            image: existingPublicAsset(data.image, DEFAULT_OG_IMAGE),
           }),
           breadcrumbSchema([
             { name: "Home", path: "/" },

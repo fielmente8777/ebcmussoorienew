@@ -125,7 +125,7 @@ const articleData = {
          <li>Cancellation and rescheduling terms</li>
          <li>Pet arrangements if applicable, since the property is confirmed pet-friendly</li>
        </ul>
-       <p>For a first-person account of what the estate and its surroundings feel like on the ground, the <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" target="_blank" rel="noopener noreferrer" class="text-secondary underline">Tripoto trip account of EBC Mussoorie</a> is the most useful external reference available.</p>`,
+       <p>For a first-person account of what the estate and its surroundings feel like on the ground, the <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto trip account of EBC Mussoorie</a> is the most useful external reference available.</p>`,
     ],
   },
   faqs: [

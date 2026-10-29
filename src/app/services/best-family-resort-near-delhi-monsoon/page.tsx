@@ -117,7 +117,7 @@ const articleData = {
          <li><strong>Rishikesh (240 km)</strong> – Lower altitude means warmer, and river activities are restricted during high monsoon flow. Better for families with teenagers than young children.</li>
          <li><strong>Mussoorie (290 km)</strong> – The best balance of accessibility, accommodation quality, and property-level self-sufficiency for a monsoon family stay.</li>
        </ul>
-       <p>For a traveller-level view of the EBC Mussoorie estate and its surroundings, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Tripoto account</a> gives useful ground detail.</p>`,
+       <p>For a traveller-level view of the EBC Mussoorie estate and its surroundings, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">this Tripoto account</a> gives useful ground detail.</p>`,
     ],
   },
   faqs: [

@@ -68,7 +68,7 @@ const articleData = {
          <li><strong>For meeting MICE (working sessions for functional teams):</strong> Prioritise infrastructure: meeting room capacity, WiFi, AV, dietary handling, and accommodation proximity to the meeting space. Distinctiveness is secondary to functionality.</li>
        </ul>
        <p>For companies that want both within a single trip, the hybrid Dehradun‑plus‑Mussoorie format described above is the most effective solution.</p>
-       <p>As covered in this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a>, the property is positioned around the intersection of adventure and hospitality. For incentive MICE groups from Delhi, this intersection is exactly the brief: an experience that feels earned and extraordinary rather than routine.</p>`,
+       <p>As covered in this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a>, the property is positioned around the intersection of adventure and hospitality. For incentive MICE groups from Delhi, this intersection is exactly the brief: an experience that feels earned and extraordinary rather than routine.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Budget Framework for MICE Near Delhi Hills</h2>
        <p>A realistic budget framework for a 2‑night MICE event near Mussoorie for 25 people:</p>

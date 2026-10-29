@@ -50,7 +50,7 @@ const articleData = {
          <li>Does not require a separate vehicle for daily activity access</li>
          <li>Has a functional outdoor space for the evening portion of the day</li>
        </ul>
-       <p>Glamping properties satisfy these conditions by design. The tent format places you outdoors from the moment you open the flap, and bonfire setups provide a built-in evening activity that does not require leaving the property. As detailed in this feature on <a href="/activities/" class="text-secondary underline">adventure in the heart of Mussoorie with EBC Mussoorie</a>, the property is specifically designed to make the most of a short mountain stay.</p>`,
+       <p>Glamping properties satisfy these conditions by design. The tent format places you outdoors from the moment you open the flap, and bonfire setups provide a built-in evening activity that does not require leaving the property. As detailed in this feature on <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">adventure in the heart of Mussoorie with EBC Mussoorie</a>, the property is specifically designed to make the most of a short mountain stay.</p>`,
 
       `<h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">A Practical Two-Night Mountain Weekend Itinerary from Delhi</h3>
        <p><strong>Friday evening or early Saturday:</strong> Depart by 4:00 to 5:00 AM Saturday or Friday night if distance allows. Arrive by early afternoon. Check in. Do nothing demanding. Adjust to the altitude and temperature. Evening bonfire.</p>

@@ -119,8 +119,8 @@ const articleData = {
          <li><strong>48 hours before:</strong> Complete any genuinely urgent work. Clear your inbox to a manageable state. Download offline maps, books, or music if the property permits.</li>
          <li><strong>On arrival:</strong> Set your phone to aeroplane mode rather than just leaving it in the room. The physical action of switching to aeroplane mode is more effective than relying on willpower.</li>
        </ul>
-       <p>For a traveller's perspective on what a nature‑led, outdoor stay experience near Mussoorie actually feels like, the <a href="/activities/" class="text-secondary underline">Tripoto account of EBC Mussoorie</a> is worth reading before you plan.</p>
-       <p>As reported in this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline">Hotelier India feature</a>, EBC Mussoorie's approach to tranquil outdoor hospitality creates exactly the structural environment that genuine disconnection requires.</p>`,
+       <p>For a traveller's perspective on what a nature‑led, outdoor stay experience near Mussoorie actually feels like, the <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto account of EBC Mussoorie</a> is worth reading before you plan.</p>
+       <p>As reported in this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature</a>, EBC Mussoorie's approach to tranquil outdoor hospitality creates exactly the structural environment that genuine disconnection requires.</p>`,
     ],
   },
   faqs: [

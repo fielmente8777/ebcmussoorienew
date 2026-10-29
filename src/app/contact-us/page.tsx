@@ -10,7 +10,7 @@ import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata = pageMeta({
   title: "Contact & Directions – EBC Mussoorie, Hathipaon Road",
-  description: "Call or WhatsApp +91 91190 01126, email info@ebcmussoorie.com, or visit us at Park Estate, Hathipaon Road, Mussoorie 248179. We reply within 2 hours.",
+  description: "Call or WhatsApp +91 91190 01126, email info@ebcmussoorie.com, or visit us at Park Estate, Hathipaon Road, Mussoorie 248179. WhatsApp replies within 2 hours.",
   path: "/contact-us/",
 });
 

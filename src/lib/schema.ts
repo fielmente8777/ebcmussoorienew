@@ -40,7 +40,7 @@ export function resortSchema(): Json {
     "@type": "Resort",
     "@id": RESORT_ID,
     name: SITE_NAME,
-    alternateName: ["Everest Base Camp Mussoorie", "Everest Base Camp"],
+    alternateName: "Everest Base Camp Mussoorie",
     description:
       "Luxury glamping resort in Mussoorie with forest tents, luxury cottages and a private villa at Park Estate, Hathipaon Road, home to Park Café and The Den.",
     url: `${SITE_URL}/`,
@@ -150,6 +150,7 @@ export function hotelRoomSchema(room: {
   image?: string;
   features: string[];
   bed?: string;
+  beds?: number;
 }): Json {
   return {
     "@context": "https://schema.org",
@@ -159,7 +160,7 @@ export function hotelRoomSchema(room: {
     description: room.description,
     url: absoluteUrl(room.path),
     ...(room.image ? { image: absoluteUrl(room.image) } : {}),
-    ...(room.bed ? { bed: { "@type": "BedDetails", typeOfBed: room.bed, numberOfBeds: 1 } } : {}),
+    ...(room.bed ? { bed: { "@type": "BedDetails", typeOfBed: room.bed, numberOfBeds: room.beds ?? 1 } } : {}),
     amenityFeature: room.features.map(amenity),
     containedInPlace: { "@id": RESORT_ID },
   };

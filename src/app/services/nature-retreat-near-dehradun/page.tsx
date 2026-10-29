@@ -95,8 +95,8 @@ const articleData = {
          <li><strong>Season selection:</strong> Each retreat type has a seasonal peak. Forest immersion works year-round with different characters in each season. River stays are best from October to March when water levels are settled. Meadow stays require May to October. Wildlife in Rajaji is best from November to June.</li>
          <li><strong>Booking lead time:</strong> Good nature retreat properties near Dehradun book up 2 to 3 weeks ahead for October to November and March to June. Off-season visits allow last-minute booking at most properties.</li>
        </ul>
-       <p>For a grounded sense of what an outdoor nature stay near Mussoorie actually feels like, this <a href="/activities/" class="text-secondary underline">Tripoto account of EBC Mussoorie</a> covers the experience from a traveller's perspective.</p>
-       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a> also gives context on the design philosophy behind the newer generation of nature-led properties in the Dehradun hills.</p>`,
+       <p>For a grounded sense of what an outdoor nature stay near Mussoorie actually feels like, this <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto account of EBC Mussoorie</a> covers the experience from a traveller's perspective.</p>
+       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> also gives context on the design philosophy behind the newer generation of nature-led properties in the Dehradun hills.</p>`,
     ],
   },
   faqs: [

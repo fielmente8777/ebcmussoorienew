@@ -108,7 +108,7 @@ const articleData = {
          <li>Not confirming WiFi performance for the actual group size. A 10 Mbps connection that serves a couple beautifully will fail a group of 20 running video calls.</li>
          <li>Skipping the dietary advance communication. Kitchen teams at hill properties need lead time to source specific ingredients for restricted diets. Last-minute dietary requests in the hills are genuinely difficult to accommodate.</li>
        </ul>
-       <p>As noted in this <a href="/activities/" class="text-secondary underline">Tripoto feature on EBC Mussoorie</a>, the property's Mussoorie location offers a specific combination of adventure spirit and comfort infrastructure that works for both individual travellers and groups.</p>`,
+       <p>As noted in this <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto feature on EBC Mussoorie</a>, the property's Mussoorie location offers a specific combination of adventure spirit and comfort infrastructure that works for both individual travellers and groups.</p>`,
     ],
   },
   faqs: [

@@ -5,7 +5,7 @@ import { breadcrumbSchema } from "@/lib/schema";
 // page.tsx in this route is a client component, so its metadata lives here.
 export const metadata = pageMeta({
   title: "The Den – Private Event Venue in Mussoorie | EBC",
-  description: "A reservation-only lounge in the forest at EBC Mussoorie for celebrations, private dinners and small business gatherings, with its own private bar.",
+  description: "A reservation-only lounge in the forest at EBC Mussoorie for celebrations, cocktail evenings, coffee meets and small business gatherings, with a private bar.",
   path: "/den/",
 });
 

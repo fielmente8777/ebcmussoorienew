@@ -80,7 +80,7 @@ const articleData = {
          <li>The Library and Landour area for quieter walks and vintage bookshops</li>
        </ul>
        <p>For travellers who want to go beyond the town and stay somewhere that feels less like a hill station tourist zone, a property like <a href="/" class="text-secondary underline">EBC Mussoorie</a> sits outside the main crowd while remaining accessible.</p>
-       <p>Read more about what an adventure‑style mountain stay near Mussoorie actually looks like in this detailed <a href="/activities/" class="text-secondary underline">trip account on Tripoto</a>.</p>`,
+       <p>Read more about what an adventure‑style mountain stay near Mussoorie actually looks like in this detailed <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">trip account on Tripoto</a>.</p>`,
     ],
   },
   faqs: [

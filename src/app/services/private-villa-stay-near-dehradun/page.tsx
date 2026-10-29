@@ -100,8 +100,8 @@ const articleData = {
          <li><strong>Want river and adventure alongside rest:</strong> Rishikesh corridor.</li>
          <li><strong>Want the highest altitude in this zone:</strong> Kanatal at 2,500 metres.</li>
        </ul>
-       <p>The Tripoto community has documented the Mussoorie-area experience extensively. This <a href="/activities/" class="text-secondary underline">first-person account of a stay at EBC Mussoorie</a> gives a useful ground-level view of what the Mussoorie hills feel like as a destination for a private retreat.</p>
-       <p>For additional context on the overall hospitality landscape around Mussoorie, this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline">Hotelier India feature</a> covers how property operators in the area are approaching the premium experiential segment.</p>`,
+       <p>The Tripoto community has documented the Mussoorie-area experience extensively. This <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">first-person account of a stay at EBC Mussoorie</a> gives a useful ground-level view of what the Mussoorie hills feel like as a destination for a private retreat.</p>
+       <p>For additional context on the overall hospitality landscape around Mussoorie, this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature</a> covers how property operators in the area are approaching the premium experiential segment.</p>`,
     ],
   },
   faqs: [

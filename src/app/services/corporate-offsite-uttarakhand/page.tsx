@@ -150,7 +150,7 @@ const articleData = {
          <li><strong>July to August</strong> – possible with careful planning. Covered meeting space and indoor alternatives are essential. Confirm road access and property operational status before finalising dates.</li>
          <li><strong>December to February</strong> – cold and quiet. Suitable for indoor-heavy agendas with bonfire evenings. Confirm heating arrangements.</li>
        </ul>
-       <p>As described in <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Hotelier India feature on EBC Mussoorie</a>, the property is designed around outdoor experience as the foundation of the stay, which translates directly into a different quality of group dynamic than a conference hotel produces.</p>`,
+       <p>As described in <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">this Hotelier India feature on EBC Mussoorie</a>, the property is designed around outdoor experience as the foundation of the stay, which translates directly into a different quality of group dynamic than a conference hotel produces.</p>`,
     ],
   },
   faqs: [

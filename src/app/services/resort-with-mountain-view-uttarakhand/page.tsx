@@ -76,8 +76,8 @@ const articleData = {
          <li>Are there trees or structures between the property and the peak view that reduce the sightline?</li>
        </ul>
        <p>A property that cannot answer these specifically has a view that does not justify specific marketing.</p>
-       <p>For a ground‑level perspective on what a well‑positioned outdoor stay in the Mussoorie hills looks and feels like, the <a href="/activities/" class="text-secondary underline">Tripoto piece on EBC Mussoorie</a> is useful context.</p>
-       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline">Hotelier India coverage of EBC Mussoorie</a> also provides useful framing on how the better Uttarakhand hill properties position their outdoor experience alongside accommodation quality.</p>`,
+       <p>For a ground‑level perspective on what a well‑positioned outdoor stay in the Mussoorie hills looks and feels like, the <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto piece on EBC Mussoorie</a> is useful context.</p>
+       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India coverage of EBC Mussoorie</a> also provides useful framing on how the better Uttarakhand hill properties position their outdoor experience alongside accommodation quality.</p>`,
     ],
   },
   faqs: [

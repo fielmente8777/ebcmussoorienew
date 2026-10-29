@@ -65,7 +65,7 @@ const articleData = {
          <li>Guided or self-guided trekking access to nearby trails</li>
          <li>Meals, either included in the package or available on the property</li>
        </ul>
-       <p>The experience near Dehradun is defined by the elevation shift. You wake up in a different climate zone from the city below, with cooler air, a quieter sound environment, and morning light that reads differently at altitude. As detailed in this piece on <a href="/activities/" class="text-secondary underline">adventure in the heart of Mussoorie with EBC Mussoorie</a>, the combination of proximity to Dehradun and the quality of the outdoor setting makes this zone particularly effective for short-stay travellers.</p>`,
+       <p>The experience near Dehradun is defined by the elevation shift. You wake up in a different climate zone from the city below, with cooler air, a quieter sound environment, and morning light that reads differently at altitude. As detailed in this piece on <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">adventure in the heart of Mussoorie with EBC Mussoorie</a>, the combination of proximity to Dehradun and the quality of the outdoor setting makes this zone particularly effective for short-stay travellers.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Seasonal Guide for Glamping Near Dehradun</h2>
        <ul class="list-disc pl-6 space-y-1">

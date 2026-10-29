@@ -6,7 +6,8 @@ import PerfectForData from "./components/PerfectForData";
 
 import { notFound } from "next/navigation";
 import JsonLd from "@/components/seo/JsonLd";
-import { pageMeta } from "@/lib/seo";
+import { DEFAULT_OG_IMAGE, pageMeta } from "@/lib/seo";
+import { existingPublicAsset } from "@/lib/publicAsset";
 import { breadcrumbSchema, hotelRoomSchema } from "@/lib/schema";
 
 interface Params {
@@ -21,7 +22,7 @@ export const dynamicParams = false;
  * packages page and homepage ("The Surveyor" = suite, "The Surveyor Suite" =
  * premium glamping); features and beds follow each room's own feature list.
  */
-const ROOM_SEO: Record<string, { name: string; title: string; description: string; bed: string }> = {
+const ROOM_SEO: Record<string, { name: string; title: string; description: string; bed: string; beds?: number }> = {
   "the-andrews-villa": {
     name: "The Andrew's Villa",
     title: "Andrew's Villa – Private Luxury Villa in Mussoorie | EBC",
@@ -35,6 +36,7 @@ const ROOM_SEO: Record<string, { name: string; title: string; description: strin
     description:
       "Two interconnected luxury cottages with king bedrooms, en-suite bathrooms and a shared garden terrace, for families or two couples. From ₹20,000 a night.",
     bed: "King",
+    beds: 2,
   },
   "zenith-luxury-cottage": {
     name: "Zenith Luxury Cottage",
@@ -86,7 +88,7 @@ export async function generateMetadata({ params }: Params) {
     title: seo?.title ?? room.metaData.title,
     description: seo?.description ?? room.metaData.description,
     path: `/rooms/${room.slug}/`,
-    image: room.banner?.image,
+    image: existingPublicAsset(room.banner?.image, DEFAULT_OG_IMAGE),
   });
 }
 
@@ -110,9 +112,10 @@ export default async function RoomDetailsPage({ params }: Params) {
             name: roomName,
             description: seo?.description ?? pageData.metaData.description,
             path: roomPath,
-            image: pageData.banner?.image,
+            image: existingPublicAsset(pageData.banner?.image, DEFAULT_OG_IMAGE),
             features: pageData.roomsFeatures?.featuresCards?.map((f) => f.title) ?? [],
             bed: seo?.bed,
+            beds: seo?.beds,
           }),
           breadcrumbSchema([
             { name: "Home", path: "/" },

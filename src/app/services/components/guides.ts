@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { absoluteUrl, pageMeta } from "@/lib/seo";
+import { DEFAULT_OG_IMAGE, absoluteUrl, pageMeta } from "@/lib/seo";
+import { existingPublicAsset } from "@/lib/publicAsset";
 import { blogPostingSchema, breadcrumbSchema, faqSchema } from "@/lib/schema";
 
 /** Every static guide under /services/<slug>/ (kept in sync with the folders). */
@@ -89,9 +90,10 @@ export function guideSchema(
   const path = `/services/${GUIDE_DUPLICATE_OF[slug] ?? slug}/`;
   const headline = data.metaData.title.replace(/\s*\|\s*EBC Mussoorie\s*$/, "");
   return [
-    blogPostingSchema({ title: headline, description: data.metaData.description, path, image: data.banner?.image }),
+    blogPostingSchema({ title: headline, description: data.metaData.description, path, image: existingPublicAsset(data.banner?.image, DEFAULT_OG_IMAGE) }),
     breadcrumbSchema([
       { name: "Home", path: "/" },
+      { name: "Travel Guides", path: "/services/" },
       { name: headline, path: `/services/${slug}/` },
     ]),
     ...(data.faqs?.length ? [faqSchema(data.faqs)] : []),

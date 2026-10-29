@@ -73,7 +73,7 @@ const articleData = {
          <li><strong>Covered outdoor space:</strong> A private sit-out or verandah with some weather protection for use during light rain.</li>
          <li><strong>Communal indoor space:</strong> A restaurant or lounge where guests can gather on full-rain days.</li>
        </ul>
-       <p>For a ground-level view of the EBC Mussoorie estate and outdoor experience, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Tripoto account</a> gives useful traveller-level detail.</p>`,
+       <p>For a ground-level view of the EBC Mussoorie estate and outdoor experience, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">this Tripoto account</a> gives useful traveller-level detail.</p>`,
     ],
   },
   faqs: [

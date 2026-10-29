@@ -75,8 +75,8 @@ const articleData = {
          <li>Do you permit amplified music on the property?</li>
        </ul>
        <p>Read reviews specifically from guests who stayed on weekend dates in peak season. If those reviews do not mention noise or disruption, the property is genuinely quiet.</p>
-       <p>For additional context on what a nature‑forward, activity‑led stay near Mussoorie looks and feels like, this <a href="/activities/" class="text-secondary underline">Tripoto account of EBC Mussoorie</a> covers the guest experience specifically.</p>
-       <p>This <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline">Hotelier India piece</a> also covers EBC Mussoorie's design philosophy around tranquil outdoor hospitality, which is directly relevant to what peaceful resort guests are actually looking for.</p>`,
+       <p>For additional context on what a nature‑forward, activity‑led stay near Mussoorie looks and feels like, this <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto account of EBC Mussoorie</a> covers the guest experience specifically.</p>
+       <p>This <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India piece</a> also covers EBC Mussoorie's design philosophy around tranquil outdoor hospitality, which is directly relevant to what peaceful resort guests are actually looking for.</p>`,
     ],
   },
   faqs: [

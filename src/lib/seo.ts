@@ -19,7 +19,7 @@ export function absoluteUrl(path = "/"): string {
   const clean = path.startsWith("/") ? path : `/${path}`;
   const hasExtension = /\.[a-z0-9]{2,5}$/i.test(clean);
   const withSlash = hasExtension || clean.endsWith("/") ? clean : `${clean}/`;
-  return `${SITE_URL}${withSlash}`;
+  return `${SITE_URL}${encodeURI(withSlash)}`;
 }
 
 interface PageMetaInput {

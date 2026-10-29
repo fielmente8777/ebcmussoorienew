@@ -68,7 +68,7 @@ const articleData = {
          <li><strong>Catering integration:</strong> Hot drinks, bhuttas (roasted corn), outdoor BBQ, or a properly set outdoor dinner alongside the fire extends the bonfire from a thirty-minute activity to a three-hour evening. Confirm what food and drink service is available at the bonfire location when booking.</li>
          <li><strong>Season-specific considerations:</strong> In monsoon (July to September), confirm whether the bonfire setup has partial cover for use after evening rain stops. In winter (December to February), confirm whether the fire size is adequate for the lower temperatures. In peak summer (May to June), confirm whether a bonfire is available even when daytime temperatures are warm.</li>
        </ul>
-       <p>For a first-person account of what the EBC Mussoorie estate evening experience actually feels like, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Tripoto account of EBC Mussoorie</a> gives grounded traveller-level detail.</p>`,
+       <p>For a first-person account of what the EBC Mussoorie estate evening experience actually feels like, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">this Tripoto account of EBC Mussoorie</a> gives grounded traveller-level detail.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Structuring a Stay Around the Bonfire Experience</h2>
        <p>If the bonfire evening is the centrepiece of a visit to EBC Mussoorie or any hill resort, the rest of the day should be structured to maximise arrival quality at the fire:</p>
@@ -78,7 +78,7 @@ const articleData = {
          <li><strong>Pre-bonfire:</strong> Shower, change into warm layers, be at the bonfire location by the time it is lit. Missing the first twenty minutes of a hill bonfire, when the fire is building, and the light is transitioning from dusk to dark, is missing the best part.</li>
          <li><strong>At the fire:</strong> Stay longer than you think you will. The quality of a hill bonfire evening tends to improve over the first hour as the fire settles, the temperature drops further, and the conversation deepens. Two to three hours is the natural duration of a well-managed bonfire evening.</li>
        </ul>
-       <p>As described in <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Hotelier India feature on EBC Mussoorie</a>, the property's outdoor experience design is built around exactly this kind of curated evening anchoring.</p>`,
+       <p>As described in <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">this Hotelier India feature on EBC Mussoorie</a>, the property's outdoor experience design is built around exactly this kind of curated evening anchoring.</p>`,
     ],
   },
   faqs: [

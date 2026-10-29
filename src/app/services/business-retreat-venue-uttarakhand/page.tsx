@@ -84,7 +84,7 @@ const articleData = {
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Why the Environment Matters for Retreat Outcomes</h2>
        <p>Worth stating directly, because it is the actual reason to leave the office.</p>
        <p>When a team is removed from its normal environment, the workplace social hierarchy becomes less operative. The person who dominates a conference room often becomes more collaborative on a forest trail. The person who rarely speaks in meetings often speaks first around a fire.</p>
-       <p>A venue where the environment does part of that work, through forest cover, altitude, physical separation from urban patterns, and communal meals without city-schedule interruption, produces different retreat outcomes from a venue that merely provides a scenic backdrop. The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a> covers how the property builds its guest experience around this principle.</p>`,
+       <p>A venue where the environment does part of that work, through forest cover, altitude, physical separation from urban patterns, and communal meals without city-schedule interruption, produces different retreat outcomes from a venue that merely provides a scenic backdrop. The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> covers how the property builds its guest experience around this principle.</p>`,
     ],
   },
   faqs: [

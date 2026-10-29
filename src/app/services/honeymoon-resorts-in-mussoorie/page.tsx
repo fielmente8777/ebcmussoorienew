@@ -93,8 +93,8 @@ const articleData = {
          <li>What is the cancellation and rescheduling policy?</li>
        </ul>
        <p>A property that answers these specifically and in writing is significantly more trustworthy than one that deflects with general "luxury experience" language.</p>
-       <p>As described in <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Hotelier India feature on EBC Mussoorie</a>, the property is built around a specific outdoor hospitality philosophy that produces a genuinely distinctive experience from standard hotel stays.</p>
-       <p>For a first-person account of the property and estate atmosphere, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Tripoto piece on EBC Mussoorie</a> is the most grounded external reference available.</p>`,
+       <p>As described in <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">this Hotelier India feature on EBC Mussoorie</a>, the property is built around a specific outdoor hospitality philosophy that produces a genuinely distinctive experience from standard hotel stays.</p>
+       <p>For a first-person account of the property and estate atmosphere, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">this Tripoto piece on EBC Mussoorie</a> is the most grounded external reference available.</p>`,
     ],
   },
   faqs: [

@@ -73,7 +73,7 @@ const articleData = {
          <li>Long day trips to Dhanaulti or Chakrata are not sensible with children in active monsoon.</li>
        </ul>
        <p>Confirm EBC Mussoorie's operational status and access for your specific July or August dates before booking.</p>
-       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a> covers the property's outdoor-led hospitality design, which is the reason it works for families whose plans need to flex around weather.</p>`,
+       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> covers the property's outdoor-led hospitality design, which is the reason it works for families whose plans need to flex around weather.</p>`,
     ],
   },
   faqs: [

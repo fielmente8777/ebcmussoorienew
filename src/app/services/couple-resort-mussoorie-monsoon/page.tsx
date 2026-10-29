@@ -114,7 +114,7 @@ const articleData = {
          <li>Road access can be affected for 24 to 48 hours after a heavy rainfall event. Book flexible cancellation terms.</li>
          <li>Stargazing on the George Everest ridge, which is excellent in October and April, is limited by monsoon cloud cover.</li>
        </ul>
-       <p>Confirm EBC Mussoorie's operational status and access conditions directly with the property before booking July or August dates. The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a> gives useful context on the property's outdoor hospitality philosophy across seasons.</p>`,
+       <p>Confirm EBC Mussoorie's operational status and access conditions directly with the property before booking July or August dates. The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> gives useful context on the property's outdoor hospitality philosophy across seasons.</p>`,
     ],
   },
   faqs: [

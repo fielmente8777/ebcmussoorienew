@@ -86,7 +86,7 @@ const articleData = {
          <li><strong>Bring your own indoor entertainment.</strong> Books, cards, and games. Do not rely on the property to fill a rainy afternoon.</li>
          <li><strong>Confirm any specific requirements in advance.</strong> Dietary needs, extra bedding, and pet arrangements all benefit from being agreed before arrival rather than on the day.</li>
        </ul>
-       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a> covers how the property structures its outdoor experience, which is the element families respond to most.</p>`,
+       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> covers how the property structures its outdoor experience, which is the element families respond to most.</p>`,
     ],
   },
   faqs: [
