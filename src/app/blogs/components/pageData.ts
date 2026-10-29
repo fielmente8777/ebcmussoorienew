@@ -6,7 +6,7 @@ const excerpt = (text = "") => {
   const clean = text.replace(/\s+/g, " ").trim();
   if (clean.length <= 140) return clean;
   const cut = clean.slice(0, 140);
-  return `${cut.slice(0, cut.lastIndexOf(" "))}…`;
+  return `${cut.slice(0, cut.lastIndexOf(" ")).replace(/[.,;:]$/, "")}…`;
 };
 
 export const blogPagedata = {

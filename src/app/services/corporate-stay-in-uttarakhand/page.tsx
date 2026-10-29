@@ -11,53 +11,53 @@ const articleData = {
   metaData: {
     title: "Corporate Stay in Uttarakhand: The Complete Zone-by-Zone Guide for Companies Planning Offsites | EBC Mussoorie",
     description:
-      "A complete zone-by-zone guide to corporate stays in Uttarakhand – Mussoorie, Rishikesh, Corbett, and Lansdowne. Match your team's objective to the right destination.",
+      "Match your team's goal to the right corporate stay in Uttarakhand. A zone-by-zone guide to Mussoorie, Rishikesh, Corbett and Lansdowne for offsites.",
   },
   banner: {
     title: "Corporate Stay in Uttarakhand",
     subTitle: "The Complete Zone-by-Zone Guide for Companies Planning Offsites",
     description:
-      "Uttarakhand has become one of India's most practical corporate stay destinations. This guide maps the state's corporate stay options by zone, objective type, and group profile.",
+      "Uttarakhand is now one of India's most practical places for a corporate stay. This guide maps the options by zone, by goal and by group type.",
     image: "/banner/bnr2.png",
   },
   intro: {
     title: "Corporate Stay in Uttarakhand",
     description: [
-      "Uttarakhand has quietly become one of India's most practical corporate stay destinations. The combination of accessibility from Delhi NCR, a range of hill and valley settings, direct flights to Dehradun from major metros, and a growing number of purpose-built retreat properties makes it competitive with Goa, Coorg, and Lonavala as an offsite choice. But Uttarakhand is not one destination. Choosing the wrong zone for your team's specific objective produces a frustrating trip. This guide maps the state's corporate stay options by zone, objective type, and group profile.",
+      "Uttarakhand has quietly become one of India's most practical places for a corporate stay. It is easy to reach from Delhi NCR. It has both hill and valley settings, and direct flights to Dehradun from the major metros. A growing number of properties are also built for retreats. Put together, that makes it a real rival to Goa, Coorg and Lonavala for an offsite. But Uttarakhand is not one destination. Pick the wrong zone for your team's goal and the trip will frustrate everyone. This guide maps the state's corporate stay options by zone, by goal and by group type.",
     ],
   },
   details: {
     title: "The Four Corporate Stay Zones in Uttarakhand",
     subtitle: "A Zone-by-Zone Guide",
     description: [
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Zone 1: Mussoorie and the Garhwal Ridge</h2>
-       <p><strong>Best for:</strong> Leadership retreats, creative strategy offsites, couples-format incentive travel, wellness retreats</p>
-       <p><strong>Distance from Delhi:</strong> 290 km, 6 to 7 hours, or fly to Dehradun (35 min) plus 1-hour road</p>
-       <p><strong>What this zone offers:</strong> The Mussoorie ridge and the forest zones above Dehradun have the highest concentration of quality boutique and glamping-format properties in Uttarakhand. This is the most accessible Himalayan environment for a corporate group, sitting at 2,000 metres with valley views, forest trails, and cool temperatures year-round.</p>
-       <p>Properties like <a href="/" class="text-secondary underline">EBC Mussoorie</a> serve both the leisure and corporate segments from the same outdoor-led framework. Their <a href="/rooms/" class="text-secondary underline">accommodation and group setup</a> is configured for nature-first stays, which makes them effective for offsites where the physical environment is intended to change group dynamics rather than simply provide a nice backdrop.</p>
-       <p><strong>What this zone does not offer:</strong> Beach, water sports, large MICE infrastructure (for groups above 60), or the entertainment variety of a city hotel. It is a focused, high-quality environment rather than an all-inclusive resort.</p>`,
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Zone 1: Why Choose Mussoorie and the Garhwal Ridge?</h2>
+       <p><strong>Best for:</strong> Leadership retreats, creative strategy offsites, couples-format incentive travel and wellness retreats</p>
+       <p><strong>Distance from Delhi:</strong> EBC is about 280 km away, or 5.5 to 6.5 hours by road. You can also fly to Dehradun. From Jolly Grant Airport, EBC is about 55 km, or 1.5 hours by road.</p>
+       <p><strong>What this zone offers:</strong> The Mussoorie ridge and the forest above Dehradun have the most good boutique and glamping properties in Uttarakhand. This is the easiest Himalayan setting for a corporate group to reach. EBC sits at 2,160 m, with valley views, forest trails and cool air for much of the year.</p>
+       <p>Properties like <a href="/" class="text-secondary underline">EBC Mussoorie</a> serve leisure and corporate guests from the same outdoor-led base. EBC has 14 rooms in seven categories and hosts corporate groups of 8 to 48. Its <a href="/rooms/" class="text-secondary underline">rooms and group setup</a> are built for nature-first stays. That makes it a good fit for offsites where the setting should change how the group works, not just look nice in the background.</p>
+       <p><strong>What this zone does not offer:</strong> No beach, no water sports, and no large MICE venues for groups above 60. Nor does it have the entertainment range of a city hotel. It is a focused, high-quality setting rather than an all-inclusive resort.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Zone 2: Rishikesh and Haridwar</h2>
-       <p><strong>Best for:</strong> Adventure-themed team outings, wellness retreats with yoga and river elements, younger team demographics, day-plus-overnight adventure formats</p>
-       <p><strong>Distance from Delhi:</strong> 240 km, approximately 5 hours by road</p>
-       <p><strong>What this zone offers corporates:</strong> Rishikesh is the most activity-dense location in Uttarakhand for corporate groups. White-water rafting (the 16 km Shivpuri to Rishikesh stretch is the standard corporate format), bungee jumping, cliff jumping, zip-lining, and camping on the Ganga riverside are all bookable through registered operators.</p>
-       <p>Ashram-based yoga and meditation programmes in Rishikesh can be integrated into a corporate wellness retreat with advance coordination. Several ashrams offer private group sessions.</p>
-       <p><strong>Key consideration:</strong> Rishikesh during peak season (October to November and March to June) is heavily commercialised. The riverside camp experience that photographs well in January is surrounded by crowds in May. Choose properties or camp operators that can offer some degree of private riverside access.</p>`,
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Zone 2: Is Rishikesh and Haridwar Right for Your Team?</h2>
+       <p><strong>Best for:</strong> Adventure-themed team outings, wellness retreats with yoga and the river, younger teams, and short adventure trips with one night away</p>
+       <p><strong>Distance from Delhi:</strong> 240 km, about 5 hours by road</p>
+       <p><strong>What this zone offers corporates:</strong> Rishikesh packs in more activities than anywhere else in Uttarakhand. White-water rafting is the big draw. The 16 km Shivpuri to Rishikesh stretch is the standard corporate run. Bungee jumping, cliff jumping, zip-lining and riverside camping on the Ganga can all be booked through registered operators.</p>
+       <p>Yoga and meditation sessions at Rishikesh ashrams can be added to a corporate wellness retreat if you plan ahead. Several ashrams offer private group sessions.</p>
+       <p><strong>Key consideration:</strong> In peak season, from October to November and March to June, Rishikesh is very commercial. The riverside camp that looks so good in January is ringed by crowds in May. Choose a property or camp operator that can offer some private access to the river.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Zone 3: Jim Corbett and the Kumaon Foothills</h2>
-       <p><strong>Best for:</strong> Wildlife-themed incentive travel, photography-focused groups, teams that want a genuinely different outdoor experience</p>
-       <p><strong>Distance from Delhi:</strong> 260 to 300 km, depending on entry point</p>
-       <p><strong>What this zone offers corporates:</strong> Jim Corbett National Park, India's oldest national park at approximately 520 square kilometres, offers jeep safari experiences that work well as corporate incentive activities. The surrounding Kumaon foothills have several quality jungle and nature lodges that handle corporate groups.</p>
-       <p>The corporate use case here is more about rewarding and inspiring than working. This zone is better for incentive travel and high-performer recognition trips than structured strategy retreats.</p>
-       <p><strong>Key consideration:</strong> Safari permits require booking through the official Corbett system. Dhikala zone (the most immersive) permits can be difficult to secure for large groups. Book 6 to 8 weeks ahead for peak season.</p>`,
+       <p><strong>Best for:</strong> Wildlife-themed incentive travel, photography groups, and teams that want a truly different outdoor trip</p>
+       <p><strong>Distance from Delhi:</strong> 260 to 300 km, depending on the entry point</p>
+       <p><strong>What this zone offers corporates:</strong> Jim Corbett National Park is India's oldest national park and covers about 520 square kilometres. Its jeep safaris work well as corporate reward trips. The Kumaon foothills around it have several good jungle and nature lodges that host corporate groups.</p>
+       <p>Here the corporate use is more about reward and inspiration than work. This zone suits incentive travel and trips for top performers better than structured strategy retreats.</p>
+       <p><strong>Key consideration:</strong> Safari permits must be booked through the official Corbett system. Permits for Dhikala, the deepest zone, can be hard to get for large groups. Book 6 to 8 weeks ahead in peak season.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Zone 4: Lansdowne and the Pauri Garhwal</h2>
-       <p><strong>Best for:</strong> Small leadership teams seeking quiet, senior executive offsites, introspective and deep-work formats</p>
+       <p><strong>Best for:</strong> Small leadership teams that want quiet, senior offsites, and reflective deep-work formats</p>
        <p><strong>Distance from Delhi:</strong> 250 km, 5 to 6 hours</p>
-       <p><strong>What this zone offers corporates:</strong> Lansdowne is the quietest zone for corporate stays in Uttarakhand. It has no commercial town infrastructure equivalent to Mussoorie or Rishikesh. The forest is dense, the altitude is manageable, and a small group staying here will genuinely feel away.</p>
-       <p>The limitation is the variety. There are fewer properties in this zone, the infrastructure is more limited, and groups above 20 will find options constrained.</p>`,
+       <p><strong>What this zone offers corporates:</strong> Lansdowne is the quietest corporate stay zone in Uttarakhand. It has nothing like the busy town centre of Mussoorie or Rishikesh. The forest is dense, the altitude is easy, and a small group here will truly feel far away.</p>
+       <p>The catch is choice. There are fewer properties in this zone and fewer services. Groups above 20 will find their options tight.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Matching Your Corporate Objective to the Right Uttarakhand Zone</h2>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Which Uttarakhand Zone Matches Your Corporate Objective?</h2>
        <table class="w-full border-collapse my-4 text-sm md:text-base">
          <thead>
            <tr class="border-b border-secondary/30">
@@ -93,54 +93,56 @@ const articleData = {
          </tbody>
        </table>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Travel Logistics for a Corporate Group in Uttarakhand</h2>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Travel Logistics: How Does a Corporate Group Reach Uttarakhand?</h2>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>By air:</strong> Jolly Grant Airport in Dehradun is the primary entry point. IndiGo, Air India, and SpiceJet operate direct flights from Delhi (35 minutes), Mumbai (2 hours), and Bangalore (2.5 hours). For groups above 15 from multiple cities, this is the most efficient entry.</li>
-         <li><strong>By road from Delhi:</strong> The Delhi-Dehradun Expressway has cut Delhi to Dehradun road time to approximately 4 hours in clean traffic conditions. Coach hire for a group of 20 to 30 runs Rs 20,000 to 35,000 one way.</li>
-         <li><strong>Local transport:</strong> From Dehradun, most hill zone properties are 45 to 90 minutes by road. Properties handle local transport arrangements from the airport or railway station on request; confirm this during inquiry.</li>
+         <li><strong>By air:</strong> Jolly Grant Airport in Dehradun is the main gateway. Major airlines fly direct from Delhi, from Mumbai in about 2 hours and from Bangalore in about 2.5 hours. For groups above 15 coming from several cities, this is the most efficient way in.</li>
+         <li><strong>By road from Delhi:</strong> The Delhi-Dehradun Expressway has cut the drive to Dehradun to about 4 hours in clear traffic. From Dehradun, EBC is another 35 km, or 1 to 1.5 hours. Coach hire for a group of 20 to 30 costs Rs 20,000 to 35,000 one way.</li>
+         <li><strong>By train:</strong> The Shatabdi Express runs from Delhi to Dehradun in about 5.5 hours.</li>
+         <li><strong>Local transport:</strong> From Dehradun, most hill properties are 45 to 90 minutes by road. Properties can arrange pick-ups from the airport or railway station on request. Confirm this when you enquire.</li>
        </ul>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Corporate Groups Most Commonly Get Wrong</h2>
-       <p>After multiple conversations with HR teams and property managers in the Mussoorie corridor, these are the most consistent planning errors:</p>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Do Corporate Groups Most Commonly Get Wrong?</h2>
+       <p>These are the planning errors that come up again and again in the Mussoorie corridor:</p>
        <ul class="list-disc pl-6 space-y-1">
-         <li>Choosing a property for its photographs rather than its corporate functionality. The most beautiful property is not necessarily the most functional for your group's objective.</li>
-         <li>Underestimating drive time in peak season. May and October weekends see heavy traffic on the Haridwar to Rishikesh and Dehradun to Mussoorie stretches. Build buffer.</li>
-         <li>Not confirming WiFi performance for the actual group size. A 10 Mbps connection that serves a couple beautifully will fail a group of 20 running video calls.</li>
-         <li>Skipping the dietary advance communication. Kitchen teams at hill properties need lead time to source specific ingredients for restricted diets. Last-minute dietary requests in the hills are genuinely difficult to accommodate.</li>
+         <li>Choosing a property for its photos rather than how well it works for a company. The most beautiful property is not always the best fit for your group's goal.</li>
+         <li>Underestimating drive time in peak season. May and October weekends bring heavy traffic on the Haridwar to Rishikesh and Dehradun to Mussoorie stretches. Build in a buffer.</li>
+         <li>Ignoring the monsoon roads. From July to September, landslides can close hill roads. Check advisories before you drive, and keep your dates flexible.</li>
+         <li>Not testing the Wi-Fi against your real group size. A 10 Mbps line that serves a couple well will fail a group of 20 on video calls.</li>
+         <li>Leaving dietary needs to the last minute. Hill kitchens need time to source special ingredients for restricted diets. Late requests in the hills are hard to meet.</li>
        </ul>
-       <p>As noted in this <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto feature on EBC Mussoorie</a>, the property's Mussoorie location offers a specific combination of adventure spirit and comfort infrastructure that works for both individual travellers and groups.</p>`,
+       <p>This <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto feature on EBC Mussoorie</a> captures what the location offers. It pairs a spirit of adventure with real comfort, and that works for solo travellers and groups alike.</p>`,
     ],
   },
   faqs: [
     {
       question: "Which Uttarakhand zone is best for a first-time corporate offsite?",
       answer:
-        "Mussoorie and the Garhwal Ridge zone offer the best combination of accessibility, accommodation quality, and activity range for a first-time corporate group.",
+        "Mussoorie and the Garhwal Ridge. For a first-time corporate group, the zone offers the best mix of easy access, good rooms and a wide range of activities.",
     },
     {
       question: "Can we combine Rishikesh and Mussoorie in a 3-night corporate trip?",
       answer:
-        "Possible but not recommended. The drive between them is 1.5 to 2 hours. Splitting your group across two different environments in 3 nights reduces depth at both.",
+        "You can, but we would not advise it. The drive between them takes 1.5 to 2 hours. Splitting your group across two settings in 3 nights means less depth at both.",
     },
     {
       question: "What is the maximum group size that Mussoorie boutique properties can handle?",
       answer:
-        "Most boutique and glamping-format properties in the Mussoorie hills cap at 30 to 40 persons. For groups above 50, consider properties in Dehradun city or the larger resort options on the Mussoorie ridge.",
+        "Most boutique and glamping properties in the Mussoorie hills cap at 30 to 40 people. EBC Mussoorie hosts corporate groups of up to 48 when you book the full property. For groups above 50, look at Dehradun city or the larger resorts on the Mussoorie ridge.",
     },
     {
       question: "Is Uttarakhand suitable for a corporate stay in July or August?",
       answer:
-        "Possible with the right property. Indoor-capable meeting infrastructure and covered outdoor spaces are essential. Avoid road-route-sensitive destinations like Chakrata during the heavy monsoon.",
+        "Yes, with the right property. You need indoor meeting space and covered outdoor areas. EBC stays open through the monsoon, and every tent and cottage is weather-proofed. Landslides can close hill roads, so check advisories before you drive. Routes such as the one to Chakrata are more exposed in heavy rain, so plan them with care.",
     },
     {
       question: "Are there corporate stay options near Mussoorie with conference facilities?",
       answer:
-        "Yes. EBC Mussoorie and other properties in the Garhwal hills handle corporate groups. Contact properties directly with your group size, dates, and format requirements for a tailored proposal. You can review EBC's setup at their <a href='/' class='text-secondary underline'>official site</a>.",
+        "Yes. EBC Mussoorie and other properties in the Garhwal hills host corporate groups. Contact properties directly with your group size, dates and format for a tailored proposal. You can review EBC's setup on its <a href='/' class='text-secondary underline'>official site</a>.",
     },
     {
       question: "Do Uttarakhand corporate properties offer team-building activity packages?",
       answer:
-        "Many do, with varying levels of sophistication. Outdoor adventure activities are widely available. Structured facilitation for team diagnostics or leadership development typically requires bringing in an external facilitator.",
+        "Many do, though the depth varies. Outdoor adventure activities are easy to find. For structured team diagnostics or leadership development, you will usually need to bring in an outside facilitator.",
     },
   ],
 };

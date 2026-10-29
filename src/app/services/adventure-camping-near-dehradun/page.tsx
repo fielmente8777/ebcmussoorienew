@@ -11,81 +11,82 @@ const articleData = {
   metaData: {
     title: "Adventure Camping Near Dehradun: The Activity-First Guide for Outdoor Travellers | EBC Mussoorie",
     description:
-      "A practical guide to adventure camping near Dehradun – trekking, rappelling, cycling, and more. Plan your activity-first trip with trail tips, itineraries, and safety advice.",
+      "Adventure camping near Dehradun means treks, rappelling, cycling and rafting from a hill base. Trail picks, a two-night plan, packing and safety tips.",
   },
   banner: {
     title: "Adventure Camping Near Dehradun",
     subTitle: "The Activity-First Guide for Outdoor Travellers",
     description:
-      "Trekking, trail hiking, rappelling, and mountain cycling – a guide to planning an adventure camping trip where the activity is as important as the accommodation.",
+      "Trekking, trail hikes, rappelling and mountain cycling. Here is how to plan a camping trip where the activity matters as much as the bed.",
     image: "/banner/bnr2.png",
   },
   intro: {
     title: "Adventure Camping Near Dehradun",
     description: [
-      "Not every camping trip to the Dehradun hills is built around a bonfire and a scenic tent. Some travellers come specifically for the physical experience: the burning legs on a steep ascent, the cold air at altitude, the kind of tiredness that only comes from a full day of outdoor movement. This guide is for that traveller. Adventure camping near Dehradun covers a specific category of outdoor stays where the activity is as important as the accommodation. This is not a relaxation retreat. It is a framework for planning a trip where trekking, trail navigation, and outdoor challenge form the core of the itinerary, with the camp or glamping base serving as a recovery and relaunch point between days.",
+      "Not every camping trip to the Dehradun hills is built around a bonfire and a pretty tent. Some travellers come for the effort itself. They want burning legs on a steep climb and cold air at height. They want the deep tiredness that only a full day outdoors can give. This guide is for that traveller. Adventure camping near Dehradun is a trip where the activity counts as much as the stay. It is not a rest cure. It is a way to plan days around treks, trail finding and outdoor challenge. The camp or glamping base is where you recover each night and set out again each morning.",
     ],
   },
   details: {
     title: "What Adventure Camping Near Dehradun Actually Involves",
     subtitle: "An Activity-First Approach",
     description: [
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Adventure Camping Near Dehradun Actually Involves</h2>
-       <p>The Dehradun region sits at the foot of the Garhwal Himalayas, giving it access to terrain that escalates rapidly from river valley at 600 metres to forest ridgelines at 2,000 metres and beyond. This elevation range within a short driving distance is what makes adventure camping here viable as a multi-activity format rather than a single-experience destination.</p>`,
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What does adventure camping near Dehradun actually involve?</h2>
+       <p>Dehradun sits at the foot of the Garhwal Himalayas. Within a short drive, the land climbs fast. It rises from river valley at 600 metres to forest ridges at 2,000 metres and beyond. That range is what makes this area work for more than one sport. You can trek, climb, ride and raft in the same trip.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Core Activities Available in This Zone</h2>
-       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Trekking and Trail Hiking</h3>
-       <p>The most consistent adventure activity available near Dehradun year-round (outside of monsoon). Trail options range significantly in difficulty:</p>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Which activities can you do in this zone?</h2>
+       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Where can you go trekking and trail hiking?</h3>
+       <p>Trekking is the most reliable activity here for most of the year. In the monsoon, trails turn slick, so keep routes short and check conditions each day. The routes vary a great deal in effort:</p>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>Camel's Back Road and George Everest Peak approach (Mussoorie belt):</strong> 2 to 4 hours return, suitable for active beginners and families with older children</li>
-         <li><strong>Nag Tibba base trek from Pantwari:</strong> approximately 16 kilometres return, reaches 3,022 metres, suitable for experienced day hikers</li>
-         <li><strong>Hathi Paon to George Everest Peak via the forest loop:</strong> a longer variant of the George Everest Peak route with additional forest trail sections</li>
+         <li><strong>Camel's Back Road and the George Everest Peak approach (Mussoorie belt):</strong> 2 to 4 hours return. Good for active beginners and families with older children.</li>
+         <li><strong>Nag Tibba base trek from Pantwari:</strong> about 16 kilometres return. It tops out at 3,022 metres. Best for seasoned day hikers.</li>
+         <li><strong>Hathi Paon to George Everest Peak via the forest loop:</strong> a longer take on the George Everest Peak route. It adds extra stretches of forest trail.</li>
        </ul>
-       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Rappelling and Rock Climbing</h3>
-       <p>Several operators in the Rishikesh and Mussoorie belt run structured rappelling sessions at fixed cliff faces. These are not technical climbs requiring multi-day skill courses but are physically demanding and require a head for heights. Appropriate for fit adults and teenagers aged 14 and above.</p>
-       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">White Water Rafting (Rishikesh Corridor)</h3>
-       <p>Technically outside the immediate Mussoorie glamping zone but within 45 minutes of Dehradun, the Ganga stretch between Shivpuri and Rishikesh offers Grade 2 to Grade 4 rapids depending on the section. This is typically run as a half-day excursion, combinable with an overnight camp nearby.</p>
-       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Mountain Cycling</h3>
-       <p>Trail cycling options exist in the Mussoorie outskirts and the Landour ridge area. This is an activity that rewards experience: mountain terrain at 2,000 metres with gradient variations requires fitness and cycling-specific comfort on uneven surfaces.</p>`,
+       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Is rappelling or rock climbing an option?</h3>
+       <p>Yes. Several operators in the Rishikesh and Mussoorie belt run rappelling sessions on fixed cliff faces. These are not technical climbs that need a long skills course. They are still hard on the body, and you need a head for heights. They suit fit adults and teenagers aged 14 and above.</p>
+       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Can you add white water rafting on the Rishikesh corridor?</h3>
+       <p>Rafting sits outside the Mussoorie glamping zone, about an hour or so beyond Dehradun. The Ganga stretch from Shivpuri to Rishikesh has Grade 2 to Grade 4 rapids, by section. Most people do it as a half-day trip. You can pair it with a night at a camp nearby. Rafting usually pauses in the monsoon, so check with your operator first.</p>
+       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">What is mountain cycling like here?</h3>
+       <p>There are trail rides on the edges of Mussoorie and along the Landour ridge. This one rewards experience. Mountain roads at 2,000 metres rise and fall sharply. You need good fitness and real comfort riding on rough ground.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Basing Your Adventure from a Camp Near George Everest Peak</h2>
-       <p>The logic of choosing a base camp well is that it determines what you can access each morning without additional driving. For the Mussoorie belt specifically, a camp positioned near George Everest Peak gives you:</p>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Why base your adventure at a camp near George Everest Peak?</h2>
+       <p>Your base decides what you can reach each morning without a car. In the Mussoorie belt, a camp near George Everest Peak gives you three things:</p>
        <ul class="list-disc pl-6 space-y-1">
-         <li>Direct trail access without a vehicle</li>
-         <li>Elevation already established at roughly 2,000 metres, reducing early morning commute time to higher trailheads</li>
-         <li>A genuine outdoor atmosphere that primes the physical mindset rather than requiring a transition from a comfortable city hotel</li>
+         <li>Trails you can walk to straight from your door</li>
+         <li>Height already gained, at about 2,160 metres, so the drive to higher trailheads is shorter</li>
+         <li>A true outdoor feel that gets you in the mood, with no shift from a city hotel</li>
        </ul>
-       <p><strong>Everest Base Camp Mussoorie</strong> is positioned with exactly this in mind. The premium glamping resort near George Everest Peak sits at the edge of accessible trail territory, making morning departures practical without sacrificing a proper night's sleep. You can explore the accommodation options at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms page</a>.</p>
-       <p>This piece on <a href="/activities/" class="text-secondary underline">adventure experiences at EBC Mussoorie</a> covers what the property's outdoor access looks like from the ground.</p>`,
+       <p><strong>Everest Base Camp Mussoorie</strong> was set up with this in mind. Our glamping resort on Hathipaon Road sits on the edge of good trail country, among deodar, pine and rhododendron. You can leave early and still get a proper night's sleep. Every stay includes a guided morning walk from 7 to 9 AM, a gentle way to test your legs. You can see the tents and cottages on <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms page</a>.</p>
+       <p>Our page on <a href="/activities/" class="text-secondary underline">adventure experiences at EBC Mussoorie</a> shows what the outdoor access looks like on the ground.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Building a Two-Night Adventure Camping Itinerary Near Dehradun</h2>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">How do you plan a two-night adventure camping trip near Dehradun?</h2>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>Day 1:</strong> Arrive from Dehradun by early afternoon. Orientation walk from camp toward George Everest Peak approach trail (1 to 2 hours). Camp dinner and equipment prep for Day 2.</li>
-         <li><strong>Day 2 (Primary Adventure Day):</strong> Early departure for a full George Everest Peak or forest loop trek (3 to 5 hours total). Afternoon recovery: rest, stretching, optional short nature walk. Evening bonfire and debrief.</li>
-         <li><strong>Day 3:</strong> Morning: short trail or ridge walk before checkout. Option to add a half-day rafting excursion via Rishikesh before returning to Dehradun.</li>
+         <li><strong>Day 1:</strong> Drive up from Dehradun, 35 km away, and arrive by early afternoon. Take an easy walk from camp toward the George Everest Peak trail, 1 to 2 hours. Have dinner and sort your kit for the next day.</li>
+         <li><strong>Day 2 (main adventure day):</strong> Leave early for the full George Everest Peak or forest loop trek. Allow 3 to 5 hours in all. Spend the afternoon resting and stretching, with a short nature walk if you like. End with the evening bonfire and a chat about the day.</li>
+         <li><strong>Day 3:</strong> Do a short trail or ridge walk before check-out. If you have time, add a half-day of rafting near Rishikesh on the way back to Dehradun.</li>
        </ul>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What to Pack for Adventure Camping Near Dehradun</h2>
-       <p>Essential items regardless of season:</p>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What should you pack for adventure camping near Dehradun?</h2>
+       <p>Bring these in any season:</p>
        <ul class="list-disc pl-6 space-y-1">
-         <li>Trekking boots with ankle support (not trail runners for steep terrain)</li>
-         <li>Moisture-wicking base layer and insulating mid layer</li>
-         <li>Waterproof outer layer even in summer</li>
-         <li>Trekking poles, if you have knee sensitivity on descents</li>
-         <li>Personal first aid, including blister treatment and muscle pain relief</li>
-         <li>At least 2 litres of water capacity (refillable at camp)</li>
-         <li>Headlamp for pre-dawn starts</li>
-         <li>Sun protection at altitude: SPF 50 sunscreen, UV-blocking sunglasses, and a hat</li>
+         <li>Trekking boots with ankle support, not trail runners, for steep ground</li>
+         <li>A base layer that wicks sweat, and a warm mid layer</li>
+         <li>A waterproof outer layer, even in summer</li>
+         <li>Trekking poles, if your knees ache on the way down</li>
+         <li>A small first aid kit, with blister care and pain relief</li>
+         <li>Bottles that hold at least 2 litres of water (you can refill at camp)</li>
+         <li>A head torch for starts before dawn</li>
+         <li>Sun care for height: SPF 50 sunscreen, UV-blocking sunglasses and a hat</li>
        </ul>
-       <p>For guests staying at <a href="/" class="text-secondary underline">Everest Base Camp Mussoorie</a>, accommodation essentials like bedding and lighting are provided. Confirm what the property supplies versus what you need to bring when booking through <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's accommodation page</a>.</p>`,
+       <p>At <a href="/" class="text-secondary underline">Everest Base Camp Mussoorie</a>, bedding and lighting are provided. Check what we supply and what to bring when you book through <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's accommodation page</a>.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Safety Considerations for Adventure Camping Near Dehradun</h2>
-       <p>Adventure activities carry inherent risk. Be accurate about these:</p>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">How do you stay safe on an adventure camping trip near Dehradun?</h2>
+       <p>Outdoor sport always carries some risk. Be honest with yourself about it:</p>
        <ul class="list-disc pl-6 space-y-1">
-         <li>Trekking difficulty ratings are guidelines, not guarantees. Your pace, fitness level, and trail conditions on the day affect the experience.</li>
-         <li>Mountain weather changes quickly at 2,000 metres and above. Start treks early and build in time to descend before afternoon cloud cover arrives.</li>
-         <li>Inform your camp of your planned route and estimated return time before any solo or small-group trek.</li>
-         <li>Altitude above 2,500 metres can affect some individuals. The Mussoorie belt at 2,000 metres is generally well within comfortable range, but listen to your body.</li>
+         <li>Trek grades are a guide, not a promise. Your pace, your fitness and the trail on the day all change the outcome.</li>
+         <li>Mountain weather turns fast at 2,000 metres and above. Start early. Leave time to get down before the afternoon cloud rolls in.</li>
+         <li>Tell your camp your route and when you expect to be back before any solo or small group trek.</li>
+         <li>Height above 2,500 metres can affect some people. Mussoorie, at around 2,160 metres, is well within a safe range for most. Still, listen to your body.</li>
+         <li>In the monsoon, landslides can close hill roads. Check advisories before you drive, keep your plans loose, and choose shorter walks over long treks.</li>
        </ul>`,
     ],
   },
@@ -93,32 +94,32 @@ const articleData = {
     {
       question: "What adventure activities are available near Dehradun for camping travellers?",
       answer:
-        "Trekking, trail hiking, rappelling, mountain cycling, and white-water rafting are accessible from camps in the Mussoorie and Rishikesh belt.",
+        "You can trek, hike forest trails, rappel, ride mountain bikes and raft white water. All of these are within reach of camps in the Mussoorie and Rishikesh belt.",
     },
     {
       question: "Is adventure camping near Dehradun suitable for beginners?",
       answer:
-        "Yes, with appropriate activity selection. The George Everest Peak trek is manageable for active beginners. Technical activities like rappelling require operator guidance.",
+        "Yes, if you pick the right activity. The George Everest Peak trek suits active beginners. Technical sports like rappelling need a trained operator to guide you.",
     },
     {
       question: "What is the best season for adventure camping near Dehradun?",
       answer:
-        "March to May and September to November offer the most reliable trail conditions. Monsoon months carry trail and road risk.",
+        "March to May and September to November give the most reliable trails. The monsoon, July to September, is quiet and green, but it suits slow stays and short walks. Expect slippery paths and possible road closures, and check advisories before you drive.",
     },
     {
       question: "How fit do I need to be for a trekking camp near Dehradun?",
       answer:
-        "For the Mussoorie belt treks, regular walking fitness is sufficient. Longer routes like Nag Tibba require active preparation.",
+        "For treks in the Mussoorie belt, regular walking fitness is enough. Longer routes like Nag Tibba need some real training first.",
     },
     {
       question: "Are guided treks available from glamping camps near Dehradun?",
       answer:
-        "Some properties offer guided trek access. Confirm availability and trail options directly with the property before booking.",
+        "Some camps offer them. At EBC Mussoorie, a guided morning nature walk from 7 to 9 AM comes with every stay. For longer treks, confirm the guide and route options with the property before you book.",
     },
     {
       question: "Is adventure camping near Dehradun suitable for groups?",
       answer:
-        "Yes. Group bookings for trekking camps and adventure stays are common. Confirm capacity and group activity options with your chosen property.",
+        "Yes. Group bookings for trekking camps and adventure stays are common. EBC Mussoorie hosts groups of 8 to 48 guests. Confirm space and group activities with your chosen property.",
     },
   ],
 };

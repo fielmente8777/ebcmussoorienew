@@ -12,113 +12,113 @@ const articleData = {
   metaData: {
     title: "Family Friendly Glamping in Mussoorie: What Parents Should Know Before Booking | EBC Mussoorie",
     description:
-      "A complete guide to family friendly glamping in Mussoorie – what makes it work for families, which accommodation suits your family size, and what to verify before booking.",
+      "Family friendly glamping in Mussoorie, explained: what makes it work for children, which room fits your family, and what to check before you book.",
   },
   banner: {
     title: "Family Friendly Glamping in Mussoorie",
     subTitle: "What Parents Should Know Before Booking",
     description:
-      "Glamping and families are a combination that sounds either brilliant or ill-advised depending on what you picture. At the premium end, it delivers a forest stay with real beds, attached bathrooms, and an outdoor experience children actually engage with.",
+      "Glamping with children sounds either brilliant or unwise, depending on what you picture. Done well, it means a forest stay with real beds, attached bathrooms and an outdoor life children love.",
     image: "/banner/bnr2.png", // Replace with a family glamping banner if available
   },
   intro: {
     title: "Family Friendly Glamping in Mussoorie",
     description: [
-      "Glamping and families are a combination that sounds either brilliant or ill-advised depending on what you picture when you hear the word. Parents who imagine a shared bathroom block and a groundsheet are right to hesitate. Parents who picture a properly built accommodation unit with a real bed, an attached bathroom, and a forest outside the door are picturing what the premium end of the category actually delivers.",
-      "This guide explains what family-friendly glamping in Mussoorie involves, which accommodation formats work for which family compositions, and what to verify before booking.",
+      "Glamping with a family sounds either brilliant or unwise. It depends on what you picture when you hear the word. Parents who imagine a shared toilet block and a groundsheet are right to hesitate. Parents who picture a well-built room with a real bed, an attached bathroom and a forest outside the door are picturing glamping done properly. That is what the best places offer.",
+      "This guide explains what family-friendly glamping in Mussoorie involves. It shows which rooms suit which kind of family, and what to check before you book.",
     ],
   },
   details: {
     title: "The Family Glamping Guide",
     subtitle: "Plan Your Family Adventure",
     description: [
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Makes Glamping Work for Families</h2>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Makes Glamping Work for Families?</h2>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>The outdoors is the entertainment.</strong> Children who spend most of their week in classrooms and screens respond strongly to a forest environment with room to move. A 20-acre private estate gives them that within a boundary parents can manage.</li>
-         <li><strong>The novelty is genuine.</strong> A hotel room in Mussoorie is a hotel room. A glamping unit set within deodar and oak forest is different enough from home that children register it as an event.</li>
-         <li><strong>The evening has structure.</strong> Bonfires and outdoor dining give the evening a shape that a hotel restaurant does not. Children engage with a fire in a way they do not engage with a buffet.</li>
-         <li><strong>The pace suits families.</strong> Glamping properties are not built around a packed itinerary. That suits families with young children better than a sightseeing-driven trip.</li>
+         <li><strong>The outdoors is the entertainment.</strong> Children spend most of the week in classrooms and on screens. A forest with room to move wakes them up. EBC's grounds are fully secured, so they can explore within a boundary parents can manage.</li>
+         <li><strong>The novelty is real.</strong> A hotel room in Mussoorie is a hotel room. A glamping tent in deodar and pine forest feels different enough from home that children treat it as an event.</li>
+         <li><strong>The evening has a shape.</strong> A bonfire and an outdoor meal give the night a rhythm that a hotel restaurant cannot. Children will sit by a fire in a way they never sit at a buffet. At EBC the bonfire is lit every evening, with blankets, and marshmallows on request.</li>
+         <li><strong>The pace suits families.</strong> Glamping is not built around a packed plan. That suits young children far better than a trip driven by sightseeing.</li>
        </ul>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Matching Accommodation to Family Composition</h2>
-       <p>EBC Mussoorie has 14 accommodation units across seven categories. For families, three matter most:</p>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Matching Accommodation to Your Family: Which Room Fits?</h2>
+       <p>EBC Mussoorie has 14 rooms across seven categories. Together they sleep 28 guests, or up to 50 with extra beds. For families, three matter most:</p>
 
-       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Surveyor Suite (1 unit)</h3>
-       <p>King-size bed with a foldable queen-size bed available on request. Accommodates up to four guests. Spacious interiors, premium bathroom, scenic views, tea and coffee facilities, and high-speed WiFi.</p>
-       <p><strong>Best for:</strong> Two adults and one or two children under one roof.</p>
+       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Is The Surveyor Right for a Small Family?</h3>
+       <p>The Surveyor is a suite, and it has the most living space at EBC. It comes with a large private sit-out, a king bedroom and its own bathroom. Ask the team about an extra bed for the children. Do not mix it up with The Surveyor Suite, which is a glamping tent with a private deck in the forest canopy.</p>
+       <p><strong>Best for:</strong> Two adults and a child or two who want space under one roof. Confirm the bed setup when you book.</p>
 
-       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Twin Luxury Cottages (2 cottages, 4 rooms total)</h3>
-       <p>Interconnecting luxury cottages with a shared balcony and air conditioning. Spacious bedrooms and modern bathrooms.</p>
-       <p><strong>Best for:</strong> Larger families, two families travelling together, or parents who want children in an adjoining but separate room.</p>
+       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Why Do the Twin Luxury Cottages Suit Bigger Families?</h3>
+       <p>These are two interconnected cottages. Each has a king bedroom and its own bathroom. They share a garden terrace, and both have Himalayan views. You can book one or both.</p>
+       <p><strong>Best for:</strong> Larger families, two families travelling together, or parents who want the children next door but in their own room.</p>
 
-       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Andrew's Villas (2 duplex villas)</h3>
-       <p>Duplex design with two bedrooms, separate entrances, spacious living areas, premium furnishings, and luxury bathrooms.</p>
-       <p><strong>Best for:</strong> Multi-generational families, extended family groups, or families wanting the most space and privacy on the estate.</p>
+       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">When Is The Andrew's Villa the Best Choice?</h3>
+       <p>This is EBC's flagship private villa. It has its own entrance, a private terrace and its own bonfire area. Inside is a luxury king bedroom with panoramic Himalayan views. It is the most private stay on the estate.</p>
+       <p><strong>Best for:</strong> Families who want the most privacy on the estate. For a bigger or multi-generational group, pair it with the Twin Cottages.</p>
 
-       <p>Full details are on the <a href="/rooms/" class="text-secondary underline">EBC Mussoorie accommodation page</a>. Contact the property directly to confirm which unit suits your family size and dates.</p>`,
+       <p>Full details are on the <a href="/rooms/" class="text-secondary underline">EBC Mussoorie rooms page</a>. Message the resort to confirm which room suits your family and dates.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Property Features That Matter to Parents</h2>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Which Property Features Matter Most to Parents?</h2>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>20-acre private forest estate</strong> – enclosed grounds children can use</li>
-         <li><strong>Park Cafe</strong> – multi-cuisine restaurant with indoor and alfresco seating, so mealtimes never require a drive</li>
-         <li><strong>Private bonfire setups</strong> – the evening anchor</li>
-         <li><strong>Outdoor BBQ and picnic arrangements</strong> – engaging for children and easier than a formal dinner</li>
-         <li><strong>Direct road access with private parking</strong> – no long walk from a car park with luggage and tired children</li>
-         <li><strong>High-speed WiFi</strong> – for the honest reason that families need it</li>
-         <li><strong>Pet-friendly</strong> – confirmed, so the family dog can come</li>
-         <li><strong>George Everest House adjacent</strong> – a genuine heritage site with a story children find interesting</li>
-         <li><strong>Sunrise, sunset, and stargazing opportunities on the ridge</strong>, weather permitting</li>
+         <li><strong>A secure forest estate:</strong> enclosed grounds that children can explore safely</li>
+         <li><strong>Park Cafe:</strong> a multi-cuisine café on the estate, beside a meadow, so meals never need a drive</li>
+         <li><strong>A bonfire every evening:</strong> the anchor of the day, with a private one on request</li>
+         <li><strong>Barbecue and picnic setups:</strong> fun for children and easier than a formal dinner</li>
+         <li><strong>Free parking on site:</strong> less hauling of bags and tired children</li>
+         <li><strong>Free Wi-Fi throughout:</strong> for the honest reason that families need it</li>
+         <li><strong>Pets welcome:</strong> the family dog can come too; just tell the resort in advance</li>
+         <li><strong>George Everest's House nearby:</strong> a real heritage site, a couple of minutes' walk from Park Cafe, with a story children enjoy</li>
+         <li><strong>Sunrise and stars:</strong> the east-facing Zenith veranda catches the dawn, and the Milky Way shows on clear nights</li>
        </ul>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Best Seasons for Family Glamping in Mussoorie</h2>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">When Is the Best Season for Family Glamping in Mussoorie?</h2>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>April to June</strong> – school summer holidays align with this window. Warm days, cool evenings, widest outdoor activity range. Book early; it is peak season.</li>
-         <li><strong>October to November</strong> – clearest conditions of the year, moderate crowds, excellent stargazing. Ideal if your family can travel outside school holidays.</li>
-         <li><strong>December to February</strong> – cold, with possible snowfall on the ridge. Distinctive but requires warm clothing and confirmation of heating arrangements.</li>
-         <li><strong>July to September</strong> – atmospheric and quiet with lower rates, but outdoor time is restricted to morning windows and road access can be affected. Confirm operational status with the property before booking.</li>
+         <li><strong>April to June:</strong> This lines up with school summer holidays. Warm days, cool evenings and the most time outdoors. May and June are busy, so book early.</li>
+         <li><strong>October to November:</strong> The clearest skies of the year, smaller crowds and superb stargazing. Ideal if your family can travel outside school holidays.</li>
+         <li><strong>December to February:</strong> Cold, with crisp nights and a chance of snow on the ridge. Pack warm clothes. Every room at EBC has heating.</li>
+         <li><strong>July to September:</strong> The quietest and most atmospheric season. The forest turns deep green and mist drifts through the trees. EBC stays open, and all tents and cottages are weather-proofed. Rain can bring landslides and road closures, so check advisories before you drive and keep plans loose. It suits a slow stay more than long walks.</li>
        </ul>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Practical Notes for Parents</h2>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Practical Notes Should Parents Know?</h2>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>Footwear matters more than you think.</strong> Forest paths at 6,800 feet are uneven. Proper closed shoes with grip for every child.</li>
-         <li><strong>Layers, not one warm jacket.</strong> Temperatures swing significantly between the 6 AM walk and midday.</li>
-         <li><strong>Set the morning expectation before you arrive.</strong> The 6 to 8 AM window is the best part of the day at this altitude. Children who know this in advance get up for it.</li>
-         <li><strong>Bring your own indoor entertainment.</strong> Books, cards, and games. Do not rely on the property to fill a rainy afternoon.</li>
-         <li><strong>Confirm any specific requirements in advance.</strong> Dietary needs, extra bedding, and pet arrangements all benefit from being agreed before arrival rather than on the day.</li>
+         <li><strong>Footwear matters more than you think.</strong> Forest paths at 2,160 m are uneven. Every child needs closed shoes with good grip.</li>
+         <li><strong>Pack layers, not one warm jacket.</strong> The temperature swings a lot between the morning walk and midday.</li>
+         <li><strong>Set up the morning before you arrive.</strong> The guided walk runs from 7 to 9 AM, and it is the best part of the day up here. Children who know this in advance get up for it.</li>
+         <li><strong>Bring your own indoor fun.</strong> Books, cards and games. Do not count on the resort to fill a rainy afternoon.</li>
+         <li><strong>Confirm special needs in advance.</strong> Food needs, extra bedding and pet plans all go better when agreed before you arrive, not on the day.</li>
        </ul>
-       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> covers how the property structures its outdoor experience, which is the element families respond to most.</p>`,
+       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> covers how the resort shapes its outdoor stay. That is the part families respond to most.</p>`,
     ],
   },
   faqs: [
     {
       question: "Is glamping suitable for young children?",
       answer:
-        "At the premium end, yes. EBC Mussoorie's units have attached modern bathrooms, proper bedding, and solid structures rather than basic setups.",
+        "Done well, yes. Every room at EBC Mussoorie, even the tents, has an attached bathroom, a proper bed and heating. These are solid, well-built rooms, not basic camping.",
     },
     {
       question: "Which unit accommodates four people?",
       answer:
-        "The Surveyor Suite, with a king bed and a foldable queen on request.",
+        "Ask the team, as extra beds can be added. For a family of four, the Twin Luxury Cottages give you two king bedrooms. The Surveyor, a roomy suite, also works well for families.",
     },
     {
       question: "Can we get interconnecting rooms?",
       answer:
-        "Yes. The Twin Luxury Cottages are interconnecting with a shared balcony and air conditioning.",
+        "Yes. The Twin Luxury Cottages are two interconnected cottages with a shared garden terrace, air conditioning and heating.",
     },
     {
       question: "Is there WiFi for the children?",
       answer:
-        "Yes, high-speed WiFi across all accommodation categories.",
+        "Yes, free Wi-Fi runs across the whole property. It handles browsing and video calls, though mountain signal can vary.",
     },
     {
       question: "Can we bring a pet?",
       answer:
-        "Yes, EBC Mussoorie is confirmed pet-friendly. Confirm conditions when booking.",
+        "Yes, pets are welcome at EBC Mussoorie. Just tell the resort in advance so they can prepare for you both.",
     },
     {
       question: "What outdoor activities are available for families?",
       answer:
-        "Estate walks on the 20-acre forest property, the adjacent George Everest heritage site, private bonfires, and outdoor BBQ and picnic setups. Confirm current availability with the property for your dates.",
+        "A guided forest walk every morning from 7 to 9 AM, the George Everest heritage site next door, a bonfire each evening, and barbecue and picnic setups. Children also love the bird walks and stargazing. Check what is on for your dates.",
     },
   ],
 };

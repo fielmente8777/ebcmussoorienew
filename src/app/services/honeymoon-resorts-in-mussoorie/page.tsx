@@ -12,121 +12,123 @@ const articleData = {
   metaData: {
     title: "Honeymoon Resorts in Mussoorie: A Practical Guide to Choosing the Right Property for Your Stay | EBC Mussoorie",
     description:
-      "A complete guide to honeymoon resorts in Mussoorie – what the property categories offer, how to match the right type to your stay, and why EBC Mussoorie's specific offering is worth understanding before you book.",
+      "Honeymoon resorts in Mussoorie compared: heritage hotels, boutique stays and forest glamping. What each offers, what to ask, and when to go.",
   },
   banner: {
     title: "Honeymoon Resorts in Mussoorie",
     subTitle: "A Practical Guide to Choosing the Right Property for Your Stay",
     description:
-      "The Mussoorie honeymoon has been a staple of Indian romantic travel for over a century. The challenge for couples today is that the accommodation landscape has changed—and the traditional hotel format is no longer the obvious best choice.",
+      "Couples have honeymooned in Mussoorie for over a century. What has changed is where they stay. The classic big hotel is no longer the obvious first choice.",
     image: "/banner/bnr2.png", // Replace with a honeymoon banner if available
   },
   intro: {
     title: "Honeymoon Resorts in Mussoorie",
     description: [
-      "The Mussoorie honeymoon has been a staple of Indian romantic travel for over a century. The appeal has always been straightforward: a hill station within reach of Delhi, cool air, forested ridges, and accommodation options ranging from colonial-era heritage hotels to modern boutique properties. The challenge for couples planning today is that the accommodation landscape has changed significantly, and the traditional hotel format is no longer the obvious best choice.",
-      "This guide covers what Mussoorie's honeymoon accommodation options actually look like in the current market, how to match the right property type to what you want from the stay, and why EBC Mussoorie's specific offering is worth understanding before you book.",
+      "Couples have honeymooned in Mussoorie for over a century. The appeal has always been simple. It is a hill station within reach of Delhi, with cool air and forested ridges. Places to stay range from colonial-era heritage hotels to modern boutique resorts. What has changed is the choice itself. There are far more kinds of stay today, and the classic big hotel is no longer the obvious best pick.",
+      "This guide walks through the main kinds of honeymoon stay in Mussoorie today. It shows how to match the right kind to what you want from the trip. It also explains what EBC Mussoorie offers couples, so you can judge it fairly before you book.",
     ],
   },
   details: {
     title: "The Honeymoon Guide",
     subtitle: "Find Your Perfect Stay",
     description: [
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Couples Are Actually Looking for in a Mussoorie Honeymoon Property</h2>
-       <p>Based on what matters to couples booking a Mussoorie honeymoon, the priorities typically organise as follows:</p>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Are Couples Really Looking for in a Mussoorie Honeymoon Resort?</h2>
+       <p>When couples book a Mussoorie honeymoon, their priorities tend to fall into this order:</p>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>Privacy above all else.</strong> A honeymoon in a property where thirty other couples are having breakfast simultaneously, where corridors carry sound from adjacent rooms, and where the common areas are shared with school trip groups does not deliver the intimacy the occasion requires.</li>
-         <li><strong>A setting that is the experience, not just a backdrop.</strong> The best Mussoorie honeymoon properties are not hotels with a hill station outside their windows. They are properties where the forested hillside, the valley view, and the outdoor evening environment are inseparable from the stay itself.</li>
-         <li><strong>Evenings that actually work.</strong> A good honeymoon property delivers on the evening as much as the daytime: a private outdoor space, a bonfire option, quality on-site dining, and a setting where the night air and the hillside are as present as the room.</li>
-         <li><strong>Specific, confirmed amenities rather than vague luxury claims.</strong> Couples who have been disappointed by Mussoorie properties previously consistently cite the same issue: the property looked better in photographs than in reality. The solution is confirmed, specific amenities rather than generic "luxury" descriptors.</li>
+         <li><strong>Privacy above all else.</strong> Picture thirty other couples at breakfast, sound carrying down the corridors and school groups in the lounge. That is not the closeness a honeymoon calls for.</li>
+         <li><strong>A setting that is part of the stay, not just a backdrop.</strong> The best honeymoon resorts in Mussoorie are not hotels with a hill view outside the window. In the best ones, the forest, the valley view and the open evening air are part of the stay itself.</li>
+         <li><strong>Evenings that work.</strong> A good honeymoon resort gets the evening right as well as the day. That means a private outdoor space, a bonfire, good food on site, and a setting where the night air and the hills feel as close as the room.</li>
+         <li><strong>Clear, specific features, not vague claims of luxury.</strong> Couples who were let down by a Mussoorie hotel before tend to say the same thing: it looked better in the photos. The fix is to look for specific, stated features rather than the word "luxury".</li>
        </ul>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Property Categories Available for a Mussoorie Honeymoon</h2>
-       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Heritage Hotels</h3>
-       <p>The large legacy hotels on the Mussoorie ridge have been hosting honeymooners for decades. The Savoy is the best-known example. These properties offer formal dining, heritage architecture, and brand recognition. The trade-off is scale: these are busy hotels with hundreds of guests simultaneously. Privacy is not a structural feature.</p>
-       <p><strong>Best for:</strong> couples who value heritage, formal service, and a recognisable brand over intimacy and privacy.</p>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Kinds of Honeymoon Resorts Can You Choose From in Mussoorie?</h2>
+       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Are Heritage Hotels Right for a Honeymoon?</h3>
+       <p>The large old hotels on the Mussoorie ridge have hosted honeymooners for decades. The Savoy is the best-known. They offer formal dining, grand old buildings and a famous name. The catch is size. These are busy hotels with many guests at once, so privacy is not built into the design.</p>
+       <p><strong>Best for:</strong> couples who value heritage, formal service and a well-known name more than privacy.</p>
 
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Boutique Guesthouses</h3>
-       <p>Smaller, independently operated properties, typically 8 to 15 rooms. More personal service than large hotels. Variable in quality. Best verified through guest reviews specifically from couple and honeymoon stays.</p>
-       <p><strong>Best for:</strong> couples who want character and personal service on a moderate budget.</p>
+       <p>These are smaller, owner-run places, often with 8 to 15 rooms. Service is more personal than at large hotels. Quality varies a lot. Read reviews from couples and honeymooners in particular before you book.</p>
+       <p><strong>Best for:</strong> couples who want character and personal service at a moderate price.</p>
 
-       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Luxury Glamping and Nature Resorts</h3>
-       <p>The newest and most distinctive category in Mussoorie's honeymoon market. These properties sit outside the commercial town centre within forested estates, offer premium accommodation with outdoor orientation, and prioritise the natural environment as the primary experience rather than hotel amenities.</p>
-       <p>EBC Mussoorie is the leading example of this category in Mussoorie. Located on a 20-acre private deodar and oak forest estate beside George Everest House at approximately 6,800 feet on the western ridge, it offers 14 accommodation units across seven categories with a confirmed set of amenities specifically suited to a honeymoon stay.</p>`,
+       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Why Choose a Luxury Glamping or Nature Resort?</h3>
+       <p>This is the newest and most distinctive kind of honeymoon stay in Mussoorie. These resorts sit outside the busy town centre, inside forest estates. They offer premium rooms built around the outdoors. The forest itself is the main draw, more than any hotel facility.</p>
+       <p>EBC Mussoorie is the leading example of this kind of stay in Mussoorie. We are in the Park Estate on Hathipaon Road, close to Sir George Everest's House on the western ridge, at 2,160 m. The estate sits in deodar, pine and rhododendron forest. We have 14 rooms across seven categories, with clear, stated features that suit a honeymoon well.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">EBC Mussoorie for a Honeymoon: What It Specifically Offers</h2>
-       <p>The confirmed property features at EBC Mussoorie that are directly relevant to a honeymoon couple:</p>
-       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Accommodation options for couples:</h3>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Does EBC Mussoorie Offer Honeymoon Couples?</h2>
+       <p>Here is what EBC Mussoorie offers that matters most to a honeymoon couple:</p>
+       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Which rooms suit couples best?</h3>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>The Glamper Rooms (4 units)</strong> are the signature honeymoon accommodation: spacious rooms with private sit-outs, forest and valley views, king-size beds, and premium amenities. The private sit-out is the key feature for a couple wanting an intimate outdoor space within the accommodation unit itself.</li>
-         <li><strong>The Zenith Luxury Cottage (1 unit)</strong> is a standalone cottage with large panoramic windows that frame the forest and valley landscape. For couples who want the most visually immersive experience from within the room, the cottage's window design is specifically suited to this purpose.</li>
-         <li><strong>Andrew's Villas (2 units)</strong> are the property's highest-tier accommodation: duplex villas with two bedrooms, separate entrances, spacious living areas, and premium furnishings. For couples who want the most private and spacious option on the estate, this is the choice.</li>
+         <li><strong>The Andrew's Villa</strong> is our flagship and the room most requested for honeymoons. It is a fully private villa at the edge of the deodar forest. It has its own entrance, a king bedroom, a terrace with Himalayan views and its own bonfire area.</li>
+         <li><strong>The Zenith Luxury Cottage</strong> is our signature cottage. It stands on its own in the forest, with a king bed and a private, east-facing veranda. Couples love it for sunrise and for breakfast out on the veranda.</li>
+         <li><strong>The Glamper</strong> is our luxury canvas tent, with a private deck, a comfortable double bed and an attached bathroom. It suits couples who want the romance of sleeping under canvas with every comfort inside.</li>
        </ul>
-       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Confirmed property amenities:</h3>
+       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">What is included, and what can be added?</h3>
        <ul class="list-disc pl-6 space-y-1">
-         <li>Park Cafe with indoor and alfresco dining for intimate couple dinners</li>
-         <li>Private bonfire setups on the 20-acre estate</li>
-         <li>Outdoor BBQ arrangements</li>
-         <li>Stargazing access on the George Everest ridge (weather permitting)</li>
-         <li>High-speed WiFi across all units</li>
-         <li>Pet-friendly facilities for couples travelling with pets</li>
-         <li>George Everest House heritage site adjacent to the estate for morning walks</li>
+         <li>Breakfast for two, included with every room</li>
+         <li>Evening bonfire every night, with a private bonfire for your room on request</li>
+         <li>A rose-petal welcome for honeymooners, at no charge</li>
+         <li>A candlelit dinner at your cottage, with 24 hours' notice</li>
+         <li>Barbeque in the Shadows at our Park Café: a private bonfire, a candlelit table and butler service</li>
+         <li>Stargazing on clear nights, with guided sessions on request</li>
+         <li>Wi-Fi throughout the property, and free parking</li>
+         <li>Pets welcome; just tell us in advance</li>
+         <li>A guided nature walk each morning from 7 to 9 AM, with Sir George Everest's House a short walk away</li>
        </ul>
-       <p>View the <a href="/rooms/" class="text-secondary underline">full accommodation range at EBC Mussoorie</a> and contact the property directly to discuss honeymoon-specific arrangements including preferred unit, special requests, and seasonal availability.</p>`,
+       <p>See the <a href="/rooms/" class="text-secondary underline">full range of rooms, cottages and tents at EBC Mussoorie</a>, then message us to plan your honeymoon. Tell us your preferred room, any special requests and your dates.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Seasonal Guidance for a Mussoorie Honeymoon</h2>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">When Is the Best Time for a Mussoorie Honeymoon?</h2>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>October to November (Recommended as the primary honeymoon window):</strong> Post-monsoon clarity makes this the visually strongest season for valley and mountain views from the estate. Temperatures are crisp and cool (8 to 18 degrees Celsius), making a bonfire evening genuinely warming. Clear skies make stargazing from the George Everest ridge particularly rewarding. Crowds in the commercial town centre are moderate rather than peak.</li>
-         <li><strong>April to June (Strong pre-monsoon window):</strong> Warm days and cool evenings. The widest outdoor activity range. The deodar forest is at its freshest green before the monsoon. May is peak season, so book well in advance.</li>
-         <li><strong>December to February (Winter honeymoon):</strong> Cold and quiet. The possibility of snowfall on the George Everest ridge makes this window visually distinctive. Requires confirmation of heating infrastructure at the property. Rates are typically lower than peak season. Best for couples who specifically want a cold-weather, winter-blanket, fireside honeymoon experience.</li>
-         <li><strong>July to August (Monsoon honeymoon):</strong> Atmospheric, private, and significantly cheaper than peak season. The forest mist, the valley cloud, and the bonfire evenings are all at their most dramatic. The trade-off is limited outdoor sightseeing. Suitable for couples who value intimacy and atmosphere over activity variety. Confirm operational status and road access with EBC Mussoorie before booking monsoon dates.</li>
+         <li><strong>October to November (our top pick for a honeymoon):</strong> After the rains, the air is clear. This is the best season for valley and mountain views from the estate. Days are crisp and cool, at about 8 to 18 degrees Celsius, so a bonfire evening feels truly warm. Clear skies make stargazing from the ridge a real treat. The town centre is busy but not packed.</li>
+         <li><strong>April to June (a strong spring window):</strong> Days are warm and evenings are cool. You can do the most outdoors. The deodar forest is at its freshest green. May is peak season, so book well ahead.</li>
+         <li><strong>December to February (a winter honeymoon):</strong> Cold and quiet. A chance of snow on the ridge gives this season its own look. Make sure your room is heated; all our rooms at EBC have heating. It suits couples who want a fireside honeymoon under warm blankets.</li>
+         <li><strong>July to September (a monsoon honeymoon):</strong> This is our quietest and most atmospheric season, and EBC stays open throughout. Forest mist, valley cloud and bonfire evenings are at their most dramatic, and every tent and cottage is weather-proofed. It is a season for slow stays rather than sightseeing. Rain can cause landslides and close roads, so check advisories before you drive and keep your plans flexible.</li>
        </ul>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What to Ask Before Booking a Mussoorie Honeymoon Property</h2>
-       <p>These questions, asked before committing, prevent the most common honeymoon property disappointments:</p>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Should You Ask Before Booking a Mussoorie Honeymoon Resort?</h2>
+       <p>Ask these before you commit. They head off the most common honeymoon letdowns:</p>
        <ul class="list-disc pl-6 space-y-1">
-         <li>Is the accommodation unit we are booking private or shared-wall with adjacent units?</li>
-         <li>What is the occupancy level typically like during our dates?</li>
-         <li>Does the property host group events, parties, or corporate bookings simultaneously with individual guests?</li>
-         <li>Is the bonfire included or separately charged?</li>
-         <li>What is the on-site dining setup for an intimate couple dinner?</li>
-         <li>What is the cancellation and rescheduling policy?</li>
+         <li>Is our room standalone, or does it share walls with the rooms next door?</li>
+         <li>How full is the resort usually on our dates?</li>
+         <li>Does the resort host group events, parties or corporate groups at the same time as couples?</li>
+         <li>Is the bonfire included, or is it charged extra?</li>
+         <li>What are the options for a quiet dinner for two?</li>
+         <li>What is the cancellation and date-change policy?</li>
        </ul>
-       <p>A property that answers these specifically and in writing is significantly more trustworthy than one that deflects with general "luxury experience" language.</p>
-       <p>As described in <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">this Hotelier India feature on EBC Mussoorie</a>, the property is built around a specific outdoor hospitality philosophy that produces a genuinely distinctive experience from standard hotel stays.</p>
-       <p>For a first-person account of the property and estate atmosphere, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">this Tripoto piece on EBC Mussoorie</a> is the most grounded external reference available.</p>`,
+       <p>A resort that answers these clearly and in writing deserves far more trust than one that hides behind vague "luxury experience" talk.</p>
+       <p>As <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">this Hotelier India feature on EBC Mussoorie</a> describes, EBC is built around a clear idea of outdoor hospitality. The result feels quite different from a standard hotel stay.</p>
+       <p>For a first-hand account of the resort and the feel of the estate, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">this Tripoto piece on EBC Mussoorie</a> is the most grounded outside account there is.</p>`,
     ],
   },
   faqs: [
     {
       question: "What is the most romantic accommodation at EBC Mussoorie for a honeymoon?",
       answer:
-        "The Glamper Rooms for the signature glamping experience with a private sit-out. The Zenith Luxury Cottage for the most visually immersive standalone cottage with panoramic windows. Andrew's Villas for the most spacious and private option on the estate.",
+        "The Andrew's Villa is the room most requested for honeymoons: a private villa with its own entrance, terrace and bonfire area. The Zenith Luxury Cottage is a freestanding forest cottage with a private, east-facing veranda. The Glamper is a luxury canvas tent with a private deck, for the classic glamping feel.",
     },
     {
       question: "Is EBC Mussoorie better than a heritage hotel for a Mussoorie honeymoon?",
       answer:
-        "For couples who prioritise privacy, nature immersion, and an intimate outdoor evening experience over formal dining and heritage architecture, EBC Mussoorie's boutique glamping format delivers a qualitatively different and more private experience than large heritage hotels.",
+        "It depends on what you want. If privacy, forest and quiet evenings outdoors matter more to you than formal dining and grand architecture, EBC offers a very different kind of stay. With 14 rooms spread through the forest, it is far more private than a large heritage hotel.",
     },
     {
       question: "What is the best season for a honeymoon in Mussoorie?",
       answer:
-        "October to November for the clearest conditions and most rewarding views. April to June for the widest outdoor activity range. December to February for a winter bonfire experience.",
+        "October to November for the clearest skies and best views. April to June for the most time outdoors. December to February for cosy winter bonfires. July to September for the quietest, most atmospheric stay, with flexible plans in case of road closures.",
     },
     {
       question: "How far is EBC Mussoorie from the main Mussoorie town?",
       answer:
-        "The property is on the western Mussoorie ridge near George Everest House, away from the Mall Road commercial area. Contact EBC Mussoorie directly for the specific distance and access route.",
+        "EBC is in the Park Estate on Hathipaon Road, near Sir George Everest's House on the western ridge. That is about 6 km west of Mall Road, well away from the busy town centre. The last stretch of road is rough in places, so drive with care.",
     },
     {
       question: "Does EBC Mussoorie offer any honeymoon-specific packages?",
       answer:
-        "Contact the property directly to discuss honeymoon arrangements, preferred accommodation categories, and any special experience options available for couple stays.",
+        "Honeymoons are our most popular occasion. We offer a rose-petal welcome at no charge. We can also arrange a candlelit dinner at your cottage with 24 hours' notice, a private bonfire and other romantic touches on request. Message us to plan yours.",
     },
     {
       question: "Is EBC Mussoorie pet-friendly for couples travelling with pets?",
       answer:
-        "Yes. EBC Mussoorie is confirmed pet-friendly. Confirm any specific pet conditions or restrictions when booking.",
+        "Yes. Pets are welcome at EBC Mussoorie. Please tell us in advance so we can make the stay comfortable for you and your pet.",
     },
   ],
 };

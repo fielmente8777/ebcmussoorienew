@@ -11,67 +11,67 @@ const articleData = {
   metaData: {
     title: "A Family Resort Near Mussoorie That Works for Everyone, Including the Kids | EBC Mussoorie",
     description:
-      "A practical guide to choosing a family resort near Mussoorie – space, activities, facilities, and why glamping works for mixed-age groups. Plan your family mountain trip with confidence.",
+      "How to choose a family resort near Mussoorie: space, activities, safe terrain and good facilities, and why glamping suits mixed-age family groups.",
   },
   banner: {
     title: "A Family Resort Near Mussoorie That Works for Everyone",
     subTitle: "Including the Kids",
     description:
-      "Space, activities, accessible terrain, and proper facilities – what families actually need from a mountain resort near Mussoorie.",
+      "Space, things to do, easy terrain and proper facilities: what families really need from a mountain resort near Mussoorie.",
     image: "/banner/bnr2.png",
   },
   intro: {
     title: "A Family Resort Near Mussoorie That Works for Everyone",
     description: [
-      "Planning a family trip to the mountains is straightforward in theory and complicated in practice. The adults want scenic surroundings and proper meals. The children want to run around and do things. Grandparents, if they are coming, need manageable terrain and comfortable beds. And everyone needs a washroom that works. The right family resort near Mussoorie solves all of these at once. The wrong one solves one or two and creates friction around the rest. This guide is written from a practical family-travel perspective. It covers what to specifically look for when choosing a family resort near Mussoorie, what activities genuinely work for mixed-age groups, and how a glamping format can outperform a conventional hotel for the family travel format.",
+      "A family trip to the mountains is simple in theory and tricky in practice. The adults want views and good meals. The children want to run around and do things. Grandparents, if they come, need gentle paths and comfortable beds. And everyone needs a bathroom that works. The right family resort near Mussoorie solves all of this at once. The wrong one solves one or two and creates friction around the rest. This guide is written from a practical, family-travel point of view. It covers what to look for in a family resort near Mussoorie and which activities work for mixed ages. It also explains why a glamping stay can beat a regular hotel for families.",
     ],
   },
   details: {
     title: "What Families Actually Need From a Resort Near Mussoorie",
     subtitle: "A Family Travel Guide",
     description: [
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Families Actually Need From a Resort Near Mussoorie</h2>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Do Families Actually Need From a Resort Near Mussoorie?</h2>
        <p>Let us start with the honest list:</p>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>Space:</strong> Children need room to move. A resort where all activity is confined to a corridor or a small balcony does not work for families with kids under 12. Open lawns, walking paths from the accommodation, and common outdoor areas are non-negotiable.</li>
-         <li><strong>Proximity to nature without remote isolation:</strong> Families with young children need accessible outdoor settings, not extreme terrain. A gentle nature path, a forest edge within a five-minute walk, and safe outdoor areas cover most of what children need to feel genuinely outdoors.</li>
-         <li><strong>Practical facility access:</strong> Clean washrooms with hot water, reliable electricity, and a kitchen or dining setup that can accommodate children's timings and preferences. Families with young children eat earlier, sleep earlier, and need more logistical flexibility than couples or solo travellers.</li>
-         <li><strong>Age-appropriate activities:</strong> A resort that lists only trekking and bonfires as activities is fine for adults but incomplete for families. Look for properties that offer nature walks of varying lengths, outdoor games, and a defined outdoor common space.</li>
-         <li><strong>Proximity to safe road access:</strong> In case of a medical situation, knowing that Dehradun (with hospitals and pharmacies) is under an hour and a half away matters for parents, particularly those travelling with young children or elderly family members.</li>
+         <li><strong>Space:</strong> Children need room to move. A resort where everything happens in a corridor or on a small balcony does not work for kids under 12. Open lawns, paths from your room and shared outdoor areas are a must.</li>
+         <li><strong>Nature, but not too remote:</strong> Young children need easy outdoor spaces, not wild terrain. A gentle nature path, a forest edge within five minutes' walk and safe outdoor areas cover most of what they need to feel truly outdoors.</li>
+         <li><strong>The basics, done well:</strong> Clean bathrooms with hot water, reliable power, and a kitchen that can work around children's timings and tastes. Families with young children eat earlier and sleep earlier. They need more give in the day than couples or solo travellers do.</li>
+         <li><strong>Activities for every age:</strong> A resort that lists only trekking and bonfires is fine for adults but falls short for families. Look for nature walks of different lengths, outdoor games and a clear shared outdoor space.</li>
+         <li><strong>Safe road access:</strong> In a medical emergency, it helps to know that Dehradun, with its hospitals and pharmacies, is 35 km away. That is about 1 to 1.5 hours by road. It matters most to parents with young children or elderly relatives.</li>
        </ul>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Why the Mussoorie Belt Works Well for Family Travel</h2>
-       <p>Mussoorie and the surrounding area check most of the boxes for family mountain travel. The George Everest Peak zone, specifically, is accessible from Dehradun in about 1.5 hours, sits at a manageable 2,000 metres, where altitude is not a factor for children, and has trekking trails that range from gentle ridge walks to more active two to three-hour climbs depending on the family's fitness level.</p>
-       <p><strong>Everest Base Camp Mussoorie</strong>, the premium glamping resort near George Everest Peak, accommodates families and is designed with enough outdoor space to give children room to engage with the setting rather than just observe it from a window. You can review accommodation options at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms page</a>.</p>`,
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Why Does the Mussoorie Belt Work So Well for Family Travel?</h2>
+       <p>Mussoorie and the area around it tick most boxes for a family trip to the mountains. The George Everest Peak zone is about 1.5 hours from Dehradun. EBC sits there at 2,160 m, a height that is not a concern for healthy children. Trails range from gentle ridge walks to more active climbs of two to three hours, so each family can pick its own pace.</p>
+       <p><strong>Everest Base Camp Mussoorie</strong>, the luxury glamping resort near George Everest Peak, welcomes families. Its grounds are fully secured and give children real room to explore, not just a view from a window. The Twin Luxury Cottages and The Andrew's Villa offer the most space. You can compare the options on <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms page</a>.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Activities That Work for Families Near Mussoorie</h2>
-       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Gentle Nature Walks</h3>
-       <p>Short, flat or gently sloping walks through forest or along ridge paths are suitable for children from about age five upward. The George Everest Peak approach path includes sections that work as a standalone nature walk without completing the full trek.</p>
-       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">The George Everest Peak Trek (Suitable for Older Children)</h3>
-       <p>The full trek to George Everest Peak is a 2 to 3-hour return journey at a relaxed pace. Children aged ten and above who are reasonably active manage this well. Younger children are better suited to the lower section of the trail, with a turning point determined by the family's pace. The peak is named after Sir George Everest, who led the Great Trigonometrical Survey of India in the 19th century. Explaining this to children gives the walk a story, which makes it more engaging than simply a walk in the hills.</p>
-       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Bonfire Evenings</h3>
-       <p>A properly set bonfire is universally appealing to children and adults alike. For families travelling to Mussoorie in autumn or winter, the combination of cooler evenings and a bonfire setup makes for a highly memorable family experience that requires no advance skill or preparation.</p>
-       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Kempty Falls Day Trip</h3>
-       <p>About 15 kilometres from Mussoorie, Kempty Falls is a well-known waterfall that is particularly popular with children. Visit early in the day to avoid peak crowd hours.</p>`,
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Which Activities Work for Families Near Mussoorie?</h2>
+       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Are Gentle Nature Walks Good for Young Children?</h3>
+       <p>Yes. Short, flat or gently sloping walks through forest or along ridge paths suit children from about age five. Part of the George Everest Peak path works as a nature walk on its own, without the full trek. At EBC, a guided walk runs daily from 7 to 9 AM. It takes 45 to 90 minutes and is easy to moderate. Guides point out birds, wildflowers and, now and then, pugmarks in the mud.</p>
+       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Is the George Everest Peak Trek Suitable for Older Children?</h3>
+       <p>The full trek to George Everest Peak takes 2 to 3 hours there and back at a relaxed pace. Active children aged ten and up manage it well. Younger ones do better on the lower part of the trail, turning back when the family is ready. The peak is named after Sir George Everest, who led the Great Trigonometrical Survey of India in the 19th century. Tell children this story on the way. It turns a walk in the hills into something they will remember.</p>
+       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Why Are Bonfire Evenings a Family Favourite?</h3>
+       <p>A well-laid bonfire wins over children and adults alike. In autumn and winter, cool evenings and a fire make a family memory that needs no skill or planning. At EBC the bonfire is lit every evening, with seating and blankets. There are marshmallows on request, and now and then live Garhwali folk music.</p>
+       <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Is a Kempty Falls Day Trip Worth It With Kids?</h3>
+       <p>Kempty Falls is a well-known waterfall about 15 kilometres from Mussoorie, and children love it. Go early in the day to beat the crowds. Weekdays are quieter still.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What to Check Before Booking a Family Resort Near Mussoorie</h2>
-       <p>Run through this list for any property you are seriously considering:</p>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Should You Check Before Booking a Family Resort Near Mussoorie?</h2>
+       <p>Run through this list for any place you are seriously thinking about:</p>
        <ul class="list-disc pl-6 space-y-1">
-         <li>Can the property accommodate the full family group in one or adjacent units?</li>
-         <li>Is there a defined outdoor space where children can play without accessing a road?</li>
-         <li>Are meals available at family-appropriate timings (early dinner, quick breakfast)?</li>
-         <li>What is the nearest hospital or pharmacy to the property?</li>
-         <li>Are the trekking options graded by difficulty or age suitability?</li>
-         <li>What is the policy on young children sharing accommodation with parents?</li>
+         <li>Can the whole family stay in one room, or in rooms next to each other?</li>
+         <li>Is there a clear outdoor space where children can play away from any road?</li>
+         <li>Are meals served at family-friendly times, such as an early dinner or a quick breakfast?</li>
+         <li>Where is the nearest hospital or pharmacy?</li>
+         <li>Are the treks graded by difficulty or by age?</li>
+         <li>What is the policy on young children sharing a room with parents?</li>
        </ul>
-       <p>You can review how Everest Base Camp Mussoorie structures its accommodation for different group types at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms and tent page</a>. For a first-hand traveler perspective on reaching this part of Mussoorie from Delhi with a family, this piece on <a href="/rooms/" class="text-secondary underline">the Everest Base Camp near Mussoorie</a> is a useful reference.</p>`,
+       <p>You can see how Everest Base Camp Mussoorie sets up its rooms for different groups on <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms and tents page</a>. The drive from Delhi is about 280 km, or 5.5 to 6.5 hours by road. Once you know your dates, <a href="/rooms/" class="text-secondary underline">compare the tents, cottages and villa at Everest Base Camp near Mussoorie</a> to find the right fit.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Best Time to Visit Mussoorie with Family</h2>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">When Is the Best Time to Visit Mussoorie With Family?</h2>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>April to early June:</strong> School holiday window, warm days, accessible trails. Most popular for families from Delhi NCR, Punjab, and Haryana.</li>
-         <li><strong>September to October:</strong> Post-monsoon. Clear skies, open trails, and comfortable temperatures. Less crowded than in the summer.</li>
-         <li><strong>December to January:</strong> Winter break window. Cold but manageable for families with appropriate clothing. Possible snowfall adds appeal for children, but confirm road conditions before travelling.</li>
-         <li><strong>Avoid:</strong> July and August if possible. Monsoon rainfall, slippery trails, and landslip risk make mountain travel with children less practical during these months.</li>
+         <li><strong>April to early June:</strong> School holidays, warm days and open trails. This is the most popular time for families from Delhi NCR, Punjab and Haryana. May and June are busy, so book ahead.</li>
+         <li><strong>October to November:</strong> After the rains. Clear skies, open trails and comfortable days, with fewer crowds than in summer.</li>
+         <li><strong>December to January:</strong> The winter break. Cold but manageable with the right clothes, and the crisp nights are made for bonfires. A chance of snow thrills children, but check road conditions before you travel.</li>
+         <li><strong>July to September:</strong> The monsoon is the quietest, most atmospheric season. EBC stays open, and all its tents and cottages are weather-proofed. Trails get slippery, and heavy rain can cause landslides and road closures. Check advisories before you drive, keep your plans flexible, and choose a slow stay over long treks.</li>
        </ul>`,
     ],
   },
@@ -79,32 +79,32 @@ const articleData = {
     {
       question: "Is glamping near Mussoorie suitable for young children?",
       answer:
-        "Yes, when the property has enclosed washrooms, open outdoor space, and manageable terrain nearby. Confirm facilities and activity suitability with the property.",
+        "Yes, when the place has enclosed bathrooms, open outdoor space and gentle terrain nearby. At EBC Mussoorie every room, tents included, has an attached bathroom and heating. Check facilities and activities with the resort for your dates.",
     },
     {
       question: "What is the best family-friendly activity near Mussoorie?",
       answer:
-        "Gentle nature walks, Kempty Falls visits, and bonfire evenings are accessible to most age groups.",
+        "Gentle nature walks, a visit to Kempty Falls and bonfire evenings suit most ages.",
     },
     {
       question: "How far is Mussoorie from Dehradun for a family with children?",
       answer:
-        "Approximately 35 kilometres, about 1 to 1.5 hours by road. Dehradun has hospital access and essential amenities.",
+        "About 35 kilometres, or 1 to 1.5 hours by road. Dehradun has hospitals and all the essentials.",
     },
     {
       question: "Are family rooms available at glamping resorts near Mussoorie?",
       answer:
-        "Select properties offer accommodation suitable for families. Confirm unit capacity and bed configuration before booking.",
+        "Some resorts have them. At EBC, the Twin Luxury Cottages and The Andrew's Villa offer the most family space, and extra beds can be added. Confirm room size and bed setup before you book.",
     },
     {
       question: "Is altitude a concern for families visiting Mussoorie?",
       answer:
-        "At 2,000 metres, altitude is generally not a concern for healthy adults and children. Those with pre-existing conditions should consult a doctor before travel.",
+        "At EBC's 2,160 metres, altitude is generally not a concern for healthy adults and children. Anyone with a health condition should check with a doctor before travel.",
     },
     {
       question: "What should families pack for a mountain trip to Mussoorie?",
       answer:
-        "Warm layers for evenings, sturdy shoes for walks, sunscreen, personal medications, and entertainment for younger children during the drive.",
+        "Warm layers for the evenings, sturdy shoes for walks, sunscreen, any regular medicines, and something to keep younger children busy on the drive.",
     },
   ],
 };

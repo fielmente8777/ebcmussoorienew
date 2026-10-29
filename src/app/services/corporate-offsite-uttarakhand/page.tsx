@@ -12,85 +12,86 @@ const articleData = {
   metaData: {
     title: "Corporate Offsite in Uttarakhand: A State-Wide Guide to Choosing the Right Venue | EBC Mussoorie",
     description:
-      "A complete guide to planning a corporate offsite in Uttarakhand – mapping the state by objective, choosing the right zone, and what to confirm before committing.",
+      "Plan a corporate offsite in Uttarakhand by goal, not map. Compare four zones, from the Mussoorie ridge to Rishikesh, and what to confirm before you commit.",
   },
   banner: {
     title: "Corporate Offsite in Uttarakhand",
     subTitle: "A State-Wide Guide to Choosing the Right Venue",
     description:
-      "Uttarakhand has become a default consideration for Delhi NCR companies planning offsites. But 'Uttarakhand' is not a venue decision. The state contains four distinct offsite environments—choose the wrong one and your trip costs the same but achieves less.",
+      "Uttarakhand is now a default pick for Delhi NCR companies planning offsites. But 'Uttarakhand' is not a venue decision. The state holds four distinct offsite settings. Choose the wrong one and the trip costs the same but achieves less.",
     image: "/banner/bnr2.png", // Replace with a corporate offsite banner if available
   },
   intro: {
     title: "Corporate Offsite in Uttarakhand",
     description: [
-      "Uttarakhand has become a default consideration for Delhi NCR companies planning offsites, and for good reason: expressway access, direct flights to Dehradun, altitude, and a growing set of properties built for group hosting. But 'Uttarakhand' is not a venue decision. The state contains four distinct offsite environments with genuinely different characteristics, and choosing the wrong one for your objective produces a trip that costs the same and achieves less.",
-      "This guide maps the state by offsite objective rather than by geography.",
+      "Uttarakhand is now a default pick for Delhi NCR companies planning offsites, and for good reason. It has good road links, direct flights to Dehradun, real altitude, and a growing set of properties built to host groups. But 'Uttarakhand' is not a venue decision. The state holds four distinct offsite settings, and each one feels very different. Pick the wrong one for your goal and you get a trip that costs the same and achieves less.",
+      "This guide maps the state by what your offsite needs to achieve, not by geography.",
     ],
   },
   details: {
     title: "The Corporate Offsite Guide",
     subtitle: "Choose the Right Venue",
     description: [
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Step One: Define the Objective, Then Choose the Zone</h2>
-       <p>Before comparing properties, answer this: what is the offsite actually for?</p>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Step One: What Is the Objective, and Which Zone Fits It?</h2>
+       <p>Before you compare properties, answer one question. What is the offsite really for?</p>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>Strategy and leadership alignment</strong> – you need quiet, small scale, and an environment that supports long conversation. <strong>Garhwal ridge.</strong></li>
-         <li><strong>Team bonding and energy</strong> – you need activity infrastructure and shared physical challenge. <strong>Rishikesh.</strong></li>
-         <li><strong>Reward and recognition</strong> – you need distinctiveness and memorability. <strong>Garhwal ridge or Corbett.</strong></li>
-         <li><strong>Large-format conference</strong> – you need banquet and AV infrastructure at scale. <strong>Dehradun city hotels.</strong></li>
-         <li><strong>Deep work with a small senior team</strong> – you need genuine isolation. <strong>Lansdowne or the western Mussoorie ridge.</strong></li>
+         <li><strong>Strategy and leadership alignment:</strong> You need quiet, small scale and a setting that supports long talks. <strong>Garhwal ridge.</strong></li>
+         <li><strong>Team bonding and energy:</strong> You need activity set-ups and a shared physical challenge. <strong>Rishikesh.</strong></li>
+         <li><strong>Reward and recognition:</strong> You need somewhere distinctive that people will remember. <strong>Garhwal ridge or Corbett.</strong></li>
+         <li><strong>Large-format conference:</strong> You need banquet halls and AV at scale. <strong>Dehradun city hotels.</strong></li>
+         <li><strong>Deep work with a small senior team:</strong> You need true isolation. <strong>Lansdowne or the western Mussoorie ridge.</strong></li>
        </ul>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Zone 1: The Garhwal Ridge (Mussoorie and George Everest Area)</h2>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Zone 1: Why Pick the Garhwal Ridge (Mussoorie and George Everest Area)?</h2>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>Access:</strong> 290 km from Delhi, 6 to 7 hours. Jolly Grant Airport 60 km from the ridge.</li>
-         <li><strong>Altitude:</strong> approximately 2,000 to 2,100 metres</li>
+         <li><strong>Access:</strong> About 280 km from Delhi, or 5.5 to 6.5 hours by road. Jolly Grant Airport is about 55 km away, roughly 1.5 hours.</li>
+         <li><strong>Altitude:</strong> EBC sits at 2,160 metres.</li>
          <li><strong>Group size suited:</strong> 10 to 30</li>
-         <li><strong>Best for:</strong> Leadership retreats, strategy offsites, incentive travel, team cohesion programmes</li>
+         <li><strong>Best for:</strong> Leadership retreats, strategy offsites, incentive travel and team cohesion programmes</li>
        </ul>
-       <p>This is the strongest zone in Uttarakhand for offsites where the quality of conversation matters more than the scale of the event.</p>
-       <p>EBC Mussoorie sits here, on a 20-acre private forest estate beside George Everest House at approximately 6,800 feet. Relevant specifications for corporate planners:</p>
+       <p>This is the strongest zone in Uttarakhand for offsites where the quality of the talk matters more than the size of the event.</p>
+       <p>EBC Mussoorie sits here, in deodar, pine and rhododendron forest on Park Estate. George Everest House is a short walk away. Here are the details that matter to corporate planners:</p>
        <ul class="list-disc pl-6 space-y-1">
-         <li>14 luxury accommodation units across seven categories</li>
+         <li>14 luxury rooms across seven categories</li>
          <li>Capacity: 28 guests without extra beds, up to 50 with extra beds</li>
-         <li>High-speed WiFi confirmed across all accommodation categories</li>
-         <li>Park Cafe: multi-cuisine restaurant, indoor and alfresco seating for group dining</li>
-         <li>Private bonfire setups on the estate</li>
-         <li>Outdoor BBQ and picnic arrangements</li>
-         <li>Direct road access with private parking</li>
-         <li>Location away from Mall Road traffic and crowds</li>
+         <li>Corporate groups of 8 to 48 guests</li>
+         <li>Free Wi-Fi across the property, good for browsing and video calls</li>
+         <li>Park Café: a multi-cuisine café on the estate, built where Sir George Everest once kept his stables</li>
+         <li>Private bonfire set-ups on the estate</li>
+         <li>Outdoor BBQ and picnic set-ups beside the meadow</li>
+         <li>Direct road access with free parking</li>
+         <li>A setting well away from Mall Road traffic and crowds</li>
        </ul>
-       <p>The unit count means a group of 20 to 28 can effectively take the whole property, which is the single most valuable characteristic for an offsite where you want the environment to belong to your team rather than being shared with leisure guests.</p>
-       <p>Review the <a href="/rooms/" class="text-secondary underline">accommodation and group setup at EBC Mussoorie</a> before contacting the property for a group proposal.</p>`,
+       <p>With 14 rooms, a group of 20 to 28 can take the whole property. For an offsite, that is the single most useful feature. The setting belongs to your team, and you do not share it with leisure guests.</p>
+       <p>Look through the <a href="/rooms/" class="text-secondary underline">rooms and group setup at EBC Mussoorie</a> before you ask the property for a group proposal.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Zone 2: Rishikesh</h2>
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Access:</strong> 240 km from Delhi</li>
          <li><strong>Altitude:</strong> 356 metres</li>
          <li><strong>Group size suited:</strong> 20 to 60</li>
-         <li><strong>Best for:</strong> Adventure-format team bonding, younger team demographics</li>
+         <li><strong>Best for:</strong> Adventure-style team bonding and younger teams</li>
        </ul>
-       <p>Rishikesh has the densest activity infrastructure in Uttarakhand: rafting, outdoor challenge courses, and structured adventure programming through registered operators. The tradeoff is altitude (none) and commercialisation (significant in peak season). Best October to June. Rafting operations are restricted during high monsoon flow.</p>
+       <p>Rishikesh has the most activity options in Uttarakhand. Think rafting, outdoor challenge courses and planned adventure days through registered operators. The trade-off is low altitude and heavy crowds in peak season. It is best from October to June. Rafting stops or is limited when the river runs high in the monsoon.</p>
 
        <h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Zone 3: Jim Corbett and the Kumaon Foothills</h2>
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Access:</strong> 260 to 300 km from Delhi</li>
          <li><strong>Group size suited:</strong> 15 to 40</li>
-         <li><strong>Best for:</strong> Incentive travel, reward trips for high performers</li>
+         <li><strong>Best for:</strong> Incentive travel and reward trips for high performers</li>
        </ul>
-       <p>Safari-based incentive programmes work well here. Less suited to structured working sessions. Dhikala zone permits require booking, and the zone closes during monsoon.</p>
+       <p>Safari-based reward trips work well here. It suits planned working sessions less well. Dhikala zone permits must be booked ahead, and the zone closes in the monsoon.</p>
 
        <h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Zone 4: Lansdowne and Pauri Garhwal</h2>
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Access:</strong> 250 km from Delhi</li>
          <li><strong>Altitude:</strong> 1,706 metres</li>
          <li><strong>Group size suited:</strong> 8 to 20</li>
-         <li><strong>Best for:</strong> Small senior teams needing genuine isolation</li>
+         <li><strong>Best for:</strong> Small senior teams that need true isolation</li>
        </ul>
-       <p>The quietest zone in the state. Very limited accommodation variety. Suited to small leadership groups where the absence of stimulation is the point.</p>`,
+       <p>This is the quietest zone in the state. The choice of places to stay is very thin. It suits small leadership groups for whom the lack of distraction is the whole point.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Zone Comparison for Planners</h2>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Zone Comparison for Planners: Which Zone Suits Which Objective?</h2>
        <div class="overflow-x-auto">
          <table class="min-w-full border border-secondary/20 text-sm">
            <thead>
@@ -130,59 +131,59 @@ const articleData = {
          </table>
        </div>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What to Confirm With Any Uttarakhand Property Before Committing</h2>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Should You Confirm With Any Uttarakhand Property Before Committing?</h2>
        <ul class="list-disc pl-6 space-y-1">
-         <li>Simultaneous accommodation and dining capacity for your exact headcount</li>
-         <li>Covered meeting space availability and seated capacity in your required format</li>
-         <li>WiFi performance with your expected number of simultaneous users</li>
-         <li>AV provision and whether external equipment is needed</li>
-         <li>Dietary handling capability and required lead time</li>
-         <li>Cancellation terms for weather-related disruption</li>
-         <li>Whether a coordinator is assigned to the group booking</li>
+         <li>Room and dining capacity, at the same time, for your exact headcount</li>
+         <li>Whether there is a covered meeting space, and how many it seats in your format</li>
+         <li>How the Wi-Fi holds up with your expected number of users at once</li>
+         <li>What AV is provided, and whether you need to bring your own</li>
+         <li>Which diets the kitchen can handle, and how much notice it needs</li>
+         <li>Cancellation terms if the weather disrupts plans</li>
+         <li>Whether one coordinator is assigned to your group booking</li>
        </ul>
-       <p>For pricing, request an itemised quote from the property directly. Costs vary meaningfully by season, group size, and inclusions, and a direct quote is the only reliable basis for a budget submission.</p>`,
+       <p>For pricing, ask the property for an itemised quote. Costs vary a lot by season, group size and inclusions. A direct quote is the only sound basis for an internal spend approval.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Seasonal Guidance</h2>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Seasonal Guidance: When Should You Plan an Uttarakhand Offsite?</h2>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>February to April</strong> – optimal. Stable weather, wide outdoor options, shoulder-season value.</li>
-         <li><strong>May to June</strong> – good conditions but peak tourist traffic on roads, and Char Dham Yatra traffic increases congestion on the Haridwar and Dehradun stretches.</li>
-         <li><strong>September to November</strong> – the strongest overall window. Clearest conditions of the year, moderate crowds, reliable roads.</li>
-         <li><strong>July to August</strong> – possible with careful planning. Covered meeting space and indoor alternatives are essential. Confirm road access and property operational status before finalising dates.</li>
-         <li><strong>December to February</strong> – cold and quiet. Suitable for indoor-heavy agendas with bonfire evenings. Confirm heating arrangements.</li>
+         <li><strong>February to April:</strong> A strong choice. The weather is stable, there are plenty of outdoor options, and the hills are not yet crowded.</li>
+         <li><strong>May to June:</strong> Good weather but peak tourist traffic on the roads. Char Dham Yatra traffic also adds congestion on the Haridwar and Dehradun stretches.</li>
+         <li><strong>September to November:</strong> The strongest window overall. Skies are the clearest of the year, crowds are moderate and roads are reliable.</li>
+         <li><strong>July to August:</strong> This works with careful planning. Landslides can close hill roads, so check advisories before you drive and keep travel times loose. Covered meeting space and indoor options are a must. At EBC, the monsoon is the quietest, most atmospheric season, and every tent and cottage is weather-proofed.</li>
+         <li><strong>December to February:</strong> Cold and quiet. It suits indoor-heavy agendas with bonfire evenings. Confirm how rooms are heated.</li>
        </ul>
-       <p>As described in <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">this Hotelier India feature on EBC Mussoorie</a>, the property is designed around outdoor experience as the foundation of the stay, which translates directly into a different quality of group dynamic than a conference hotel produces.</p>`,
+       <p>This <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> describes a property built around the outdoors. Mornings start with a guided forest walk from 7 to 9 AM, and evenings end at the bonfire. That gives a group a very different dynamic from a conference hotel.</p>`,
     ],
   },
   faqs: [
     {
       question: "Which Uttarakhand zone is best for a first corporate offsite?",
       answer:
-        "The Garhwal ridge around Mussoorie, for accessibility, accommodation quality, and the widest range of group formats.",
+        "The Garhwal ridge around Mussoorie. It is easy to reach, the rooms are good, and it handles the widest range of group formats.",
     },
     {
       question: "What group size does EBC Mussoorie handle?",
       answer:
-        "28 guests without extra beds and up to 50 with extra beds, across 14 accommodation units.",
+        "EBC hosts corporate groups of 8 to 48 guests. It has 14 rooms that sleep 28 guests, or up to 50 with extra beds.",
     },
     {
       question: "Does EBC Mussoorie have WiFi suitable for corporate use?",
       answer:
-        "High-speed WiFi is confirmed across all accommodation categories. Confirm performance expectations for your specific group size during the inquiry.",
+        "Yes. Free Wi-Fi runs across the property, and it is good for browsing and video calls. Signal can vary in the mountains, so share your group's needs when you enquire.",
     },
     {
       question: "How far in advance should we book?",
       answer:
-        "Six to eight weeks minimum for a full-property corporate booking in peak season.",
+        "Allow at least six to eight weeks for a full-property corporate booking in peak season.",
     },
     {
       question: "Can we do an Uttarakhand offsite in monsoon?",
       answer:
-        "Possible with covered meeting space and indoor alternatives. Confirm operational status and road access with the property before booking July or August.",
+        "Yes, with covered meeting space and indoor options. EBC stays open through the monsoon, and it is the quietest time of year there. Landslides can close hill roads, so check advisories before July or August travel and keep your dates flexible.",
     },
     {
       question: "Should we combine two zones in one offsite?",
       answer:
-        "Generally no. Splitting a short offsite across two environments reduces depth in both. Choose one zone and stay.",
+        "Usually not. Splitting a short offsite across two settings means less depth in both. Choose one zone and stay put.",
     },
   ],
 };
