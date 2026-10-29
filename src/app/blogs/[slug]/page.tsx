@@ -7,6 +7,7 @@ import ExploreMoreBLogs from "./components/ExploreMoreBLogs";
 
 import { notFound, permanentRedirect } from "next/navigation";
 import JsonLd from "@/components/seo/JsonLd";
+import { BLOG_SEO_TITLES, withBrand } from "@/lib/seoTitles";
 import { DEFAULT_OG_IMAGE, pageMeta } from "@/lib/seo";
 import { existingPublicAsset } from "@/lib/publicAsset";
 import { blogPostingSchema, breadcrumbSchema, faqSchema } from "@/lib/schema";
@@ -57,7 +58,11 @@ export async function generateMetadata({ params }: Params) {
   if (!post) return {};
   return pageMeta({
     // Keep titles within ~60 characters so Google shows them whole.
-    title: clean(post.title).length <= 44 ? `${clean(post.title)} | EBC Mussoorie` : clean(post.title),
+    title: BLOG_SEO_TITLES[post.slug]
+      ? withBrand(BLOG_SEO_TITLES[post.slug])
+      : clean(post.title).length <= 44
+        ? `${clean(post.title)} | EBC Mussoorie`
+        : clean(post.title),
     description: describe(post),
     path: `/blogs/${post.slug}/`,
     image: existingPublicAsset(post.image, DEFAULT_OG_IMAGE),

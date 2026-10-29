@@ -5,6 +5,7 @@ import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
 import { guideMeta, guideSchema } from "../components/guides";
 import JsonLd from "@/components/seo/JsonLd";
+import RelatedGuides from "@/components/seo/RelatedGuides";
 
 const articleData = {
   slug: "weekend-trip-from-delhi-to-mountains",
@@ -170,6 +171,7 @@ export default function WeekendTripPage() {
           </div>
         </div>
       </SectionWithContainer>
+      <RelatedGuides slug="weekend-trip-from-delhi-mountains" />
     </main>
   );
 }

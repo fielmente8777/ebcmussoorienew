@@ -1,5 +1,7 @@
 import { SectionWithContainer } from "@/components/sectionComponants";
 import { pageMeta } from "@/lib/seo";
+import JsonLd from "@/components/seo/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata = pageMeta({
   title: "Privacy Policy – EBC Mussoorie",
@@ -43,6 +45,8 @@ const list3 = [
 
 function page() {
   return (
+    <>
+    <JsonLd data={breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Privacy Policy", path: "/privacy-policy/" }])} />
     <SectionWithContainer sectionClassName="bg-primary">
       <div className=" text-white content-class">
         {/* H1 for SEO, sized exactly as the previous H2 (.content-class h2) so the page looks unchanged. */}
@@ -232,6 +236,7 @@ function page() {
         </div>
       </div>
     </SectionWithContainer>
+    </>
   );
 }
 

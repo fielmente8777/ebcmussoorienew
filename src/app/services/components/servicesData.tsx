@@ -577,13 +577,13 @@ export const servicesData: ServiceDetail[] = [
     metaData: {
       title: "Forest Picnic | EBC Mussoorie",
       description:
-        "A private forest picnic experience on Hathipaon Road with warm service, local flavours, and nature views.",
+        "A private forest picnic near EBC Mussoorie on Hathipaon Road: blankets, lanterns, seasonal food and service in a deodar clearing for couples or small groups.",
     },
     banner: {
       title: "Guest Experiences",
       subTitle: "Forest Picnic",
       description:
-        "A quiet picnic in the deodar woods, with curated food, soft seating, and a view that belongs only to you.",
+        "A quiet picnic in the deodar woods, with seasonal food, soft seating and a view of your own.",
       image: "/banner/bnr2.png",
     },
     intro: {
@@ -621,7 +621,7 @@ export const servicesData: ServiceDetail[] = [
       },
       {
         icon: "🍽️",
-        title: "Curated picnic menu",
+        title: "Seasonal picnic menu",
         description:
           "Plates designed to travel and taste fresh outdoors, matched to the season.",
       },
@@ -655,10 +655,10 @@ export const servicesData: ServiceDetail[] = [
       },
     ],
     cta: {
-      title: "FOREST PICNIC READY",
-      subtitle: "A page live at /services/forest-picnic",
+      title: "PLAN YOUR FOREST PICNIC",
+      subtitle: "Tell us your date and group size",
       description: [
-        "This service is published instantly from the shared service layout. Change the content to make it your own.",
+        "Message us on WhatsApp or call, and our team will plan the picnic around your stay.",
       ],
       actions: [
         { label: "BOOK YOUR STAY", href: bookingLink },
