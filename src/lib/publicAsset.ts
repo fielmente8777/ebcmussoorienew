@@ -1,13 +1,12 @@
-import { existsSync } from "fs";
-import path from "path";
+import { MISSING_PUBLIC_IMAGES } from "./missingPublicImages";
 
 /**
- * Returns `src` if it is a remote URL or a file that exists in /public,
- * otherwise `fallback`. Used at build time so social previews and structured
- * data never advertise an image that 404s.
+ * Returns `src` unless it is a site image known to be missing from /public,
+ * in which case `fallback` is returned. Keeps social previews and structured
+ * data from advertising images that 404.
  */
 export function existingPublicAsset(src: string | undefined, fallback: string): string {
   if (!src) return fallback;
   if (/^https?:\/\//.test(src)) return src;
-  return existsSync(path.join(process.cwd(), "public", decodeURI(src))) ? src : fallback;
+  return MISSING_PUBLIC_IMAGES.has(src) ? fallback : src;
 }
