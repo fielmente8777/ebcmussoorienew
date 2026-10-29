@@ -5,6 +5,7 @@ import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
 import { guideMeta, guideSchema } from "../components/guides";
 import JsonLd from "@/components/seo/JsonLd";
+import RelatedGuides from "@/components/seo/RelatedGuides";
 
 const articleData = {
   // ✅ URL is exactly: honeymoon-in-mussoorie-monsoon
@@ -191,6 +192,7 @@ export default function HoneymoonMussooriePage() {
           </div>
         </div>
       </SectionWithContainer>
+      <RelatedGuides slug="honeymoon-in-mussoorie-monsoon" />
     </main>
   );
 }

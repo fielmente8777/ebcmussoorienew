@@ -5,6 +5,7 @@ import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
 import { guideMeta, guideSchema } from "../components/guides";
 import JsonLd from "@/components/seo/JsonLd";
+import RelatedGuides from "@/components/seo/RelatedGuides";
 
 const articleData = {
   // ✅ URL is exactly: team-building-retreat-monsoon-india
@@ -184,6 +185,7 @@ export default function TeamBuildingRetreatPage() {
           </div>
         </div>
       </SectionWithContainer>
+      <RelatedGuides slug="team-building-retreat-monsoon-india" />
     </main>
   );
 }

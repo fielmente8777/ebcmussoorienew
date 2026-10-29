@@ -1,3 +1,4 @@
+import { GUIDE_SEO_TITLES, withBrand } from "@/lib/seoTitles";
 import type { Metadata } from "next";
 import { DEFAULT_OG_IMAGE, absoluteUrl, pageMeta } from "@/lib/seo";
 import { existingPublicAsset } from "@/lib/publicAsset";
@@ -75,7 +76,8 @@ export const GUIDE_DUPLICATE_OF: Record<string, string> = {
 };
 
 export function guideMeta(slug: string, meta: { title: string; description: string }): Metadata {
-  const base = pageMeta({ title: meta.title, description: meta.description, path: `/services/${slug}/`, type: "article" });
+  const title = GUIDE_SEO_TITLES[slug] ? withBrand(GUIDE_SEO_TITLES[slug]) : meta.title;
+  const base = pageMeta({ title, description: meta.description, path: `/services/${slug}/`, type: "article" });
   const original = GUIDE_DUPLICATE_OF[slug];
   if (!original) return base;
   const canonical = absoluteUrl(`/services/${original}/`);
