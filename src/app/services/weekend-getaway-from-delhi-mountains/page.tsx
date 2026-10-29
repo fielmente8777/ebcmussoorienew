@@ -34,13 +34,13 @@ const articleData = {
        <p>Before we cover what works, it helps to know the most common mistakes.</p>
        <p><strong>Staying in a town-centre hotel.</strong> Mussoorie, Shimla and Nainital are all hill stations. But a hotel on or near Mall Road in any of them feels like a city stay with a slope. You get traffic, noise, crowds and a window view that could be any hill town. You can see the mountains, but you cannot step into them from your room.</p>
        <p><strong>Underestimating the drive.</strong> A 300-kilometre mountain drive takes longer than 300 kilometres on a highway. Adding one or two hours to your estimate is always safer. If you arrive after dark in the hills, you lose most of your first evening.</p>
-       <p><strong>Planning the wrong trip for the season.</strong> The monsoon brings real risks to mountain roads. Expect wet roads, low visibility and the chance of landslides that close a route for hours. That does not rule the season out. It changes the kind of trip that works. From July to September, plan a slow stay with walks near your room, not a packed outdoor itinerary. Check road advisories before you leave, and keep a spare half-day in hand.</p>`,
+       <p><strong>Planning the wrong trip for the season.</strong> The monsoon brings real risks to mountain roads. Expect wet roads, low visibility and the chance of landslides that close a route for hours. That does not rule the season out. It changes the kind of trip that works. From July to September, plan a slow stay with walks near your room, not a packed outdoor itinerary. Keep a spare half-day in hand.</p>`,
 
       `<h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Which Mountain Destinations Are Worth the Drive from Delhi?</h3>
        <p><strong>Mussoorie and the George Everest Peak area.</strong> EBC Mussoorie is about 280 kilometres from Delhi, or 5.5 to 6.5 hours by road. This is still the most practical mountain weekend from Delhi, for a simple reason. The road up from Dehradun is one of the better hill roads in Uttarakhand. Dehradun's airport and railway station also give you a way out if plans change.</p>
        <p>The George Everest Peak area, in particular, gives you height, forest and a famous landmark with trails around it. <strong>Everest Base Camp Mussoorie</strong> is built in this area, at 2,160 m on Hathipaon Road. It gives you the outdoor access that town-centre hotels cannot.</p>
        <p><strong>Dhanaulti.</strong> About 330 kilometres from Delhi via Dehradun, or 7 to 8 hours by road. It sits higher than Mussoorie, at around 2,286 metres. It is quieter, with eco parks and dense cedar forest. It suits travellers who want quiet more than things to do.</p>
-       <p><strong>Lansdowne.</strong> About 260 kilometres from Delhi, or 5 to 6 hours by road. It is a less-visited Garhwal hill station with a strong colonial feel. There are few glamping options, but it is good for a quiet, low-key visit.</p>`,
+       <p><strong>Lansdowne.</strong> About 247 kilometres from Delhi, or 5 to 6 hours by road. It is a less-visited Garhwal hill station with a strong colonial feel. There are few glamping options, but it is good for a quiet, low-key visit.</p>`,
 
       `<h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">What Does the Right Place to Stay Do for a Two-Night Getaway?</h3>
        <p>A two-night mountain weekend from Delhi leaves you roughly 48 hours once you take out the drive. How you spend them depends almost entirely on where you stay, and what it lets you reach on foot.</p>
@@ -51,13 +51,13 @@ const articleData = {
          <li>Need no extra car to reach the day's activities</li>
          <li>Have a good outdoor space for the evening</li>
        </ul>
-       <p>Glamping meets these needs by design. A tent puts you outdoors the moment you step out, and a bonfire gives you an evening plan without leaving the grounds. At EBC Mussoorie, breakfast, the evening bonfire and a guided morning walk come with every room. As this feature on <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">adventure in the heart of Mussoorie with EBC Mussoorie</a> explains, the resort is built to make the most of a short mountain stay.</p>`,
+       <p>Glamping meets these needs by design. A tent puts you outdoors the moment you step out, and a bonfire gives you an evening plan without leaving the grounds. At EBC Mussoorie, breakfast, the evening bonfire and a guided morning walk come with every room. <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India's feature on EBC</a> lists more ways to fill a short stay, from archery and cycling to treks.</p>`,
 
       `<h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">What Does a Practical Two-Night Mountain Weekend Itinerary from Delhi Look Like?</h3>
        <p><strong>Day 1 (Friday night or early Saturday):</strong> Leave Friday night if you can, or by 4:00 to 5:00 AM on Saturday. Aim to arrive by early afternoon, since check-in is from 2:00 PM. Do nothing demanding. Let your body adjust to the height and the cooler air. End the day at the bonfire.</p>
-       <p><strong>Day 2 (full day):</strong> Join the guided nature walk, which runs between 7 and 9 AM through deodar forest and along a ridge trail. Breakfast follows. Explore the nearby area at an easy pace, perhaps Camel's Back Road or Lal Tibba, the highest point in Mussoorie. Rest in the afternoon. Spend your second evening outdoors, by the fire or under the stars.</p>
-       <p><strong>Day 3 (departure):</strong> Check out by 11:00 AM and drive back to Delhi. Leave Mussoorie by noon and you should be home by early evening.</p>
-       <p>This plan is not rushed, and it does not try to cover too much ground. The mountain weekend that works treats the setting as the trip, not as a backdrop for a checklist. See the current tents, cottages and availability at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie</a>, and plan your dates around the season that suits you.</p>`,
+       <p><strong>Day 2 (full day):</strong> Join the guided nature walk, which runs daily from 7 to 9 AM through deodar forest and along a ridge trail. Breakfast follows. Explore the nearby area at an easy pace, perhaps Camel's Back Road or Lal Tibba, the highest point in Mussoorie. Rest in the afternoon. Spend your second evening outdoors, by the fire or under the stars.</p>
+       <p><strong>Day 3 (departure):</strong> Check out in the late morning and drive back to Delhi. Leave Mussoorie by noon and you should be home by early evening.</p>
+       <p>This plan is not rushed, and it does not try to cover too much ground. The mountain weekend that works treats the setting as the trip, not as a backdrop for a checklist. See the <a href="/rooms/" class="text-secondary underline">tents and cottages at EBC Mussoorie</a>, and plan your dates around the season that suits you.</p>`,
 
       `<h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Who Gains Most from a Mountain Weekend Getaway from Delhi?</h3>
        <p><strong>Couples and honeymooners:</strong> Privacy, scenery and slow time together make this a strong alternative to a city hotel staycation.</p>
@@ -70,7 +70,7 @@ const articleData = {
     {
       question: "Is a two-night weekend enough for a mountain trip from Delhi?",
       answer:
-        "Yes. With the right property and plan, two nights from Friday to Sunday give you a complete mountain break.",
+        "Yes. With the right property and plan, two nights give you a complete mountain break.",
     },
     {
       question: "What is the best mountain weekend destination from Delhi?",
@@ -97,6 +97,9 @@ const articleData = {
       answer:
         "Some are. Pets are welcome at EBC Mussoorie, as long as you tell the resort in advance. At any other property, confirm the current pet policy before you book.",
     },
+  ],
+  sources: [
+    { url: "https://trawell.in/uttarakhand/lansdowne", note: "Lansdowne: 1,706 m; about 247 km from Delhi, about 158 km from Dehradun" },
   ],
 };
 

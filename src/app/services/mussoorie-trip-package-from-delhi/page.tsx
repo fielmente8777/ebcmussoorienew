@@ -46,13 +46,13 @@ const articleData = {
          <li>Route: NH58 via Roorkee or NH334 via Haridwar to Dehradun</li>
          <li>Delhi to EBC Mussoorie: about 280 km, or 5.5 to 6.5 hours in all</li>
          <li>The last stretch from Dehradun is about 35 km, or 1 to 1.5 hours</li>
-         <li>Check in from 2 PM</li>
+         <li>Check in from 2 PM. Arriving earlier? Ask about early check-in when you book.</li>
          <li>Afternoon: rest, or take a short walk around the property</li>
          <li>Evening: the bonfire, then dinner</li>
        </ul>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Day 2: What Should You Do on Your Full Day?</h3>
        <ul class="list-disc pl-6 space-y-1">
-         <li>Early morning: the guided nature walk, which leaves between 7 and 9 AM</li>
+         <li>Early morning: the guided nature walk, which runs daily from 7 to 9 AM</li>
          <li>Morning: walk toward George Everest Peak (2 to 3 hours there and back at an easy pace). The George Everest House is open from 9 AM to 6 PM.</li>
          <li>Late breakfast or lunch at the property or the Park Café</li>
          <li>Afternoon: Lal Tibba or the 3 km Camel's Back Road walk, as energy allows</li>
@@ -61,7 +61,7 @@ const articleData = {
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Day 3: How Do You Get Back to Delhi on Time?</h3>
        <ul class="list-disc pl-6 space-y-1">
          <li>An early walk along the ridge</li>
-         <li>Check out by 11 AM</li>
+         <li>Check out in the late morning (confirm the time when you book)</li>
          <li>Drive back to Delhi via Dehradun</li>
          <li>Reach Delhi by early evening in normal traffic</li>
        </ul>
@@ -92,7 +92,7 @@ const articleData = {
          <li>You want to add Dhanaulti or another stop</li>
          <li>You know mountain travel well and like to book each part yourself</li>
        </ul>
-       <p>For most first-timers from Delhi NCR, a glamping stay at a place like <a href="/" class="text-secondary underline">Everest Base Camp Mussoorie</a> makes the trip much easier. As <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">this Tripoto travel piece about EBC Mussoorie</a> notes, getting from Delhi to an Everest Base Camp in Mussoorie is simpler than most people think.</p>`,
+       <p>For most first-timers from Delhi NCR, a glamping stay at a place like <a href="/" class="text-secondary underline">Everest Base Camp Mussoorie</a> makes the trip much easier. <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto's guide to EBC Mussoorie</a> sets out the road, rail and air routes from Delhi.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">How Far Is Mussoorie From Delhi and Nearby Cities?</h2>
        <table class="w-full border-collapse my-4 text-sm md:text-base">
@@ -111,12 +111,12 @@ const articleData = {
            </tr>
            <tr class="border-b border-secondary/20">
              <td class="py-2 pr-4">Gurugram</td>
-             <td class="py-2 pr-4">Delhi's 280 km, plus the drive across the city</td>
+             <td class="py-2 pr-4">A little more than from Delhi</td>
              <td class="py-2 pr-4">Allow extra time for traffic</td>
            </tr>
            <tr class="border-b border-secondary/20">
              <td class="py-2 pr-4">Noida</td>
-             <td class="py-2 pr-4">Close to Delhi's 280 km</td>
+             <td class="py-2 pr-4">About the same as from Delhi</td>
              <td class="py-2 pr-4">Allow extra time for traffic</td>
            </tr>
            <tr class="border-b border-secondary/20">

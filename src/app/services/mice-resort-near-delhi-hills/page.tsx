@@ -43,7 +43,7 @@ const articleData = {
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Where Are the Hill MICE Venues Near Delhi?</h2>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Why Choose Mussoorie and the Garhwal Hills (About 280 km From Delhi)?</h3>
        <p>This is the strongest zone near Delhi for meetings. It is about 5.5 to 6.5 hours by road. The choice runs from large ridge-top hotels with banquet halls to small glamping resorts. The small ones suit incentive trips and leadership meetings.</p>
-       <p>For an incentive trip, <a href="/" class="text-secondary underline">EBC Mussoorie</a> gives an outdoor, nature-led stay at 2,160 m on Hathipaon Road. That is exactly what a reward trip needs to feel special. Its <a href="/rooms/" class="text-secondary underline">14 rooms across seven categories</a> run from forest tents to a private villa. Groups of 8 to 48 guests can take the full property, with no other guests on site. The Den is a private lounge on the estate for meetings or a celebration. See the <a href="/corporate-and-mice/" class="text-secondary underline">corporate and MICE page</a> for group details.</p>
+       <p>For an incentive trip, <a href="/" class="text-secondary underline">EBC Mussoorie</a> gives an outdoor, nature-led stay at 2,160 m on Hathipaon Road. For a reward trip, that setting does much of the work. Its <a href="/rooms/" class="text-secondary underline">14 rooms across seven categories</a> run from forest tents to a private villa. EBC hosts corporate groups of 8 to 48 guests. Book all 14 rooms as a full property block and no other guests are on site. The Den is a private lounge on the estate for meetings or a celebration. See the <a href="/corporate-and-mice/" class="text-secondary underline">corporate and MICE page</a> for group details.</p>
        <p>For meetings of more than 40 people, look at hotels on the main Mussoorie ridge. Many have banquet halls and conference rooms with standard AV.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Is Rishikesh Right for an Adventure Incentive (240 km From Delhi)?</h3>
        <p>Rishikesh suits adventure-led incentive trips. Rafting, camping and outdoor challenges along the Ganga are well set up. Delhi firms use them often. Riverside properties with meeting space handle groups of 20 to 60 well, for both incentives and team meetings.</p>
@@ -70,7 +70,7 @@ const articleData = {
          <li><strong>For a working meeting (teams with a task):</strong> Put the basics first. That means room size, Wi-Fi, AV, diet handling and short walks from rooms to the meeting space. Character comes second.</li>
        </ul>
        <p>If you want both in one trip, use the Dehradun-plus-Mussoorie plan above. It is the most effective answer.</p>
-       <p>This <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> describes a resort built where adventure meets hospitality. For an incentive group from Delhi, that is the brief. The trip should feel earned and out of the ordinary, not routine.</p>`,
+       <p>This <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India's feature on EBC</a> describes a resort that mixes outdoor adventure, such as archery, cycling and treks, with comfort. For an incentive group from Delhi, that is the brief. The trip should feel earned and out of the ordinary, not routine.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Does a MICE Event Near the Delhi Hills Cost?</h2>
        <p>Here is a realistic cost guide for a 2-night MICE event near Mussoorie for 25 people.</p>
@@ -144,7 +144,7 @@ const articleData = {
     {
       question: "What is the best season for MICE events near the Delhi hills?",
       answer:
-        "February to April and September to November. The weather is steady, outdoor events work, and most properties charge shoulder-season rates. The monsoon months are the quietest in the hills. They suit a small, slow-paced group that keeps a spare day for road delays. Also read how <a href='/activities/' class='text-secondary underline'>EBC Mussoorie positions itself for experiential stays</a> in the hills for more on incentive travel.",
+        "February to April and October to November. The weather is steady, outdoor events work, and most properties charge shoulder-season rates. The monsoon months are the quietest in the hills. They suit a small, slow-paced group. Landslides can close hill roads, so check advisories and keep a spare day. See <a href='/activities/' class='text-secondary underline'>the activities guests can join at EBC Mussoorie</a> for ideas to fill an incentive trip.",
     },
   ],
 };

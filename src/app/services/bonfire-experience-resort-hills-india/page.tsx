@@ -12,13 +12,13 @@ const articleData = {
   metaData: {
     title: "Bonfire Experience at a Resort in the Hills of India: What Makes It Worth Planning Around | EBC Mussoorie",
     description:
-      "A great hill resort bonfire needs cold air, real forest and a quiet estate. What sets it apart, the best regions in India, and how to pick the right stay.",
+      "A great hill resort bonfire needs cold air, deep forest and a quiet estate. What sets it apart, the best regions in India, and how to pick the right stay.",
   },
   banner: {
     title: "Bonfire Experience at a Resort in the Hills of India",
     subTitle: "What Makes It Worth Planning Around",
     description:
-      "A bonfire at a hill resort sounds simple, until you have had a truly good one. Then you see why guests come back and talk about it. The fire, the night air, the forest around it, and an evening outdoors high in the hills.",
+      "A bonfire at a hill resort sounds simple, until you have had a good one. Then you see why guests come back and talk about it. The fire, the night air, the forest around it, and an evening outdoors high in the hills.",
     image: "/banner/bnr2.png", // Replace with a bonfire banner if available
   },
   intro: {
@@ -45,9 +45,9 @@ const articleData = {
        <p>A few things about the estate make the fire here more than a standard hill resort offering:</p>
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>The George Everest heritage:</strong> Nearby stands the restored house of Sir George Everest, Surveyor General of India and the man Mount Everest is named after. He lived on this ridge for about 11 years, using the house as his home, observatory and laboratory. Sitting by a fire next to that history gives the evening a sense of place that a generic bonfire lacks.</li>
-         <li><strong>The forest estate:</strong> Our bonfire clearing sits inside a private estate of deodar, pine and rhododendron. The trees around the fire change the light, the sound and the smell of the evening. There is no road-facing seating and very little light pollution on Hathipaon Road. So the sky above the fire stays truly dark.</li>
-         <li><strong>A small, private crowd:</strong> We have 14 rooms. They sleep 28 guests without extra beds and up to 50 with them. So the bonfire at EBC Mussoorie is never a public event. Depending on who is staying, it feels private or close to it. Couples and small groups who come in quieter weeks may have the clearing almost to themselves.</li>
-         <li><strong>Food and comfort by the fire:</strong> We provide seating and warm blankets. Marshmallows and snacks come on request, and some nights bring live Garhwali folk music. Park Café, on the estate, can turn a fire into a full evening. Its "Barbeque in the Shadows" adds a private bonfire, a candlelit table, butler service and mashal torches. Hot cocoa and kafuli by the fire are hard to beat.</li>
+         <li><strong>The forest estate:</strong> Our bonfire clearing sits inside a private estate of deodar, pine and rhododendron. The trees around the fire change the light, the sound and the smell of the evening. There is very little light pollution on Hathipaon Road, so the sky above the fire stays dark.</li>
+         <li><strong>A small crowd:</strong> We have 14 rooms. They sleep 28 guests without extra beds and up to 50 with them. So the bonfire at EBC Mussoorie is never a public event. The evening bonfire is shared, but with 14 rooms it stays small and unhurried. For a fire of your own, book the private bonfire add-on.</li>
+         <li><strong>Food and comfort by the fire:</strong> We provide seating and warm blankets. Marshmallows and snacks come on request, and some nights bring live Garhwali folk music. Park Café, on the estate, can turn a fire into a full evening. Its "Barbeque in the Shadows" adds a private bonfire, a candlelit table, butler service and mashal torches. Hot cocoa and pakoras by the fire are hard to beat.</li>
        </ul>
        <p>Browse the <a href="/rooms/" class="text-secondary underline">accommodation options at EBC Mussoorie</a> to choose the right stay for a bonfire trip. The Andrew's Villa even has its own private bonfire area.</p>`,
 
@@ -62,8 +62,8 @@ const articleData = {
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What should you look for in a hill resort bonfire?</h2>
        <p>Not every resort with a bonfire gives you an evening worth seeking out. These are the details that matter:</p>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>Private or shared fire:</strong> A bonfire shared by 50 guests at a big resort is a party. A private fire on an estate you nearly have to yourself is something else. The small scale of EBC Mussoorie makes the second far more likely.</li>
-         <li><strong>Forest clearing or paved yard:</strong> A fire in a real forest clearing, with earth and grass underfoot and trees all round, is the real thing. A firepit in a paved yard between buildings is just a firepit.</li>
+         <li><strong>Private or shared fire:</strong> A bonfire shared by a crowd at a big resort is a party. A fire for a few guests, or one of your own, is quieter. At EBC Mussoorie the evening fire is shared but small, and a private bonfire can be booked as an add-on.</li>
+         <li><strong>Forest clearing or paved yard:</strong> A fire in a forest clearing, with earth and grass underfoot and trees all round, is the real thing. A firepit in a paved yard between buildings is just a firepit.</li>
          <li><strong>Seating:</strong> Logs, stone seats or proper outdoor chairs should sit at the right distance. Close enough for warmth, and spread out enough to dodge the smoke. That is the difference between a cosy two-hour evening and an awkward one.</li>
          <li><strong>Food and drink:</strong> Hot drinks, bhuttas (roasted corn), a barbecue or a proper dinner by the fire turn a thirty-minute activity into a three-hour evening. Ask what food and drink you can have at the fire when you book.</li>
          <li><strong>The season:</strong> In the monsoon (July to September), ask how the resort handles rain. The fire usually goes ahead once an evening shower stops. In winter (December to February), make sure the fire is big enough for the cold. In peak summer (May to June), check that the bonfire still runs on warm days.</li>
@@ -85,7 +85,7 @@ const articleData = {
     {
       question: "Which season is best for a bonfire at a hill resort in India?",
       answer:
-        "October to November is the best window. It is cold enough for the fire to truly warm you, with clear skies and dry weather. December to February gives the most dramatic cold-weather bonfires, but you will need proper winter clothes.",
+        "October to November is the best window. It is cold enough for the fire to warm you properly, with clear skies and dry weather. December to February gives the most dramatic cold-weather bonfires, but you will need proper winter clothes.",
     },
     {
       question: "Does EBC Mussoorie include the bonfire in the room rate?",

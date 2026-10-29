@@ -23,7 +23,7 @@ const articleData = {
   intro: {
     title: "More Than a Romantic View",
     description: [
-      "You do not need to be on your honeymoon to want a couples resort in Mussoorie that truly works. Anniversaries, long-overdue breaks, trips to reconnect and spur-of-the-moment weekends all call for the same thing. You want a place that gives two people space and a good setting. It should also have enough going on to fill two or three days, without you having to invent your own plan. Mussoorie has plenty of places to stay. What it has less of is the right mix of privacy, outdoor access and evening atmosphere. That mix is what makes a couples trip feel different from a family holiday or a solo stay. This guide is for couples who have already chosen Mussoorie and want to know what to look for in a resort.",
+      "You do not need to be on your honeymoon to want a couples resort in Mussoorie that works. Anniversaries, long-overdue breaks, trips to reconnect and spur-of-the-moment weekends all call for the same thing. You want a place that gives two people space and a good setting. It should also have enough going on to fill two or three days, without you having to invent your own plan. Mussoorie has plenty of places to stay. What it has less of is the right mix of privacy, outdoor access and evening atmosphere. That mix is what makes a couples trip feel different from a family holiday or a solo stay. This guide is for couples who have already chosen Mussoorie and want to know what to look for in a resort.",
     ],
   },
   details: {
@@ -39,13 +39,13 @@ const articleData = {
        <p>A bonfire, outdoor seats with blankets and a simple meal under the open sky make an evening most restaurants cannot match. For couples, the chance to stay on the property after dinner, watch the stars or sit by the fire adds something a hotel dining room simply cannot.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Sets a Glamping Couples Resort Apart from a Standard Mussoorie Hotel?</h2>
-       <p><strong>Everest Base Camp Mussoorie</strong> is a luxury glamping resort near George Everest Peak that meets all three needs above. It has just 14 rooms in seven categories, with tents and cottages spread through deodar forest, so there is natural space between guests. The setting near the peak and the Doon Valley ridge lets the scenery do its own work. And the evening belongs to the property. There is a bonfire every evening with blankets, and you can ask for a candlelit dinner at your cottage with 24 hours' notice. Honeymooners get a rose-petal welcome at no charge, and Andrew's Villa is the room most requested for honeymoons. If you have stayed in Mussoorie before and found the usual hotel flat, this is a real step up in how you live the mountain setting.</p>`,
+       <p><strong>Everest Base Camp Mussoorie</strong> is a luxury glamping resort near George Everest Peak that meets all three needs above. It has just 14 rooms in seven categories, with tents and cottages spread through deodar forest, so there is natural space between guests. The setting near the peak and the Doon Valley ridge lets the scenery do its own work. And the evening belongs to the property. There is a bonfire every evening with blankets, and you can ask for a candlelit dinner at your cottage with 24 hours' notice. Honeymooners get a rose-petal welcome at no charge, and Andrew's Villa is the room most requested for honeymoons. If you have stayed in Mussoorie before and found the usual hotel flat, this is a clear step up in how you live the mountain setting.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Which Activities Are Worth Doing as a Couple in Mussoorie?</h2>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Morning Treks Near George Everest Peak</h3>
        <p>The trek to George Everest Peak takes two to three hours at an easy pace. Couples without outdoor training can manage it. The trail runs through forest and opens onto a ridgeline with views across the Doon Valley. Go early in the morning, when the light is clearest. At EBC, the guided nature walk runs daily from 7 to 9 AM, and it is included in every stay.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Camel's Back Road Walk</h3>
-       <p>This is a three-kilometre walk along the ridge. It is quiet enough for a real conversation and scenic enough to feel worth it. It takes little effort, gives a lot back, and needs no planning. Go in the morning or the evening.</p>
+       <p>This is a three-kilometre walk along the ridge. It is quiet enough for a proper conversation and scenic enough to feel worth it. It takes little effort, gives a lot back, and needs no planning. Go in the morning or the evening.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Landour Exploration</h3>
        <p>Landour, the old cantonment, moves at a much slower pace than Mussoorie town. Spend a few hours at the Char Dukan tea stalls and among the old colonial buildings on the upper ridge. It rounds out a trip without much physical effort.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Lal Tibba Viewpoint</h3>
@@ -64,10 +64,10 @@ const articleData = {
        </ul>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">When Should You Go for a Couples Trip to Mussoorie?</h2>
-       <p><strong>Best windows:</strong> September to November brings clear skies, open trails and fewer crowds. October and November are the clearest of all. March to May brings warmth, colour and easy evenings.</p>
-       <p><strong>The monsoon, July to September:</strong> This is the quietest and most atmospheric time of year. The forest turns deep green and mist drifts through the deodars. It suits slow stays rather than long treks. Landslides can close hill roads, so check advisories before you drive and keep your plans flexible. At EBC, every tent and cottage is weather-proofed.</p>
+       <p><strong>Best windows:</strong> October and November bring the clearest skies, open trails and fewer crowds. March to May brings warmth, colour and easy evenings.</p>
+       <p><strong>The monsoon, July to September:</strong> For two people, this is the most private time of year. The forest turns deep green, mist drifts through the deodars, and every tent and cottage at EBC is weather-proofed. Plan long evenings in, not long treks. Landslides can close hill roads, so check advisories before you drive.</p>
        <p><strong>Worth considering:</strong> December and January suit couples who want a quieter, colder Mussoorie. The nights are crisp and the bonfire comes into its own. Choose a room with good heating and pack warm layers. It is a less active trip, but a memorable one.</p>
-       <p>The <a href="/rooms/" class="text-secondary underline">rooms, cottages and tents at EBC Mussoorie</a> each feel different from season to season. Picking the right window makes a real difference.</p>`,
+       <p>The <a href="/rooms/" class="text-secondary underline">rooms, cottages and tents at EBC Mussoorie</a> each feel different from season to season. Picking the right window makes a big difference.</p>`,
     ],
   },
   faqs: [

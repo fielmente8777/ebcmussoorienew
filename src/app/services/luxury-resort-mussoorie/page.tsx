@@ -64,7 +64,7 @@ const articleData = {
          <li><strong>Mall Road and Library area:</strong> The busy centre. Handy for shops and restaurants, but very crowded on weekends and holidays.</li>
          <li><strong>Landour:</strong> Above and behind the main town. Quieter and wooded, and long loved by writers and artists. Places to stay here tend to be smaller and more private.</li>
          <li><strong>Barlowganj and Bhatta Falls area:</strong> On the lower road toward Dehradun. Less crowded, with some good mid-range and boutique stays.</li>
-         <li><strong>Above the valley (Clouds End area and forest zones):</strong> The most secluded and scenic spots. <a href="/" class="text-secondary underline">EBC Mussoorie</a> is out here, in the Park Estate on Hathipaon Road on the western ridge. You get deodar, pine and rhododendron forest rather than views of the town.</li>
+         <li><strong>Above the valley (Cloud's End area and forest zones):</strong> The most secluded and scenic spots. <a href="/" class="text-secondary underline">EBC Mussoorie</a> is out here, in the Park Estate on Hathipaon Road on the western ridge. You get deodar, pine and rhododendron forest rather than views of the town.</li>
        </ul>
        <p>Where a resort sits in Mussoorie changes the whole feel of the stay.</p>`,
 
@@ -81,9 +81,9 @@ const articleData = {
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">When Should You Book, and What Happens at Peak Times?</h2>
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>April to June:</strong> Peak season. Weekend rooms at good resorts sell out two to three weeks ahead. Rates are at their highest.</li>
-         <li><strong>July to September:</strong> The monsoon. This is the quietest and most atmospheric time, with misty forest and few crowds. It suits slow stays rather than long treks. Landslides can close roads, so check advisories before you drive and keep your plans flexible.</li>
-         <li><strong>October to November:</strong> The second peak. Often the best mix of value and weather, with the clearest skies of the year.</li>
-         <li><strong>December to February:</strong> The coldest months. Some resorts cut capacity or close parts of the property. Weekday rates are lower, but they can jump around Christmas and New Year.</li>
+         <li><strong>July to September:</strong> The monsoon. Misty forest, few crowds and the easiest time to get the room you want. Plan slow days rather than long treks. Landslides can close roads, so check advisories before you drive.</li>
+         <li><strong>October to November:</strong> The second peak, with settled weather and the clearest skies of the year.</li>
+         <li><strong>December to February:</strong> The coldest months. Some resorts cut capacity or close parts of the property. Weekdays are quieter, but Christmas and New Year fill up fast.</li>
        </ul>
        <p>Whatever the season, mid-week stays are quieter and easier to book at most luxury resorts.</p>`,
     ],
@@ -92,7 +92,7 @@ const articleData = {
     {
       question: "What is the average cost of a luxury resort stay in Mussoorie?",
       answer:
-        "Premium boutique and nature resorts in Mussoorie usually charge from Rs 10,000 to Rs 25,000 a night. The rate depends on the resort, the season and what is included.",
+        "Rates vary with season, group size and inclusions; ask for an itemised quote. Compare what each rate includes, not just the headline figure.",
     },
     {
       question: "Is Mussoorie good for a luxury honeymoon stay?",
@@ -107,7 +107,7 @@ const articleData = {
     {
       question: "Are luxury Mussoorie resorts suitable for corporate group stays?",
       answer:
-        "Several resorts can host corporate groups. EBC Mussoorie hosts retreats and team offsites for groups of 8 to 48 guests, with The Den as a private event space on the estate. See our <a href='/rooms/' class='text-secondary underline'>rooms and group capacity</a> for details.",
+        "Several resorts can host corporate groups. EBC Mussoorie hosts retreats and team offsites for groups of 8 to 48 guests, with The Den as a private event space on the estate. See our <a href='/rooms/' class='text-secondary underline'>rooms</a> for details.",
     },
     {
       question: "Do luxury resorts in Mussoorie offer airport transfers?",

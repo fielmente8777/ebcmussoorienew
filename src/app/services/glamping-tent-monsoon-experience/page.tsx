@@ -12,7 +12,7 @@ const articleData = {
   metaData: {
     title: "The Glamping Tent Monsoon Experience: What It Actually Feels Like and How to Have the Best Version of It | EBC Mussoorie",
     description:
-      "The glamping tent monsoon experience: rain on canvas, misty dawns, a bonfire after the rain, and how to choose a stay that is truly monsoon-ready.",
+      "The glamping tent monsoon experience: rain on canvas, misty dawns, a bonfire after the rain, and how to choose a stay that is fully monsoon-ready.",
   },
   banner: {
     title: "The Glamping Tent Monsoon Experience",
@@ -25,7 +25,7 @@ const articleData = {
     title: "The Glamping Tent Monsoon Experience",
     description: [
       "One moment defines the glamping tent monsoon experience for most guests who have had it done right. It is 8 PM. The heavy rain that fell all afternoon has eased. The air is 14 degrees and smells of wet deodar forest and woodsmoke, a mix you find nowhere else. A bonfire has been lit in the clearing outside the tent. The valley below the ridge, hidden under cloud all afternoon, shows its lights through gaps in the drifting overcast. You sit by the fire in a fleece, holding something warm, and there is nowhere you would rather be.",
-      "That moment is real, and it is not an accident. It happens at certain places, in certain conditions, when the people who built and run the stay have made the right choices. This guide is about those choices. It shows how to find a place that makes that moment likely, not lucky. At EBC Mussoorie, the monsoon (July to September) is the quietest and most atmospheric season, and every tent and cottage is weather-proofed.",
+      "That moment is real, and it is not an accident. It happens at certain places, in certain conditions, when the people who built and run the stay have made the right choices. This guide is about those choices. It shows how to find a place that makes that moment likely, not lucky. At EBC Mussoorie, the monsoon (July to September) is the quietest and most atmospheric season, and every tent and cottage is weather-proofed. The roads need respect. Heavy rain can bring landslides and close hill roads for a day or two. Check advisories before you drive, travel in daylight and keep a spare day.",
     ],
   },
   details: {
@@ -59,7 +59,7 @@ const articleData = {
          <li><strong>10 to 11 AM:</strong> The rain starts to build. Head back to The Glamper. Sit at the door of the tent and watch cloud fill the valley below. By 11 AM the Doon Valley has vanished. You are above the cloud. The rain on the canvas begins.</li>
          <li><strong>11 AM to 4 PM:</strong> Time indoors. The drumming on the canvas. A book. If you are in the Zenith Luxury Cottage instead, its private veranda frames the monsoon forest. Lunch is a short walk to Park Cafe in your rain jacket.</li>
          <li><strong>5 PM:</strong> The rain starts to ease. The cloud in the valley begins to break. Now and then, Dehradun's lights show through the gaps.</li>
-         <li><strong>7 PM:</strong> The bonfire is set up on the estate. Everything is wet. The smell is something else. The fire is lit. Its smoke picks up the last of the moisture in the air and drifts into the forest.</li>
+         <li><strong>7 PM:</strong> The bonfire is set up on the estate. Everything is wet, and the smoke carries the smell of deodar resin as the fire catches. It drifts into the forest with the last of the damp air.</li>
          <li><strong>9 PM:</strong> The cloud has cleared, and the valley lights are fully visible below. Above you, the George Everest ridge is dark except for the soft estate lights. The fire is still burning. This is the moment.</li>
        </ul>`,
 

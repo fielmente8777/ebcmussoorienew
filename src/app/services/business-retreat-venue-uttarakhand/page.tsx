@@ -60,8 +60,8 @@ const articleData = {
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Assessment Layer Four: How easy is access, and what are the risks?</h2>
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Travel time and route:</strong> EBC Mussoorie is about 280 km from Delhi, or 5.5 to 6.5 hours by road. It is about 55 km from Jolly Grant Airport, Dehradun, roughly 1.5 hours. The airport has daily flights from Delhi, Mumbai and Bangalore.</li>
-         <li><strong>Arrival:</strong> EBC Mussoorie has direct road access and free, secure parking. If your group is coming by coach, confirm vehicle size with us first. Hill roads matter more than you might think.</li>
-         <li><strong>Seasonal risk:</strong> February to April and September to November are the most reliable windows. We stay open through the monsoon, and it is our quietest season. For July to August dates, though, heavy rain can bring landslides and road closures. Check advisories, build in a buffer day and keep plans flexible.</li>
+         <li><strong>Arrival:</strong> EBC Mussoorie has free, secure parking on site. The last stretch beyond Hathipaon is rough in places, so if your group is coming by coach, confirm vehicle size with us first.</li>
+         <li><strong>Seasonal risk:</strong> March to April and October to November are the most reliable windows. We stay open through the monsoon, and it is our quietest season. For July to August dates, though, heavy rain can bring landslides and road closures. Check advisories, build in a buffer day and keep plans flexible.</li>
          <li><strong>Cancellation terms:</strong> Get them in writing before you pay a deposit, above all for monsoon or winter dates.</li>
        </ul>`,
 
@@ -116,7 +116,7 @@ const articleData = {
     {
       question: "When should we avoid booking?",
       answer:
-        "We are open all year, so it is more about planning than avoiding. Mid-July to mid-August carries a risk of road disruption, so build in buffer time. May to June brings heavy Char Dham Yatra traffic on the approach routes. February to April and September to November are the most reliable windows.",
+        "We are open all year, so it is more about planning than avoiding. Mid-July to mid-August is the wettest stretch, so plan sessions that can move indoors. May to June brings heavy Char Dham Yatra traffic on the approach routes. March to April and October to November are the most reliable windows.",
     },
   ],
 };

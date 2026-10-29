@@ -34,7 +34,7 @@ const articleData = {
        <p><strong>Height:</strong> 1,800 to 2,400 metres<br/>
        <strong>Distance from Delhi:</strong> 280 to 360 kilometres<br/>
        <strong>Best for:</strong> Weekend trips, couples, families, work groups</p>
-       <p>This is the easiest glamping zone to reach from Delhi NCR, Chandigarh and Punjab. The Mussoorie ridge, and above all the area near George Everest Peak, has it all. The roads are good. The glamping is well set up. The setting is truly lovely, and you need no special outdoor skills to enjoy it.</p>
+       <p>This is the easiest glamping zone to reach from Delhi NCR, Chandigarh and Punjab. The Mussoorie ridge, and above all the area near George Everest Peak, has it all. The roads are good. The glamping is well set up. The setting is lovely, and you need no special outdoor skills to enjoy it.</p>
        <p><strong>Everest Base Camp Mussoorie</strong> is in this zone, at 2,160 metres on Hathipaon Road. It offers luxury tents and cottages, 14 in all, with trails close by and a bonfire every evening. A guided forest walk from 7 to 9 AM comes with every stay. This is what well-run glamping looks like in the Garhwal Highlands.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Zone 2: What do the Kumaon Highlands (Nainital, Jim Corbett edge, Mukteshwar) offer?</h2>
@@ -52,7 +52,7 @@ const articleData = {
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Zone 4: Who should head to the Higher Himalayan Zone (Chopta, Auli, Valley of Flowers buffer)?</h2>
        <p><strong>Height:</strong> 2,500 to 4,000 metres<br/>
        <strong>Distance from Delhi:</strong> 400 to 500 kilometres<br/>
-       <strong>Best for:</strong> Seasoned trekkers, people chasing real height, spiritual travel</p>
+       <strong>Best for:</strong> Seasoned trekkers, people chasing serious height, spiritual travel</p>
        <p>This zone is for travellers with time, good prep and a clear goal. Glamping here is basic, and winter is harsh. Summer and early autumn are the only practical windows. In the monsoon months, landslides can close the long roads up. Check advisories and keep spare days in hand.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What separates premium glamping from a tent with a price tag?</h2>
@@ -83,7 +83,7 @@ const articleData = {
          <li><strong>Best for first-time glampers:</strong> the Garhwal Highlands (Mussoorie belt), for reliable comfort and easy access</li>
        </ul>
        <p>The Garhwal Highlands, and the Mussoorie to Dhanaulti stretch in particular, win on what matters to most weekend travellers. That means drive time from Delhi, quality of stay and natural setting. See what a well-run glamping resort in this zone looks like on <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's accommodation page</a>.</p>
-       <p>For a closer look at the George Everest Peak area, browse <a href="/rooms/" class="text-secondary underline">the tents and cottages at EBC Mussoorie</a>. From the east-facing Zenith veranda to The Camper in the forest, each page gives detail from the ground.</p>`,
+       <p>For a closer look at the George Everest Peak area, browse <a href="/rooms/" class="text-secondary underline">the tents and cottages at EBC Mussoorie</a>. From the east-facing Zenith veranda to The Camper in the forest, the rooms page shows each one in detail.</p>`,
     ],
   },
   faqs: [
@@ -100,7 +100,7 @@ const articleData = {
     {
       question: "What is the best time for glamping in Uttarakhand?",
       answer:
-        "March to June and September to November give the most reliable weather in most zones. The monsoon, July to September, is quiet, green and misty, and suits slow stays. Check road advisories before you drive.",
+        "March to June and September to November give the most reliable weather in most zones. The monsoon, July to September, is quiet, green and misty, and suits slow stays.",
     },
     {
       question: "Are glamping properties in Uttarakhand pet-friendly?",

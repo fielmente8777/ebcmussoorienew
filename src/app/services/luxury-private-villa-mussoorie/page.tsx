@@ -63,11 +63,11 @@ const articleData = {
        <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> is a luxury glamping resort, but it also has a private villa: The Andrew's Villa, our flagship. It sits at the edge of the deodar forest, on Hathipaon Road at 2,160 m. It has its own entrance, a private terrace and its own bonfire area. Inside are a luxury king bedroom and a premium en-suite bathroom, with heating and air conditioning. The terrace looks out over a wide Himalayan panorama, and breakfast is served in the villa. It is one villa within a resort of 14 rooms, so you share the wider estate with other guests. But your entrance, terrace and fire are yours alone. Like every room, it includes breakfast for two, a guided morning walk, evening bonfire access, Wi-Fi and parking. See the villa and our other <a href="/rooms/" class="text-secondary underline">rooms, cottages and tents at EBC Mussoorie</a>.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">When Is the Best Season for a Luxury Villa Stay in Mussoorie?</h2>
-       <p>Each season gives you a truly different stay:</p>
+       <p>Each season gives you a different stay:</p>
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>April to June (before the monsoon):</strong> The warmest days and the most time outdoors. You can use the terrace from morning to evening. An evening bonfire feels festive rather than essential. Best for a first villa stay.</li>
          <li><strong>October to November (after the monsoon):</strong> Perhaps the most beautiful season. The air is clear after the rains, so mountain views from the terrace are at their sharpest. Days are crisp but not harsh. Crowds are moderate.</li>
-         <li><strong>December to February (winter):</strong> Cold, sometimes snowy, and quiet. A winter villa stay needs good heating inside, such as fireplaces or wood-burning heaters, so guests stay warm indoors. When that is in place, a winter villa stay near Mussoorie is truly special.</li>
+         <li><strong>December to February (winter):</strong> Cold, sometimes snowy, and quiet. A winter villa stay needs good heating inside, such as fireplaces or wood-burning heaters, so guests stay warm indoors. When that is in place, a winter villa stay near Mussoorie is special.</li>
          <li><strong>July to September (monsoon):</strong> Misty, green and quiet. A good villa with covered outdoor space and proper heating turns the monsoon into a mood rather than a nuisance. It is a season for slow stays, not long treks. Rain can bring landslides and road closures, so check advisories before you drive, keep plans flexible and confirm the cancellation policy before you book.</li>
        </ul>`,
 
@@ -104,7 +104,7 @@ const articleData = {
     {
       question: "What is the average nightly rate for a luxury private villa in Mussoorie?",
       answer:
-        "Premium private villa stays in Mussoorie usually cost between Rs 15,000 and Rs 40,000 a night. The rate depends on the property, the season, your group size and what is included.",
+        "Rates vary with season, group size and inclusions; ask each villa for an itemised quote.",
     },
     {
       question: "Are luxury villas in Mussoorie suitable for solo travellers?",
@@ -124,12 +124,12 @@ const articleData = {
     {
       question: "Is road access to luxury villas in Mussoorie reliable?",
       answer:
-        "The main roads to Mussoorie stay open most of the year. Side roads to some properties can close for a while after heavy snow in January or landslides in the monsoon. Check road advisories before you drive, and confirm access with the property.",
+        "The main roads to Mussoorie stay open most of the year. Side roads to some properties can close for a while after heavy snow in January or landslides in the monsoon. Confirm access with the property before you travel.",
     },
     {
       question: "What is the check‑in and check‑out norm at Mussoorie private villas?",
       answer:
-        "Most use a 12 noon check-out and a 2 to 3 PM check-in. Flexible timings are often possible when you book the whole property; ask when you book. At EBC, check-in is at 2:00 PM and check-out at 11:00 AM.",
+        "Most use a 12 noon check-out and a 2 to 3 PM check-in. Flexible timings are often possible when you book the whole property; ask when you book. At EBC, check-in is from 2:00 PM; ask about check-out timing when you book.",
     },
   ],
 };

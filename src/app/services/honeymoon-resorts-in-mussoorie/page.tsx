@@ -52,7 +52,7 @@ const articleData = {
 
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Why Choose a Luxury Glamping or Nature Resort?</h3>
        <p>This is the newest and most distinctive kind of honeymoon stay in Mussoorie. These resorts sit outside the busy town centre, inside forest estates. They offer premium rooms built around the outdoors. The forest itself is the main draw, more than any hotel facility.</p>
-       <p>EBC Mussoorie is the leading example of this kind of stay in Mussoorie. We are in the Park Estate on Hathipaon Road, close to Sir George Everest's House on the western ridge, at 2,160 m. The estate sits in deodar, pine and rhododendron forest. We have 14 rooms across seven categories, with clear, stated features that suit a honeymoon well.</p>`,
+       <p>EBC Mussoorie is a clear example of this kind of stay in Mussoorie. We are in the Park Estate on Hathipaon Road, close to Sir George Everest's House on the western ridge, at 2,160 m. The estate sits in deodar, pine and rhododendron forest. We have 14 rooms across seven categories, with clear, stated features that suit a honeymoon well.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Does EBC Mussoorie Offer Honeymoon Couples?</h2>
        <p>Here is what EBC Mussoorie offers that matters most to a honeymoon couple:</p>
@@ -78,10 +78,10 @@ const articleData = {
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">When Is the Best Time for a Mussoorie Honeymoon?</h2>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>October to November (our top pick for a honeymoon):</strong> After the rains, the air is clear. This is the best season for valley and mountain views from the estate. Days are crisp and cool, at about 8 to 18 degrees Celsius, so a bonfire evening feels truly warm. Clear skies make stargazing from the ridge a real treat. The town centre is busy but not packed.</li>
+         <li><strong>October to November (our top pick for a honeymoon):</strong> After the rains, the air is clear. This is the best season for valley and mountain views from the estate. Days are crisp and cool, at about 8 to 18 degrees Celsius, so a bonfire evening feels properly warm. Clear skies make stargazing from the ridge a treat. The town centre is busy but not packed.</li>
          <li><strong>April to June (a strong spring window):</strong> Days are warm and evenings are cool. You can do the most outdoors. The deodar forest is at its freshest green. May is peak season, so book well ahead.</li>
          <li><strong>December to February (a winter honeymoon):</strong> Cold and quiet. A chance of snow on the ridge gives this season its own look. Make sure your room is heated; all our rooms at EBC have heating. It suits couples who want a fireside honeymoon under warm blankets.</li>
-         <li><strong>July to September (a monsoon honeymoon):</strong> This is our quietest and most atmospheric season, and EBC stays open throughout. Forest mist, valley cloud and bonfire evenings are at their most dramatic, and every tent and cottage is weather-proofed. It is a season for slow stays rather than sightseeing. Rain can cause landslides and close roads, so check advisories before you drive and keep your plans flexible.</li>
+         <li><strong>July to September (a monsoon honeymoon):</strong> EBC stays open, and the estate is at its most private. Forest mist, valley cloud and bonfire evenings are at their most dramatic, and every tent and cottage is weather-proofed. Plan slow days, not sightseeing. Rain can cause landslides and close roads, so check advisories before you drive.</li>
        </ul>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Should You Ask Before Booking a Mussoorie Honeymoon Resort?</h2>
@@ -96,7 +96,7 @@ const articleData = {
        </ul>
        <p>A resort that answers these clearly and in writing deserves far more trust than one that hides behind vague "luxury experience" talk.</p>
        <p>As <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">this Hotelier India feature on EBC Mussoorie</a> describes, EBC is built around a clear idea of outdoor hospitality. The result feels quite different from a standard hotel stay.</p>
-       <p>For a first-hand account of the resort and the feel of the estate, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">this Tripoto piece on EBC Mussoorie</a> is the most grounded outside account there is.</p>`,
+       <p>For a first-hand account of the resort and the feel of the estate, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">this Tripoto piece on EBC Mussoorie</a> is a grounded outside account.</p>`,
     ],
   },
   faqs: [

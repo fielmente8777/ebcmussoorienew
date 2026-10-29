@@ -36,10 +36,10 @@ const articleData = {
        <p>A honeymoon is not mainly a sightseeing trip. It is a stay. What matters most is the setting, the privacy of your room, the quality of your evenings and the mood of the place. The number of viewpoints you tick off matters far less.</p>
        <p>At the right resort, monsoon Mussoorie gets all of those things right.</p>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>The landscape is at its greenest.</strong> In July, the Mussoorie ridge is a deep, vivid green. The deodar forest holds mist in the morning in a way no other season does. By mid-morning the valley below often fills with cloud. From a private terrace above it, a couple sees something truly striking.</li>
+         <li><strong>The landscape is at its greenest.</strong> In July, the Mussoorie ridge is a deep, vivid green. The deodar forest holds mist in the morning in a way no other season does. By mid-morning the valley below often fills with cloud. From a private terrace above it, a couple sees something striking.</li>
          <li><strong>The crowds are gone.</strong> May and June are peak season in Mussoorie. Mall Road is packed, hotels are full and the whole town feels stretched. July and August are far quieter. You get the same resort, the same view and the same forest walk, with almost no one else around.</li>
          <li><strong>The evenings are the best of the year.</strong> On many monsoon nights the rain eases by 8 or 9 PM. Then comes the bonfire, with the smell of wet deodar all around. Few evenings within 280 km of Delhi feel this intimate. It beats a busy restaurant on a crowded Mall Road by a long way.</li>
-         <li><strong>It is the quiet season.</strong> Monsoon is off-peak at most Mussoorie resorts. At EBC it is our quietest time of year, and special rates are sometimes available on request. Ask us when you enquire.</li>
+         <li><strong>It is the quiet season.</strong> Monsoon is off-peak at most Mussoorie resorts. At EBC it is our quietest time of year, so you share the estate with very few others.</li>
        </ul>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">How Do You Choose the Right Honeymoon Stay for a Mussoorie Monsoon?</h2>
@@ -76,12 +76,12 @@ const articleData = {
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">How Should You Plan the Days of a Monsoon Honeymoon in Mussoorie?</h2>
        <p>The best plan works with the weather, not against it.</p>
-       <p>A typical monsoon day in Mussoorie goes like this. Mornings are often fairly clear from about 6 to 11 AM. Cloud builds through late morning. Rain tends to fall from the afternoon into the evening, and on many days it eases by 8 or 9 PM.</p>
+       <p>A typical monsoon day in Mussoorie goes like this. Early mornings often bring mist in the forest, then a drier spell. Cloud builds by late morning. Rain tends to fall from the afternoon into the evening, and on many days it eases by 8 or 9 PM.</p>
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Day 1 (Arrival):</strong> Leave Delhi in the morning. The drive is about 280 km and takes 5.5 to 6.5 hours, so plan to reach EBC after the 2:00 PM check-in and well before dark. That leaves time to settle in and stroll the grounds. If the evening clears, spend your first night at the bonfire or at a private outdoor setup.</li>
          <li><strong>Day 2 (Full day):</strong> Start with the guided nature walk, which runs daily between 7 and 9 AM. In the monsoon mist it is the best part of the morning. Sir George Everest's old house is a short walk from the estate and looks dramatic in the fog.</li>
-         <li><strong>Day 2, late morning to evening:</strong> This is indoor time, and it is the most important thing to plan for. A resort's indoor comfort matters as much as its outdoor setting in July. Sit out on the Zenith veranda as the rain comes in, or stay snug in the Glamper with rain on the canvas. Take a long lunch at the Park Café. If the rain eases by 8 PM, the bonfire anchors the evening. A private fire, the smell of the wet forest and the valley lights showing through gaps in the cloud below: this is the moment most couples remember.</li>
-         <li><strong>Day 3 (Departure):</strong> Take one last misty walk before breakfast. Check-out is at 11:00 AM, but aim to leave by 10 AM to give yourself time on the roads.</li>
+         <li><strong>Day 2, late morning to evening:</strong> This is indoor time, and it is the most important thing to plan for. A resort's indoor comfort matters as much as its outdoor setting in July. Sit out on the Zenith veranda as the rain comes in, or stay snug in the Glamper with rain on the canvas. Take a long lunch at the Park Café. If the rain eases by 8 PM, the bonfire anchors the evening. Book a private one if you want the fire to yourselves. The smell of the wet forest and the valley lights showing through gaps in the cloud below: this is the moment most couples remember.</li>
+         <li><strong>Day 3 (Departure):</strong> Take one last misty walk before breakfast. Aim to leave by 10 AM to give yourself time on the roads.</li>
        </ul>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Should You Pack for a Monsoon Honeymoon in Mussoorie?</h2>
@@ -109,7 +109,7 @@ const articleData = {
     {
       question: "Is monsoon a good time for a Mussoorie honeymoon?",
       answer:
-        "Yes, for couples who care more about privacy and mood than a long list of sights. Monsoon Mussoorie is quieter and more intimate than May or October. It is our quietest season at EBC, and all our tents and cottages are weather-proofed. Keep plans flexible and check road advisories before you drive.",
+        "Yes, for couples who care more about privacy and mood than a long list of sights. Monsoon Mussoorie is quieter and more intimate than May or October. It is our quietest season at EBC, and all our tents and cottages are weather-proofed. Keep your plans flexible.",
     },
     {
       question: "Which is the most romantic accommodation for a monsoon honeymoon at EBC Mussoorie?",

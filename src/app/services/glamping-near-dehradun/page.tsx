@@ -46,14 +46,14 @@ const articleData = {
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Is the Dhanaulti Zone Worth the Extra Drive?</h3>
        <p>Dhanaulti sits about 24 kilometres beyond Mussoorie, at around 2,286 metres. It is quieter than Mussoorie, with eco parks and dense deodar forest, partly looked after by the Uttarakhand Forest Department. Several seasonal camps run here between September and June.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Who Is the Chakrata Zone Best For?</h3>
-       <p>Chakrata is about 90 kilometres from Dehradun, at roughly 2,118 metres. It sees far fewer visitors than Mussoorie and feels truly off the beaten path. Facilities are limited, so it suits seasoned travellers more than first-timers.</p>`,
+       <p>Chakrata is about 90 kilometres from Dehradun, at roughly 2,118 metres. It sees far fewer visitors than Mussoorie and feels off the beaten path. Facilities are limited, so it suits seasoned travellers more than first-timers.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">How Far Are These Glamping Options from Dehradun?</h2>
        <p>Clear travel distances matter when you plan a short trip.</p>
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Mussoorie Ridge (George Everest Peak area):</strong> 35 to 50 kilometres from Dehradun. About 1 to 1.5 hours by road. EBC is 35 km from the city.</li>
          <li><strong>Dhanaulti:</strong> 65 to 70 kilometres from Dehradun. About 1.5 to 2 hours.</li>
-         <li><strong>Chakrata:</strong> 88 kilometres from Dehradun. About 2.5 to 3 hours.</li>
+         <li><strong>Chakrata:</strong> about 90 kilometres from Dehradun. About 2.5 to 3 hours.</li>
        </ul>
        <p>With one night, the Mussoorie zone is the only realistic choice. With two nights or more, Dhanaulti adds variety without much more time in the car.</p>`,
 
@@ -72,7 +72,7 @@ const articleData = {
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>March to May:</strong> Comfortable temperatures, clear skies and open trails. The best window for a first glamping trip.</li>
          <li><strong>June:</strong> Heat builds in the valley before the monsoon, but the ridge stays cooler. Early June is fine. May and June are busy, so book ahead.</li>
-         <li><strong>July to September:</strong> Monsoon. This is EBC's quietest and most atmospheric season, with mist in the forest and every tent and cottage weather-proofed. Rain is frequent, trails can be slippery and some roads face landslide risk. Check advisories before you drive, keep plans flexible, and choose a slow stay over long treks.</li>
+         <li><strong>July to September:</strong> Monsoon. Mist settles in the forest, and every tent and cottage at EBC is weather-proofed. From Dehradun it is a short climb, but trails get slippery and landslides can hit the hill road. Check advisories before you drive and plan an unhurried stay.</li>
          <li><strong>October to November:</strong> Excellent conditions. Clear air after the rains, open trails and fewer crowds than the summer peak. Stargazing is at its best.</li>
          <li><strong>December to February:</strong> Cold, especially at night, with crisp evenings made for bonfires. Some places stay open all year, so check heating before you book. Every room at EBC has heating.</li>
        </ul>`,

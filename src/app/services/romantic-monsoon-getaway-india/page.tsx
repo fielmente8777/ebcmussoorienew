@@ -51,7 +51,7 @@ const articleData = {
          <li>The Andrew's Villa, the most private room on the estate, with its own entrance and bonfire terrace</li>
          <li>Bonfire access every evening, with a private fire for your room on request</li>
          <li>Park Café on the estate, on the site of Sir George Everest's old stables, for meals without a drive</li>
-         <li>A guided walk in the morning mist, between 7 and 9 AM, included with every stay</li>
+         <li>A guided walk in the morning mist, included with every stay and run daily from 7 to 9 AM</li>
        </ul>
        <p>Contact EBC Mussoorie at <a href="/" class="text-secondary underline">ebcmussoorie.com</a> to talk through monsoon dates and the right room for your trip.</p>
 
@@ -71,22 +71,22 @@ const articleData = {
        <p>A romantic monsoon stay asks more of a property than a normal hill break does. Look for five things:</p>
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Covered outdoor space of your own.</strong> A veranda, covered deck or terrace lets you sit outside while the rain falls close by. Being under shelter, with the forest dripping all around you, is the moment no indoor room can copy.</li>
-         <li><strong>A fire for the evening.</strong> The bonfire on a wet forest night is the heart of a monsoon hill stay. Ask whether the property can light one when the rain eases, and whether there is covered seating close by.</li>
+         <li><strong>A fire for the evening.</strong> The bonfire on a wet forest night is the high point of a monsoon hill stay. Ask whether the property can light one when the rain eases, and whether there is covered seating close by.</li>
          <li><strong>Good food on site.</strong> In the monsoon, you should not have to drive out for dinner. A kitchen on the grounds that can serve a quiet dinner for two keeps the stay calm and close, whatever the weather does.</li>
          <li><strong>A forest or estate setting.</strong> The scent, the sound and the look of the monsoon only come through in a forest. A hotel in the middle of a busy town centre cannot give you that, however hard it rains.</li>
          <li><strong>Small scale.</strong> Picture two hotels, each a third full. One has 14 rooms, so you share it with a few other couples. The other has 200 rooms, so you share it with dozens of strangers. Size decides how private a stay feels.</li>
        </ul>
-       <p>EBC Mussoorie has 14 rooms in seven categories, a bonfire every evening, and its own kitchen and café. Every tent and cottage is weather-proofed. That makes it a close match for this brief.</p>`,
+       <p>EBC Mussoorie has 14 rooms in seven categories, a bonfire every evening, and its own kitchen and café. Its rooms are weather-proofed. That makes it a close match for this brief.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">How Should You Plan a Romantic Monsoon Getaway?</h2>
        <p>The best plan works with the monsoon, not against it. Hill roads can close after heavy rain or a landslide. Check road and weather advisories before you set out, and keep your timings loose. Treat it as a slow stay, not a trekking trip.</p>
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Day 1 (Arrival):</strong> Arrive before dark. Check-in is from 2:00 PM. Settle in, then walk the estate if the rain allows. Have dinner at Park Café. Sit by the bonfire if the evening clears.</li>
-         <li><strong>Day 2 (Full day):</strong> Join the guided walk in the morning mist, between 7 and 9 AM. This quiet time outdoors is the heart of the trip. Take a slow breakfast. From mid-morning, stay in, with rain on the windows and the valley vanishing into cloud. In the late afternoon, step onto your deck or into the meadow as the rain eases. After dinner, the bonfire is the main event of the stay, if the weather allows.</li>
-         <li><strong>Day 3 (Departure):</strong> Take a last walk in the mist, then breakfast. Check-out is at 11:00 AM, but aim to leave by 10 AM to give yourself time for the roads.</li>
+         <li><strong>Day 2 (Full day):</strong> Join the guided walk in the morning mist. This quiet time outdoors sets the tone for the day. Take a slow breakfast. From mid-morning, stay in, with rain on the windows and the valley vanishing into cloud. In the late afternoon, step onto your deck or into the meadow as the rain eases. After dinner, the bonfire is the main event of the stay, if the weather allows.</li>
+         <li><strong>Day 3 (Departure):</strong> Take a last walk in the mist, then breakfast. Aim to be on the road by 10 AM to give yourself time for the drive down.</li>
        </ul>
-       <p>For a couple's own account of the estate and its evenings, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">this Tripoto account of EBC Mussoorie</a> is the most useful outside read.</p>
-       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> explains the resort's outdoor style of hosting. It shows why the estate suits quiet, nature-led stays for two.</p>`,
+       <p>For the practical basics, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto's guide to EBC Mussoorie</a> covers the rooms, the activities and the routes from Delhi.</p>
+       <p><a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India's feature on EBC</a> describes the resort's mix of comfort and time outdoors, from meadow picnics to barbecue dinners under the stars.</p>`,
     ],
   },
   faqs: [

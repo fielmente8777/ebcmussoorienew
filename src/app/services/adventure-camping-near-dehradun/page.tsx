@@ -44,9 +44,9 @@ const articleData = {
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Is rappelling or rock climbing an option?</h3>
        <p>Yes. Several operators in the Rishikesh and Mussoorie belt run rappelling sessions on fixed cliff faces. These are not technical climbs that need a long skills course. They are still hard on the body, and you need a head for heights. They suit fit adults and teenagers aged 14 and above.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Can you add white water rafting on the Rishikesh corridor?</h3>
-       <p>Rafting sits outside the Mussoorie glamping zone, about an hour or so beyond Dehradun. The Ganga stretch from Shivpuri to Rishikesh has Grade 2 to Grade 4 rapids, by section. Most people do it as a half-day trip. You can pair it with a night at a camp nearby. Rafting usually pauses in the monsoon, so check with your operator first.</p>
+       <p>Rafting sits outside the Mussoorie glamping zone, about an hour or so beyond Dehradun. The 16 km Shivpuri to Rishikesh stretch has Grade II and Grade III rapids. Most people do it as a half-day trip. You can pair it with a night at a camp nearby. Rafting usually pauses in the monsoon, so check with your operator first.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">What is mountain cycling like here?</h3>
-       <p>There are trail rides on the edges of Mussoorie and along the Landour ridge. This one rewards experience. Mountain roads at 2,000 metres rise and fall sharply. You need good fitness and real comfort riding on rough ground.</p>`,
+       <p>There are trail rides on the edges of Mussoorie and along the Landour ridge. This one rewards experience. Mountain roads at 2,000 metres rise and fall sharply. You need good fitness and confidence on rough ground.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Why base your adventure at a camp near George Everest Peak?</h2>
        <p>Your base decides what you can reach each morning without a car. In the Mussoorie belt, a camp near George Everest Peak gives you three things:</p>
@@ -85,7 +85,7 @@ const articleData = {
          <li>Trek grades are a guide, not a promise. Your pace, your fitness and the trail on the day all change the outcome.</li>
          <li>Mountain weather turns fast at 2,000 metres and above. Start early. Leave time to get down before the afternoon cloud rolls in.</li>
          <li>Tell your camp your route and when you expect to be back before any solo or small group trek.</li>
-         <li>Height above 2,500 metres can affect some people. Mussoorie, at around 2,160 metres, is well within a safe range for most. Still, listen to your body.</li>
+         <li>Height above 2,500 metres can affect some people. Mussoorie, at around 2,000 metres (EBC sits at 2,160 m), is well within a safe range for most. Still, listen to your body.</li>
          <li>In the monsoon, landslides can close hill roads. Check advisories before you drive, keep your plans loose, and choose shorter walks over long treks.</li>
        </ul>`,
     ],
@@ -104,12 +104,12 @@ const articleData = {
     {
       question: "What is the best season for adventure camping near Dehradun?",
       answer:
-        "March to May and September to November give the most reliable trails. The monsoon, July to September, is quiet and green, but it suits slow stays and short walks. Expect slippery paths and possible road closures, and check advisories before you drive.",
+        "March to May and September to November give the most reliable trails. The monsoon, July to September, is quiet and green, but it suits slow stays and short walks on slippery paths.",
     },
     {
       question: "How fit do I need to be for a trekking camp near Dehradun?",
       answer:
-        "For treks in the Mussoorie belt, regular walking fitness is enough. Longer routes like Nag Tibba need some real training first.",
+        "For treks in the Mussoorie belt, regular walking fitness is enough. Longer routes like Nag Tibba need some training first.",
     },
     {
       question: "Are guided treks available from glamping camps near Dehradun?",

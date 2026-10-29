@@ -33,7 +33,7 @@ const articleData = {
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Forests Near Dehradun: What Is Actually Out There?</h2>
        <p>Three distinct forest zones ring the Dehradun valley. Each has its own character, its own wildlife and its own feel for visitors.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">What Are the Shivalik Sal Forests (Lower Elevation) Like?</h3>
-       <p>The Shivalik foothills to the south and south-east of Dehradun are covered in sal (Shorea robusta), a tropical moist forest. These woods form the buffer zones of Rajaji National Park, which begins about 15 kilometres east of Dehradun. Sal forests have a look of their own. The trees are tall and straight, with a high canopy and a fairly open floor. Light falls in shafts. Dry leaves cover the ground and crunch softly underfoot.</p>
+       <p>The Shivalik foothills to the south and south-east of Dehradun are covered in sal (Shorea robusta), a tropical moist forest. These woods form the buffer zones of Rajaji National Park, which lies to the south-east of Dehradun. Sal forests have a look of their own. The trees are tall and straight, with a high canopy and a fairly open floor. Light falls in shafts. Dry leaves cover the ground and crunch softly underfoot.</p>
        <p>Wildlife in the Rajaji buffer zone includes elephant, leopard, sambar and spotted deer. Birdlife is rich too, with several kinds of hornbill. You need a permit to enter the deep forest, which the Uttarakhand Forest Department manages.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Where Do the Mussoorie Oak and Rhododendron Forests (Mid‑Elevation) Grow?</h3>
        <p>Between 1,500 and 2,100 metres, the forest changes entirely. Banj oak rules many of the slopes around Mussoorie. These forests have a denser understorey and hold more moisture. They support a very different set of birds from the Shivalik zone below. Many forest stays near Dehradun sit in or near this zone. The oak gives steady shade and cool air. The seasons show clearly here. Rhododendron bursts into red in March. The woods stay dense and green through the monsoon, and the light turns soft and golden by November.</p>
@@ -44,7 +44,7 @@ const articleData = {
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Is It Positioned Within the Forest, Not Beside It?</h3>
        <p>Some resorts use the words "forest resort" but sit on a cleared hillside with a row of planted trees. That is not a forest resort. Your room should sit inside a living forest, or right at its true edge. Look for canopy overhead, or within a 2-minute walk.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Does It Keep Light Pollution Low at Night?</h3>
-       <p>One of the most overlooked parts of a real forest stay is what happens after dark. A place that limits artificial light protects the night life of the forest near your room. It also keeps the stargazing sharp. Ask about lighting before you book. EBC sits on Hathipaon Road, where light pollution is minimal, and the Milky Way shows on clear nights.</p>
+       <p>One of the most overlooked parts of a forest stay is what happens after dark. A place that limits artificial light protects the night life of the forest near your room. It also keeps the stargazing sharp. Ask about lighting before you book. EBC sits on Hathipaon Road, where light pollution is minimal, and the Milky Way shows on clear nights.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Does It Give You Walking Trails Through Working Forest?</h3>
        <p>You have to walk inside a forest to feel it. Watching it from a terrace is not the same. Stays in the Mussoorie belt, especially near George Everest Peak, offer trails that pass through living forest.</p>
        <p><strong>Everest Base Camp Mussoorie</strong> sits in the George Everest Peak forest zone, and this kind of access is central to the stay. A guided walk runs every morning from 7 to 9 AM on deodar forest and ridge trail routes, and it is included. Read more on <a href="/activities/" class="text-secondary underline">EBC Mussoorie's activities page</a>.</p>`,
@@ -68,7 +68,7 @@ const articleData = {
     {
       question: "Are forest resorts near Dehradun open year‑round?",
       answer:
-        "Most are. EBC Mussoorie is open all year, including the monsoon (July to September), its quietest and most atmospheric season. Trails get slippery and heavy rain can close roads, so check advisories before you drive and keep plans flexible. The forest is at its most alive in these months.",
+        "Most are. EBC Mussoorie is open all year, including the monsoon (July to September), when the forest is at its most alive. Trails get slippery and heavy rain can close roads, so check advisories before you drive.",
     },
     {
       question: "What wildlife might I see near a forest resort near Dehradun?",

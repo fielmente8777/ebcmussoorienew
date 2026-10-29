@@ -24,7 +24,7 @@ const articleData = {
     title: "Resorts with Bonfires Near Dehradun",
     description: [
       "A bonfire in the hills sounds simple, until you have sat at a bad one. Think of a fire pit in a concrete yard. Or a resort that charges extra for firewood and then brings three logs. Or a fire that faces the car park instead of a forest or a valley. These letdowns are common. Travellers hope for a mood and get a transaction. This guide will help you find resorts with bonfires near Dehradun that get it right. It explains what makes a bonfire evening truly good, and when to go for the best one.",
-      "Dehradun sits in the Doon Valley at around 640 metres. Drive 35 km uphill and you reach Mussoorie, at 2,005 metres. That climb changes everything about an evening outdoors. On a clear October night in Mussoorie, it falls to around 10 to 14 degrees Celsius by 7 PM. Picture a well‑built fire with seats around it. The lights of Dehradun glow in the valley below, and a forested slope rises behind you. Few evenings within 300 km of Delhi can match it. The fire alone is not the point. It is the whole mix: the cool mountain air, the flames, the view, the food and drink, and no city noise. That mix is what people remember.",
+      "Dehradun sits in the Doon Valley at around 640 metres. Drive 35 km uphill and you reach Mussoorie, at 2,005 metres. That climb changes everything about an evening outdoors. On a clear October night in Mussoorie, it falls to around 10 to 14 degrees Celsius by 7 PM. Picture a well-built fire with seats around it. The lights of Dehradun glow in the valley below, and a forested slope rises behind you. Few evenings within 300 km of Delhi can match it. The fire alone is not the point. It is the whole mix: the cool mountain air, the flames, the view, the food and drink, and no city noise. That mix is what people remember.",
     ],
   },
   details: {
@@ -45,7 +45,7 @@ const articleData = {
        <ul class="list-disc pl-6 space-y-1">
          <li>Enough firewood for 2 to 3 hours at least</li>
          <li>Seats close enough to feel the heat, but spread out enough to dodge the smoke</li>
-         <li>A fire‑keeper who tends the fire all evening, so guests never have to</li>
+         <li>A fire-keeper who tends the fire all evening, so guests never have to</li>
        </ul>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Food and Drink by the Fire</h3>
        <p>A bonfire with hot chai, roasted corn or a set evening snack menu is a planned evening. A bonfire where the kitchen has no plan for it, and guests must ask for each thing one by one, is not.</p>
@@ -54,14 +54,14 @@ const articleData = {
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>October to February:</strong> Core bonfire season. From October on, cold evenings make a fire real warmth, not decoration.</li>
          <li><strong>March to April:</strong> Still cold enough up high for a fire to feel right in the evening.</li>
-         <li><strong>May to June:</strong> Pre‑monsoon evenings are cool enough for a fire at 2,000 metres, though it matters less than in winter.</li>
-         <li><strong>July to September:</strong> Monsoon. Rain can stop an open fire on some nights, so treat each one as a bonus. Evenings after the rain clears can be lovely. EBC stays open and calls this its quietest, most atmospheric season. Check road advisories before you drive and keep plans flexible.</li>
+         <li><strong>May to June:</strong> Pre-monsoon evenings are cool enough for a fire at 2,000 metres, though it matters less than in winter.</li>
+         <li><strong>July to September:</strong> Monsoon. Rain can stop an open fire on some nights, so treat each one as a bonus. Evenings after the rain clears can be lovely. EBC stays open through these months. Check road advisories before you drive and keep plans flexible.</li>
        </ul>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Which Resorts Near Dehradun Include a Bonfire?</h2>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Why choose the Mussoorie ridge for a bonfire?</h3>
        <p>The Mussoorie hills above Dehradun have the most good bonfire stays near the city. Properties on Hathipaon Road, along the Cloud's End stretch and in the forests above Landour light their fires among tall deodar and oak.</p>
-       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> sits at Park Estate on Hathipaon Road, at 2,160 m, about 1 to 1.5 hours from Dehradun. The bonfire is part of every stay, not an extra. It is lit every evening, with seating and blankets. Marshmallows and snacks come on request, and some nights bring live Garhwali folk music. Their <a href="/rooms/" class="text-secondary underline">cottages, villa and glamping tents</a> are planned around one idea. An evening up high, by a fire, in the forest, is the heart of the stay.</p>
+       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> sits at Park Estate on Hathipaon Road, at 2,160 m, about 1 to 1.5 hours from Dehradun. The bonfire is part of every stay, not an extra. It is lit every evening, with seating and blankets. Marshmallows and snacks come on request, and some nights bring live Garhwali folk music. Their <a href="/rooms/" class="text-secondary underline">cottages, villa and glamping tents</a> are planned around one idea. An evening up high, by a fire, in the forest, is what the stay is built around.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Are Dhanaulti and Kanatal good for bonfires?</h3>
        <p>Yes. Stays in Dhanaulti and Kanatal, above Mussoorie toward Tehri, sit higher, at 2,200 to 2,500 metres, and see fewer people. A bonfire there in October or November is colder and quieter than on the busier parts of the Mussoorie ridge.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">What is a riverside bonfire near Rishikesh like?</h3>
@@ -73,11 +73,11 @@ const articleData = {
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Check the bonfire is included:</strong> Before you book, ask plainly. Is the bonfire part of the room rate, or charged on top? Is the firewood limited, or kept going all evening? At EBC, evening bonfire access is included with every room.</li>
          <li><strong>Check where the fire sits:</strong> Ask the property where the bonfire area is, how far it is from the rooms and what it faces. Or look for guest photos of the bonfire itself.</li>
-         <li><strong>Ask about rain:</strong> What happens if it rains? Is there a covered outdoor space or an indoor fireplace instead? At EBC, The Den is a private indoor lounge on the estate.</li>
-         <li><strong>Ask for food by the fire:</strong> If you want dinner or snacks by the bonfire, ask for it when you book. Do not assume it will be offered. At EBC's Park Café, the "Barbeque in the Shadows" add‑on brings a private bonfire, a candlelit table and butler service. The kitchen's Garhwali dishes, such as kafuli, are worth asking for too.</li>
+         <li><strong>Ask about rain:</strong> What happens if it rains? Is there a covered outdoor space or an indoor fireplace instead? At EBC, The Den is a private indoor lounge on the estate that can be reserved.</li>
+         <li><strong>Ask for food by the fire:</strong> If you want dinner or snacks by the bonfire, ask for it when you book. Do not assume it will be offered. At EBC's Park Café, the "Barbeque in the Shadows" add-on brings a private bonfire, a candlelit table and butler service. The kitchen's Garhwali dishes, such as kafuli, are worth asking for too.</li>
        </ul>
-       <p>This <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto guest story about EBC Mussoorie</a> gives a traveller's view of what an outdoor evening at a premium Mussoorie hill stay looks like.</p>
-       <p>For a wider view of how hill resorts around Mussoorie plan the evening around the outdoors, this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> explains the thinking well.</p>`,
+       <p><a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto's guide to EBC Mussoorie</a> covers the tents, the café and the activities, including a barbecue on request.</p>
+       <p><a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India's feature on EBC</a> mentions picnics in the meadows and barbecue dinners under the stars.</p>`,
     ],
   },
   faqs: [
@@ -89,7 +89,7 @@ const articleData = {
     {
       question: "Are bonfires available at Mussoorie resorts year‑round?",
       answer:
-        "Many good resorts light bonfires from September through April. In May and June they are still offered, though less needed. At EBC the fire is lit every evening, weather allowing. In the monsoon, from July to September, rain can stop an outdoor fire on some nights, but EBC stays open and its tents and cottages are weather‑proofed.",
+        "Many good resorts light bonfires from September through April. In May and June they are still offered, though less needed. At EBC the fire is lit every evening, weather allowing. In the monsoon, from July to September, rain can stop an outdoor fire on some nights, but EBC stays open and its tents and cottages are weather-proofed.",
     },
     {
       question: "How far is a good bonfire resort from Dehradun city?",

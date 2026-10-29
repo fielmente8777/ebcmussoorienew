@@ -37,7 +37,7 @@ const articleData = {
          <li><strong>Privacy comes built in.</strong> Mussoorie gets far fewer visitors in July and August. At a small boutique property, that means a couple can often have the estate walk, the dining spots and the bonfire clearing to themselves. Privacy stops being something you hope for. It becomes part of the season.</li>
          <li><strong>The forest is at its most vivid.</strong> Deodar forest at 2,160 m after a night of rain has a scent you will not find in any other season. Add rain on the canopy and mist that cuts the view to 25 metres at 6 AM. Then add evening air at 14 degrees Celsius. A dry-season stay simply cannot give you that.</li>
          <li><strong>The best rooms are easier to get.</strong> In May and June, the most sought-after cottages book out early. In July, you have a far better chance at the room you really want. Couples rarely make use of this. A monsoon stay in a better room makes a better trip than a peak-season stay in an average one.</li>
-         <li><strong>The evenings are the best of the year.</strong> The monsoon here follows a pattern you can plan around. Mornings are clear or lightly overcast. Cloud builds through late morning and rain sets in by mid-afternoon. On many evenings, it clears by 8 to 9 PM. When it does, the lights of Dehradun appear below the ridge through moving cloud. Sitting by a fire in that setting is the moment most couples talk about afterwards.</li>
+         <li><strong>The evenings are the best of the year.</strong> The monsoon here follows a pattern you can plan around. Early mornings often bring mist in the forest, then a drier spell. Cloud builds by late morning, and rain tends to set in by afternoon. On many evenings, it clears by 8 to 9 PM. When it does, the lights of Dehradun appear below the ridge through moving cloud. Sitting by a fire in that setting is the moment most couples talk about afterwards.</li>
        </ul>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Must a Monsoon Couple Property Actually Have?</h2>
@@ -100,13 +100,13 @@ const articleData = {
          </table>
        </div>
        <p class="mt-4">The property has 14 rooms in all. They sleep 28 guests without extra beds and up to 50 with extra beds.</p>
-       <p>For a monsoon stay, you will spend real time indoors. For a couple, the two strongest picks are the Zenith, for its veranda and views, and Andrew's Villa, for its privacy. The Glamper is the pick if you want the sound of rain on canvas. Confirm availability with the property.</p>`,
+       <p>For a monsoon stay, you will spend long hours indoors. For a couple, the two strongest picks are the Zenith, for its veranda and views, and Andrew's Villa, for its privacy. The Glamper is the pick if you want the sound of rain on canvas. Confirm availability with the property.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Does a Monsoon Couple Itinerary That Actually Works Look Like?</h2>
-       <p><strong>Arrival day:</strong> Leave Delhi early, by about 7 AM. EBC is about 280 km away, and the drive takes 5.5 to 6.5 hours in normal conditions. The new Delhi-Dehradun Expressway can shorten the first leg. In active monsoon, allow extra time for the hill road above Dehradun. Check the weather and road advisories before you set out. Check-in is at 2:00 PM. Have a late lunch at Park Café, then walk the estate if the rain allows. After dinner, sit by the bonfire if the evening clears. Ask for kafuli or mandua ki roti from the Garhwali kitchen.</p>
+       <p><strong>Arrival day:</strong> Leave Delhi early, by about 7 AM. EBC is about 280 km away, and the drive takes 5.5 to 6.5 hours in normal conditions. The Delhi–Dehradun Expressway, inaugurated in April 2026, can shorten the first leg; check current journey times before you set out. In active monsoon, allow extra time for the hill road above Dehradun. Check-in is at 2:00 PM. Have a late lunch at Park Café, then walk the estate if the rain allows. After dinner, sit by the bonfire if the evening clears. Ask for kafuli or mandua ki roti from the Garhwali kitchen.</p>
        <p><strong>Full day:</strong> Get up at 5:45 AM. This is not optional if you want the best of a monsoon stay. The forest sits inside cloud from about 6 to 8 AM, and that window is the reason to be here. Join the guided walk, which runs daily from 7 to 9 AM. Sir George Everest's house and observatory are a short walk away. The old surveyor's estate rising out of the mist is one of the most striking sights in these hills. Have breakfast on your veranda or in your room while the cloud builds below the ridge.</p>
        <p>Mid-morning to late afternoon is indoor time. Read. Watch the valley vanish. This is not wasted time on a monsoon trip. It is the rhythm of the season. In the evening, head to the bonfire when the rain eases. Stay out longer than you plan to.</p>
-       <p><strong>Departure morning:</strong> Take one more mist walk before breakfast. Check-out is at 11:00 AM, so leave by then with a buffer for the roads. You should reach Delhi by late afternoon or early evening.</p>`,
+       <p><strong>Departure morning:</strong> Take one more mist walk before breakfast. Leave mid-morning with a buffer for the roads. You should reach Delhi by late afternoon or early evening.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Tradeoffs, Named Honestly</h2>
        <ul class="list-disc pl-6 space-y-1">
@@ -115,14 +115,14 @@ const articleData = {
          <li>Landslides can close hill roads for 24 to 48 hours after heavy rain. Check advisories before you drive, and keep your plans flexible. Read EBC's cancellation and date-change terms on the packages page before you book.</li>
          <li>Stargazing on the George Everest ridge is best from October to November and February to March. Monsoon cloud limits it.</li>
        </ul>
-       <p>EBC Mussoorie stays open right through the monsoon, which it counts as its quietest and most atmospheric season. Call ahead about road conditions before you book July or August dates. The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> gives useful context on how the property thinks about outdoor hospitality through the seasons.</p>`,
+       <p>EBC Mussoorie stays open right through the monsoon, and for two people it is the quietest the estate gets. The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> gives useful context on how the property thinks about outdoor hospitality through the seasons.</p>`,
     ],
   },
   faqs: [
     {
       question: "Is Mussoorie good for couples in monsoon?",
       answer:
-        "At the right property, yes. There is more privacy, the best rooms are easier to book, and the mist and forest are at their most vivid. The tradeoff is less sightseeing, and you should check road advisories before you drive.",
+        "At the right property, yes. There is more privacy, the best rooms are easier to book, and the mist and forest are at their most vivid. The tradeoff is less sightseeing and slower roads.",
     },
     {
       question: "Which EBC Mussoorie room is best for a couple in monsoon?",
@@ -137,7 +137,7 @@ const articleData = {
     {
       question: "How far is the property from Delhi?",
       answer:
-        "About 280 km, or 5.5 to 6.5 hours by road in normal conditions. Allow longer in active monsoon, and check road advisories before you leave.",
+        "About 280 km, or 5.5 to 6.5 hours by road in normal conditions. Allow longer in active monsoon.",
     },
     {
       question: "Is EBC Mussoorie pet-friendly?",

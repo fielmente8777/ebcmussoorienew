@@ -65,7 +65,7 @@ const articleData = {
        <p>The area around Mussoorie and George Everest Peak has some of the best spots for standalone cottages in the Garhwal hills. The shape of the ridge creates natural lines of view that cottages can be built around. The forest gives privacy between units without heavy planting.</p>
        <p>At Everest Base Camp Mussoorie, on Hathipaon Road near George Everest Peak, we offer both cottages and glamping tents. The Zenith Luxury Cottage is our signature cottage. It stands on its own in the deodar forest, with a king bedroom, a premium en-suite bathroom and a private, east-facing veranda. Breakfast is served out on the veranda, and it is one of the best sunrise spots on the estate. The Twin Luxury Cottages are two linked cottages that can be booked alone or together. Each has a king bedroom and its own en-suite bathroom, and both have Himalayan views. They share a garden terrace, so they suit larger families or two couples travelling together. All our cottages have heating and air conditioning. Every stay includes breakfast for two, a guided morning walk and the evening bonfire.</p>
        <p>This detailed piece on <a href="/services/glamping-near-mussoorie/" class="text-secondary underline">glamping and outdoor stays near George Everest Peak</a> shows what this part of the hills is like. It also covers what staying here means in each season.</p>
-       <p>Perhaps you have stayed in a standard Mussoorie hotel before and found it generic. If so, a luxury cottage in the right part of the ridge is what makes the hill station feel truly different.</p>`,
+       <p>Perhaps you have stayed in a standard Mussoorie hotel before and found it generic. If so, a luxury cottage in the right part of the ridge is what makes the hill station feel different.</p>`,
     ],
   },
   faqs: [
@@ -97,7 +97,7 @@ const articleData = {
     {
       question: "What is the best season to stay in a luxury cottage in Mussoorie?",
       answer:
-        "A cottage works well all year. It is at its best in autumn (September to November) and winter (December to February). Then solid walls give comfort that tents cannot match. In the monsoon, a cottage is also a cosy base for a slow, quiet stay.",
+        "A cottage works well all year. It is at its best in autumn (October to November) and winter (December to February). Then solid walls give comfort that tents cannot match. In the monsoon, a cottage is also a cosy base for a slow, quiet stay.",
     },
   ],
 };

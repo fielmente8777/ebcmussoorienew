@@ -23,7 +23,7 @@ const articleData = {
   intro: {
     title: "The Bonfire and the Hills",
     description: [
-      "Most people who have sat by a Mussoorie bonfire remember one moment clearly. The air has turned cold enough that the fire gives real warmth, not just a glow. Above, the sky is either clear and thick with stars or carries a slow drift of Himalayan cloud. Both put on their own show. Dinner is done, and there is no reason to move. That moment does not happen in a hotel dining room. It does not happen on a city rooftop with a gas fire pit. It needs the right height, the right open setting, a well‑built fire and room around it. This guide is about exactly that. It shows how to find a resort near Mussoorie with a bonfire that gives you this feeling. It explains why a hill bonfire differs from the city copy. And it sets out how the rest of your stay should build up to it.",
+      "Most people who have sat by a Mussoorie bonfire remember one moment clearly. The air has turned cold enough that the fire gives real warmth, not just a glow. Above, the sky is either clear and thick with stars or carries a slow drift of Himalayan cloud. Both put on their own show. Dinner is done, and there is no reason to move. That moment does not happen in a hotel dining room. It does not happen on a city rooftop with a gas fire pit. It needs the right height, the right open setting, a well-built fire and room around it. This guide is about exactly that. It shows how to find a resort near Mussoorie with a bonfire that gives you this feeling. It explains why a hill bonfire differs from the city copy. And it sets out how the rest of your stay should build up to it.",
     ],
   },
   details: {
@@ -41,18 +41,18 @@ const articleData = {
          <li><strong>Where the fire is:</strong> Is it in an open space, with seats in a ring around a central fire? Or is it a small gas fixture on a hotel terrace? The first is an evening you remember. The second is just a feature on a list.</li>
          <li><strong>The seating:</strong> Cushioned outdoor seats or solid wooden benches, with blankets, keep guests outside for hours. Poor seats send people indoors within 30 minutes. Then you lose the slow burn that makes a bonfire evening special.</li>
          <li><strong>Food and drink:</strong> Good food served by the fire makes the evening last. Fresh chai, hot snacks or a simple barbecue turn the fire from an activity into the main event.</li>
-         <li><strong>Honesty about weather:</strong> A property that promises a fire every night, with no word about weather or season, is not being straight with you. Rain, strong wind and dry‑season fire bans all affect whether a fire can be lit. A good host tells you this up front.</li>
+         <li><strong>Honesty about weather:</strong> A property that promises a fire every night, with no word about weather or season, is not being straight with you. Rain, strong wind and dry-season fire bans all affect whether a fire can be lit. A good host tells you this up front.</li>
        </ul>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">How Does the Bonfire Fit Into a Stay at Everest Base Camp Mussoorie?</h2>
        <p><strong>Everest Base Camp Mussoorie</strong> is a premium glamping resort near George Everest Peak. It treats the bonfire as a core part of every evening, not an optional extra. Bonfire access is included with every room. The fire is lit each evening, with seating and blankets laid out. Marshmallows and snacks come on request, and some nights bring live Garhwali folk music. The estate sits high on the ridge in deodar, pine and rhododendron forest. That setting gives the fire the cold air and the dark it needs.</p>
-       <p>The resort is built for guests who want the evening to count as much as the morning walk or the drive up. Cool Mussoorie air, an open fire and the forest all around create a mood that is hard to find elsewhere. Guests from Delhi NCR, Chandigarh and other big cities often name it when they explain why they came back. Couples who want a fire of their own can choose The Andrew's Villa, which has its own bonfire area.</p>
+       <p>The resort is built for guests who want the evening to count as much as the morning walk or the drive up. Cool Mussoorie air, an open fire and the forest all around create a mood that is hard to find elsewhere. EBC calls it the signature experience, the one guests remember most. Couples who want a fire of their own can choose The Andrew's Villa, which has its own bonfire area.</p>
        <p>You can see every cottage, villa and tent on <a href="/rooms/" class="text-secondary underline">Everest Base Camp Mussoorie's rooms and tents page</a>.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">How Should You Plan the Day Before a Bonfire Evening Near Mussoorie?</h2>
        <p>A bonfire evening works best after a day spent on your feet. Here is a plan that gives you the most from the night:</p>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>Morning:</strong> Join the guided nature walk, which runs daily from 7 to 9 AM. Later, walk on toward George Everest Peak. The route crosses mixed forest and opens to ridge views before you head back by mid‑morning.</li>
+         <li><strong>Morning:</strong> Join the guided nature walk, which runs daily from 7 to 9 AM. After breakfast, if you still have energy, walk on toward George Everest Peak. The route crosses mixed forest and opens to ridge views before you head back for lunch.</li>
          <li><strong>Midday:</strong> Rest, eat a proper lunch and spend time at your cottage with no plan. The quiet of a mountain afternoon is a way to unwind in itself.</li>
          <li><strong>Late afternoon:</strong> Take a short walk to a viewpoint or along the ridge before it gets cold. This is when the light over the Doon Valley is at its best for photos.</li>
          <li><strong>Evening:</strong> The fire is lit as the air cools. Food comes out. The fire builds over the next hour. Talk slows. People stop checking their phones.</li>
@@ -60,7 +60,7 @@ const articleData = {
        <p>This rhythm is why two nights is the least we would suggest for a Mussoorie bonfire stay. One night does not give you the full day that leads up to the fire.</p>
        <p>For more on the walks, the bonfire and the rest of the day around George Everest Peak, see <a href="/activities/" class="text-secondary underline">EBC Mussoorie's activities page</a>. It sets out what you can do on and around the estate.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Who Gets the Most From a Bonfire‑Centred Mountain Stay?</h2>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Who Gets the Most From a Bonfire-Centred Mountain Stay?</h2>
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Couples and honeymooners:</strong> A bonfire evening gives you a private, unhurried setting that no restaurant or hotel bar can copy.</li>
          <li><strong>Groups of friends:</strong> A fire brings people together. Groups of four to eight often call the bonfire the best memory of their Mussoorie trip.</li>
@@ -72,8 +72,8 @@ const articleData = {
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>October to February:</strong> Peak bonfire season. The cold truly calls for a fire, and the evening feels most real in these months. October and November also bring the clearest skies for stars.</li>
          <li><strong>March to May:</strong> Cool evenings make a fire pleasant, if not needed. It is still a fine evening, above all in March and April.</li>
-         <li><strong>June:</strong> Pre‑monsoon warmth softens the effect. Early evenings are milder.</li>
-         <li><strong>July to August:</strong> Monsoon. This is EBC's quietest and most atmospheric season, and all tents and cottages are weather‑proofed. Rain and wind can stop an open fire on some nights, so treat each fire as a bonus. Check road advisories before you drive and keep your plans flexible.</li>
+         <li><strong>June:</strong> Pre-monsoon warmth softens the effect. Early evenings are milder.</li>
+         <li><strong>July to September:</strong> Monsoon. This is EBC's quietest season, and the rooms are proofed against the rain. Rain and wind can stop an open fire on some nights, so treat each fire as a bonus. Landslides can close hill roads, so check advisories before you set out.</li>
        </ul>`,
     ],
   },
@@ -96,7 +96,7 @@ const articleData = {
     {
       question: "Are bonfire setups at resorts near Mussoorie safe?",
       answer:
-        "Well‑run properties keep fires in set areas with staff watching over them. Follow any safety advice the property gives you.",
+        "Well-run properties keep fires in set areas with staff watching over them. Follow any safety advice the property gives you.",
     },
     {
       question: "Can a bonfire be arranged for a group booking near Mussoorie?",

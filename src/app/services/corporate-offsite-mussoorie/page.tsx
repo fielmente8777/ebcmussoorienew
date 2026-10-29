@@ -23,7 +23,7 @@ const articleData = {
   intro: {
     title: "Corporate Offsite in Mussoorie",
     description: [
-      "Planning a corporate offsite is one of the more thankless jobs in a company. You juggle group logistics, food needs, spend sign-offs, Wi-Fi hopes, team moods and what the leaders want. You do it all at once, often on top of your real job. This guide is for the person doing that planning. It covers the Mussoorie area and why it works for an offsite. It lists what to ask a property before you commit. And it shows how to build a two-night plan that gets something done, rather than one that just fills time.",
+      "Planning a corporate offsite is one of the more thankless jobs in a company. You juggle group logistics, food needs, spend sign-offs, Wi-Fi hopes, team moods and what the leaders want. You do it all at once, often on top of your day job. This guide is for the person doing that planning. It covers the Mussoorie area and why it works for an offsite. It lists what to ask a property before you commit. And it shows how to build a two-night plan that gets something done, rather than one that just fills time.",
       "Let us start with the practical case, not the scenic one. Mussoorie is about 280 km from Delhi by road. The drive takes 5.5 to 6.5 hours, on NH58 via Roorkee or NH334 via Haridwar. Jolly Grant Airport near Dehradun has direct flights from Delhi, Mumbai and Bangalore. That matters for teams spread across cities. From the airport, EBC is about 55 km, or 1.5 hours by road. Once you are in the hills, Mussoorie offers something most Indian offsite spots do not. You get a true break from city routines, with enough set-up to run a working event. Choose well and one property can give you a meeting space, steady food, good rooms and a 2-hour forest trek. That mix is rarer than all the 'corporate retreat' labels on resort websites suggest.",
     ],
   },
@@ -37,7 +37,7 @@ const articleData = {
          <li><strong>Conference-style properties</strong> sit in or near the town. They offer hotel-standard meeting rooms, banquet halls and steady, predictable service. They work well for large groups of 50 plus, where meeting logistics drive the agenda.</li>
          <li><strong>Experience-style properties</strong> sit outside the main town. Most are boutique nature resorts or glamping properties. Groups are smaller, meetings can move outdoors, and activities are built into the stay. They work best for leadership retreats, strategy offsites and team-building, where the quality of the talk matters more than the size of the event.</li>
        </ul>
-       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> sits in the second group. It has 14 rooms in seven categories, set above the Mussoorie valley, with the activities and the stay on one estate. It takes corporate groups of 8 to 48 guests. Book the full property and no other guests are on site. It suits teams that want real engagement rather than a set-piece conference. See the <a href="/rooms/" class="text-secondary underline">rooms and retreat setup at EBC</a> to picture the space before you ask for a group proposal.</p>`,
+       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> sits in the second group. It has 14 rooms in seven categories, set above the Mussoorie valley, with the activities and the stay on one estate. It takes corporate groups of 8 to 48 guests. Book the full property and no other guests are on site. It suits teams that want working conversation rather than a set-piece conference. See the <a href="/rooms/" class="text-secondary underline">rooms and retreat setup at EBC</a> to picture the space before you ask for a group proposal.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">How Should You Build a Mussoorie Corporate Offsite Agenda?</h2>
        <p>A two-night offsite in Mussoorie works best when each half-day block has one clear purpose.</p>
@@ -61,7 +61,7 @@ const articleData = {
          <li>Which dietary needs can the kitchen meet?</li>
          <li>Will one coordinator own the logistics for your booking?</li>
        </ul>
-       <p>Get written answers to each of these before you pay a group deposit. That one step heads off about 80 per cent of the problems planners face on site.</p>`,
+       <p>Get written answers to each of these before you pay a group deposit. That one step heads off most of the problems planners face on site.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Are the Common Mistakes in Corporate Offsite Planning at Hill Destinations?</h2>
        <ul class="list-disc pl-6 space-y-1">
@@ -69,7 +69,7 @@ const articleData = {
          <li><strong>Choosing scenic over functional:</strong> Great views will not make up for weak Wi-Fi. Nor will they fix a meeting room that seats 12 when your team is 20, or a kitchen that cannot handle the group's diets. The frustration will outweigh the scenery.</li>
          <li><strong>Skipping the recce:</strong> If your company runs regular offsites, visit your shortlisted properties in person. It is worth the day trip. Photos and brochures do not show how a room sounds, its true size, or how far apart the rooms are.</li>
          <li><strong>Booking too close to the date:</strong> Good Mussoorie properties fill up 3 to 4 weeks ahead for peak-season weekends. A full property buyout needs at least 6 to 8 weeks' notice. May and June are the busiest months of all.</li>
-         <li><strong>Forgetting the monsoon roads:</strong> From July to September, landslides can close hill roads for a while. Check advisories before the team drives, and build slack into travel times. The season itself can suit a focused offsite. At EBC it is the quietest time of year, and every tent and cottage is weather-proofed.</li>
+         <li><strong>Forgetting the monsoon roads:</strong> From July to September, landslides can close hill roads for a while. Check advisories before the team drives, and build slack into travel times. The season itself can suit a focused offsite. EBC is at its quietest, so a group has few other guests around.</li>
        </ul>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Does the Mussoorie Setting Actually Do to Group Dynamics?</h2>
@@ -89,7 +89,7 @@ const articleData = {
     {
       question: "What is the average cost of a corporate offsite near Mussoorie?",
       answer:
-        "For a 2-night, 20-person group at a good experience property, plan for Rs 4 to 9 lakh in total. That covers rooms, meals, activities and group transport from Delhi. Treat it as a rough range and ask for a written quote.",
+        "Rates vary with season, group size and inclusions; ask for an itemised quote. For EBC, share your dates, headcount and agenda, and we will send one.",
     },
     {
       question: "Can we customise the team activity programme at Mussoorie properties?",
@@ -104,7 +104,7 @@ const articleData = {
     {
       question: "What is the best group size for a Mussoorie corporate offsite?",
       answer:
-        "10 to 25 people is the sweet spot for most seasoned properties. That is large enough for real group dynamics, and small enough for good facilitation and personal attention.",
+        "10 to 25 people is the sweet spot for most seasoned properties. That is large enough for group dynamics to form, and small enough for good facilitation and personal attention.",
     },
     {
       question: "Do Mussoorie properties provide group transport from Delhi?",

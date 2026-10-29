@@ -28,7 +28,7 @@ const articleData = {
   },
   details: {
     title: "What Structural Peace Means in a Mountain Resort",
-    subtitle: "A Quiet‑Focused Guide",
+    subtitle: "A Quiet-Focused Guide",
     description: [
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Makes a Mountain Resort Truly Peaceful?</h2>
        <p>Quiet is more than the absence of shouting. A peaceful resort has clear physical traits and clear house rules:</p>
@@ -50,9 +50,9 @@ const articleData = {
        <p><strong>Best for:</strong> Couples, small groups and solo travellers who want true mountain calm without the long drive to Lansdowne or Chakrata.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Can you find quiet near Hathipaon and Cloud's End, Mussoorie?</h3>
        <p>Yes. This side of Mussoorie is about 280 km from Delhi. Inside Mussoorie itself, the western ridge toward Cloud's End is as far from Mall Road noise as the town allows. Forest stays here are quiet on weekdays and easy to live with on most weekends.</p>
-       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> sits on this forested side at Park Estate, Hathipaon Road, at 2,160 m. It is well away from the busy strip that gives Mussoorie weekends their noisy name. Fourteen rooms share the estate, set among deodar, pine and rhododendron. The <a href="/rooms/" class="text-secondary underline">cottages, villa and glamping tents</a> are built around the outdoor and forest life this quieter zone allows. Mornings start with a guided walk from 7 to 9 AM. Evenings end at the bonfire.</p>
+       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> sits on this forested side at Park Estate, Hathipaon Road, at 2,160 m. It is well away from the busy strip that gives Mussoorie weekends their noisy name. Fourteen rooms share the estate, set among deodar, pine and rhododendron. The <a href="/rooms/" class="text-secondary underline">cottages, villa and glamping tents</a> are built around the outdoor and forest life this quieter zone allows. Mornings start with the guided walk, which runs daily from 7 to 9 AM. Evenings end at the bonfire.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Is Munsiyari worth the long drive for peace?</h3>
-       <p>It is the most peaceful large mountain setting you can reach by road from Delhi. But it is far. The drive takes a full day or more, so it is not a weekend trip. Munsiyari sits at 2,200 metres facing the Panchachuli range, five peaks above 6,000 metres. It sees a small share of the visitors that Mussoorie, Nainital and Rishikesh get.</p>
+       <p>It is the most peaceful large mountain setting you can reach by road from Delhi. But it is far. The drive takes a full day or more, so it is not a weekend trip. Munsiyari sits at about 2,135 metres facing the Panchachuli range, five peaks above 6,000 metres. It sees a small share of the visitors that Mussoorie, Nainital and Rishikesh get.</p>
        <p><strong>Best for:</strong> Trips of 4 to 7 nights, for people who want the deepest natural quiet in reach of Delhi.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Do Guests at Peaceful Mountain Resorts Value Most?</h2>
@@ -60,9 +60,9 @@ const articleData = {
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Better sleep.</strong> Height, cool air, real darkness and the sound of the forest add up. Most guests sleep better here than they do in the city. This is the benefit people mention most.</li>
          <li><strong>Less urge to check the phone.</strong> In some places the signal is weak. But the setting itself also plays a part. There are simply fewer things that pull your hand to your pocket.</li>
-         <li><strong>The mornings.</strong> Cool air, birdsong and soft first light make a mountain morning feel different. Guests who come back often say this is the main reason they return. At EBC, magpies are often the first sound you hear.</li>
+         <li><strong>The mornings.</strong> Cool air, birdsong and soft first light make a mountain morning feel different. Guests who come back often say this is the main reason they return. At EBC, listen for the magpies in the deodars.</li>
          <li><strong>Better talks.</strong> Couples and friends say their talks go deeper and last longer in quiet hills than the same talks would at home. With nothing around to distract you, attention stays on the person across the fire.</li>
-         <li><strong>Slower time.</strong> Many guests feel that time moves more slowly. This is a known effect. Fewer new sights and sounds, plus time in nature, make the hours feel longer.</li>
+         <li><strong>Slower time.</strong> Many guests feel that time moves more slowly. One likely reason: fewer new sights and sounds, plus time in nature, make the hours feel longer.</li>
        </ul>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">How Can You Check a Resort Is Quiet Before Booking?</h2>
@@ -75,8 +75,8 @@ const articleData = {
          <li>Do you allow amplified music on the property?</li>
        </ul>
        <p>Then read reviews from guests who stayed on weekends in peak season. If those reviews say nothing about noise, the place is quiet in fact, not just in its brochure.</p>
-       <p>For a feel of what a slow, nature-first stay near Mussoorie is like, this <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto guest story about staying at EBC Mussoorie</a> walks through it day by day.</p>
-       <p>This <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie's design</a> explains the thinking behind its calm, outdoor style of hosting. It speaks to exactly what people want from a peaceful resort.</p>`,
+       <p>For practical detail on a slow, nature-first stay near Mussoorie, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto's guide to EBC Mussoorie</a> covers the rooms, the activities and the routes.</p>
+       <p><a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India's feature on EBC</a> describes a resort that pairs outdoor time with rest and comfort. That balance is what a peaceful stay needs.</p>`,
     ],
   },
   faqs: [
@@ -110,6 +110,9 @@ const articleData = {
       answer:
         "Yes. Solo travellers often gain the most from a quiet mountain stay. It works best where the mornings have some shape, like a guided forest walk, and the rest of the day is yours.",
     },
+  ],
+  sources: [
+    { url: "https://www.mapsofindia.com/my-india/india/munsiyari-the-himalayan-town-with-views-of-five-peaks", note: "Munsiyari: 2,135 m (Pithoragarh district figure)" },
   ],
 };
 

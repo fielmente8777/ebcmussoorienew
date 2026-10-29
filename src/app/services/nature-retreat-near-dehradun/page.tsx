@@ -41,7 +41,7 @@ const articleData = {
          <li>The feel of deodar or oak forest: soft light, the smell of resin at dawn, wind high in the treetops</li>
        </ul>
        <p><strong>Best location near Dehradun:</strong> The Mussoorie hills, especially the forest along Hathipaon Road and around Cloud's End. On the eastern side, the Jabarkhet Nature Reserve near Landour offers forest trails of its own.</p>
-       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> is built on this idea. It sits at 2,160 m in deodar, pine and rhododendron forest, 35 km from Dehradun. A guided walk leaves every morning between 7 and 9 AM, and there is a bonfire every evening. Its <a href="/rooms/" class="text-secondary underline">rooms, tents and nature activities</a> show the approach clearly.</p>`,
+       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> is built on this idea. It sits at 2,160 m in deodar, pine and rhododendron forest, 35 km from Dehradun. A guided walk runs daily from 7 to 9 AM, and a bonfire is lit each evening. Its <a href="/rooms/" class="text-secondary underline">cottages, villa and tents</a> show the approach clearly.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Nature Retreat Type 2: Who Is a River and Valley Stay For?</h2>
        <p><strong>What it is:</strong> A stay on or near a Himalayan river or stream. The water shapes the mood of the place and what you do there.</p>
@@ -96,8 +96,8 @@ const articleData = {
          <li><strong>The monsoon:</strong> Forest stays come into their own in the rains, with mist and deep green. EBC stays open from July to September, its quietest season, and every tent and cottage is weather-proofed. Hill roads can close after landslides, so check advisories before you drive and keep your plans flexible.</li>
          <li><strong>When to book:</strong> Good nature retreats near Dehradun fill up 2 to 3 weeks ahead for October to November and March to June. In the off-season, most places can take last-minute bookings.</li>
        </ul>
-       <p>For a real feel of an outdoor nature stay near Mussoorie, this <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto traveller's account of EBC Mussoorie</a> tells it from a guest's side.</p>
-       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> explains the thinking behind the newer, nature-led places in the Dehradun hills.</p>`,
+       <p>For the practical basics of a forest stay near Mussoorie, see <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto's guide to EBC Mussoorie</a>. It covers the tents, the activities and the routes from Delhi.</p>
+       <p><a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India's feature on EBC</a> shows how one nature-led stay in these hills mixes outdoor adventure with comfort.</p>`,
     ],
   },
   faqs: [
@@ -114,7 +114,7 @@ const articleData = {
     {
       question: "Is a nature retreat near Dehradun suitable in the monsoon?",
       answer:
-        "Yes, if you choose the type with care. Forest stays are at their most atmospheric in the rains. EBC Mussoorie stays open through the monsoon, and its tents and cottages are weather-proofed. Rajaji is closed to day visits from mid-June to mid-November. For river stays, check water levels first. In July and August, landslides can close some hill roads, so check advisories and keep a spare day.",
+        "Yes, if you choose the type with care. Forest stays are at their most atmospheric in the rains. EBC Mussoorie stays open right through the rains. Rajaji is closed to day visits from mid-June to mid-November. For river stays, check water levels first. In July and August, allow for road delays.",
     },
     {
       question: "Can I do a nature retreat near Dehradun without a car?",

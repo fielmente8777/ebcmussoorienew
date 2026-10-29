@@ -34,19 +34,19 @@ const articleData = {
        <p>Mussoorie is a ridge town about 15 kilometres long, at around 2,000 metres above sea level. The town centres on Landour, Library Chowk and Mall Road. But the glamping sites with the best outdoor setting lie outside the town, in the forested zones that run east and west along the ridge.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Park Estate, West of Mussoorie Town: Why Is It the Strongest Zone?</h3>
        <p>The area around <strong>George Everest Peak</strong> is the strongest glamping zone near Mussoorie. It lies west of town, on the Hathipaon side. The peak sits about 6 kilometres from Library Chowk, and a trekking trail reaches it from Park Estate. The forest here is deodar, pine, oak and rhododendron. The ridge looks over the Doon Valley on one side and the Aglar river valley on the other, with Himalayan peaks to the north.</p>
-       <p><strong>Everest Base Camp Mussoorie</strong> is in this zone, at 2,160 m on Hathipaon Road. It sits near the start of the George Everest Peak trail, so you can walk straight onto it without a car. You can explore the options on <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms page</a>.</p>
+       <p><strong>Everest Base Camp Mussoorie</strong> is in this zone, at 2,160 m on Hathipaon Road. It sits close to the George Everest Peak trail, so you can reach it without a car. You can explore the options on <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms page</a>.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">What Lies Down the Road Toward Kempty?</h3>
        <p>This area sits lower down, with less dramatic ridge views than the George Everest side. Some camps here are seasonal and not permanent.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Is Dhanaulti (About 24 Kilometres Beyond Mussoorie) Worth Considering?</h3>
        <p>It is strictly beyond the "near Mussoorie" zone, but it often shows up in searches. Dhanaulti sits at 2,286 metres in dense deodar forest. It is quieter than Mussoorie and suits a slow retreat better than a packed plan.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Does Glamping Near Mussoorie Actually Provide?</h2>
-       <p>The zone right around Mussoorie, especially near George Everest Peak, has real advantages over other glamping zones in Uttarakhand:</p>
+       <p>The zone right around Mussoorie, especially near George Everest Peak, has clear advantages over other glamping zones in Uttarakhand:</p>
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>A named landmark nearby:</strong> George Everest Peak is a documented historic site with a maintained trail. Sir George Everest's House, now restored with a museum, is a couple of minutes' walk from EBC's Park Cafe. A clear goal within walking distance gives a stay purpose.</li>
          <li><strong>Real height:</strong> At around 2,000 metres, the cooler air is obvious the moment you arrive. That is higher than most Rishikesh camps and close to Dhanaulti.</li>
          <li><strong>Views on both sides:</strong> Sites on the right part of the ridge look over the Doon Valley to the south and the Himalayan foothills to the north. That double view is fairly rare in Indian hill station glamping.</li>
-         <li><strong>Access all year:</strong> The road from Dehradun to Mussoorie is kept up well enough for travel all year. That is not true of every glamping zone in Uttarakhand. In the monsoon, check advisories before you drive.</li>
+         <li><strong>Access all year:</strong> The road from Dehradun to Mussoorie is kept up well enough for travel all year. That is not true of every glamping zone in Uttarakhand.</li>
        </ul>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">How Should You Read a Glamping Listing Near Mussoorie?</h2>
@@ -63,7 +63,7 @@ const articleData = {
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>March to May:</strong> The best window overall. Mild days, cool evenings, clear skies and open trails. The most popular time for couples and weekend travellers from Delhi NCR and Chandigarh. May is busy, so book ahead.</li>
          <li><strong>June:</strong> Heat builds on the plains before the monsoon, but the Mussoorie ridge stays cooler. The first two weeks of June are still pleasant.</li>
-         <li><strong>July to September:</strong> Monsoon. This is EBC's quietest and most atmospheric season. The forest turns deep green, mist moves through the trees, and all tents and cottages are weather-proofed. Rain is steady and trails get slippery. Landslides can close roads, so check advisories before you drive and keep plans flexible. It is a time for slow stays, not long treks.</li>
+         <li><strong>July to September:</strong> Monsoon. Few visitors, deep green forest and mist through the trees. All tents and cottages at EBC are weather-proofed. Rain is steady and trails get slippery, so plan short walks. Landslides can close roads, so check advisories before you drive.</li>
          <li><strong>October to November:</strong> The second-best window, with the clearest skies of the year. There are fewer crowds than in summer, and it is ideal for morning walks and bonfire evenings.</li>
          <li><strong>December to February:</strong> Cold, with nights near or below freezing. Some places stay open with proper heating, and every room at EBC has it. It feels very different from summer, and it is well worth it for the right traveller.</li>
        </ul>
@@ -79,7 +79,7 @@ const articleData = {
     {
       question: "Is glamping near Mussoorie suitable for a one-night stay?",
       answer:
-        "Yes, though two nights give you a fuller stay, with a morning walk and an evening bonfire. At EBC, check-in is at 2 PM and check-out at 11 AM.",
+        "Yes, though two nights give you a fuller stay, with a morning walk and an evening bonfire. At EBC, check-in is from 2 PM.",
     },
     {
       question: "What is the road condition to glamping properties near Mussoorie?",
@@ -89,7 +89,7 @@ const articleData = {
     {
       question: "Are glamping properties near Mussoorie open in the monsoon?",
       answer:
-        "Some are. EBC Mussoorie stays open right through the monsoon, from July to September, with weather-proofed tents and cottages. It is the quietest and most atmospheric season. Plan fewer long walks, and check road advisories before you drive.",
+        "Some are. EBC Mussoorie stays open right through the monsoon, from July to September, with weather-proofed tents and cottages. It is the quietest and most atmospheric season. Plan fewer long walks.",
     },
     {
       question: "What is the elevation of glamping properties near Mussoorie?",

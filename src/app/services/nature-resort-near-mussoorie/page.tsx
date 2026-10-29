@@ -17,13 +17,13 @@ const articleData = {
     title: "The Natural World Around Mussoorie",
     subTitle: "What a Nature Resort Here Actually Gives You",
     description:
-      "Forest types, birds, and what a nature-first resort near Mussoorie should give you, so your time outdoors is something you remember.",
+      "Forest types, birds, and what a nature-first resort near Mussoorie should give you, so your time outdoors means more.",
     image: "/banner/bnr2.png",
   },
   intro: {
     title: "The Natural World Around Mussoorie",
     description: [
-      "Mussoorie has drawn visitors since the days of British rule. Most come for the cool air, the views and a break from the plains. Far fewer come for the life in these hills. This is where the warm foothills give way to the cooler Himalayan forest. The mix supports a rich range of plants, birds and woodland that most visitors walk past without noticing. A true nature resort near Mussoorie is not the same as a hotel with a view. It puts you inside the forest, not beside it. It also helps you understand what you are seeing, so your time outside teaches you something. This guide is for travellers who want more than mountain air. It covers what the natural world around Mussoorie holds, what a nature-first stay looks like here, and how to choose a place that keeps its promise.",
+      "Mussoorie has drawn visitors since the days of British rule. Most come for the cool air, the views and a break from the plains. Far fewer come for the life in these hills. This is where the warm foothills give way to the cooler Himalayan forest. The mix supports a rich range of plants, birds and woodland that most visitors walk past without noticing. A true nature resort near Mussoorie is not the same as a hotel with a view. It puts you inside the forest, not beside it. It also helps you understand what you are seeing, so you go home knowing the forest a little better. This guide is for travellers who want more than mountain air. It covers what the natural world around Mussoorie holds, what a nature-first stay looks like here, and how to choose a place that keeps its promise.",
     ],
   },
   details: {
@@ -64,7 +64,7 @@ const articleData = {
          <li><strong>Few rooms:</strong> Large places with 30 or more rooms bring noise and foot traffic that scare off wildlife nearby. A small property is far better for watching nature.</li>
          <li><strong>Dark skies:</strong> A place that keeps outdoor lights low after dark protects the stars, and the night life of the forest.</li>
        </ul>
-       <p><strong>Everest Base Camp Mussoorie</strong> follows this approach. It sits near George Everest Peak, where forest meets open ridge. It has just 14 rooms. A guided walk leaves every morning between 7 and 9 AM, and it is included with every stay. Naturalist guides point out birds, wildflowers and medicinal plants, and now and then a fresh pugmark in the mud. Light pollution on Hathipaon Road is low, and on clear nights you can see the Milky Way. You can see the rooms on <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms and tents page</a>.</p>`,
+       <p><strong>Everest Base Camp Mussoorie</strong> meets most of these tests. It sits near George Everest Peak, where forest meets open ridge. It has just 14 rooms. Every stay includes the guided morning walk. Naturalist guides point out birds, wildflowers and medicinal plants, and now and then a fresh pugmark in the mud. Light pollution on Hathipaon Road is low, and on clear nights you can see the Milky Way. You can see the rooms on <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms and tents page</a>.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Is the George Everest Peak Trek a Good Nature Walk?</h2>
        <p>Most people treat the George Everest Peak trek as a walk for history or views. It is also one of the best easy routes near Mussoorie for birds and plants.</p>

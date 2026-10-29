@@ -43,7 +43,7 @@ const articleData = {
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Why Do Hathipaon Road Stays Feel Calmer Than Central Mussoorie?</h2>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">How Far Are You From the Crowds?</h3>
-       <p>Mall Road on a May or October weekend is truly crowded. Hathipaon Road stays sit a few kilometres west of the busy centre. That small gap changes the whole feel of a holiday.</p>
+       <p>Mall Road on a May or October weekend is crowded. Hathipaon Road stays sit a few kilometres west of the busy centre. That small gap changes the whole feel of a holiday.</p>
        <p><strong>What this means day to day:</strong></p>
        <ul class="list-disc pl-6 space-y-1">
          <li>No street noise outside your window</li>
@@ -72,7 +72,7 @@ const articleData = {
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Cloud's End forest walk:</strong> At the western end of the road, a marked trail runs through the forest around Cloud's End. It is a proper path, not a rough track. Most guests can walk it without a guide, though a local naturalist helps a great deal with naming birds.</li>
          <li><strong>Camel's Back Road:</strong> This 3 km walking track runs from Kulri Bazaar to Library Chowk, the point where Hathipaon Road begins. It was once the town's favourite evening stroll. One rock along the way looks like a camel's hump. Go late in the day, as it is best known as a sunset walk.</li>
-         <li><strong>Sunrise on the ridge:</strong> On clear mornings, stays with east-facing terraces or gardens let you watch the sun come up without leaving the grounds. At EBC, the east-facing veranda of the Zenith cottage is the guest favourite for this.</li>
+         <li><strong>Sunrise on the ridge:</strong> On clear mornings, stays with east-facing terraces or gardens let you watch the sun come up without leaving the grounds. At EBC, the east-facing veranda of the Zenith cottage is one of the best sunrise spots.</li>
          <li><strong>Benog forest trail:</strong> You can reach the protected Benog wildlife area from the Cloud's End side of the road. The trail runs through protected forest where birds and small mammals are seen fairly often.</li>
        </ul>`,
 

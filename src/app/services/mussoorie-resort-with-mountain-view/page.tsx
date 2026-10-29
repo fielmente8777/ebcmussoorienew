@@ -41,7 +41,7 @@ const articleData = {
        </ul>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Why Does George Everest Peak Give Such Good Mountain Views?</h2>
-       <p>The ridge around George Everest Peak is open, so it gives one of the widest views near Mussoorie. Sir George Everest chose it for his home, his observatory and his lab. His house stands on a ridge with the Doon Valley on one side and the Aglar valley on the other. The Himalayan peaks rise to the north.</p>
+       <p>The ridge around George Everest Peak is open, so it gives one of the widest views near Mussoorie. Sir George Everest lived here for about eleven years, using his house as a home, observatory and laboratory. His house stands on a ridge with the Doon Valley on one side and the Aglar valley on the other. The Himalayan peaks rise to the north.</p>
        <p>On a clear October or November morning, the view runs from the lower Garhwal hills close by to the snowline far to the north. The Doon Valley lies to the south at the same time. That two-sided view is what makes this part of the ridge special.</p>
        <p>Resorts near George Everest Peak share this view. <strong>Everest Base Camp Mussoorie</strong> is one, at 2,160 m on Hathipaon Road. A morning walk from the resort up to the ridge turns a view from your room into one you have earned, from a spot with real history. See rooms close to this view at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms and tents page</a>.</p>`,
 
@@ -51,7 +51,7 @@ const articleData = {
          <li><strong>October to mid-November:</strong> The best window. The air is washed clean by the monsoon, and winter haze has not yet set in. You get the sharpest, most steady views of the year. The best hours are 6 to 9 AM, before clouds build. October and November are also the best months for sunrise at EBC.</li>
          <li><strong>February to early March:</strong> The second-best window. The cold keeps the air dry and fairly clear. The high peaks are deep in snow and stand out well. With fewer leaves on the slopes, you also see more of the lower hills.</li>
          <li><strong>March to May:</strong> Mixed. Spring brings a lovely foreground, with rhododendron in flower from March. But the air grows more humid, and by May it turns hazy. Views are best in March and early April.</li>
-         <li><strong>June to September:</strong> The peaks are mostly hidden. Monsoon cloud makes Himalayan views rare in these months. A few short clear spells come in June and early September, but you cannot count on them. The trade is a different kind of view: mist in the forest and a sea of cloud over the Doon Valley. EBC stays open through the monsoon and calls it its quietest season.</li>
+         <li><strong>June to September:</strong> The peaks are mostly hidden. Monsoon cloud makes Himalayan views rare in these months. A few short clear spells come in June and early September, but you cannot count on them. The trade is a different kind of view: mist in the forest and a sea of cloud over the Doon Valley. EBC stays open through the monsoon and calls it its quietest season. If you come then, check road advisories before you drive.</li>
        </ul>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">How Can You Check a Resort's Mountain View Claim Before Booking?</h2>
@@ -62,7 +62,7 @@ const articleData = {
          <li><strong>Can they show photos from October or November?</strong> Some places only have pictures from the lush, green monsoon. Those look great. But they do not show what the same view looks like in clear October light, when the peaks appear.</li>
          <li><strong>What lies between the room and the horizon?</strong> A nearer ridge, tall trees or other buildings can block the view. Ask what sits between your room and the mountains it claims to show.</li>
        </ul>
-       <p>The <a href="/activities/" class="text-secondary underline">EBC activities page, with its sunrise spots and ridge walks near George Everest Peak</a>, lists where to stand for each view. It is a fair test of a view claim: real places, named, with the best months.</p>`,
+       <p>The <a href="/activities/" class="text-secondary underline">sunrise spots on EBC's activities page</a> name the veranda or terrace for each view and the months when it is clearest. That is the kind of detail to ask any resort for.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Is the Doon Valley View Worth Looking For Too?</h2>
        <p>Most talk about Mussoorie views is about the peaks to the north. The Doon Valley view to the south is just as striking, and you can count on it more often.</p>

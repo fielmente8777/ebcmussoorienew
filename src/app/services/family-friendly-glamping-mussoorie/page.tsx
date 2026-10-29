@@ -18,7 +18,7 @@ const articleData = {
     title: "Family Friendly Glamping in Mussoorie",
     subTitle: "What Parents Should Know Before Booking",
     description:
-      "Glamping with children sounds either brilliant or unwise, depending on what you picture. Done well, it means a forest stay with real beds, attached bathrooms and an outdoor life children love.",
+      "Glamping with children sounds either brilliant or unwise, depending on what you picture. Done well, it means a forest stay with proper beds, attached bathrooms and an outdoor life children love.",
     image: "/banner/bnr2.png", // Replace with a family glamping banner if available
   },
   intro: {
@@ -66,7 +66,7 @@ const articleData = {
          <li><strong>Free parking on site:</strong> less hauling of bags and tired children</li>
          <li><strong>Free Wi-Fi throughout:</strong> for the honest reason that families need it</li>
          <li><strong>Pets welcome:</strong> the family dog can come too; just tell the resort in advance</li>
-         <li><strong>George Everest's House nearby:</strong> a real heritage site, a couple of minutes' walk from Park Cafe, with a story children enjoy</li>
+         <li><strong>George Everest's House nearby:</strong> a restored heritage site, a couple of minutes' walk from Park Cafe, with a story children enjoy</li>
          <li><strong>Sunrise and stars:</strong> the east-facing Zenith veranda catches the dawn, and the Milky Way shows on clear nights</li>
        </ul>`,
 
@@ -75,7 +75,7 @@ const articleData = {
          <li><strong>April to June:</strong> This lines up with school summer holidays. Warm days, cool evenings and the most time outdoors. May and June are busy, so book early.</li>
          <li><strong>October to November:</strong> The clearest skies of the year, smaller crowds and superb stargazing. Ideal if your family can travel outside school holidays.</li>
          <li><strong>December to February:</strong> Cold, with crisp nights and a chance of snow on the ridge. Pack warm clothes. Every room at EBC has heating.</li>
-         <li><strong>July to September:</strong> The quietest and most atmospheric season. The forest turns deep green and mist drifts through the trees. EBC stays open, and all tents and cottages are weather-proofed. Rain can bring landslides and road closures, so check advisories before you drive and keep plans loose. It suits a slow stay more than long walks.</li>
+         <li><strong>July to September:</strong> The quietest season, with the forest at its greenest. EBC stays open, and all tents and cottages are weather-proofed. With children, plan short walks and slow days. Rain can bring landslides and road closures, so check advisories before you drive.</li>
        </ul>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Practical Notes Should Parents Know?</h2>
@@ -83,7 +83,7 @@ const articleData = {
          <li><strong>Footwear matters more than you think.</strong> Forest paths at 2,160 m are uneven. Every child needs closed shoes with good grip.</li>
          <li><strong>Pack layers, not one warm jacket.</strong> The temperature swings a lot between the morning walk and midday.</li>
          <li><strong>Set up the morning before you arrive.</strong> The guided walk runs from 7 to 9 AM, and it is the best part of the day up here. Children who know this in advance get up for it.</li>
-         <li><strong>Bring your own indoor fun.</strong> Books, cards and games. Do not count on the resort to fill a rainy afternoon.</li>
+         <li><strong>Bring your own indoor fun.</strong> Books, cards and games. Pack them for a rainy afternoon.</li>
          <li><strong>Confirm special needs in advance.</strong> Food needs, extra bedding and pet plans all go better when agreed before you arrive, not on the day.</li>
        </ul>
        <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> covers how the resort shapes its outdoor stay. That is the part families respond to most.</p>`,
@@ -118,7 +118,7 @@ const articleData = {
     {
       question: "What outdoor activities are available for families?",
       answer:
-        "A guided forest walk every morning from 7 to 9 AM, the George Everest heritage site next door, a bonfire each evening, and barbecue and picnic setups. Children also love the bird walks and stargazing. Check what is on for your dates.",
+        "A guided forest walk every morning from 7 to 9 AM, the George Everest heritage site a couple of minutes' walk away, a bonfire each evening, and barbecue and picnic setups. Children also love the bird walks and stargazing. Check what is on for your dates.",
     },
   ],
 };

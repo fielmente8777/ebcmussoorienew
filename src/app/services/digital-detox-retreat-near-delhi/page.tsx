@@ -83,8 +83,8 @@ const articleData = {
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Where Are the Best Places for a Digital Detox Retreat Near Delhi?</h2>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Why Choose Mussoorie and the Garhwal Hills (280 km)?</h3>
-       <p>This is the closest true wild setting to Delhi for a detox stay. It is about 5.5 to 6.5 hours by road. The forest zones above Mussoorie sit well away from the busy town centre. They feel far enough from city life to let you truly switch off.</p>
-       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> sits in this zone, at 2,160 m on Hathipaon Road, in deodar, pine and rhododendron forest. The tents and cottages, the forest and the daily walks all make a real detox easy rather than a wish. The <a href="/rooms/" class="text-secondary underline">fourteen rooms, from forest tents to a private villa,</a> are built around the forest as the main event. That is just what a good detox needs.</p>
+       <p>This is the closest true wild setting to Delhi for a detox stay. It is about 5.5 to 6.5 hours by road. The forest zones above Mussoorie sit well away from the busy town centre. They feel far enough from city life to let you switch off.</p>
+       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> sits in this zone, at 2,160 m on Hathipaon Road, in deodar, pine and rhododendron forest. The tents and cottages, the forest and the daily walks all make a detox easy rather than a wish. The <a href="/rooms/" class="text-secondary underline">fourteen rooms, from forest tents to a private villa</a>, are built around the forest as the main event. That is just what a good detox needs.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Is Lansdowne (250 km) the Quietest Choice?</h3>
        <p>It is the quietest hill station within easy reach of Delhi. Mobile signal is weak in parts of the town and the forest around it. There is little trade or traffic. Forest walks, Bhulla Taal lake and the calm of the old cantonment let your mind rest. You do not need a set retreat plan for it to work.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Why Does Chakrata (320 km) Work So Well Offline?</h3>
@@ -96,13 +96,13 @@ const articleData = {
        <p>Here is a two-night, three-day digital detox retreat near Delhi that works:</p>
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Day 1, afternoon arrival:</strong> Hand over your phone, or agree to switch it off. Take a slow walk around the grounds. Get to know the outdoor setting. Watch the sunset from a good viewpoint. Have dinner, alone or with the group. End the night at the campfire, with talk in place of entertainment.</li>
-         <li><strong>Day 2, full day:</strong> 5:30 AM: an optional sunrise walk. 7 to 9 AM: a guided forest walk. At EBC this runs every morning and is part of the stay. 9 AM: breakfast. Late morning: birding, or photos with a real camera rather than a phone. Midday: rest, write in a journal, or spend loose time outdoors. 3 to 5 PM: a group activity or a solo trail. 6 PM: tea and free time on the terrace. 7:30 PM: dinner. 9 PM: stars or the campfire.</li>
+         <li><strong>Day 2, full day:</strong> 5:30 AM: an optional sunrise walk. 7 to 9 AM: a guided forest walk. At EBC this runs every morning and is part of the stay. 9 AM: breakfast. Late morning: birding, or photos with a camera rather than a phone. Midday: rest, write in a journal, or spend loose time outdoors. 3 to 5 PM: a group activity or a solo trail. 6 PM: tea and free time on the terrace. 7:30 PM: dinner. 9 PM: stars or the campfire.</li>
          <li><strong>Day 3, morning:</strong> A slow start. An optional writing or quiet sitting session. Breakfast. Then check out with a plan for going back online. Get your phone back slowly. Decide which alerts to turn off for good. Set one clear intention for life after the retreat.</li>
        </ul>
        <p>That return plan matters. A detox with no plan for coming back is just a short break. It does not change your habits.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Should You Look for in a Digital Detox Property Near Delhi?</h2>
-       <p>These features make a place truly good for a detox:</p>
+       <p>These features make a place suit a detox:</p>
        <ul class="list-disc pl-6 space-y-1">
          <li>No TV in the room</li>
          <li>No Wi-Fi in the room, or Wi-Fi you have to choose to use. EBC offers free Wi-Fi, so there the choice is yours.</li>
@@ -116,8 +116,8 @@ const articleData = {
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">How Should You Prepare for a Digital Detox Retreat?</h2>
        <p>How you prepare matters as much as the retreat itself:</p>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>One week before:</strong> Tell colleagues when you will be offline. Set an out-of-office reply. Add an emergency contact only if you truly need one. Give close family the resort's phone number for emergencies.</li>
-         <li><strong>48 hours before:</strong> Finish any truly urgent work. Get your inbox under control. Download offline maps, books or music if you plan to use them.</li>
+         <li><strong>One week before:</strong> Tell colleagues when you will be offline. Set an out-of-office reply. Add an emergency contact only if you need one. Give close family the resort's phone number for emergencies.</li>
+         <li><strong>48 hours before:</strong> Finish any urgent work. Get your inbox under control. Download offline maps, books or music if you plan to use them.</li>
          <li><strong>On arrival:</strong> Put your phone in aeroplane mode. Do not just leave it in the room. The small, physical act of switching it off works better than willpower.</li>
        </ul>
        <p>For a guest's view of a slow, outdoor stay near Mussoorie, read the <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto account of a stay at EBC Mussoorie</a> before you plan.</p>
@@ -138,7 +138,7 @@ const articleData = {
     {
       question: "Is a 2‑night digital detox long enough to make a difference?",
       answer:
-        "Research suggests that 3 nights restore attention better than 2. But 2 nights is a real start, especially if it is your first detox.",
+        "Two nights is a good start, especially for a first detox. A third night gives your attention more time to settle.",
     },
     {
       question: "Can I do a digital detox retreat near Delhi with children?",
@@ -153,7 +153,7 @@ const articleData = {
     {
       question: "Are digital detox retreats near Delhi suitable for corporate wellness programmes?",
       answer:
-        "Yes. A group detox is now a common part of corporate wellness offsites. Doing it together leads to stronger habit change afterwards than going alone. EBC hosts corporate groups of 8 to 48 guests.",
+        "Yes. A group detox is now a common part of corporate wellness offsites. Doing it together can make the new habits easier to keep afterwards. EBC hosts corporate groups of 8 to 48 guests.",
     },
   ],
 };

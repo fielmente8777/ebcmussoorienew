@@ -60,7 +60,7 @@ const articleData = {
          <li>Park Café on the estate for group meals, with full board on request</li>
          <li>A bonfire every evening, with seating and blankets</li>
          <li>Barbecue evenings on the estate</li>
-         <li>A guided forest walk every morning between 7 and 9 AM, included with every stay</li>
+         <li>A guided forest walk, run daily from 7 to 9 AM and included with every stay</li>
          <li>Sir George Everest's house a short walk away, for a morning visit with a story behind it</li>
          <li>Rooms from The Camper to The Andrew's Villa, which suits a group with a mix of seniority</li>
          <li>A dedicated EBC host for your group, and the option to book all 14 rooms so no other guests are on site</li>
@@ -87,7 +87,7 @@ const articleData = {
        <ul class="list-disc pl-6 space-y-1">
          <li>7 AM: Breakfast.</li>
          <li>8 to 10:30 AM: Wrap-up session. What are we taking back? Agree on owners, commitments and follow-up.</li>
-         <li>11 AM: Check-out, then an optional visit to George Everest House.</li>
+         <li>Late morning: Check out, then an optional visit to George Everest House.</li>
          <li>12 noon: Departure, with time in hand for the roads.</li>
        </ul>`,
 
@@ -95,14 +95,14 @@ const articleData = {
        <p>This is worth saying plainly, because a planning spreadsheet will not show it.</p>
        <p>Take a team out of the office and put it in a forest estate in the rain, and workplace rank starts to matter less. The colleague who commands the conference room walks the same wet grass path as everyone else. The quiet team member who rarely speaks in meetings often finds a voice outdoors.</p>
        <p>The George Everest setting at EBC Mussoorie adds another layer. Sir George Everest led the Great Trigonometrical Survey of India, mapping the land with rare scale and precision. That story gives a leadership team something real to talk about. It is not generic retreat scenery. It has its own identity, and a facilitator or team lead can use it on purpose.</p>
-       <p>As <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">this Hotelier India feature on EBC Mussoorie</a> describes, the resort builds its hosting around time outdoors. For a corporate retreat, that leads to a different and better kind of group dynamic.</p>`,
+       <p><a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India's feature on EBC</a> describes archery, cycling and treks alongside events and conferences. For a corporate retreat, that mix of activity and comfort shapes how a group gets on.</p>`,
     ],
   },
   faqs: [
     {
       question: "Is monsoon a viable season for a corporate team building retreat in India?",
       answer:
-        "Yes, with the right venue and a well-built programme. The monsoon brings quieter properties, a slower pace and weather that shapes the group in ways a clear-weather retreat does not. Keep travel plans flexible and check road advisories before you go.",
+        "Yes, with the right venue and a well-built programme. The monsoon brings quieter properties, a slower pace and weather that shapes the group in ways a clear-weather retreat does not. Keep travel plans flexible.",
     },
     {
       question: "What hill destinations near Delhi work best for a monsoon corporate retreat?",
@@ -122,12 +122,12 @@ const articleData = {
     {
       question: "Is EBC Mussoorie suitable for a monsoon corporate retreat?",
       answer:
-        "Yes. EBC Mussoorie stays open through the monsoon, and every tent and cottage is weather-proofed. It hosts corporate groups of 8 to 48 guests, with The Den as a private indoor space. Contact the team to check your dates and plan a programme that suits the season.",
+        "Yes. EBC Mussoorie stays open through the rains. It hosts corporate groups of 8 to 48 guests, with The Den as a private indoor space. Contact the team to check your dates and plan a programme that suits the season.",
     },
     {
       question: "What is the optimal group size for a monsoon retreat at EBC Mussoorie?",
       answer:
-        "The estate sleeps 28 guests without extra beds and up to 50 with them, across 14 rooms. Groups of about 15 to 28 are the sweet spot. That size lets you take the whole estate and still give every person real attention in sessions.",
+        "The estate sleeps 28 guests without extra beds and up to 50 with them, across 14 rooms. Groups of about 15 to 28 are the sweet spot. At that size every person gets real attention in sessions, and you can book all 14 rooms for privacy.",
     },
   ],
 };

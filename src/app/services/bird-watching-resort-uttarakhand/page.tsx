@@ -55,7 +55,7 @@ const articleData = {
        <p><strong>Best months:</strong> May to October.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What makes a resort truly good for bird watching?</h2>
-       <p>Not every resort that talks about birding can back it up. A truly birder-friendly resort has:</p>
+       <p>Not every resort that talks about birding can back it up. A birder-friendly resort has:</p>
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Forest next door, not just forest views:</strong> The property should sit in or right beside living habitat. Looking at a forest across a cleared valley is not the same.</li>
          <li><strong>Skilled guides on call:</strong> A local guide who knows the birds here by sight and call is worth more than a forest on the map. Ask about the guide and what they know.</li>

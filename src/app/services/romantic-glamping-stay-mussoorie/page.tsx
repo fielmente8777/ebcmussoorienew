@@ -12,7 +12,7 @@ const articleData = {
   metaData: {
     title: "Romantic Glamping Stay in Mussoorie: What the Format Delivers That a Hotel Cannot | EBC Mussoorie",
     description:
-      "A romantic glamping stay in Mussoorie wins on the evening fire, the morning forest walk and a deck of your own. Here is how to pick the right room at EBC.",
+      "A romantic glamping stay in Mussoorie wins on the evening fire, the morning forest walk and a veranda or deck. Here is how to pick the right room at EBC.",
   },
   banner: {
     title: "Romantic Glamping Stay in Mussoorie",
@@ -24,7 +24,7 @@ const articleData = {
   intro: {
     title: "Romantic Glamping Stay in Mussoorie",
     description: [
-      "Ask a couple what made a stay special, and they rarely name the room. They name the evening fire. They name the morning walk. They name the moment on the deck when the cloud lifted. That is why glamping, done well, has become the most romantic way to stay in Mussoorie. It is built around the very things couples remember.",
+      "Ask a couple what made a stay special, and they rarely name the room. They name the evening fire. They name the morning walk. They name the moment on the deck when the cloud lifted. That is why glamping, done well, has become one of the most romantic ways to stay in Mussoorie. It is built around the very things couples remember.",
       "This guide covers what luxury glamping means here, the four things that make it romantic, and how to pick the right room at EBC Mussoorie for your stay.",
     ],
   },
@@ -53,7 +53,7 @@ const articleData = {
        <p>Add the "Barbeque in the Shadows" evening at Park Café, or a candlelit dinner at your cottage. The dinner needs 24 hours' notice. With either one, the night has real shape, and you never need to leave the grounds.</p>
 
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Can you step straight into the morning?</h3>
-       <p>The best hours of a Mussoorie day come early. If a forest walk needs a car, most guests skip it. Here, the guided nature walk starts from the estate between 7 and 9 AM every day. It is included with every stay and takes 45 to 90 minutes on deodar forest and ridge trails.</p>
+       <p>The best hours of a Mussoorie day come early. If a forest walk needs a car, most guests skip it. Here, the guided nature walk starts from the estate and runs daily from 7 to 9 AM. It is included with every stay and takes 45 to 90 minutes on deodar forest and ridge trails.</p>
        <p>Sir George Everest's house nearby gives the walk a story. He was Surveyor General of India from 1830 to 1843. In 1856, Andrew Waugh proposed naming Peak XV after him. Today we call it Mount Everest.</p>
 
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">How does the small scale keep it private?</h3>
@@ -116,7 +116,7 @@ const articleData = {
          <li><strong>October to November:</strong> The strongest window. The air is crisp and the valley views are the clearest of the year. Clear nights bring fine stargazing near the George Everest ridge, and the bonfire evenings feel just right.</li>
          <li><strong>April to June:</strong> Warm days and cool evenings, with the most time outdoors. May and June are busy, so book early.</li>
          <li><strong>December to February:</strong> Cold, quiet and full of character. Snow on the ridge is possible. Every room has heating, and the fire matters more than ever.</li>
-         <li><strong>July to September:</strong> The monsoon is our quietest and most atmospheric season. The forest turns deep green and mist drifts through the trees. Every tent and cottage is weather-proofed. Hill roads can close after heavy rain, so check advisories before you drive and keep your plans loose.</li>
+         <li><strong>July to September:</strong> The monsoon is our quietest and most atmospheric season. The forest turns deep green and mist drifts through the trees. Rooms are weather-proofed for the rain. Hill roads can close after heavy rain, so check advisories before you drive and keep your plans loose.</li>
        </ul>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Should You Confirm Before You Book?</h2>
@@ -128,7 +128,7 @@ const articleData = {
          <li>The cancellation and date-change terms for your booking</li>
          <li>Your pet's details, since pets are welcome if you tell the resort in advance</li>
        </ul>
-       <p>For a guest's own account of the estate and its setting, the <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto trip account of EBC Mussoorie</a> is the most useful outside read.</p>`,
+       <p>For an outside overview of the rooms, activities and routes, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto's guide to EBC Mussoorie</a> is a useful read.</p>`,
     ],
   },
   faqs: [
@@ -160,7 +160,7 @@ const articleData = {
     {
       question: "How private is the property?",
       answer:
-        "Very. There are fourteen rooms in a private forest estate, with at most 28 guests without extra beds. The rooms are spread through the trees, and most have their own deck, veranda or terrace. The Twin Luxury Cottages are the one linked pair, and they share a garden terrace. There is no busy lobby and no long hotel corridor. In a hill-town hotel, your quiet depends on your neighbours. Here, it comes from the way the estate is laid out.",
+        "Very. There are fourteen rooms in a private forest estate, with at most 28 guests without extra beds. Most rooms have their own deck, veranda or terrace, and the Zenith cottage stands entirely on its own. You are not sharing a big lobby with hundreds of people. In a hill-town hotel, your quiet depends on your neighbours. Here, the small scale does much of the work.",
     },
   ],
 };

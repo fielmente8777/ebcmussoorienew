@@ -43,14 +43,14 @@ const articleData = {
 
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Criterion 3: Can you eat well without leaving?</h3>
        <p>Driving a wet mountain road for dinner with tired children can spoil an evening. A proper restaurant on site takes that stress away.</p>
-       <p><strong>Look for:</strong> a real kitchen, not just a short room service menu, and places to eat both inside and out, so you can follow the weather.</p>
+       <p><strong>Look for:</strong> a proper kitchen, not just a short room service menu, and places to eat both inside and out, so you can follow the weather.</p>
 
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Criterion 4: Is there a plan for the evening?</h3>
-       <p>Monsoon evenings are long. A resort with a real evening ritual gives the day a shape.</p>
+       <p>Monsoon evenings are long. A resort with a set evening ritual gives the day a shape.</p>
        <p><strong>Look for:</strong> bonfires, outdoor meals and barbecue setups.</p>
 
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Criterion 5: How reliable is access, and how flexible is the booking?</h3>
-       <p>After heavy rain, hill roads can be hit for a day or more. A resort that lets you change dates is taking a real risk off your hands.</p>
+       <p>After heavy rain, hill roads can be hit for a day or more. A resort that lets you change dates is taking a risk off your hands.</p>
        <p><strong>Look for:</strong> direct road access, private parking and cancellation terms in writing.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">How does Mussoorie score on these tests?</h2>
@@ -83,7 +83,7 @@ const articleData = {
              </tr>
              <tr>
                <td class="border border-secondary/20 px-4 py-2 font-medium">Access</td>
-               <td class="border border-secondary/20 px-4 py-2">Direct road access with free private parking</td>
+               <td class="border border-secondary/20 px-4 py-2">Free, secure parking on site. The last stretch beyond Hathipaon is rough in places, so confirm vehicle size with us.</td>
              </tr>
            </tbody>
          </table>
@@ -97,7 +97,7 @@ const articleData = {
          <li>Long sightseeing trips in heavy rain are not realistic. Plan one morning outing a day at most.</li>
          <li>Wide Himalayan views are not reliable in July and August. You get mist and green forest instead.</li>
          <li>Long drives to Dhanaulti, Chakrata or Rishikesh with children are best skipped in the monsoon.</li>
-         <li>EBC stays open all monsoon, and every tent and cottage is weather-proofed. Even so, landslides can close hill roads. Check advisories before you drive and keep your plans loose.</li>
+         <li>EBC stays open all monsoon, and every tent and cottage is weather-proofed. With children in the car, the roads are the risk to plan for. Landslides can close them, so check advisories the night before and again on the morning you leave.</li>
        </ul>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What does a good monsoon family day look like?</h2>
@@ -139,7 +139,7 @@ const articleData = {
     {
       question: "Should we book flexible cancellation for a monsoon family trip?",
       answer:
-        "Yes. Heavy rain can cut hill roads for a while. Flexible terms are worth a small extra cost.",
+        "Yes, where you can. Heavy rain can cut hill roads for a while. Read the cancellation and date-change terms on the packages page before you book.",
     },
     {
       question: "Is the property pet-friendly for families travelling with a dog?",

@@ -34,7 +34,7 @@ const articleData = {
        <p>Let us start with the honest list:</p>
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Space:</strong> Children need room to move. A resort where everything happens in a corridor or on a small balcony does not work for kids under 12. Open lawns, paths from your room and shared outdoor areas are a must.</li>
-         <li><strong>Nature, but not too remote:</strong> Young children need easy outdoor spaces, not wild terrain. A gentle nature path, a forest edge within five minutes' walk and safe outdoor areas cover most of what they need to feel truly outdoors.</li>
+         <li><strong>Nature, but not too remote:</strong> Young children need easy outdoor spaces, not wild terrain. A gentle nature path, a forest edge within five minutes' walk and safe outdoor areas cover most of what they need to feel outdoors.</li>
          <li><strong>The basics, done well:</strong> Clean bathrooms with hot water, reliable power, and a kitchen that can work around children's timings and tastes. Families with young children eat earlier and sleep earlier. They need more give in the day than couples or solo travellers do.</li>
          <li><strong>Activities for every age:</strong> A resort that lists only trekking and bonfires is fine for adults but falls short for families. Look for nature walks of different lengths, outdoor games and a clear shared outdoor space.</li>
          <li><strong>Safe road access:</strong> In a medical emergency, it helps to know that Dehradun, with its hospitals and pharmacies, is 35 km away. That is about 1 to 1.5 hours by road. It matters most to parents with young children or elderly relatives.</li>
@@ -42,7 +42,7 @@ const articleData = {
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Why Does the Mussoorie Belt Work So Well for Family Travel?</h2>
        <p>Mussoorie and the area around it tick most boxes for a family trip to the mountains. The George Everest Peak zone is about 1.5 hours from Dehradun. EBC sits there at 2,160 m, a height that is not a concern for healthy children. Trails range from gentle ridge walks to more active climbs of two to three hours, so each family can pick its own pace.</p>
-       <p><strong>Everest Base Camp Mussoorie</strong>, the luxury glamping resort near George Everest Peak, welcomes families. Its grounds are fully secured and give children real room to explore, not just a view from a window. The Twin Luxury Cottages and The Andrew's Villa offer the most space. You can compare the options on <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms page</a>.</p>`,
+       <p><strong>Everest Base Camp Mussoorie</strong>, the luxury glamping resort near George Everest Peak, welcomes families. Its grounds are fully secured and give children room to explore, not just a view from a window. The Twin Luxury Cottages and The Andrew's Villa offer the most space. You can compare the options on <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms page</a>.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Which Activities Work for Families Near Mussoorie?</h2>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Are Gentle Nature Walks Good for Young Children?</h3>
@@ -71,7 +71,7 @@ const articleData = {
          <li><strong>April to early June:</strong> School holidays, warm days and open trails. This is the most popular time for families from Delhi NCR, Punjab and Haryana. May and June are busy, so book ahead.</li>
          <li><strong>October to November:</strong> After the rains. Clear skies, open trails and comfortable days, with fewer crowds than in summer.</li>
          <li><strong>December to January:</strong> The winter break. Cold but manageable with the right clothes, and the crisp nights are made for bonfires. A chance of snow thrills children, but check road conditions before you travel.</li>
-         <li><strong>July to September:</strong> The monsoon is the quietest, most atmospheric season. EBC stays open, and all its tents and cottages are weather-proofed. Trails get slippery, and heavy rain can cause landslides and road closures. Check advisories before you drive, keep your plans flexible, and choose a slow stay over long treks.</li>
+         <li><strong>July to September:</strong> The monsoon empties the hills and turns the forest deep green. EBC stays open, and its tents and cottages are weather-proofed. Trails get slippery, so keep walks short for little legs. Heavy rain can cause landslides, so check advisories before you drive with the family.</li>
        </ul>`,
     ],
   },

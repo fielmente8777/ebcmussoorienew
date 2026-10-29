@@ -46,8 +46,8 @@ const articleData = {
        <p>A plan that works for most travellers from Delhi:</p>
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Friday night:</strong> Leave Delhi by 5 PM or earlier and drive to your stay. Check in, have dinner and sleep. If you will arrive late, tell the property in advance.</li>
-         <li><strong>Saturday:</strong> A full day for whatever you enjoy. Go trekking, see the sights, walk the local market, or simply stay put if the resort offers enough on its own. At EBC Mussoorie, you need not leave the estate to fill a day. The guided forest walk runs between 7 and 9 AM, and the bonfire is lit every evening.</li>
-         <li><strong>Sunday:</strong> Take a morning walk, then check out. At EBC, check-out is at 11:00 AM. Drive back and reach Delhi by evening.</li>
+         <li><strong>Saturday:</strong> A full day for whatever you enjoy. Go trekking, see the sights, walk the local market, or simply stay put if the resort offers enough on its own. At EBC Mussoorie, you need not leave the estate to fill a day. The guided forest walk runs daily from 7 to 9 AM, and the bonfire is lit every evening.</li>
+         <li><strong>Sunday:</strong> Take a morning walk, then check out. Confirm the check-out time with the team when you book. Drive back and reach Delhi by evening.</li>
        </ul>
        <p>This plan works because it does not try to do too much. Mountain weekends are best when they are not packed like a city itinerary.</p>`,
 
@@ -64,7 +64,7 @@ const articleData = {
        <p>A few things most travel guides skip:</p>
        <ul class="list-disc pl-6 space-y-1">
          <li>Book by Wednesday at the latest for weekend travel. The best places in Mussoorie fill up from Thursday onwards in summer and in October and November.</li>
-         <li>Leave Delhi before 6 AM or after 9 PM on a Friday to miss the worst traffic around Ghaziabad and Meerut.</li>
+         <li>On a Friday, leave Delhi early in the afternoon if you can, to stay ahead of the evening traffic around Ghaziabad and Meerut.</li>
          <li>Carry your own snacks for the drive. Food on the Haridwar stretch of the highway is hit and miss.</li>
          <li>In the monsoon, from July to September, check road and weather advisories before any hill drive, above all to Chakrata or Kanatal. Landslides can close roads with no warning. Keep your plans flexible, and make it a slow stay rather than a trekking trip.</li>
          <li>Pack one more warm layer than you think you need. Even in May, Mussoorie evenings drop to around 12 to 15 degrees Celsius.</li>
@@ -81,7 +81,7 @@ const articleData = {
          <li>The Library and Landour area, for quieter walks and old bookshops</li>
        </ul>
        <p>If you want to go beyond the town and stay somewhere that feels less like a tourist zone, <a href="/" class="text-secondary underline">EBC Mussoorie</a> sits away from the crowds but stays easy to reach. It is 35 km from Dehradun, and it sits beside Sir George Everest's old house in Park Estate.</p>
-       <p>To see what an outdoor mountain stay near Mussoorie looks like on the ground, read this detailed <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">trip account of EBC Mussoorie on Tripoto</a>.</p>`,
+       <p>For routes, rooms and activities at one outdoor stay near Mussoorie, read <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto's guide to EBC Mussoorie</a>.</p>`,
     ],
   },
   faqs: [
@@ -98,7 +98,7 @@ const articleData = {
     {
       question: "What is the best month for a Delhi to the mountains weekend?",
       answer:
-        "March to June and October to November are the most reliable windows for good weather and easy roads. The monsoon, from July to September, is the quietest and most atmospheric time in the hills. Go for a slow stay then, check road advisories before you drive, and keep your plans flexible.",
+        "March to June and October to November are the most reliable windows for good weather and easy roads. The monsoon, from July to September, is the quietest and most atmospheric time in the hills. Go for a slow stay then, with a little slack in your plans.",
     },
     {
       question: "Is Mussoorie safe for solo travellers?",

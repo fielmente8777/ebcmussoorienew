@@ -166,7 +166,7 @@ export const GUIDE_INDEX: { slug: string; title: string; description: string; ca
   {
     "slug": "bonfire-experience-resort-hills-india",
     "title": "Bonfire Experience at a Resort in the Hills of India: What Makes It Worth Planning Around",
-    "description": "A great hill resort bonfire needs cold air, real forest and a quiet estate. What sets it apart, the best regions in India, and how to pick the right stay.",
+    "description": "A great hill resort bonfire needs cold air, deep forest and a quiet estate. What sets it apart, the best regions in India, and how to pick the right stay.",
     "category": "Nature & experiences"
   },
   {
@@ -268,7 +268,7 @@ export const GUIDE_INDEX: { slug: string; title: string; description: string; ca
   {
     "slug": "glamping-tent-monsoon-experience",
     "title": "The Glamping Tent Monsoon Experience: What It Actually Feels Like and How to Have the Best Version of It",
-    "description": "The glamping tent monsoon experience: rain on canvas, misty dawns, a bonfire after the rain, and how to choose a stay that is truly monsoon-ready.",
+    "description": "The glamping tent monsoon experience: rain on canvas, misty dawns, a bonfire after the rain, and how to choose a stay that is fully monsoon-ready.",
     "category": "Monsoon season"
   },
   {
@@ -418,7 +418,7 @@ export const GUIDE_INDEX: { slug: string; title: string; description: string; ca
   {
     "slug": "romantic-glamping-stay-mussoorie",
     "title": "Romantic Glamping Stay in Mussoorie: What the Format Delivers That a Hotel Cannot",
-    "description": "A romantic glamping stay in Mussoorie wins on the evening fire, the morning forest walk and a deck of your own. Here is how to pick the right room at EBC.",
+    "description": "A romantic glamping stay in Mussoorie wins on the evening fire, the morning forest walk and a veranda or deck. Here is how to pick the right room at EBC.",
     "category": "Couples & honeymoon"
   },
   {

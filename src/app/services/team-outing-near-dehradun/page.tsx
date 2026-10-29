@@ -43,7 +43,7 @@ const articleData = {
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Format 3: Can a Wellness Offsite Help a Tired Team?</h2>
        <p><strong>Best for:</strong> Teams under heavy stress or close to burnout, HR wellbeing programmes, and recovery after a big project.</p>
-       <p><strong>What it involves:</strong> A light two-night stay built around rest and time in nature. Add yoga or guided meditation through local teachers, forest walks and plenty of free time. The empty schedule is the whole point.</p>
+       <p><strong>What it involves:</strong> A light two-night stay built around rest and time in nature. Add yoga or guided meditation through local teachers, forest walks and plenty of free time. The empty schedule is the purpose.</p>
        <p><strong>What to avoid:</strong> Do not turn a wellness offsite into a strategy retreat in disguise. If leaders use the wellness label to slip in a full day of presentations, the team will notice. The loss of trust will outweigh any wellbeing gain.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Format 4: The Photography and Creative Challenge</h2>
@@ -52,7 +52,7 @@ const articleData = {
        <p>A guided talk about the photos sparks conversations that a normal team session rarely does. This format works best at nature properties near Dehradun, where the landscape gives real variety. At EBC, deodar forest, ridge trails and over 50 recorded bird species give every photographer plenty to work with.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Format 5: Is an Overnight Trek Too Much for Your Team?</h2>
-       <p><strong>Best for:</strong> Teams of 8 to 20, active groups, and companies that want an outing people will talk about for years.</p>
+       <p><strong>Best for:</strong> Teams of 8 to 20, active groups, and companies that want an outing that stays with people.</p>
        <p><strong>What it involves:</strong> An overnight trek on a set route in the Mussoorie or Chakrata area. Nag Tibba, at 3,022 metres, is the easiest overnight summit trek from Mussoorie. Its trail is well kept, and most fit people can manage it with some preparation. A local trekking operator provides the guide, camping gear and meals on the trail.</p>
        <p><strong>Critical note:</strong> Tell the team well ahead how fit they need to be. Never spring an overnight trek on a group that has not been told to prepare. It creates medical risk and resentment in equal measure. Save this format for the drier months, not the monsoon.</p>`,
 
@@ -75,7 +75,7 @@ const articleData = {
          <li>If the property is not running the activities, book the operators yourself.</li>
          <li>Send dietary and medical needs to the property kitchen at least one week in advance.</li>
          <li>Name one person from the planning team as the on-site coordinator for the day.</li>
-         <li>In the monsoon, check road and weather advisories before the group sets off, and keep the plan flexible.</li>
+         <li>In the monsoon, build a spare half-day into the plan.</li>
        </ul>`,
     ],
   },
@@ -98,7 +98,7 @@ const articleData = {
     {
       question: "Are there team outing venues near Dehradun that handle their own facilitation?",
       answer:
-        "Some do. <a href='/activities/' class='text-secondary underline'>EBC Mussoorie</a> builds outdoor time into the stay itself, with guided walks and bonfire evenings. For formal work, such as personality tests or leadership tools, bring your own trainer.",
+        "Some do. <a href='/activities/' class='text-secondary underline'>EBC Mussoorie's activities</a> show how the resort builds outdoor time into the stay itself, with guided walks and bonfire evenings. For formal work, such as personality tests or leadership tools, bring your own trainer.",
     },
     {
       question: "What is a reasonable per‑person budget for a 2‑night team outing near Dehradun?",

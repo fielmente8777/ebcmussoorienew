@@ -34,8 +34,8 @@ const articleData = {
        <p>Before we recommend anything, the tests matter. A weekend near Dehradun is only worth it when three things are true at once.</p>
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>The drive should not eat the weekend.</strong> A resort more than 90 minutes from Dehradun on a winding hill road takes all of Friday evening to reach. It takes all of Sunday to leave. What is left is barely time to settle in. <strong>Everest Base Camp Mussoorie</strong> is 35 km from Dehradun. The drive takes 1 to 1.5 hours on a normal day. You arrive with your weekend intact.</li>
-         <li><strong>The setting should feel truly different from the city.</strong> A hill station hotel is really a city hotel at height. It does not justify a weekend away. It just moves you. What we offer instead is a living forest at 2,160 metres, among deodar, pine and rhododendron near George Everest Peak. The air, the cool, the quiet and the views are all a world apart from the Dehradun valley floor.</li>
-         <li><strong>The outdoors should be part of the stay, not handed to an operator.</strong> For most travellers, the best weekend resort near Dehradun is one where you need no extra car, no outside guide and no drive to somewhere else. At EBC Mussoorie, the main walk, toward George Everest Peak, starts from the property itself.</li>
+         <li><strong>The setting should feel different from the city.</strong> A hill station hotel is really a city hotel at height. It does not justify a weekend away. It just moves you. What we offer instead is a living forest at 2,160 metres, among deodar, pine and rhododendron near George Everest Peak. The air, the cool, the quiet and the views are all a world apart from the Dehradun valley floor.</li>
+         <li><strong>The outdoors should be part of the stay, not handed to an operator.</strong> For most travellers, the best weekend resort near Dehradun is one where you need no extra car, no outside guide and no drive to somewhere else. At EBC Mussoorie, the guided morning walk starts on the estate, and the George Everest Peak trail begins close by.</li>
        </ul>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What does Everest Base Camp Mussoorie offer?</h2>
@@ -44,8 +44,8 @@ const articleData = {
        <p>We are built on one idea. The best weekend resort near Dehradun is not the one with the most extras. It is the one where the setting does the work. Nature, height, time outdoors and a good bonfire evening give you what a spa menu or a rooftop pool cannot.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Why does being near George Everest Peak matter?</h2>
-       <p>George Everest Peak takes its name from Sir George Everest. He led the Great Trigonometrical Survey of India from 1823 and was Surveyor General of India from 1830 to 1843. He also lived on this ridge, at Park House, for about 11 years. The peak sits at about 2,000 metres. A kept trail climbs to it from Park Estate, near Mussoorie.</p>
-       <p>For weekend guests from Dehradun, this is a real practical edge. Most hill resorts near Dehradun mean a separate day trip to trek, or a tour that takes you away from your stay. The George Everest Peak trail starts close to EBC Mussoorie. It is a 2 to 3-hour return walk. So your morning is planned with no extra effort.</p>
+       <p>George Everest Peak takes its name from Sir George Everest. He led the Great Trigonometrical Survey of India from 1823 and was Surveyor General of India from 1830 to 1843. He also lived on this ridge, at Park House, for about 11 years. The peak rises a little above the estate. A kept trail climbs to it from Park Estate, near Mussoorie.</p>
+       <p>For weekend guests from Dehradun, this is a practical edge. Most hill resorts near Dehradun mean a separate day trip to trek, or a tour that takes you away from your stay. The George Everest Peak trail starts close to EBC Mussoorie. It is a 2 to 3-hour return walk. So your morning is planned with no extra effort.</p>
        <p>From the top, the view takes in the Doon Valley to the south. On clear autumn and winter mornings, you can see the Himalayan snowline to the north. These views are not a bonus. They are why we chose this place.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What does a weekend itinerary at EBC Mussoorie look like?</h2>
@@ -53,19 +53,19 @@ const articleData = {
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Saturday:</strong> Leave Dehradun by late morning. Stop for lunch at Park Café, on the estate where Sir George Everest once kept his stables. Check in from 2:00 PM and get to know the grounds. Take a short walk on the lower trail near the property. Gather at the evening bonfire and have dinner outside as the air cools after sunset. Spend your first night in the forest at 2,160 metres.</li>
          <li><strong>Sunday:</strong> Set off for George Everest Peak by 6:30 AM, for the best light. If you prefer a guide, join the morning nature walk from 7 to 9 AM instead. Return by 9:30 to 10:00 AM for a late breakfast. Rest at midday, or take a short walk through the deodar forest. In the afternoon, you could drive across town to Landour Bazaar or the Lal Tibba viewpoint. End with a second bonfire evening and dinner.</li>
-         <li><strong>Monday:</strong> Watch the sunrise from the ridge or from your own veranda. The Zenith veranda faces east. Check out by 11:00 AM and be back in Dehradun by early afternoon.</li>
+         <li><strong>Monday:</strong> Watch the sunrise from the ridge or from your own veranda. The Zenith veranda faces east. Check out after breakfast and be back in Dehradun by early afternoon.</li>
        </ul>
        <p>This plan is neither rushed nor padded. It makes good use of two nights. It gets Dehradun guests home early on Monday afternoon.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Who is this resort near Dehradun best for?</h2>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Is it right for couples and honeymooners?</h3>
-       <p>Couples need real privacy, a lovely setting and an evening that belongs to the outdoors. Our forest stays, the open ridge and the nightly bonfire give you exactly that. Honeymooners get a rose-petal welcome, and a candlelit dinner at your cottage can be set up with a day's notice. For a romantic weekend near Dehradun, this is the format that works.</p>
+       <p>Couples need privacy, a lovely setting and an evening that belongs to the outdoors. Our forest stays, the open ridge and the nightly bonfire give you exactly that. Honeymooners get a rose-petal welcome, and a candlelit dinner at your cottage can be set up with a day's notice. For a romantic weekend near Dehradun, this is the format that works.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Does it work for families with older children?</h3>
        <p>Children aged ten and above with normal outdoor fitness can manage the George Everest Peak trek. The open grounds give younger guests room to roam. And because Dehradun is close, medical help stays within easy reach if you need it.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Can it host corporate and small group offsites?</h3>
-       <p>Teams from Dehradun gain a lot from a weekend offsite in the forest. They get time outdoors, a bonfire that brings people together and real distance from the office. We host groups of 8 to 48 guests, and the full property can be booked.</p>
+       <p>Teams from Dehradun gain a lot from a weekend offsite in the forest. They get time outdoors, a bonfire that brings people together and distance from the office. We host groups of 8 to 48 guests, and the full property can be booked.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Is it good for young professionals and remote workers?</h3>
-       <p>Dehradun has a growing number of professionals, many in tech and services. They work in the city and spend weekends in the hills. A luxury resort near Dehradun with real comfort, free Wi-Fi and trails close by suits them well.</p>`,
+       <p>Dehradun has a growing number of professionals, many in tech and services. They work in the city and spend weekends in the hills. A luxury resort near Dehradun with good rooms, free Wi-Fi and trails close by suits them well.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">When is the best time to visit for a weekend?</h2>
        <p>The seasons are not equal at 2,160 metres.</p>
@@ -73,9 +73,9 @@ const articleData = {
          <li><strong>October to November:</strong> After the rains, the air is at its clearest. These months bring the best mountain views of the year. Trails are in great shape. Bonfires feel best, as the cold sets in fast after sunset. This is the strongest window for a weekend away from Dehradun.</li>
          <li><strong>March to May:</strong> Spring brings warm afternoons. Rhododendrons bloom through March and April. This is a strong second window for time outdoors.</li>
          <li><strong>December to February:</strong> Cold, with nights near or below freezing. With proper heating, a winter stay in the mountains is one to remember. Best for people who want a cold-weather glamping trip.</li>
-         <li><strong>July to September:</strong> The monsoon. This is our quietest and most atmospheric season, and every tent and cottage is weather-proofed. Trails get slippery, so keep walks short. Heavy rain can cause landslides and slow the roads. Check advisories before you drive, keep your plans flexible, and treat it as a slow stay rather than a trekking trip.</li>
+         <li><strong>July to September:</strong> The monsoon. Mist fills the deodars, the estate is at its quietest and every tent and cottage is weather-proofed. Trails get slippery, so keep walks short. The drive from Dehradun is short, but a landslide can close the hill road, so check the advisory before you set off.</li>
        </ul>
-       <p>As this piece on <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">adventure in the heart of Mussoorie with EBC Mussoorie</a> shows, the stay changes a lot with the season. Picking the right window makes a real difference.</p>
+       <p>As this piece on <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">adventure in the heart of Mussoorie with EBC Mussoorie</a> shows, the stay changes a lot with the season. Picking the right window makes a big difference.</p>
        <p>If you come by train or plane from outside Uttarakhand, Dehradun is the natural starting point. Before you travel, browse <a href="/rooms/" class="text-secondary underline">the tents, cottages and villa at EBC Mussoorie</a> to choose your stay.</p>`,
     ],
   },

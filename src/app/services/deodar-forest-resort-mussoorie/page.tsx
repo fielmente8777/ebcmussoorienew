@@ -40,8 +40,8 @@ const articleData = {
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Hathipaon Road and the Cloud's End area:</strong> The west end of the ridge has some of the densest, oldest cedar cover left near the town. Properties along Hathipaon Road sit inside or beside this forest. EBC Mussoorie is one of them, on Park Estate. This stretch sees far fewer visitors than Mall Road. It keeps a forest feel that the busy town centre has lost.</li>
          <li><strong>Jabarkhet Nature Reserve (beyond Landour):</strong> A private nature reserve past Landour, with nature trails and good birdwatching. Properties near Jabarkhet have its protected forest right on their doorstep.</li>
-         <li><strong>Benog, west of the town:</strong> The Benog wildlife reserve lies about 11 km from Mussoorie, out past Cloud's End towards Benog Tibba. It forms part of Rajaji National Park and protects a tract of forest with plenty of deodar and oak.</li>
-         <li><strong>Chakrata forest zone (90 km from Dehradun):</strong> If you want the densest cedar forest, go to Chakrata. Not even the best parts of Mussoorie match its scale. The forest around Chakrata and Deoban, whose name means "deodar forest", is among the finest cedar forest left in the Indian Himalaya.</li>
+         <li><strong>Benog, west of the town:</strong> Benog Wildlife Sanctuary (also called Mussoorie Wildlife Sanctuary) lies about 11 km from Mussoorie, out past Cloud's End towards Benog Tibba. It protects a tract of deodar and oak forest.</li>
+         <li><strong>Chakrata forest zone (90 km from Dehradun):</strong> If you want the densest cedar forest, go to Chakrata. Not even the best parts of Mussoorie match its scale. The forest around Chakrata and Deoban, whose name links it to the deodar, is among the finest cedar forest left in the Indian Himalaya.</li>
        </ul>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Does a Deodar Forest Resort Experience Actually Include?</h2>
@@ -83,7 +83,7 @@ const articleData = {
     {
       question: "Is birdwatching within a deodar forest resort in Mussoorie worth planning for?",
       answer:
-        "Yes. Deodar forest supports a rich bird community. On a good morning, a walk with a skilled guide can turn up 20 to 30 species. At EBC, over 50 species have been recorded on the property and in the forest around it.",
+        "Yes. Deodar forest supports a rich bird community. On a good morning, a walk with a skilled guide can turn up dozens of species. At EBC, over 50 species have been recorded on the property and in the forest around it.",
     },
     {
       question: "Are deodar forest resorts in Mussoorie open in winter?",

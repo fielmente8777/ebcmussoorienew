@@ -43,7 +43,7 @@ const articleData = {
          <li>Evening: team dinner, campfire and loose social time</li>
        </ul>
        <h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Day 3: Synthesis and Departure</h2>
-       <p>Keep this to a half day or a little more. Use the morning to pull ideas together, write down commitments and close any open items. Leave by 2 PM so the team does not arrive home worn out.</p>`,
+       <p>Keep this to a half day or a little more. Use the morning to pull ideas together, write down commitments and close any open items. Wrap up by late morning so the team does not arrive home worn out.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Should You Look for in a Corporate Retreat Property Near Dehradun?</h2>
        <p>Not every scenic property near Dehradun is set up for corporate use. Use this checklist:</p>
@@ -60,17 +60,17 @@ const articleData = {
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Guided trek challenges:</strong> Pick a 3 to 5 hour trek on a set route with a clear goal. The goal might be a viewpoint, or a way through a forest trail. It builds team dynamics without a facilitator. Groups organise themselves, pace-setters step up, and quieter people often surprise their colleagues.</li>
          <li><strong>Photography walks:</strong> A 2-hour guided photo walk gives each person their own task and a shared output. Show the photos as a group exhibition over dinner. It works well for cross-functional teams, where each person's work needs to be seen.</li>
-         <li><strong>Campfire storytelling sessions:</strong> Storytelling circles work far better around a real fire in a forest than in a conference room. The format puts people at ease, and they tend to speak more honestly outdoors.</li>
+         <li><strong>Campfire storytelling sessions:</strong> Storytelling circles work far better around a fire in a forest than in a conference room. The format puts people at ease, and they tend to speak more honestly outdoors.</li>
          <li><strong>Nature-based problem-solving:</strong> More and more retreat facilitators design exercises for hill settings. Think building challenges with limited materials, navigation tasks, or habitat surveys. Each one also quietly shows how the team works together.</li>
        </ul>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Is the Cost Structure for a Corporate Retreat Near Dehradun?</h2>
-       <p>Knowing the real costs helps you plan the spend:</p>
+       <p>Rates vary with season, group size and inclusions, so ask for an itemised quote. These are the lines it should cover:</p>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>Accommodation:</strong> Premium retreat properties near Dehradun often charge Rs 8,000 to 18,000 per room per night for a corporate booking. This is usually on a modified American plan, with breakfast and dinner included. A 20-person group for 2 nights might spend Rs 3.2 to 7.2 lakh on rooms alone.</li>
-         <li><strong>Meals and F&B:</strong> If the package includes all meals, this part is simple. If meals are charged on top, plan for Rs 1,500 to 2,500 per person per day at a good property.</li>
-         <li><strong>Activities:</strong> Guided treks and team activities usually cost Rs 500 to 2,000 per person, depending on how involved they are. A corporate package that includes activities works out better than paying for each one.</li>
-         <li><strong>Transport:</strong> A hired 30-seat coach from Delhi costs about Rs 20,000 to 35,000 one way. Flights from other cities to Dehradun are direct. For group fares, book them 3 to 4 weeks ahead.</li>
+         <li><strong>Accommodation:</strong> Premium retreat properties near Dehradun price corporate bookings by season, group size and meal plan. Many quote on a modified American plan, with breakfast and dinner included. Ask for the rate per room and per person.</li>
+         <li><strong>Meals and F&B:</strong> If the package includes all meals, this part is simple. If meals are charged on top, ask for a per-person daily rate in writing.</li>
+         <li><strong>Activities:</strong> Guided treks and team activities are often priced per person, depending on how involved they are. A corporate package that bundles them is usually simpler than paying for each one.</li>
+         <li><strong>Transport:</strong> A hired coach from Delhi is priced one way or return, so get quotes early. Flights from other cities to Dehradun are direct. For group fares, book them 3 to 4 weeks ahead.</li>
          <li><strong>AV and meeting equipment:</strong> Confirm what is included. Portable projectors, flip charts and Wi-Fi extenders for outdoor spaces are often not standard. You may need to arrange them yourself.</li>
        </ul>`,
 
@@ -93,7 +93,7 @@ const articleData = {
     {
       question: "Is a corporate retreat near Dehradun feasible in the monsoon?",
       answer:
-        "Yes, with the right property. You will need covered meeting space and indoor activity options. EBC stays open through the monsoon, and every tent and cottage is weather-proofed. Landslides can close hill roads, so check advisories before July or August travel and keep some slack in the plan.",
+        "Yes, with the right property. You will need covered meeting space and indoor activity options. EBC stays open through the monsoon, when the estate is at its quietest. Landslides can close hill roads, so check advisories before July or August travel and keep some slack in the plan.",
     },
     {
       question: "Do corporate retreat properties near Dehradun provide facilitators?",
@@ -103,7 +103,7 @@ const articleData = {
     {
       question: "What is the best time of year for a corporate retreat near Dehradun?",
       answer:
-        "February to April and September to November are the best windows for weather, activity options and value.",
+        "March to April and October to November are the best windows for weather and activity options.",
     },
     {
       question: "Can we do a day retreat near Dehradun without an overnight stay?",

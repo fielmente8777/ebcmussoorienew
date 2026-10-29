@@ -24,7 +24,7 @@ const articleData = {
   intro: {
     title: "Corporate Offsite in Uttarakhand",
     description: [
-      "Uttarakhand is now a default pick for Delhi NCR companies planning offsites, and for good reason. It has good road links, direct flights to Dehradun, real altitude, and a growing set of properties built to host groups. But 'Uttarakhand' is not a venue decision. The state holds four distinct offsite settings, and each one feels very different. Pick the wrong one for your goal and you get a trip that costs the same and achieves less.",
+      "Uttarakhand is now a default pick for Delhi NCR companies planning offsites, and for good reason. It has good road links, direct flights to Dehradun, cool altitude, and a growing set of properties built to host groups. But 'Uttarakhand' is not a venue decision. The state holds four distinct offsite settings, and each one feels very different. Pick the wrong one for your goal and you get a trip that costs the same and achieves less.",
       "This guide maps the state by what your offsite needs to achieve, not by geography.",
     ],
   },
@@ -59,7 +59,7 @@ const articleData = {
          <li>Park Café: a multi-cuisine café on the estate, built where Sir George Everest once kept his stables</li>
          <li>Private bonfire set-ups on the estate</li>
          <li>Outdoor BBQ and picnic set-ups beside the meadow</li>
-         <li>Direct road access with free parking</li>
+         <li>Free, secure parking; the last stretch beyond Hathipaon is rough in places, so confirm coach size with us</li>
          <li>A setting well away from Mall Road traffic and crowds</li>
        </ul>
        <p>With 14 rooms, a group of 20 to 28 can take the whole property. For an offsite, that is the single most useful feature. The setting belongs to your team, and you do not share it with leisure guests.</p>
@@ -68,7 +68,7 @@ const articleData = {
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Zone 2: Rishikesh</h2>
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Access:</strong> 240 km from Delhi</li>
-         <li><strong>Altitude:</strong> 356 metres</li>
+         <li><strong>Altitude:</strong> Low, at the foot of the hills</li>
          <li><strong>Group size suited:</strong> 20 to 60</li>
          <li><strong>Best for:</strong> Adventure-style team bonding and younger teams</li>
        </ul>
@@ -147,8 +147,8 @@ const articleData = {
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>February to April:</strong> A strong choice. The weather is stable, there are plenty of outdoor options, and the hills are not yet crowded.</li>
          <li><strong>May to June:</strong> Good weather but peak tourist traffic on the roads. Char Dham Yatra traffic also adds congestion on the Haridwar and Dehradun stretches.</li>
-         <li><strong>September to November:</strong> The strongest window overall. Skies are the clearest of the year, crowds are moderate and roads are reliable.</li>
-         <li><strong>July to August:</strong> This works with careful planning. Landslides can close hill roads, so check advisories before you drive and keep travel times loose. Covered meeting space and indoor options are a must. At EBC, the monsoon is the quietest, most atmospheric season, and every tent and cottage is weather-proofed.</li>
+         <li><strong>October to November:</strong> The strongest window overall. Skies are the clearest of the year, crowds are moderate and the roads have settled after the rains.</li>
+         <li><strong>July to September:</strong> This works with careful planning. Covered meeting space and indoor options are a must. At EBC, a group gets a quiet, misty estate, and every tent and cottage is weather-proofed. Landslides can close hill roads, so check advisories before the team travels and keep travel times loose.</li>
          <li><strong>December to February:</strong> Cold and quiet. It suits indoor-heavy agendas with bonfire evenings. Confirm how rooms are heated.</li>
        </ul>
        <p>This <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> describes a property built around the outdoors. Mornings start with a guided forest walk from 7 to 9 AM, and evenings end at the bonfire. That gives a group a very different dynamic from a conference hotel.</p>`,
@@ -178,7 +178,7 @@ const articleData = {
     {
       question: "Can we do an Uttarakhand offsite in monsoon?",
       answer:
-        "Yes, with covered meeting space and indoor options. EBC stays open through the monsoon, and it is the quietest time of year there. Landslides can close hill roads, so check advisories before July or August travel and keep your dates flexible.",
+        "Yes, with covered meeting space and indoor options. EBC stays open through the monsoon, its quietest time of year, so your group has few other guests around. Keep your dates flexible.",
     },
     {
       question: "Should we combine two zones in one offsite?",

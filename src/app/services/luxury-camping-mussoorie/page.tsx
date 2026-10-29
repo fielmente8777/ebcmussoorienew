@@ -23,7 +23,7 @@ const articleData = {
   intro: {
     title: "Luxury Camping in Mussoorie: Reality vs. Marketing",
     description: [
-      `The words "luxury camping" now appear on so many tent-and-tarp setups across India that they have lost most of their meaning. One operator's "luxury camping in Mussoorie" is a double mattress in a canvas tent, with a shared toilet block 50 metres away. Another's is a fully furnished tent with real linen, a wooden deck, hot showers and meals cooked to order. Both use the same label. The gap between them is huge. This guide cuts through the noise. It shows what luxury camping in Mussoorie should look like and how to check it before you book. It covers what you should be paying for, and why the difference matters more than ever as more camps open, of very mixed quality.`,
+      `The words "luxury camping" now appear on so many tent-and-tarp setups across India that they have lost most of their meaning. One operator's "luxury camping in Mussoorie" is a double mattress in a canvas tent, with a shared toilet block 50 metres away. Another's is a fully furnished tent with good linen, a wooden deck, hot showers and meals cooked to order. Both use the same label. The gap between them is huge. This guide cuts through the noise. It shows what luxury camping in Mussoorie should look like and how to check it before you book. It covers what you should be paying for, and why the difference matters more than ever as more camps open, of very mixed quality.`,
     ],
   },
   details: {
@@ -59,9 +59,9 @@ const articleData = {
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Common Luxury Camping Red Flags to Watch For</h2>
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Red flag 1: No photos of the washroom.</strong> If the photos show only the tent and the view, and never the washroom, the camp is almost always hiding something below the stated standard.</li>
-         <li><strong>Red flag 2: Vague "all meals included" wording.</strong> Real luxury camps say which meals, when they are served, and whether they can cater to your diet. Vague wording often means packaged or roadside food passed off as included dining.</li>
+         <li><strong>Red flag 2: Vague "all meals included" wording.</strong> Good luxury camps say which meals, when they are served, and whether they can cater to your diet. Vague wording often means packaged or roadside food passed off as included dining.</li>
          <li><strong>Red flag 3: No total capacity listed.</strong> A stay at a camp with 30 tents is not the same as one with six. How close and personal the service feels depends on how many guests the staff are looking after at once. EBC has 14 rooms in all.</li>
-         <li><strong>Red flag 4: "Best luxury camping in Mussoorie" with no proof.</strong> A big claim without a real award or outside review is just marketing. Trust clear, provable details over rankings.</li>
+         <li><strong>Red flag 4: "Best luxury camping in Mussoorie" with no proof.</strong> A big claim without an award or outside review is just marketing. Trust clear, provable details over rankings.</li>
        </ul>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Luxury Camping in Mussoorie Costs and What It Should Include</h2>
@@ -73,7 +73,7 @@ const articleData = {
     {
       question: "What is the difference between luxury camping and glamping in Mussoorie?",
       answer:
-        "They mean the same thing. Both describe premium tent stays with real comforts. In India the two terms are used side by side.",
+        "They mean the same thing. Both describe premium tent stays with proper comforts. In India the two terms are used side by side.",
     },
     {
       question: "Is luxury camping in Mussoorie available in winter?",
@@ -98,7 +98,7 @@ const articleData = {
     {
       question: "What is the best time for luxury camping in Mussoorie?",
       answer:
-        "Late September to November and March to May are the most comfortable months for time outdoors and life in a tent. The monsoon, from July to September, is the quietest and most atmospheric time. Choose a weather-proofed tent, keep plans flexible and check road advisories before you drive.",
+        "Late September to November and March to May are the most comfortable months for time outdoors and life in a tent. In the monsoon, from July to September, the camps are quiet and the forest is at its greenest. Choose a weather-proofed tent and check road advisories before you drive.",
     },
   ],
 };

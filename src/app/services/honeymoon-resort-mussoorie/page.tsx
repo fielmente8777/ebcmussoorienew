@@ -17,7 +17,7 @@ const articleData = {
     title: "Honeymoon Resort in Mussoorie",
     subTitle: "What Couples Actually Remember After the Trip",
     description:
-      "What makes a Mussoorie honeymoon stay truly special: the moments, the setting and the small details that couples remember for years.",
+      "What makes a Mussoorie honeymoon stay special: the moments, the setting and the small details that couples remember for years.",
     image: "/banner/bnr2.png",
   },
   intro: {
@@ -33,7 +33,7 @@ const articleData = {
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Does Mussoorie Offer Honeymooners That Other Places Do Not?</h2>
        <p>Mussoorie is not Goa. It is not Udaipur. Those places have their own charm. But Mussoorie gives couples something different: a honeymoon that feels like a true break from everyday life.</p>
        <p>The town sits at roughly 2,000 metres, and EBC is a little higher at 2,160 m. Even in summer, the air turns cool soon after sunset. The mountain air has a crispness that no plains city can match. Some mornings open to clear views. On others, cloud rolls in and changes the whole scene in minutes. Both are lovely in their own way.</p>
-       <p>The Mussoorie hills also offer couples something rare in popular Indian destinations: <strong>real quiet</strong>. Stay away from Mall Road, within a 10 to 15 kilometre radius of George Everest Peak, and the nights are truly still.</p>`,
+       <p>The Mussoorie hills also offer couples something rare in popular Indian destinations: <strong>real quiet</strong>. Stay away from Mall Road, within a 10 to 15 kilometre radius of George Everest Peak, and the nights are still.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Should You Look For in a Honeymoon Resort in Mussoorie?</h2>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">How Private Is the Room?</h3>
@@ -53,7 +53,7 @@ const articleData = {
          <li><strong>Day 1:</strong> Arrive in the afternoon; check-in is from 2:00 PM. Settle in. Take a walk near the resort before sunset. Spend the evening at the bonfire.</li>
          <li><strong>Day 2:</strong> Set out early toward George Everest Peak. The site is named after Sir George Everest, the Surveyor General of India. It is a 2 to 3-hour return walk, with open views at the top. Have a late breakfast. Keep the afternoon free. Spend a second evening outdoors.</li>
          <li><strong>Day 3:</strong> Enjoy a slow morning. Walk through Landour Bazaar if you want a taste of the local market. Head back by afternoon. If you like, visit Lal Tibba, the highest point in Mussoorie at 2,275 metres, for a wide view.</li>
-         <li><strong>Day 4:</strong> Check out by 11:00 AM. Drive back at your own pace.</li>
+         <li><strong>Day 4:</strong> A slow breakfast, then drive back at your own pace.</li>
        </ul>
        <p>This is not a checklist. It is a pace that lets two people be present with each other, instead of managing plans.</p>`,
 
@@ -78,7 +78,7 @@ const articleData = {
     {
       question: "What is the best time for a honeymoon in Mussoorie?",
       answer:
-        "March to June and September to November bring the most settled weather. October is especially popular for clear skies and mild days. The monsoon, from July to September, is the quietest and most atmospheric time. It suits couples who want a slow stay; keep plans flexible and check road advisories before you drive.",
+        "March to June and October to November bring the most settled weather. October is especially popular for clear skies and mild days. The monsoon, from July to September, is the quietest and most atmospheric time. It suits couples who want a slow stay; keep plans flexible and check road advisories before you drive.",
     },
     {
       question: "Is a luxury glamping resort suitable for a honeymoon?",
