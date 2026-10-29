@@ -82,7 +82,7 @@ const allBlogPosts = [
         ],
         "items": [
           "7 to 9 AM: the guided morning walk through deodar forest or along the ridge trail",
-          "After the walk: breakfast for two, with Garhwali, Indian or English options",
+          "After the walk: breakfast for two, English or Indian",
           "Late morning: read or write on your deck or veranda",
           "Afternoon: walk to the George Everest House, open 9 AM to 6 PM",
           "Sunset: the bonfire is lit, with seating and warm blankets",
@@ -324,9 +324,9 @@ const allBlogPosts = [
       {
         "title": "Why is Sir George Everest's House a landmark you cannot miss?",
         "subtitle": [
-          "It is the most important historic site in Mussoorie, and it has some of the best views. Sir George Everest was Surveyor General of India from 1830 to 1843. He led the Great Arc survey, which ran about 2,400 km along a meridian from the southern tip of India north towards Nepal.",
+          "It is the most important historic site in Mussoorie, and it has some of the best views. Sir George Everest, Surveyor General of India from 1830 to 1843, lived here, and the world's highest peak carries his name.",
           "The house, also called Park House, dates from 1832. Everest bought it sight unseen and lived here for eleven years. It was his home, his observatory and his laboratory. It sits on a ridge with the Doon Valley on one side and the Aglar river valley on the other. On a clear day, snow peaks line the north.",
-          "Uttarakhand Tourism restored the site with lime mortar and Lahori bricks. A cartographic museum and the old observatory opened to visitors in December 2021. Inside you will find survey tools such as theodolites and baseline bars. One fun fact for the walk back: Everest said his name as \"EEV-rist\", and he objected to the peak being named after him."
+          "Uttarakhand Tourism restored the site with lime mortar and Lahori bricks. A cartographic museum and the old observatory opened to visitors in December 2021. Inside you will find survey tools such as theodolites and baseline bars. For the full story of the man and the mountain, read our George Everest Peak guide."
         ],
         "items": [
           "Timings: 9 AM to 6 PM",
@@ -600,7 +600,7 @@ const allBlogPosts = [
           "Wi-Fi across the property",
           "Free parking",
           "Welcome refreshments on arrival",
-          "Check-in at 2 PM and check-out at 11 AM"
+          "Check-in from 2 PM"
         ]
       },
       {
@@ -626,19 +626,8 @@ const allBlogPosts = [
       {
         "title": "What are the best things to do around EBC Mussoorie?",
         "subtitle": [
-          "Mussoorie has plenty to see within an easy drive of camp. Here are ten good options. For timings and a full plan, see our guide to Mussoorie's must-visit attractions."
-        ],
-        "items": [
-          "Visit Mall Road: the main promenade, with shops, cafés and colonial buildings",
-          "Explore Kempty Falls: a waterfall about 15 km from Mussoorie on the Yamunotri road; go on a weekday",
-          "Take the cable car to Gun Hill: the ride from Mall Road takes under five minutes and ends at a viewpoint over the town and the Himalayas",
-          "Visit Mussoorie Lake: a man-made lake on the Dehradun road, with boating",
-          "Climb to Lal Tibba: the highest point in Mussoorie, with wide Himalayan views",
-          "See the Jwalaji Temple: a temple to the goddess Durga on Benog Hill, reached by a forest walk from Cloud's End",
-          "Stroll Camel's Back Road: a 3 km walking track with mountain views",
-          "Relax at Company Garden: lawns, flowers and boating, about 3.5 km from the Library Bus Stand",
-          "Walk to Cloud's End: a quiet spot ringed by oak and deodar forest, reached along Hathipaon Road",
-          "Stop at Bhatta Falls: a small waterfall about 10.5 km from the Library Bus Stand, on the Dehradun road"
+          "Mussoorie has plenty to see within an easy drive of camp, from Mall Road and the Gun Hill cable car to Lal Tibba and Kempty Falls.",
+          "For sights, timings and distances, see our guide to Mussoorie's must-visit attractions. For treks, markets and day trips, read our guide to things to do in Mussoorie."
         ]
       },
       {
@@ -654,8 +643,8 @@ const allBlogPosts = [
         "title": "How do you book Park Cafe, picnics and BBQ?",
         "subtitle": [
           "Call or WhatsApp us before you come. Park Café is open to visitors who are not staying with us, and a reservation gets you a pass to drive up.",
-          "There is a vehicle barrier where the George Everest trek begins. With a booking, you can bring your car up to the property. Visitors can also park at the café grounds before they walk to the museum.",
-          "For a picnic or barbeque, give our team 4 to 5 hours' notice so the setup is ready when you arrive."
+          "Visitors can also park at the café grounds and walk a couple of minutes to the museum.",
+          "For a picnic or barbeque, tell our team when you call, so the setup is ready when you arrive."
         ],
         "items": [
           "Phone or WhatsApp: +91 91190 01126",
@@ -710,8 +699,8 @@ const allBlogPosts = [
         "href": "/rooms/the-glamper/"
       },
       {
-        "label": "The Camper forest glamping unit",
-        "href": "/rooms/the-camper/"
+        "label": "Things to do in Mussoorie beyond Mall Road",
+        "href": "/blogs/things-to-do-in-mussoorie/"
       },
       {
         "label": "Park Café at EBC Mussoorie",
@@ -730,40 +719,7 @@ const allBlogPosts = [
         "href": "/blogs/Exploring-Mussoorie-Must-Visit-Attractions-and-Hidden-Gems/"
       }
     ],
-    sources: [
-      {
-        "label": "Trawell: Kempty Falls (14.5 km from Library Bus Stand, on the Mussoorie-Yamunotri road)",
-        "url": "https://www.trawell.in/uttarakhand/mussoorie/kempty-falls"
-      },
-      {
-        "label": "Incredible India: Gun Hill (cable car from Mall Road, under five minutes)",
-        "url": "https://prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/mussoorie/gun-hill.html"
-      },
-      {
-        "label": "Trawell: Mussoorie Lake (artificial lake on the Dehradun-Mussoorie road, boating)",
-        "url": "https://trawell.in/uttarakhand/mussoorie/mussoorie-lake"
-      },
-      {
-        "label": "Trawell: Jwala Devi Temple (Durga temple on Benog Tibba, trek from Cloud's End)",
-        "url": "https://www.trawell.in/uttarakhand/mussoorie/jwala-devi-temple"
-      },
-      {
-        "label": "Trawell: Company Bagh / Municipal Garden (3.5 km from Library Bus Stand)",
-        "url": "https://trawell.in/uttarakhand/mussoorie/company-bagh-municipal-garden"
-      },
-      {
-        "label": "Trawell: Cloud's End (oak and deodar forest, reached along Hathipaon Road)",
-        "url": "https://www.trawell.in/uttarakhand/mussoorie/clouds-end"
-      },
-      {
-        "label": "Trawell: Bhatta Falls (10.5 km from Library Bus Stand)",
-        "url": "https://www.trawell.in/uttarakhand/mussoorie/bhatta-falls"
-      },
-      {
-        "label": "Trawell: Lal Tibba, the highest point in Mussoorie",
-        "url": "https://trawell.in/uttarakhand/mussoorie/lal-tibba"
-      }
-    ],
+    sources: [],
     date: "Sep 26  2 min",
   },
 
@@ -795,7 +751,7 @@ const allBlogPosts = [
     Category: "Heritage",
     slug: "george-Everest-peak-one-of-the-most-legendary-places-in-mussoorie",
     title: "George Everest Peak and House, Mussoorie: History and How to Visit",
-    subtitle: "George Everest Peak is the ridge above Park Estate, about 6 km west of Mussoorie's Mall Road. Sir George Everest lived here in the 1830s. His restored house is now a museum, and EBC Mussoorie sits a short walk away.",
+    subtitle: "George Everest Peak is the ridge above Park Estate, about 6 km west of Mussoorie's Mall Road. Sir George Everest bought a house here in the 1830s and kept it for about 11 years. His restored house is now a museum, and EBC Mussoorie sits a short walk away.",
     image: "/blog/SirGeorgeEverest.webp",
     imgTitle: "Sir George Everest's House at Park Estate, Mussoorie",
     updated: "2026-10-30",
@@ -821,7 +777,7 @@ const allBlogPosts = [
         "subtitle": [
           "George Everest Peak is the open ridge above Park Estate, on the western edge of Mussoorie. It is not a climb in the mountaineering sense. Think of it as a hilltop walk with wide views.",
           "On one side you look down into the Doon Valley. On the other lies the Aglar river valley. On a clear day the Himalayan peaks line up to the north.",
-          "The ridge is a popular picnic spot. Small stalls at the base of the climb sell maggi and momos."
+          "The ridge is a popular picnic spot. Tea stalls near Hathipaon Chowk serve bun omelette and parathas."
         ]
       },
       {
@@ -858,7 +814,7 @@ const allBlogPosts = [
         "title": "Where should you stay near George Everest House?",
         "subtitle": [
           "EBC Mussoorie sits on Park Estate, Hathipaon Road, a short walk from the house. Park Café, our restaurant, stands where Sir George Everest once kept his stables.",
-          "Staying here means you can walk to the museum before the day visitors arrive. Every stay includes breakfast for two, a bonfire in the evening and a guided nature walk at 7 AM.",
+          "Staying here means you can walk over at 9 AM, when it opens, with no drive. Every stay includes breakfast for two, a bonfire in the evening and a guided nature walk at 7 AM.",
           "Two of our rooms nod to that history: The Surveyor and The Surveyor Suite. For sunrise over the ridge, the Zenith Luxury Cottage has an east-facing veranda."
         ]
       },
@@ -869,7 +825,7 @@ const allBlogPosts = [
         ],
         "items": [
           "7 AM: join the guided forest walk through deodar and rhododendron",
-          "9 AM: breakfast at Park Café, with Garhwali dishes such as mandua ki roti",
+          "9 AM: breakfast at your cottage or tent",
           "10 AM: walk to Sir George Everest's House and the observatory",
           "11 AM: climb the ridge to George Everest Peak for the valley views",
           "Afternoon: rest, read, or head into town for Mall Road"
@@ -952,6 +908,10 @@ const allBlogPosts = [
       {
         "label": "Trawell: George Everest's House, Park Estate",
         "url": "https://trawell.in/uttarakhand/mussoorie/george-everests-house-park-estate"
+      },
+      {
+        "label": "Indiahikes: George Everest Peak Trek (food stalls on the way; bun omelette and parathas at Hathipaon Chowk)",
+        "url": "https://indiahikes.com/george-everest-peak-trek"
       }
     ],
     date: "Sep 26  2 min",
@@ -1037,7 +997,7 @@ const allBlogPosts = [
           "Travel on durable surfaces: stay on the trail, even when it is muddy.",
           "Dispose of waste properly: bring back every wrapper and bottle.",
           "Leave what you find: no picking wildflowers or rhododendron blooms.",
-          "Minimise campfire impacts: never light a fire in the forest.",
+          "Minimise campfire impacts: never light your own fire in the forest.",
           "Respect wildlife: watch from a distance and never feed animals.",
           "Be considerate of other visitors: keep music off on the trail."
         ]
@@ -1166,7 +1126,7 @@ const allBlogPosts = [
         "title": "What are the trekking trails at Everest Base Camp Mussoorie like?",
         "subtitle": [
           "They are forest walks and short hill hikes, not hard treks. EBC sits in the Park Estate on Hathipaon Road, at 2,160 m. The land around us is deodar, pine and rhododendron forest. The walks begin right here, so you never need a car to reach a trail.",
-          "Let me be honest about the word trekking. Nothing here needs ropes, a porter or a permit. The routes are easy to moderate. What they give you is the beauty of the hills at walking pace. You get tall deodar trunks, a ridge with long views, birdsong and cold air that smells of pine.",
+          "We should be clear about the word trekking. Nothing here needs ropes, a porter or a permit. The routes are easy to moderate. What they give you is the beauty of the hills at walking pace. You get tall deodar trunks, a ridge with long views, birdsong and cold air that smells of pine.",
           "If you want longer treks, we have a separate guide to the main routes around Mussoorie. This page covers only the trails you can walk from our gate."
         ]
       },
@@ -1191,7 +1151,7 @@ const allBlogPosts = [
           "Yes. The George Everest House is a short walk from the resort, in the same Park Estate. From our Park Café it takes a couple of minutes on foot.",
           "The house was built in 1832. Sir George Everest bought it without seeing it and lived there for eleven years. He used it as a home, an observatory and a laboratory. It stands on a ridge, with the Doon Valley on one side and the Aglar river valley on the other.",
           "A restored observatory and a cartographic museum opened here in December 2021. Inside you will see old survey tools such as theodolites and baseline bars. The site is open from 9 AM to 6 PM.",
-          "From the house, a path climbs to George Everest Peak. Indiahikes puts this last stretch at just under a kilometre, or 30 to 45 minutes on foot. It is steep in parts and slippery near the top, so wear shoes with grip. On a clear day you look over the Doon Valley to snow peaks such as Bandarpoonch and Swargarohini."
+          "From the house, a path climbs to George Everest Peak. Indiahikes puts this last stretch at just under a kilometre, or 30 to 45 minutes on foot. It is steep in parts and slippery near the top, so wear shoes with grip. On a clear day you look over the Doon Valley to snow peaks such as Bandarpunch and Swargarohini."
         ]
       },
       {
@@ -1202,7 +1162,7 @@ const allBlogPosts = [
         ],
         "items": [
           "The meadow beside Park Café, where we lay out carpets and cushions for Picnic in the Meadows",
-          "The Zenith veranda at sunrise, since it faces east",
+          "The Zenith veranda at sunrise, if you stay there, since it faces east",
           "The Andrew's Villa terrace, if you stay there, for a wide view of the Himalaya",
           "Damp stretches of forest path, where guides sometimes spot pugmarks",
           "The Park Café grounds, where Sir George Everest once kept his stables"
@@ -1238,11 +1198,10 @@ const allBlogPosts = [
         ]
       },
       {
-        "title": "Why do these trails stir such wanderlust?",
+        "title": "Why do these trails inspire guests to see more of the Himalaya?",
         "subtitle": [
-          "Because of the man who lived here. Sir George Everest ran the Great Trigonometrical Survey of India. His Great Arc ran about 2,400 km along a meridian, from the southern tip of India north towards Nepal. It was finished in 1841.",
-          "Years later, the world's highest peak was named after him. He objected to it. He even said his name differently, as EEV-rist.",
-          "Walk his ridge at dawn and the story feels close. Measuring a whole country began with men on foot, on paths much like these. For many guests, that is where the urge to see more of the Himalaya starts."
+          "Because of the man who lived here. Sir George Everest ran the Great Trigonometrical Survey of India, and the world's highest peak carries his name. Our George Everest Peak guide tells the full story.",
+          "Walk his ridge at dawn and the story feels close. Measuring a whole country began with men on foot, on paths much like these. For many guests, that is where a lasting wanderlust for the Himalaya begins."
         ]
       },
       {
@@ -1487,26 +1446,18 @@ const allBlogPosts = [
       {
         "title": "What should you eat at Park Cafe?",
         "subtitle": [
-          "Start with the food of the Garhwal hills. Order two or three and share.",
-          "The menu also covers Indian and continental plates. Pasta Alfredo, a crispy veg burger and butter chicken are all on it. One guest wrote about the momos and a mushroom dish our staff suggested. The verdict: sumptuous.",
-          "Have a dietary need? Tell the team when you book, and the kitchen will plan around it."
-        ],
-        "items": [
-          "Kafuli: slow-cooked hill greens in yoghurt",
-          "Chainsoo: a rich dal of black gram",
-          "Mandua ki roti: a flatbread made from finger millet",
-          "Buransh juice: a bright drink made from rhododendron flowers",
-          "Bal mithai: a sweet from Kumaon, Garhwal's neighbour"
+          "Start with the food of the Garhwal hills. The menu has hill dishes alongside Indian and continental plates, so ask the team what is cooking that day.",
+          "Pasta Alfredo, a crispy veg burger and butter chicken are all on the menu. One guest wrote about the momos and a mushroom dish our staff suggested. The verdict: sumptuous.",
+          "Have a dietary need? Tell the team when you book, and the kitchen will plan around it.",
+          "Staying the night? Our resort kitchen also cooks Garhwali classics such as kafuli, greens in yoghurt, and mandua ki roti, a finger millet flatbread."
         ]
       },
       {
         "title": "Why is Park Cafe linked to Sir George Everest?",
         "subtitle": [
-          "The café stands where Sir George Everest kept his stables and rode out. Everest led the Great Trigonometrical Survey of India from 1823. He was Surveyor General of India from 1830 to 1843.",
-          "His survey traced the Great Arc, about 2,400 km from the southern tip of India towards Nepal. It was finished in 1841.",
-          "His Mussoorie home, Park House, was built in 1832. He lived there for about eleven years. He used it as a home, an observatory and a lab. The ridge looks over the Doon Valley on one side and the Aglar valley on the other.",
-          "The world's highest peak carries his name. Peak XV was named Mount Everest on Andrew Waugh's proposal in 1856. Everest himself objected. He said his name as \"EEV-rist\", which makes for a good story over lunch.",
-          "Uttarakhand Tourism restored the house. A cartographic museum and observatory opened in December 2021. Inside you will see survey tools such as theodolites and baseline bars."
+          "The café stands where Sir George Everest kept his stables and rode out. Everest was Surveyor General of India from 1830 to 1843, and the world's highest peak carries his name.",
+          "His home, built in 1832, is a couple of minutes' walk away. Uttarakhand Tourism restored it, and a cartographic museum and observatory opened there in December 2021. Inside you will see survey tools such as theodolites and baseline bars.",
+          "For the full story of the man and the mountain, read our guide to George Everest Peak and House."
         ]
       },
       {
@@ -1514,7 +1465,7 @@ const allBlogPosts = [
         "subtitle": [
           "Call ahead, get a drive-up pass, park at the café and walk to the museum. The café is open to non-resident visitors. The pass lets you drive straight up to the café grounds.",
           "The road past Hathipaon is rough in places. A cab is a good choice if you would rather not drive it. Incredible India lists the museum hours as 9 AM to 6 PM, so plan your walk within that window.",
-          "We do not print fixed café hours here. Please call before you set out, and we will confirm timings for your day."
+          "Café hours can change with the season. Please call before you set out, and we will confirm timings for your day."
         ],
         "items": [
           "Call or WhatsApp +91 91190 01126 to reserve a table and ask for the drive-up pass.",
@@ -1559,7 +1510,7 @@ const allBlogPosts = [
       },
       {
         "question": "Does Park Cafe serve Garhwali food?",
-        "answer": "Yes. Look for kafuli, chainsoo, mandua ki roti, buransh juice and bal mithai. Indian and continental dishes are on the menu too."
+        "answer": "Yes. The menu has dishes from the Garhwal hills alongside Indian and continental plates. Ask the team what is cooking that day."
       },
       {
         "question": "What are Park Cafe's opening hours?",
@@ -1788,7 +1739,7 @@ const allBlogPosts = [
           "By road: about 280 km from Delhi, or 5.5 to 6.5 hours, via NH58 through Roorkee or NH334 through Haridwar",
           "By train: the Shatabdi Express runs from Delhi to Dehradun in about 5.5 hours, and the station is 35 km away",
           "By air: Jolly Grant Airport is about 55 km away, roughly 1.5 hours by car",
-          "Check-in is at 2 PM and check-out at 11 AM"
+          "Check-in is from 2 PM"
         ]
       },
       {
@@ -1846,8 +1797,8 @@ const allBlogPosts = [
         "href": "/blogs/easy-treks-in-mussoorie/"
       },
       {
-        "label": "Must-visit attractions in Mussoorie",
-        "href": "/blogs/Exploring-Mussoorie-Must-Visit-Attractions-and-Hidden-Gems/"
+        "label": "George Everest Peak and House: history and how to visit",
+        "href": "/blogs/george-Everest-peak-one-of-the-most-legendary-places-in-mussoorie/"
       },
       {
         "label": "Activities and experiences at EBC Mussoorie",
@@ -1942,7 +1893,7 @@ const allBlogPosts = [
           "Day two, morning: the 7 AM forest walk, then breakfast on your veranda or deck",
           "Day two, afternoon: the George Everest House, then lunch at Park Café",
           "Day two, evening: Barbeque in the Shadows or a private bonfire",
-          "Day three: sunrise from your veranda, a slow breakfast, and check-out at 11 AM"
+          "Day three: sunrise from your veranda, then a slow breakfast before you leave"
         ]
       },
       {
@@ -1971,7 +1922,7 @@ const allBlogPosts = [
         "title": "How do you book a romantic getaway in Mussoorie?",
         "subtitle": [
           "Message us on WhatsApp at +91 91190 01126 or book online. Tell us the occasion when you book, so we can plan the rose petals, dinner or bonfire in time.",
-          "Check-in is at 2 PM and check-out is at 11 AM. Pets are welcome if you let us know in advance. For room rates and what each one includes, see our packages page."
+          "Check-in is from 2 PM. Pets are welcome if you let us know in advance. For room rates and what each one includes, see our packages page."
         ]
       }
     ],
@@ -1990,7 +1941,7 @@ const allBlogPosts = [
       },
       {
         "question": "Is the evening bonfire private?",
-        "answer": "The bonfire included with every room is shared. You can add a private bonfire set up only for your room. Andrew's Villa also has its own bonfire area."
+        "answer": "Every stay includes the evening bonfire. If you would like a fire set up just for the two of you, ask us when you book. Andrew's Villa also has its own bonfire area."
       },
       {
         "question": "How far is EBC Mussoorie from Delhi for a weekend trip?",
@@ -2051,7 +2002,7 @@ const allBlogPosts = [
     updated: "2026-10-30",
     content: [
       {
-        "title": "When Is the Best Time to Visit Mussoorie?",
+        "title": "When is the best time to visit Mussoorie?",
         "subtitle": [
           "For most people, the best months are March to June and late September to November. The days are mild, the trails are dry and the views stay open. Here at EBC, October, November, March and April give us the clearest skies of the year.",
           "Mussoorie sits at about 2,000 metres. Our camp on Hathipaon Road is a little higher, at 2,160 metres. So it stays cool up here even when the plains are hot.",
@@ -2059,7 +2010,7 @@ const allBlogPosts = [
         ]
       },
       {
-        "title": "What Does Mussoorie Look Like Across All Four Seasons?",
+        "title": "What does Mussoorie look like across all four seasons?",
         "subtitle": [
           "Each season here has its own mood, and the right time depends on the trip you want. Here is the short version, month by month."
         ],
@@ -2071,7 +2022,7 @@ const allBlogPosts = [
         ]
       },
       {
-        "title": "Spring and Summer: Is March to June a Good Time to Visit?",
+        "title": "Spring and summer: is March to June a good time to visit?",
         "subtitle": [
           "Yes. This is the most popular window for travellers from Delhi NCR and Chandigarh. Daytime highs sit between 15 and 25 degrees Celsius. That makes walks, treks and bonfire evenings easy to enjoy.",
           "By March, the rhododendrons are out along the ridge. Locals call the flower buransh, and our kitchen turns it into a bright red juice. March and April also bring some of our best sunrises. From the Zenith veranda, which faces east, the snow peaks turn gold and rose on a clear morning.",
@@ -2079,15 +2030,15 @@ const allBlogPosts = [
         ]
       },
       {
-        "title": "Monsoon: Is July to September a Good Time to Visit Mussoorie?",
+        "title": "Monsoon: is July to September a good time to visit Mussoorie?",
         "subtitle": [
           "It can be, if you plan for the roads. July and August are the wettest months, and the rain often runs into September. The hills turn a deep green, mist drifts through the deodars and small waterfalls appear on every slope.",
-          "This is our quietest season, and many guests call it their favourite. All our tents and cottages are weather-proofed, so the rain stays outside. You watch it from a covered deck with a hot cup in hand.",
+          "This is our quietest season, and many guests call it their favourite. All our tents and cottages are weather-proofed, so the rain stays outside. You watch it from your deck or veranda with a hot cup in hand.",
           "There are trade-offs, and it is best to know them. Landslides can close hill roads for a few hours. Low cloud can hide the view for a day or two. Long treks may be cut short. Check road updates before you leave, keep your plans loose and allow extra time for the drive. Families with small children may prefer spring or autumn."
         ]
       },
       {
-        "title": "Autumn: Why Is September to November the Best Time to Visit Mussoorie?",
+        "title": "Autumn: why is September to November the best time to visit Mussoorie?",
         "subtitle": [
           "Because the monsoon washes the air clean. Once the rain stops, often by late September, the sky opens up. Views across the Doon Valley and the far ridges are at their sharpest. Temperatures run from about 8 to 20 degrees Celsius, and the summer crowds have gone home.",
           "October and November are our clearest months. They are also among the best for stargazing. On a clear night here, you can see the Milky Way with the naked eye. Our team can set up a guided session with star charts if you ask.",
@@ -2095,15 +2046,14 @@ const allBlogPosts = [
         ]
       },
       {
-        "title": "Winter: What Is Mussoorie Like from December to February?",
+        "title": "Winter: what is Mussoorie like from December to February?",
         "subtitle": [
           "Cold, quiet and clear. At night the temperature can fall to 1 or 2 degrees Celsius. Snow is possible, most often in January and February, but it does not fall every year.",
-          "Some guests come for just this. The town slows down, the air is crisp and the bonfire matters more. We light it every evening, with seats and warm blankets ready. Pack proper layers, and check road and trail conditions before you set out.",
-          "In short, plan your visit around the season that suits your style, not just the dates you have free."
+          "Some guests come for just this. The town slows down, the air is crisp and the bonfire matters more. We light it every evening, with seats and warm blankets ready. Pack proper layers, and check road and trail conditions before you set out."
         ]
       },
       {
-        "title": "When Is the Best Time to Visit Mussoorie for Couples and Honeymooners?",
+        "title": "When is the best time to visit Mussoorie for couples and honeymooners?",
         "subtitle": [
           "October and November suit most couples best. The weather is settled, the roads are quieter and the property feels more private. Spring is just as good if you prefer warmth and colour.",
           "Both seasons give you clear nights by the fire and slow walks in the morning. With 24 hours' notice, we can set up a candlelit dinner at your cottage. Honeymooners get a rose-petal welcome, and The Andrew's Villa is the room most couples ask for.",
@@ -2111,11 +2061,11 @@ const allBlogPosts = [
         ]
       },
       {
-        "title": "What Can You Do at Everest Base Camp Mussoorie?",
+        "title": "What can you do at Everest Base Camp Mussoorie?",
         "subtitle": [
           "Every stay includes breakfast for two, a guided morning nature walk and the evening bonfire. The rest depends on the season and your pace.",
           "EBC sits on Park Estate, where Sir George Everest once had his house. He was Surveyor General of India from 1830 to 1843, and Mount Everest carries his name. Park Café on our estate stands where he kept his stables. His restored house and museum are a couple of minutes' walk away.",
-          "George Everest Peak rises to about 2,000 metres close by. From Hathipaon Chowk, the trail is about 3.5 km and takes 1 to 1.5 hours each way. The last stretch is steep and stony, so wear good shoes.",
+          "George Everest Peak is close by. From Hathipaon Chowk, the trail is about 3.5 km and takes 1 to 1.5 hours each way. The last stretch is steep and stony, so wear good shoes.",
           "Here is what a day at the camp can hold:"
         ],
         "items": [
@@ -2127,14 +2077,14 @@ const allBlogPosts = [
         ]
       },
       {
-        "title": "Who Is EBC Best Suited To?",
+        "title": "Who is EBC best suited to?",
         "subtitle": [
           "Couples, families, friends and teams all stay with us. We host corporate groups of 8 to 48 guests. The Twin Luxury Cottages work well for families or two couples. Pets are welcome too; just tell us before you arrive.",
           "Each room is a little different, from The Camper to The Andrew's Villa. Browse the rooms and packages to see what each one includes before you fix your dates."
         ]
       },
       {
-        "title": "How Far Is Mussoorie From Delhi, Chandigarh, and Dehradun?",
+        "title": "How far is Mussoorie from Delhi, Chandigarh and Dehradun?",
         "subtitle": [
           "EBC is about 280 km from Delhi, a drive of 5.5 to 6.5 hours. Most guests take NH58 via Roorkee or NH334 via Haridwar. From Chandigarh, Mussoorie is about 200 km by road, or five to six hours.",
           "Dehradun is the nearest city, 35 km and 1 to 1.5 hours from us. The Shatabdi Express from Delhi reaches Dehradun station in about 5.5 hours. Jolly Grant Airport is about 55 km away, with daily flights from Delhi, Mumbai and Bangalore. We can arrange a transfer if you ask when you book.",
@@ -2191,8 +2141,8 @@ const allBlogPosts = [
         "href": "/blogs/monsoon-glamping-india/"
       },
       {
-        "label": "Mussoorie as a hill station near Delhi",
-        "href": "/blogs/hill-station-near-delhi/"
+        "label": "George Everest Peak and House: history and how to visit",
+        "href": "/blogs/george-Everest-peak-one-of-the-most-legendary-places-in-mussoorie/"
       }
     ],
     sources: [
@@ -2227,14 +2177,14 @@ const allBlogPosts = [
     updated: "2026-10-30",
     content: [
       {
-        "title": "Why Look Beyond Mall Road?",
+        "title": "Why look beyond Mall Road?",
         "subtitle": [
           "Because most of what makes Mussoorie special lies outside it. Many visitors spend their whole trip on Mall Road, eat at a few busy cafés and head home. That trip is fine, but it barely scratches the surface.",
           "The town sits at about 2,000 metres in the Garhwal Himalayas. A short drive away are forest trails, colonial history and quiet ridges that most first-time visitors never find. This list covers the eight we suggest most often to our guests, for a weekend or a longer stay."
         ]
       },
       {
-        "title": "1. How Do You Trek to George Everest Peak?",
+        "title": "1. How do you trek to George Everest Peak?",
         "subtitle": [
           "Start from Hathipaon Chowk, about 4 km from town, or from Park Estate if you are staying with us. From the chowk, the trail is about 3.5 km and takes 1 to 1.5 hours each way. Allow 2 to 3 hours for the round trip at an easy pace.",
           "The peak takes its name from Sir George Everest, Surveyor General of India from 1830 to 1843. From the top, you see the Doon Valley on one side and the snow peaks of the Himalaya on the other. On the way, you pass his old house and laboratory, now restored, with a museum of old survey tools such as theodolites.",
@@ -2242,7 +2192,7 @@ const allBlogPosts = [
         ]
       },
       {
-        "title": "2. Why Spend a Night Under the Stars at a Glamping Resort?",
+        "title": "2. Why spend a night under the stars at a glamping resort?",
         "subtitle": [
           "Because it puts you in the forest without giving up a good bed, hot water or a proper meal. Mussoorie has no shortage of hotels. A glamping stay gives you something a hotel room cannot: the outdoors right at your door.",
           "That is the idea behind EBC Mussoorie, on Park Estate along Hathipaon Road. Our camp sits at 2,160 metres among deodar, pine and rhododendron. On a clear night, the Milky Way is easy to see with the naked eye.",
@@ -2253,21 +2203,21 @@ const allBlogPosts = [
           "The evening bonfire, with seating and warm blankets",
           "Stargazing on clear nights, with a guided session on request",
           "A guided forest walk from 7 to 9 AM the next morning",
-          "Breakfast for two, with Garhwali, Indian and English options"
+          "Breakfast for two, English or Indian"
         ]
       },
       {
-        "title": "3. Explore Kempty Falls: When Should You Go?",
+        "title": "3. Explore Kempty Falls: when should you go?",
         "subtitle": [
-          "Go early in the morning or on a weekday. Kempty Falls is about 13 to 15 km from Mussoorie on the Chakrata road, at roughly 1,364 metres. It is one of the most visited sights in the region, and weekends get very busy.",
-          "The falls run fullest during and just after the monsoon. The road can be slow and slippery at that time, so drive with care. If you want calm, aim to arrive before the tour buses do."
+          "Go early in the morning or on a weekday, as weekends get very busy. Kempty Falls is about 13 to 15 km from Mussoorie, on the road towards Yamunotri. The falls run fullest during and just after the monsoon.",
+          "For timings and the short walk down from the road, see our guide to Mussoorie's must-visit attractions."
         ]
       },
       {
-        "title": "4. Visit Lal Tibba: What Can You See From the Top?",
+        "title": "4. Visit Lal Tibba: what can you see from the top?",
         "subtitle": [
-          "On a clear day, you can see Bandarpunch, Kedarnath and Badrinath. Lal Tibba is the highest point in Mussoorie, at about 2,275 metres, up in Landour. A telescope at the viewing tower gives you a closer look at the snowline.",
-          "Early mornings from October to February give the clearest views. It takes about 20 to 30 minutes by car from Mall Road. Skip it in the heavy rains, when cloud often hides the peaks."
+          "A long line of snow peaks, on a clear day. Lal Tibba is the highest point in Mussoorie, up in Landour. Go early in the morning, and skip it in the heavy rains, when cloud often hides the peaks.",
+          "Our attractions guide covers the viewpoint, the telescope and how to get there."
         ]
       },
       {
@@ -2278,28 +2228,28 @@ const allBlogPosts = [
         ]
       },
       {
-        "title": "6. Experience a Bonfire Evening in the Hills",
+        "title": "6. Experience a bonfire evening in the hills",
         "subtitle": [
           "A good bonfire on a clear night is the simple thing guests remember long after the trip. The air turns cold fast after sunset, even in summer, so the warmth is truly welcome.",
           "At EBC, the bonfire is lit every evening and is part of every stay. We set out seating and warm blankets. Marshmallows and snacks come on request, and on some nights there is live Garhwali folk music. If you want the fire to yourselves, ask us about a private setup."
         ]
       },
       {
-        "title": "7. Where Should You Shop for Woollens and Local Produce?",
+        "title": "7. Where should you shop for woollens and local produce?",
         "subtitle": [
           "Try the Tibetan Market and Landour Bazaar. The Tibetan Market, near the Library bus stand, is a short row of shops with woollens, jackets and Tibetan crafts at fair prices.",
           "Landour Bazaar is a short drive from the main town and moves at a slower pace. It has produce shops, old bakeries and a quieter kind of hill-town trade that many travellers prefer to Mall Road."
         ]
       },
       {
-        "title": "8. Is Dhanaulti Worth a Day Trip From Mussoorie?",
+        "title": "8. Is Dhanaulti worth a day trip from Mussoorie?",
         "subtitle": [
           "Yes, if you want quiet and tall trees. Dhanaulti is about 24 km from Mussoorie and higher, at around 2,286 metres. It is calmer than Mussoorie and ringed by thick deodar forest.",
-          "Its two eco parks, Amber and Dhara, cover about 13 hectares between them. The Forest Department looks after them. From our side of Mussoorie, Dhanaulti makes an easy half-day trip that rounds off a longer stay. Many guests use EBC as their base for day trips like this."
+          "Its two eco parks, Amber and Dhara, cover about 13 hectares between them. The Forest Department looks after them. Dhanaulti is on the far side of town from us, so give it most of a day. Many guests use EBC as their base for day trips like this."
         ]
       },
       {
-        "title": "How Should You Plan Your Mussoorie Itinerary?",
+        "title": "How should you plan your Mussoorie itinerary?",
         "subtitle": [
           "Plan around what matters to you, and keep it light. Two or three outings a day is plenty, since hill roads take longer than the map suggests.",
           "Mussoorie works as a weekend escape, a honeymoon base, a family holiday or a longer rest. The ideas above suit most travellers and most seasons. Some depend on the weather, so check conditions with your stay before you set out."
@@ -2369,16 +2319,12 @@ const allBlogPosts = [
         "url": "https://indiahikes.com/george-everest-peak-trek"
       },
       {
-        "label": "Wikipedia: Kempty Falls (about 13 km from Mussoorie on the Chakrata road)",
+        "label": "Wikipedia: Kempty Falls (about 13 km from Mussoorie)",
         "url": "https://en.wikipedia.org/wiki/Kempty_Falls"
       },
       {
         "label": "Wikipedia: Mussoorie (Lal Tibba, Camel's Back Road, Kempty Falls about 15 km)",
         "url": "https://en.wikipedia.org/wiki/Mussoorie"
-      },
-      {
-        "label": "Incredible India: Lal Tibba (peaks visible, telescopes)",
-        "url": "https://www.incredibleindia.gov.in/en/uttarakhand/mussoorie/lal-tibba"
       },
       {
         "label": "Wikipedia: Dhanaulti (24 km from Mussoorie, 2,286 m)",
@@ -2387,6 +2333,10 @@ const allBlogPosts = [
       {
         "label": "Trawell: Eco Parks, Dhanaulti (Amber and Dhara, 13 hectares, Forest Department)",
         "url": "https://trawell.in/uttarakhand/dhanaulti/eco-parks"
+      },
+      {
+        "label": "Trawell: Kempty Falls (on the Mussoorie-Yamunotri road)",
+        "url": "https://www.trawell.in/uttarakhand/mussoorie/kempty-falls"
       }
     ],
     date: "June 29  4 min",
@@ -2407,7 +2357,7 @@ const allBlogPosts = [
         "subtitle": [
           "It has moved from a tidy tent to a true outdoor stay. Not long ago, glamping in India often meant a canvas tent near a hill station, a bucket of hot water and a mat on the floor. The word went on the flyer, but the stay was basic camping with a fresh coat of paint.",
           "For the camps worth your time, that era is over. Two things changed at once.",
-          "First, the traveller changed. After the pandemic, many people who used to fly abroad for nature holidays began to look closer to home. They brought higher hopes for comfort, food and service.",
+          "First, the traveller changed. Many travellers who once flew abroad for nature holidays now look closer to home. They bring higher hopes for comfort, food and service.",
           "Second, a new set of hosts began to build camps for those guests from the ground up, rather than dressing up old campsites. The best of them now hold their own against camps abroad on setting. Service is still uneven from place to place, so it pays to ask questions."
         ]
       },
@@ -2553,7 +2503,7 @@ const allBlogPosts = [
     updated: "2026-10-30",
     content: [
       {
-        "title": "How Far Is Mussoorie From Delhi?",
+        "title": "How far is Mussoorie from Delhi?",
         "subtitle": [
           "About 280 km by road. The drive takes 5.5 to 6.5 hours, longer if traffic is heavy near Muzaffarnagar and Roorkee. Most people take NH58 via Roorkee or NH334 via Haridwar, then climb up from Dehradun.",
           "You can also take the train. The Shatabdi Express reaches Dehradun in about 5.5 hours, and the station is 35 km from us, or 1 to 1.5 hours by taxi. Buses run from Delhi's Kashmere Gate ISBT to Dehradun and Mussoorie, some of them overnight. If you fly, Jolly Grant Airport is about 55 km from EBC.",
@@ -2561,7 +2511,7 @@ const allBlogPosts = [
         ]
       },
       {
-        "title": "Which Hill Stations Near Delhi Compare to Mussoorie?",
+        "title": "Which hill stations near Delhi compare to Mussoorie?",
         "subtitle": [
           "Four hill stations sit within a day's drive of Delhi. Each has a different distance, drive and feel."
         ],
@@ -2573,7 +2523,7 @@ const allBlogPosts = [
         ]
       },
       {
-        "title": "How Do These Hill Stations Differ?",
+        "title": "How do these hill stations differ?",
         "subtitle": [
           "Mussoorie and Lansdowne are the closest. Shimla takes the longest, as hill traffic past Solan slows the last stretch.",
           "The towns feel very different too. Lansdowne is quiet, with few hotels. Nainital is built around its lake. Mussoorie has the widest choice of stays and things to do for families and groups.",
@@ -2581,7 +2531,7 @@ const allBlogPosts = [
         ]
       },
       {
-        "title": "Why Do Travellers Choose Mussoorie Specifically?",
+        "title": "Why do travellers choose Mussoorie specifically?",
         "subtitle": [
           "Because the drive is easy and the town is ready for guests. The road from Delhi is highway until the final climb, which makes it simpler than the routes to Shimla or Nainital. Mussoorie has hosted visitors since British times, so stays, food and local transport are well set up.",
           "For groups who want more than a standard hotel, Mussoorie also has glamping stays. EBC Mussoorie is one of them. The camp sits on Park Estate, along Hathipaon Road, at 2,160 metres. Sir George Everest's old house and museum are a couple of minutes' walk away.",
@@ -2589,7 +2539,7 @@ const allBlogPosts = [
         ]
       },
       {
-        "title": "What Is the Best Time to Visit Mussoorie From Delhi?",
+        "title": "What is the best time to visit Mussoorie from Delhi?",
         "subtitle": [
           "March to June and October to November are the best windows. Here is how the year breaks down."
         ],
@@ -2601,14 +2551,14 @@ const allBlogPosts = [
         ]
       },
       {
-        "title": "Which Season Suits Your Trip?",
+        "title": "Which season suits your trip?",
         "subtitle": [
           "Choose summer for steady weather and family holidays. Choose autumn for the best views and the quietest roads. If you travel in the monsoon, check road advisories before you leave and allow extra time.",
           "The monsoon has its own charm at EBC. It is our quietest season, and all our tents and cottages are weather-proofed. Many guests tell us it is their favourite time to come."
         ]
       },
       {
-        "title": "Where Should You Stay in Mussoorie?",
+        "title": "Where should you stay in Mussoorie?",
         "subtitle": [
           "It depends on the trip you want. Mussoorie has heritage hotels near Mall Road and newer glamping resorts on the edge of town. Glamping stays usually give you more outdoor space and privacy than hotels in town. That suits couples and small groups who want quiet.",
           "EBC is one of these. There are 14 stays across seven types, from The Camper tent to The Andrew's Villa, a private villa with its own terrace. Several face the Himalaya, and the Zenith veranda faces east for sunrise. Breakfast for two, a guided morning walk and the evening bonfire come with every stay.",
@@ -2616,7 +2566,7 @@ const allBlogPosts = [
         ]
       },
       {
-        "title": "What Activities Are Available Near Mussoorie?",
+        "title": "What activities are available near Mussoorie?",
         "subtitle": [
           "Plenty, from easy walks to day trips. Camel's Back Road is a 3 km walking track with mountain views. Kempty Falls is the best-known waterfall, and Lal Tibba, the highest point in Mussoorie, gives wide views on a clear day. Mall Road is the place for food and shopping in the evening.",
           "Bird watching and short nature trails are easy to find in the forest outside town. At EBC, over 50 bird species have been recorded on and around the property. Our guided walk runs from 7 to 9 AM through deodar and rhododendron. In the evening, there is the bonfire, and on clear nights the Milky Way. Park Café on the estate serves Garhwali, Indian and continental dishes.",
@@ -2799,7 +2749,7 @@ const allBlogPosts = [
       },
       {
         "question": "Can you visit a hill station in India without spending a lot?",
-        "answer": "Yes. Homestays and guesthouses in most hill towns run between Rs 800 and 2,500 a night. Yercaud, Lansdowne and Kasauli tend to cost less than the big-name towns."
+        "answer": "Yes. Homestays and guesthouses cost far less than resorts. Yercaud, Lansdowne and Kasauli tend to cost less than the big-name towns."
       },
       {
         "question": "How far is Mussoorie from Delhi?",
@@ -3037,7 +2987,7 @@ const allBlogPosts = [
           "Here is the case for going in the rains rather than avoiding them."
         ],
         "items": [
-          "The land changes. Mussoorie in June is green. Mussoorie in August is a deep, vivid green. Mist rolls over the ridges from mid-morning, and on clear evenings you can see the valley lights below.",
+          "The land changes. By August, the green of June has turned deep and vivid. Mist rolls over the ridges from mid-morning, and on clear evenings you can see the valley lights below.",
           "The crowds thin out. July and August see far fewer visitors in most Uttarakhand hill stations than May and early June. You get the same trails and the same views with much more room.",
           "Waterfalls run full. Kempty Falls, Bhatta Falls and many small streams on forest trails peak in the rains. For photographs, no other season comes close.",
           "The pace slows in a good way. Walk in the morning before the rain. Read in your tent through the afternoon as it falls. Sit by the fire when the clouds lift."
@@ -3047,7 +2997,7 @@ const allBlogPosts = [
         "title": "Which regions are best for monsoon glamping in India?",
         "subtitle": [
           "Uttarakhand, Coorg, Meghalaya and Spiti each work, for different reasons. Not every glamping region copes with rain equally well, so here is how they compare.",
-          "Uttarakhand (July to September). This is the most popular monsoon glamping zone for travellers from Delhi. Mussoorie gets heavy rain. Even so, its roads are sturdy enough to stay open except after days of very heavy rain.",
+          "Uttarakhand (July to September). This is the most popular monsoon glamping zone for travellers from Delhi. Mussoorie gets heavy rain. The main road from Dehradun is well used, but landslides can close it for hours, so check before you drive.",
           "What works in Uttarakhand: forest and ridge stays built to run all year, and short guided nature walks rather than long treks on open trails. Evening fires help too, with dinner close at hand and a dry seat nearby.",
           "What to avoid in Uttarakhand: high treks above 3,000 metres, where trails turn unpredictable, and stays on steep roads with poor drainage. Also avoid driving during the Kanwar Yatra weeks, which fall in July or early August. Roads between Delhi and Haridwar face heavy traffic curbs then.",
           "EBC Mussoorie stays open through the monsoon, and all our tents and cottages are weather-proofed. We sit at 2,160 m in deodar, pine and rhododendron forest. Park Café is on the estate, so a wet afternoon still comes with a warm meal and a view. When rain keeps you in, the stay itself has to be enough. That is how we plan it.",
@@ -3060,7 +3010,7 @@ const allBlogPosts = [
         "title": "What makes a glamping property monsoon-ready?",
         "subtitle": [
           "Good waterproofing, good drainage, a dry place to sit, a safe road and a fair cancellation policy. Check each one before you book a monsoon stay.",
-          "Read the cancellation and date-change terms on our packages page before you book. If a natural calamity gets in the way, we offer to reschedule with a credit note. For a dry hour indoors, George's Den is our lounge in the forest, open by reservation."
+          "Read the cancellation and date-change terms on our packages page before you book. For a dry hour indoors, George's Den is our lounge in the forest, open by reservation."
         ],
         "items": [
           "Structure: canvas without proper waterproofing fails in long, heavy rain. Look for treated canvas on a solid floor raised off the ground, or wooden cottages, which handle weather better.",
@@ -3175,7 +3125,7 @@ const allBlogPosts = [
         "title": "What is Andrew's Villa Mussoorie?",
         "subtitle": [
           "The Andrew's Villa is the most private place to stay at EBC Mussoorie, a luxury glamping resort in the forest on Hathipaon Road. It is a fully private villa at the edge of the deodar forest. It has its own entrance, its own terrace and its own bonfire area, so the mountain feels like yours alone.",
-          "The villa is one of 14 places to stay at EBC, spread across seven types. They run from The Camper, a compact forest tent, up to the villa itself. It is our flagship, and the room guests ask about most.",
+          "The villa is one of 14 places to stay at EBC, spread across seven types. They run from The Camper, a compact forest tent, up to the villa itself. It is our flagship.",
           "A villa changes the feel of a stay. You are not sharing a lobby with twenty other guests or waiting for a breakfast table. Breakfast comes to you. The closest thing is a private home in the hills, with a resort team a call away at any hour."
         ]
       },
@@ -3199,7 +3149,7 @@ const allBlogPosts = [
         "subtitle": [
           "Couples come first. The villa also suits special occasions, families who want space and executives who need a quiet base.",
           "Couples who want real privacy. A villa removes the small intrusions of a hotel: no crowded dining room, no lobby noise, no neighbours through a thin wall. It is the room most often requested for honeymoons at EBC. Honeymooners get a rose-petal welcome at no charge. With 24 hours' notice, we can also set up a candlelit dinner for two.",
-          "Special occasions. An anniversary or a milestone deserves a setting of its own. The private bonfire area becomes your space for the evening, with blankets and the stars overhead.",
+          "Special occasions. An anniversary or a milestone deserves a setting of its own. The villa has its own bonfire area. Ask us to light a private fire there, with blankets and the stars overhead.",
           "Families who want space. The villa and the Twin Luxury Cottages offer the most room at EBC for families. Interconnecting arrangements can be made on request. The grounds are fully secured, so children can explore while you relax.",
           "Executives who want a quiet base. The villa is a good fit for a senior executive stay. Free Wi-Fi covers the property and is good for browsing and video calls, though mountain signal can vary."
         ]
@@ -3207,7 +3157,7 @@ const allBlogPosts = [
       {
         "title": "What does the villa offer in rooms and amenities?",
         "subtitle": [
-          "A king bedroom, a private terrace and bonfire area, wide Himalayan views and a team on call day and night. These are the room features listed for the villa.",
+          "A king bedroom, a private terrace and bonfire area, wide Himalayan views and a team on call day and night.",
           "Every stay also includes breakfast for two, access to the evening bonfire, a guided morning nature walk, Wi-Fi and free parking. For current rates, see our packages page.",
           "Meals come from our kitchen. It cooks Garhwali dishes such as kafuli, chainsoo and mandua ki roti, as well as English and Indian breakfasts. Tell us about any dietary needs and we will plan around them."
         ],
@@ -3240,7 +3190,7 @@ const allBlogPosts = [
           "Getting there. Dehradun is 35 km away, about 1 to 1.5 hours by road. Delhi is about 280 km away, or 5.5 to 6.5 hours via NH58 through Roorkee or NH334 through Haridwar. Jolly Grant Airport is about 55 km away, around 1.5 hours. It has daily flights from Delhi, Mumbai and Bangalore. The Shatabdi Express from Delhi reaches Dehradun in about 5.5 hours, and we can arrange a transfer.",
           "When to go. October to November and March to April bring the clearest skies. They are also the best months for sunrise from the villa terrace. December and January bring crisp, cold nights made for a bonfire. May and June are busy, so book early. July to September is our quietest and most atmospheric season.",
           "How to book. Book direct where you can, on our website or over WhatsApp at +91 91190 01126. Booking direct lets you confirm the set-up, special requests and inclusions with us.",
-          "Times and terms. Check-in is at 2:00 PM and check-out at 11:00 AM. Read the cancellation and date-change terms on our packages page before you book.",
+          "Times and terms. Check-in is from 2:00 PM. Read the cancellation and date-change terms on our packages page before you book.",
           "Things to ask us before you confirm:"
         ],
         "items": [
@@ -3257,8 +3207,7 @@ const allBlogPosts = [
         "subtitle": [
           "Because it trades sameness for privacy. Hotels are built for scale and consistency. Every guest gets the same check-in, the same breakfast buffet and the same room layout. That is useful when you want no surprises.",
           "Villas are built for privacy and a personal touch. The stay shifts with the guests, the season and what you want from it. The trade-off is that you need to do a little more homework before you book. You cannot lean on a brand name the way you can with a chain hotel.",
-          "For the right trip, that trade is well worth it. A couple, a family or an executive who values real privacy will remember a weekend at the villa very differently from the same days in a town hotel. And here you still have a resort around you, with the café, the forest walk and the fire.",
-          "The hill station is the same. The way you live in it is not."
+          "For the right trip, that trade is well worth it. A couple, a family or an executive who values real privacy will remember a weekend at the villa very differently from the same days in a town hotel. And here you still have a resort around you, with the café, the forest walk and the fire."
         ]
       }
     ],
@@ -3269,11 +3218,11 @@ const allBlogPosts = [
       },
       {
         "question": "How many guests can Andrew's Villa accommodate?",
-        "answer": "The villa is built around a luxury king bedroom, and the rate includes breakfast for two. It is designed first for a couple. For a family, tell us your group size when you enquire. The villa and the Twin Luxury Cottages offer the most room for families, and interconnecting arrangements can be made on request."
+        "answer": "The villa has one king bedroom and is set up for two. If you are more, tell us your group size and we will confirm what we can arrange. For a larger family, the Twin Luxury Cottages offer two king bedrooms."
       },
       {
         "question": "Is Andrew's Villa suitable for a honeymoon stay?",
-        "answer": "Yes. It is the room most often requested for honeymoons at EBC. Honeymooners get a rose-petal welcome at no charge. We can arrange a candlelit dinner with 24 hours' notice, and the private bonfire area is yours each evening."
+        "answer": "Yes. It is the room most often requested for honeymoons at EBC. Honeymooners get a rose-petal welcome at no charge. We can arrange a candlelit dinner with 24 hours' notice. The villa also has its own bonfire area, and we can light a private fire there for your evening."
       },
       {
         "question": "How far is Andrew's Villa from Dehradun?",
@@ -3346,32 +3295,26 @@ const allBlogPosts = [
         "subtitle": [
           "Mussoorie gives you two kinds of walking. There are easy forest ridges that any fit person can enjoy. Then there are true Himalayan summit treks that need planning and a guide. Both lie within a drive of town.",
           "The town sits at about 2,000 m on a ridge in the Garhwal hills. Most visitors know it for Mall Road, Kempty Falls and Gun Hill. Those are fair draws. But the trails that leave the ridge and head into the hills beyond feel like a different place.",
-          "The forest changes as you climb. Near town it is deodar, oak and rhododendron. Above about 2,500 m the trees thin out and meadows begin. Above 3,000 m the land turns open and alpine, nothing like the wooded ridge below.",
+          "The forest changes as you climb. Near town it is deodar, oak and rhododendron.",
           "That range is the point. In one short stay you can take a gentle ridge walk, a half-day forest climb and, if you are fit, an overnight summit. This guide covers the treks a drive away. For walks inside town, see our Mussoorie hiking guide."
         ]
       },
       {
         "title": "How easy is the Camel's Back Road walk?",
         "subtitle": [
-          "It is the easiest walk on this list, and a good first taste of the ridge on foot. Camel's Back Road is a 3 km track along the ridge from the Library end of town. It takes about an hour at an easy pace.",
-          "Valleys open up to the south for most of the way. Halfway along you pass the rock that gives the road its name. Seen from the right angle, it looks just like a camel's hump."
-        ],
-        "items": [
-          "Grade: easy, 3 km, about 1 hour",
-          "Best for: first-time visitors, families with children and early walkers",
-          "Start: the Library area of Mussoorie",
-          "Tip: go at sunrise, as the track gets busy by 9 AM in peak season"
+          "It is the easiest walk on this list, and a good first taste of the ridge on foot. Camel's Back Road is a 3 km track along the ridge from the Library end of town, and it takes about an hour.",
+          "On clear days the Himalayan peaks show for much of the way, and it is a well-known sunset spot. For this and other walks inside town, see our Mussoorie hiking guide."
         ]
       },
       {
         "title": "What is the Benog Tibba trek like?",
         "subtitle": [
-          "Benog Tibba is a moderate half-day walk through protected forest west of town. The top sits at about 2,240 m, where a small Jwala Devi temple stands. It is one of the best places near Mussoorie to look for birds.",
-          "The walk starts near Cloud's End, about 7.5 km from Library along Hathipaon Road. That is the same road EBC Mussoorie sits on. Guides put the climb at 2 to 4 km each way, based on the route. With stops for birds and views, most people take 4 to 5 hours for the round trip.",
+          "Benog Tibba is a moderate half-day walk through protected forest west of town. The top sits at about 2,250 m, where a small Jwala Devi temple stands. It is one of the best places near Mussoorie to look for birds.",
+          "The walk starts near Cloud's End, about 7.5 km from Library along Hathipaon Road. That is the same road EBC Mussoorie sits on. Day routes run about 5 to 6 km there and back. Most people walk it in 3 to 4 hours, longer with stops for birds and views.",
           "The Benog wildlife reserve covers about 10.82 sq km of deodar and oak forest. It became a protected area in 1993. The further you walk from the road, the quieter the forest gets. By the top, you often hear nothing but birds and wind."
         ],
         "items": [
-          "Grade: moderate, 4 to 5 hours round trip",
+          "Grade: moderate, about 5 to 6 km round trip, 3 to 4 hours",
           "Best for: fit casual walkers, birders and photographers who love forest light",
           "Start: near Cloud's End, on the western side of the ridge",
           "Tip: carry photo ID for the forest check post, and expect a small entry fee",
@@ -3395,7 +3338,7 @@ const allBlogPosts = [
         "subtitle": [
           "Nag Tibba is the classic first overnight trek from Mussoorie. The summit stands at 3,022 m. You start from Pantwari village and camp on the ridge near the top.",
           "Pantwari is about 90 km from Dehradun by road, and the drive runs through Mussoorie. From the village, at about 1,400 m, you climb more than 1,500 m. Trek firms quote 16 to 19 km in all, over two or three days.",
-          "The reward is a wide view of Bandarpunch, Swargarohini and the Gangotri group. Many trekkers spend the night before at EBC, leave at first light, and come back to a bonfire and a soft bed after. It is a good way to bookend a hard climb."
+          "The reward is a wide view of Bandarpunch, Swargarohini and the Gangotri group. A night at EBC before and after works well: leave at first light, and come back to a bonfire and a proper bed. It is a good way to bookend a hard climb."
         ],
         "items": [
           "Grade: moderate to hard, two days with one night out, or three at an easier pace",
@@ -3408,7 +3351,7 @@ const allBlogPosts = [
       {
         "title": "How do you reach Surkanda Devi from Dhanaulti?",
         "subtitle": [
-          "Drive past Dhanaulti to Kaddukhal, then walk up a steep 2 km path. The Surkanda Devi temple sits at about 2,756 m. Most people take around 30 minutes each way, a little more with stops for breath.",
+          "Drive past Dhanaulti to Kaddukhal, then walk up a steep 2 km path. The Surkanda Devi temple sits at about 2,756 m. Allow 1.5 to 2 hours there and back, with stops for breath.",
           "On clear days the view takes in a wide arc of snow peaks. It is one of the best high viewpoints you can reach with ease in the Mussoorie and Dhanaulti area. A ropeway from Kaddukhal opened in May 2022, so those who cannot climb can still go up.",
           "The temple is about 35 km from Mussoorie, on the road towards Chamba. Make a day of it and stop in Dhanaulti's cedar woods on the way back."
         ],
@@ -3421,14 +3364,8 @@ const allBlogPosts = [
       {
         "title": "Which walks start right at EBC Mussoorie?",
         "subtitle": [
-          "The guided morning walk, which comes with every stay. It runs daily from 7 to 9 AM, lasts 45 to 90 minutes and needs no car. Routes go through the deodar forest and along a ridge trail.",
-          "Our naturalist guides point out birds, wildflowers and plants used in hill medicine. If you are quiet and lucky, you may see fresh pugmarks in the mud.",
-          "Sir George Everest's old house is close by, in the same Park Estate. He bought it sight unseen and lived there for eleven years. Today the house holds a museum of survey tools, open from 9 AM to 6 PM. It is a couple of minutes' walk from our Park Café. For more on the trails that begin at the resort, see our guide to trekking at EBC."
-        ],
-        "items": [
-          "Grade: easy to moderate, open to all fitness levels",
-          "Best for: history lovers, families and misty morning walkers",
-          "Tip: no transport or outside guide needed"
+          "The guided morning walk, which comes with every stay. It runs daily from 7 to 9 AM, lasts 45 to 90 minutes and needs no car.",
+          "Routes go through the deodar forest and along a ridge trail, close to Sir George Everest's old house. For more on the trails that begin at the resort, see our guide to trekking at EBC."
         ]
       },
       {
@@ -3484,7 +3421,7 @@ const allBlogPosts = [
       },
       {
         "question": "How long does the Benog Tibba trek take?",
-        "answer": "Plan on 4 to 5 hours for the round trip at a relaxed pace. Start by 7 AM, so you are back down before the afternoon cloud or rain rolls in."
+        "answer": "Plan on 3 to 4 hours for the round trip, longer with stops for birds. Start by 7 AM, so you are back down before the afternoon cloud or rain rolls in."
       },
       {
         "question": "How far is Nag Tibba from Mussoorie?",
@@ -3505,8 +3442,8 @@ const allBlogPosts = [
         "href": "/blogs/mussoorie-hiking/"
       },
       {
-        "label": "Easy treks in Mussoorie for beginners and families",
-        "href": "/blogs/easy-treks-in-mussoorie/"
+        "label": "George Everest Peak and House: history and how to visit",
+        "href": "/blogs/george-Everest-peak-one-of-the-most-legendary-places-in-mussoorie/"
       },
       {
         "label": "Trekking trails that start at EBC Mussoorie",
@@ -3547,7 +3484,7 @@ const allBlogPosts = [
         "url": "https://en.wikipedia.org/wiki/Surkanda_Devi"
       },
       {
-        "label": "Outlook Traveller: Now pilgrims can take ropeway to Surkanda Devi temple (opened May 2022)",
+        "label": "Outlook Traveller: Now pilgrims can take ropeway to Surkanda Devi temple (opened May 2022; replaces an almost two hour trek)",
         "url": "https://www.outlooktraveller.com/travelnews/now-pilgrims-can-take-ropeway-to-surkanda-devi-temple"
       },
       {
@@ -3557,6 +3494,14 @@ const allBlogPosts = [
       {
         "label": "Incredible India: Sir George Everest's House",
         "url": "https://incredibleindia.gov.in/en/uttarakhand/mussoorie/sir-george-everests-house"
+      },
+      {
+        "label": "Himalaya Shelter: Benog Tibba Trek (top about 2,250 m; 5 to 6 km round trip; 3 to 4 hours)",
+        "url": "https://himalayashelter.com/trek/benog-tibba-trek"
+      },
+      {
+        "label": "Trawell: Camel's Back Road (3 km, Kulri Bazaar to Library Chowk; Himalayan views; sunset point)",
+        "url": "https://www.trawell.in/uttarakhand/mussoorie/camels-back-road"
       }
     ],
     date: "July 10  5 min",
@@ -3624,7 +3569,7 @@ const allBlogPosts = [
         "title": "Why is EBC Mussoorie a good base for deodar forest walks?",
         "subtitle": [
           "Because the forest starts at your door. For guests who come mainly to walk among the deodars, EBC's place on the western ridge is hard to beat. You need no car and no permit to reach the trees. The guided walk runs daily from 7 to 9 AM, lasts 45 to 90 minutes and comes with every stay.",
-          "Then comes breakfast, which every early walker knows is half the pleasure. Hot food and coffee after two hours in a cold forest at 2,160 m is one of the small joys of a hill stay. Breakfast for two is included with every room, with Garhwali, Indian and English choices. Park Café, beside the meadow, also serves dishes from the Garhwal hills.",
+          "Then comes breakfast, which every early walker knows is half the pleasure. Hot food and coffee after a morning walk in a cold forest at 2,160 m is one of the small joys of a hill stay. Breakfast for two, English or Indian, is included with every room. Park Café, beside the meadow, also serves dishes from the Garhwal hills.",
           "Choose your room to suit the kind of forest stay you want."
         ],
         "items": [
@@ -3765,10 +3710,25 @@ const allBlogPosts = [
           "Four spots cover most of what Mussoorie has to offer. Two of them are on the quiet western ridge, close to EBC."
         ],
         "items": [
-          "EBC Mussoorie and the George Everest area: the deodar and oak forest around the resort is the easiest good habitat to reach. Guests can walk into it from their room at first light, with no transport and no permit. The guided morning walk, from 7 to 9 AM, is included with every stay",
+          "EBC Mussoorie and the George Everest area: the deodar and oak forest around the resort is the easiest good habitat to reach. The forest starts at the resort, and our guided walk sets off at 7 AM, with no car or permit needed. It is included with every stay",
           "Benog: the best kept birding forest near town. The reserve covers about 10.82 sq km of deodar and oak forest, protected since 1993. The deeper parts, away from the road, are the quietest and hold the most birds",
           "Jabarkhet Nature Reserve, above Landour: a private reserve with eight marked trails through oak, rhododendron and pine. It records over 50 bird species and offers walks with its own nature guides. There is an entry fee",
           "Camel's Back Road: the forest edge along this 3 km track, mostly at the Library end, turns up birds that like the edge of the ridge forest. Go early, before the walkers arrive"
+        ]
+      },
+      {
+        "title": "Where are these spots in relation to EBC?",
+        "subtitle": [
+          "EBC sits at the quiet western end of the Mussoorie ridge. Two of the best spots are close by, and two mean a drive across town.",
+          "Do the near ones on days you want to walk straight out after breakfast. Save the far ones for a morning when you are happy to start in the car."
+        ],
+        "items": [
+          "EBC and the George Everest area: the resort is on Park Estate, Hathipaon Road, about 6 km west of Mall Road. Sir George Everest's House is a couple of minutes' walk from Park Café",
+          "Cloud's End: further west along the same ridge road, about 7.5 km from Library. It is the usual start for walks into Benog",
+          "Benog: the reserve lies about 11 km from Mussoorie, beyond Cloud's End. From EBC it is a short drive west along Hathipaon Road",
+          "Camel's Back Road: in town, a 3 km track from Kulri Bazaar to Library Chowk. From EBC, drive east to the Library end",
+          "Jabarkhet: above Landour, on the road from Mussoorie to Dhanaulti. It is on the far eastern side of town, so allow time for the drive across Mussoorie",
+          "Streams for the Crested Kingfisher: in the valleys below the ridge. Ask our naturalist where to look that week"
         ]
       },
       {
@@ -3789,7 +3749,7 @@ const allBlogPosts = [
         "title": "Why do birders choose EBC Mussoorie as a base?",
         "subtitle": [
           "Because the birds start at the door. EBC sits at 2,160 m in a forest of deodar, pine and rhododendron on the western ridge. Over 50 species have been recorded on the property and in the woods around it, from noisy magpies to the Verditer Flycatcher.",
-          "The days run well for birders too. Walk at dawn with our naturalist, eat a Garhwali breakfast, and head out to Benog or Cloud's End by car. Children are welcome on our morning bird walks, and they often spot birds before the adults do. In the evening, the bonfire is a good place to compare lists."
+          "The days run well for birders too. Walk at dawn with our naturalist, have breakfast, and head out to Benog or Cloud's End by car. Children are welcome on our morning bird walks, and they often spot birds before the adults do. In the evening, the bonfire is a good place to compare lists."
         ]
       }
     ],
@@ -3804,7 +3764,7 @@ const allBlogPosts = [
       },
       {
         "question": "Is EBC Mussoorie a good base for a birding trip to Mussoorie?",
-        "answer": "Yes. The resort sits in deodar and oak forest, so you can start birding at first light without a car. Over 50 species have been recorded on the property and nearby. Its spot on the western ridge also keeps you close to Benog and the George Everest area."
+        "answer": "Yes. The resort sits in deodar and oak forest, so you can start birding on our 7 AM guided walk without a car. Over 50 species have been recorded on the property and nearby. Its spot on the western ridge also keeps you close to Benog and the George Everest area."
       },
       {
         "question": "What is the best season for birding near Mussoorie?",
@@ -3847,7 +3807,7 @@ const allBlogPosts = [
         "url": "https://www.lbsnaa.gov.in/storage/uploads/pdf_data/1738833087_Birds%20of%20Mussoorie%20updated%20low%20res.pdf"
       },
       {
-        "label": "Wikipedia: Mussoorie Wildlife Sanctuary (Benog), 10.82 sq km, declared 1993",
+        "label": "Wikipedia: Mussoorie Wildlife Sanctuary (Benog), 10.82 sq km, declared 1993, about 11 km from Mussoorie",
         "url": "https://en.wikipedia.org/wiki/Mussoorie_Wildlife_Sanctuary"
       },
       {
@@ -3857,6 +3817,14 @@ const allBlogPosts = [
       {
         "label": "Kiomoi: Jabarkhet Nature Reserve (eight trails, over 50 bird species, guided walks)",
         "url": "https://www.kiomoi.com/attractions/jabarkhet-nature-reserve-in-mussoorie-1879"
+      },
+      {
+        "label": "Trawell: Cloud's End (7.5 km from Library; oak and deodar forest)",
+        "url": "https://www.trawell.in/uttarakhand/mussoorie/clouds-end"
+      },
+      {
+        "label": "Trawell: Camel's Back Road (3 km, Kulri Bazaar to Library Chowk)",
+        "url": "https://www.trawell.in/uttarakhand/mussoorie/camels-back-road"
       }
     ],
     date: "July 10  5 min",
@@ -3899,20 +3867,18 @@ const allBlogPosts = [
       {
         "title": "Which moderate hikes need a bit more fitness?",
         "subtitle": [
-          "These four take a half day or more and include real climbs. Wear proper shoes and start early."
+          "These three take a half day or more and include real climbs. Wear proper shoes and start early. For Surkanda Devi and other treks a drive away, see our guide to trekking near Mussoorie."
         ],
         "items": [
           "Cloud's End forest trails: Cloud's End is the far western point of the ridge road, about 7.5 km from Library. Nature trails drop into thick oak and deodar forest. The Jwala Devi temple is a 2 km walk away, and the long Bhadraj temple trek, about 11 km, also starts nearby",
-          "Benog Tibba: a moderate climb through the Benog wildlife reserve to the top, at about 2,240 m. Guides put it at 2 to 4 km each way from Cloud's End. Allow 4 to 5 hours with stops for birds",
-          "Jabarkhet Nature Reserve: a private reserve above Landour with eight marked trails through oak, rhododendron and pine. Allow 3 to 5 hours. There is an entry fee, and you can hire one of their nature guides",
-          "Surkanda Devi from Kaddukhal: a steep 2 km climb to the temple at about 2,756 m, around 30 minutes each way. A ropeway from Kaddukhal opened in May 2022 for those who would rather ride up"
+          "Benog Tibba: a moderate climb through the Benog wildlife reserve to the top, at about 2,250 m. Day routes run about 5 to 6 km there and back from near Cloud's End. Allow 3 to 4 hours, more with stops for birds",
+          "Jabarkhet Nature Reserve: a private reserve above Landour with eight marked trails through oak, rhododendron and pine. Allow 3 to 5 hours. There is an entry fee, and you can hire one of their nature guides"
         ]
       },
       {
         "title": "Which challenging hikes need training?",
         "subtitle": [
-          "Nag Tibba is the one to aim for. At 3,022 m, it is the classic first overnight trek from Mussoorie.",
-          "You start from Pantwari village, at about 1,400 m, so the climb is more than 1,500 m. Trek firms quote 16 to 19 km in all, over two or three days, with a camp near the summit. Go with a local guide, and train for a few weeks first.",
+          "Nag Tibba is the one to aim for. At 3,022 m, it is the classic first overnight trek from Mussoorie. It needs a night out near the summit, a local guide and a few weeks of training first.",
           "Longer routes into the higher Garhwal hills exist too, for fit trekkers with a guide. For a full look at Nag Tibba and other treks a drive away, read our guide to trekking near Mussoorie."
         ]
       },
@@ -3936,7 +3902,7 @@ const allBlogPosts = [
           "A good hiking base does more than give you a bed. It should get you on the trail early and look after you well when you come back."
         ],
         "items": [
-          "Early starts: the Benog trail, Cloud's End and the Nag Tibba road all reward a 5:30 to 6 AM start. At EBC, the forest begins at your door, so you can walk at first light with no car at all",
+          "Early starts: the Benog trail, Cloud's End and the Nag Tibba road all reward a 5:30 to 6 AM start. At EBC, the forest starts at the resort, and our guided walk sets off at 7 AM, with no car or permit needed",
           "The western ridge: the resort sits on Hathipaon Road, the road to Cloud's End and the Benog trail. You start where the crowds are thinnest",
           "Recovery: Park Café serves dishes from the Garhwal hills plus Indian and continental food. Our kitchen cooks kafuli and mandua ki roti, and the evening bonfire comes with seating and blankets",
           "Groups: the resort has 14 rooms and sleeps 28 guests, or up to 50 with extra beds, so a hiking group can stay together. Call or WhatsApp the resort to plan a group stay"
@@ -3946,7 +3912,7 @@ const allBlogPosts = [
     faqs: [
       {
         "question": "What is the best hike near Mussoorie for a fit beginner?",
-        "answer": "Benog Tibba, from Cloud's End through the Benog wildlife reserve. It is a moderate climb of 4 to 5 hours with stops. You get good forest, plenty of birds and a view that repays the effort. Start at 6 AM for the best light."
+        "answer": "Benog Tibba, from Cloud's End through the Benog wildlife reserve. It is a moderate walk of 3 to 4 hours, longer with stops. You get good forest, plenty of birds and a view that repays the effort. Start at 6 AM for the best light."
       },
       {
         "question": "Is Nag Tibba accessible as a day hike from Mussoorie?",
@@ -3962,7 +3928,7 @@ const allBlogPosts = [
       },
       {
         "question": "Can I do multiple hikes in a 2-night Mussoorie stay?",
-        "answer": "Yes. On day 1, take the morning walk at EBC, then drive to Cloud's End for Benog Tibba. On day 2, walk Camel's Back Road or the Landour loop, or go to Surkanda Devi if you have a car. That makes a full and varied 2-day plan."
+        "answer": "Yes. On day 1, take the morning walk at EBC, then drive to Cloud's End for Benog Tibba. On day 2, walk Camel's Back Road or the Landour loop, or Jabarkhet if you have a car. That makes a full and varied 2-day plan."
       },
       {
         "question": "Does EBC Mussoorie provide hiking guides or trail advice for guests?",
@@ -4017,20 +3983,12 @@ const allBlogPosts = [
         "url": "https://www.kiomoi.com/attractions/jabarkhet-nature-reserve-in-mussoorie-1879"
       },
       {
-        "label": "Trawell: Surkanda Devi Temple (about 2 km, 30 minutes from Kaddukhal)",
-        "url": "https://www.trawell.in/uttarakhand/dhanaulti/surkanda-devi-temple"
-      },
-      {
-        "label": "Wikipedia: Surkanda Devi (2,756 m)",
-        "url": "https://en.wikipedia.org/wiki/Surkanda_Devi"
-      },
-      {
-        "label": "Outlook Traveller: Now pilgrims can take ropeway to Surkanda Devi temple (opened May 2022)",
-        "url": "https://www.outlooktraveller.com/travelnews/now-pilgrims-can-take-ropeway-to-surkanda-devi-temple"
-      },
-      {
         "label": "Bikat Adventures: Nag Tibba Trek itinerary (3,022 m; Pantwari 1,400 m; 19 km; about 90 km from Dehradun)",
         "url": "https://www.bikatadventures.com/Home/Itinerary/Nag-Tibba-Trek"
+      },
+      {
+        "label": "Himalaya Shelter: Benog Tibba Trek (top about 2,250 m; 5 to 6 km round trip; 3 to 4 hours)",
+        "url": "https://himalayashelter.com/trek/benog-tibba-trek"
       }
     ],
     date: "July 10  5 min",
@@ -4066,7 +4024,7 @@ const allBlogPosts = [
           "If you are walking with young children or older parents, our guide to easy treks in Mussoorie goes further. It covers six gentle routes in detail."
         ],
         "items": [
-          "George Everest heritage trail. This is our guided morning walk at EBC. It runs from 7 to 9 AM and lasts 45 to 90 minutes, through deodar forest and along the ridge where Everest lived. For our guests, it starts at the cottage door.",
+          "Our guided morning walk at EBC. It runs from 7 to 9 AM and lasts 45 to 90 minutes, through deodar forest and along the ridge where Everest lived. For our guests, it starts at the resort.",
           "Camel's Back Road. A 3 km walking track along the ridge, taking 1 to 1.5 hours. It is level and well kept, with wide views over the valley.",
           "Landour heritage loop. A short circuit through Landour, the quietest and best kept part of old Mussoorie. Allow 1 to 1.5 hours."
         ]
@@ -4081,7 +4039,7 @@ const allBlogPosts = [
           "Benog Tibba, through the Benog wildlife reserve. The best day hike from Mussoorie. The top sits at about 2,250 m. Day routes run about 5 to 6 km there and back, in 3 to 4 hours. The reserve covers about 10.8 sq km of oak and deodar forest, and its gate is open from 7 AM to 5 PM.",
           "Cloud's End forest trail. About 4 to 6 km, or 2 to 3 hours. It drops from the Cloud's End area into thick deodar forest. Several Benog routes start near here too.",
           "Jabarkhet forest trail. A managed trail through the Jabarkhet reserve, one of the richest patches of forest near town. Allow 2 to 4 hours, depending on the loop.",
-          "Kaddukhal to Surkanda Devi. A steep walk of about 3 km each way to a temple at 2,756 m. The view of the snow peaks from the top is one of the widest in the area. Allow 2 to 3 hours there and back."
+          "Kaddukhal to Surkanda Devi. A steep, paved walk of about 2 km to a temple at 2,756 m. The view of the snow peaks from the top is one of the widest in the area. Allow 1.5 to 2 hours there and back, or take the ropeway."
         ]
       },
       {
@@ -4091,8 +4049,7 @@ const allBlogPosts = [
           "Pantwari, the village where the trek starts, is about 60 km from Mussoorie by road, via Nainbagh. Hill roads are slow, so leave early."
         ],
         "items": [
-          "Nag Tibba summit trek. At about 3,022 m, this is the main trekking goal from Mussoorie. You start at Pantwari, at about 1,400 m. Expect roughly 15 to 19 km on foot over two or three days, with a night in camp below the top.",
-          "Longer forest routes to Nag Tibba. Some outfitters run 3 to 4 day routes through the Jabarkhet forest that avoid the road head. These suit trekkers with experience. Ask a local operator which routes are open."
+          "Nag Tibba summit trek. At about 3,022 m, this is the main trekking goal from Mussoorie. You start at Pantwari, at about 1,400 m. Expect roughly 15 to 19 km on foot over two or three days, with a night in camp below the top."
         ]
       },
       {
@@ -4115,9 +4072,9 @@ const allBlogPosts = [
           "It gives you one proper hike and one gentle forest walk, with time to rest between them."
         ],
         "items": [
-          "Friday: Leave Delhi after work. Reach EBC Mussoorie by late evening and settle in.",
+          "Friday: Leave Delhi early in the morning and arrive in time for the evening bonfire.",
           "Saturday: Set off at 6 AM for Benog Tibba. Walk for 3 to 4 hours. Rest in the afternoon, then sit by the evening bonfire.",
-          "Sunday: Join our guided morning walk at 7 AM. Have breakfast, then try the Cloud's End trail if your legs allow. Check out by 11 AM."
+          "Sunday: Join our guided morning walk at 7 AM. Have breakfast, then try the Cloud's End trail if your legs allow, before the drive home."
         ]
       },
       {
@@ -4137,7 +4094,7 @@ const allBlogPosts = [
         "title": "What should you carry on a Mussoorie trek?",
         "subtitle": [
           "Pack for the hardest part of the day, not the start. Weather on the ridge can turn in an hour.",
-          "BW Hotelier has written about the resort if you want an outside view. Our activities page lists what we run on the estate each day."
+          "Our activities page lists what we run on the estate each day."
         ],
         "items": [
           "Day hikes: 2 litres of water, trail snacks, a light rain jacket, sun cover and closed shoes with grip. Poles help on steep descents.",
@@ -4153,7 +4110,7 @@ const allBlogPosts = [
       },
       {
         "question": "Do I need a guide for Mussoorie day treks?",
-        "answer": "For Camel's Back Road and the George Everest trail, no. Our morning walk comes with a naturalist anyway. For Benog and Jabarkhet, a guide is optional but helps with birds and plants. For Nag Tibba, take a local guide."
+        "answer": "For Camel's Back Road and our guided morning walk, no. Our morning walk comes with a naturalist anyway. For Benog and Jabarkhet, a guide is optional but helps with birds and plants. For Nag Tibba, take a local guide."
       },
       {
         "question": "What is the best season for trekking in Mussoorie?",
@@ -4169,7 +4126,7 @@ const allBlogPosts = [
       },
       {
         "question": "How far is Panthwari (Nag Tibba trailhead) from EBC Mussoorie?",
-        "answer": "Pantwari is about 60 km from Mussoorie town by road, via Nainbagh. Hill roads are slow and the drive takes longer than the distance suggests, so leave early."
+        "answer": "Pantwari is about 60 km from Mussoorie town by road, via Nainbagh. From EBC, add the drive across town from Hathipaon Road. Hill roads are slow, so leave early."
       }
     ],
     related: [
@@ -4220,7 +4177,7 @@ const allBlogPosts = [
         "url": "https://www.indiahikes.com/benog-tibba-trek"
       },
       {
-        "label": "Wikipedia: Surkanda Devi (2,756 m; about 3 km walk from Kaddukhal)",
+        "label": "Wikipedia: Surkanda Devi (2,756 m)",
         "url": "https://en.wikipedia.org/wiki/Surkanda_Devi"
       },
       {
@@ -4232,8 +4189,12 @@ const allBlogPosts = [
         "url": "https://www.bikatadventures.com/home/Blog/how-to-reach-pantwari"
       },
       {
-        "label": "BW Hotelier: Discover the unique experience at Everest Base Camp Mussoorie",
-        "url": "https://bwhotelier.com/article/discover-the-unique-experience-at-everest-base-camp-mussoorie-530090"
+        "label": "Trawell: Surkanda Devi Temple (about 2 km paved path from Kaddukhal)",
+        "url": "https://www.trawell.in/uttarakhand/dhanaulti/surkanda-devi-temple"
+      },
+      {
+        "label": "Outlook Traveller: Now pilgrims can take ropeway to Surkanda Devi temple (two km trek; ropeway from Kaddukhal)",
+        "url": "https://www.outlooktraveller.com/travelnews/now-pilgrims-can-take-ropeway-to-surkanda-devi-temple"
       }
     ],
     date: "July 10  5 min",
@@ -4272,7 +4233,7 @@ const allBlogPosts = [
           "The mist here is not a backdrop. At 7 AM after a night of rain, the forest at EBC sits inside the cloud rather than below it. Walking through mature deodar in that mist, with no one else around, feels like a different place."
         ],
         "items": [
-          "George Everest heritage trail at EBC Mussoorie. Our guided morning walk runs from 7 to 9 AM and lasts 45 to 90 minutes. It follows deodar forest and ridge paths, needs no drive, and a naturalist walks with you.",
+          "Our guided morning walk at EBC Mussoorie. It runs from 7 to 9 AM and lasts 45 to 90 minutes. It follows deodar forest and ridge paths, needs no drive, and a naturalist walks with you.",
           "Camel's Back Road. A paved 3 km track along the ridge. It is fine in light rain with a good jacket. Go early.",
           "Cloud's End, first 1 to 2 km. The deodar forest around Cloud's End is easy going in light rain and at its best in mist."
         ]
@@ -4323,24 +4284,23 @@ const allBlogPosts = [
         "title": "How should you plan a monsoon trekking stay at EBC Mussoorie?",
         "subtitle": [
           "Two nights is enough. Build each day around the morning, when rain is least likely, and keep the afternoons for rest.",
-          "Our one firm rule for July and August: never start a trail after 11 AM. Always carry a proper rain jacket, not an umbrella. Turn back the moment conditions change.",
-          "Tripoto has a traveller's write-up of the estate if you want an outside view before you book."
+          "Our one firm rule for July and August: never start a trail after 11 AM. Always carry a proper rain jacket, not an umbrella. Turn back the moment conditions change."
         ],
         "items": [
           "Day 1: Aim to reach EBC around noon. Have lunch at Park Café, then check in from 2 PM. Walk the estate in the late afternoon if it is dry.",
           "Day 2: Up by 6 AM and at the Benog gate by 7 AM. Walk the first stretch and turn back by 10 AM. Rest in the afternoon, with a bonfire in the evening if it clears.",
-          "Day 3: Join our guided walk at 7 AM, while the mist is thick. Breakfast after, then check out by 11 AM."
+          "Day 3: Join our guided walk at 7 AM, while the mist is thick. Breakfast after, then an easy drive down in daylight."
         ]
       }
     ],
     faqs: [
       {
         "question": "Is it safe to trek in Mussoorie during monsoon?",
-        "answer": "On the right trails, with the right timing and footwear, yes. Low forest walks like our George Everest trail are fine in the morning. The first stretch of the Benog trail is possible with care. Avoid high or steep routes, and check IMD alerts and road news before you set out."
+        "answer": "On the right trails, with the right timing and footwear, yes. Low forest walks like our guided morning walk are fine in the morning. The first stretch of the Benog trail is possible with care. Avoid high or steep routes, and check IMD alerts and road news before you set out."
       },
       {
         "question": "What is the best monsoon trek near Mussoorie for a beginner?",
-        "answer": "The George Everest heritage trail from EBC Mussoorie. It needs no drive, has no hard climbs, and a naturalist comes with you. The morning mist is at its thickest in July and August."
+        "answer": "Our guided morning walk at EBC Mussoorie. It needs no drive, has no hard climbs, and a naturalist comes with you. The morning mist is at its thickest in July and August."
       },
       {
         "question": "Can I do Nag Tibba in monsoon?",
@@ -4401,10 +4361,6 @@ const allBlogPosts = [
       {
         "label": "Incredible India: Benog Wildlife Sanctuary (open 7 AM to 5 PM)",
         "url": "https://www.incredibleindia.gov.in/en/uttarakhand/mussoorie/benog-wildlife-sanctuary"
-      },
-      {
-        "label": "Tripoto: a traveller's account of Everest Base Camp Mussoorie",
-        "url": "https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8"
       }
     ],
     date: "July 10  5 min",
@@ -4436,7 +4392,7 @@ const allBlogPosts = [
           "Every one of them can be done in a morning, with time left for a long lunch."
         ],
         "items": [
-          "George Everest heritage trail at EBC Mussoorie. This is our guided morning walk, from 7 to 9 AM, lasting 45 to 90 minutes. It winds through deodar, pine and rhododendron on the ridge where Sir George Everest lived. Guests start at their cottage door, and a naturalist points out birds and wildflowers.",
+          "Our guided morning walk at EBC Mussoorie. It runs from 7 to 9 AM and lasts 45 to 90 minutes. It winds through deodar, pine and rhododendron on the ridge where Sir George Everest lived. Guests start at their cottage door, and a naturalist points out birds and wildflowers.",
           "Camel's Back Road. A 3 km paved track along the ridge, from the Library end toward Camel's Back Rock. It is level and well kept. Allow 1 to 1.5 hours, and go at sunrise.",
           "Landour heritage loop. A circuit through Landour, the old cantonment above the main town. It is the best kept part of old Mussoorie. Allow 1 to 1.5 hours.",
           "Benog forest, first stretch. Walk the first 1.5 to 2 km from the gate, then turn back. You get the forest and the birds without the climb to the top. Allow 1.5 to 2 hours.",
@@ -4461,8 +4417,7 @@ const allBlogPosts = [
       {
         "title": "How should you plan an easy trek in Mussoorie?",
         "subtitle": [
-          "Go in the morning, wear proper shoes and carry your own water. Those three habits cover most of it.",
-          "BW Hotelier has written about how EBC ties the George Everest story into a stay. For a guest's view of the estate and its setting, Tripoto has a first-person account."
+          "Go in the morning, wear proper shoes and carry your own water. Those three habits cover most of it."
         ],
         "items": [
           "Timing: mornings beat afternoons on every route. Start before 8 AM if you can.",
@@ -4483,7 +4438,7 @@ const allBlogPosts = [
     faqs: [
       {
         "question": "Which is the easiest walk in Mussoorie for senior travellers or families with young children?",
-        "answer": "Camel's Back Road, for a paved walk along the ridge. Or the George Everest heritage trail from EBC Mussoorie, for a gentle guided forest walk with some history. Both suit older travellers and children from 5 or 6 upward."
+        "answer": "Camel's Back Road, for a paved walk along the ridge. Or our guided morning walk at EBC Mussoorie, for a gentle forest walk with some history. Both suit older travellers and children from 5 or 6 upward."
       },
       {
         "question": "Is the Benog sanctuary entry section genuinely easy?",
@@ -4499,11 +4454,11 @@ const allBlogPosts = [
       },
       {
         "question": "How do I access the George Everest heritage trail from EBC Mussoorie?",
-        "answer": "Join our guided morning walk at 7 AM. It starts at the resort, so there is no drive, permit or separate booking. It is included with every stay. Confirm the timing with us when you book."
+        "answer": "It is our guided morning nature walk, on the ridge where Sir George Everest lived. Join it at 7 AM. It starts at the resort and is included with every stay, so there is no drive, permit or separate booking."
       },
       {
         "question": "What is the best easy walk in Mussoorie for a couple?",
-        "answer": "The George Everest heritage trail from EBC Mussoorie at first light, then a meal at Park Café on the estate. You get history, forest and morning mist, with good food at the end. No other easy walk near Mussoorie rounds off quite so well."
+        "answer": "Our guided morning walk at EBC Mussoorie, then a meal at Park Café on the estate. You get history, forest and morning mist, with good food at the end."
       }
     ],
     related: [
@@ -4536,14 +4491,6 @@ const allBlogPosts = [
       {
         "label": "Wikipedia: Mussoorie (Gun Hill, second highest point, 2,024 m, reached by cable car from Mall Road)",
         "url": "https://en.wikipedia.org/wiki/Mussoorie"
-      },
-      {
-        "label": "BW Hotelier: Discover the unique experience at Everest Base Camp Mussoorie",
-        "url": "https://bwhotelier.com/article/discover-the-unique-experience-at-everest-base-camp-mussoorie-530090"
-      },
-      {
-        "label": "Tripoto: a traveller's account of Everest Base Camp Mussoorie",
-        "url": "https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8"
       }
     ],
     date: "July 10  5 min",
@@ -4623,7 +4570,7 @@ const allBlogPosts = [
       {
         "title": "Which zone wins for a family monsoon trip?",
         "subtitle": [
-          "Mussoorie and the Garhwal ridge, and it is not close.",
+          "Mussoorie and the Garhwal ridge.",
           "This zone has the most reliable road from Delhi and enough height for real relief from the heat. It also has the widest range of family stays, and places that can hold a family through a wet afternoon. No other zone in the state gets all of that right as often."
         ]
       },
@@ -4631,7 +4578,7 @@ const allBlogPosts = [
         "title": "How do you keep a monsoon family trip safe?",
         "subtitle": [
           "Watch the weather closely, and be ready to change plans. Check the week before, the night before and the morning you drive.",
-          "Official warnings are worth heeding. In September 2024, the India Meteorological Department (IMD) put Dehradun district under a red alert. Tourists were told to avoid travel and stay off landslide-prone stretches."
+          "Official warnings are worth heeding. Our guide to Mussoorie monsoon treks explains the IMD alerts and how to check them."
         ],
         "items": [
           "Read the IMD district alerts for every district on your route. Orange means be ready to change plans. Red means stay where you are.",
@@ -4645,8 +4592,7 @@ const allBlogPosts = [
       {
         "title": "How do you build the trip?",
         "subtitle": [
-          "Three nights, one base and a morning start. Here is the plan we would give a friend.",
-          "Tripoto has a first-person account of EBC if you want a feel for the Garhwal ridge on the ground."
+          "Three nights, one base and a morning start. Here is the plan we would give a friend."
         ],
         "items": [
           "Nights: three at least. Two nights lose too much to the road when rain slows the drive.",
@@ -4733,14 +4679,6 @@ const allBlogPosts = [
       {
         "label": "Outlook Traveller: Badrinath highway closed due to heavy rain and landslides",
         "url": "https://outlooktraveller.com/amp/story/whats-new/badrinath-highway-closed-due-to-heavy-rain-and-landslides-in-uttarakhand"
-      },
-      {
-        "label": "Outlook Traveller: Tourists urged to postpone travel as Uttarakhand faces heavy rainfall warning (IMD red alert, 13 September 2024)",
-        "url": "https://www.outlooktraveller.com/News/tourists-urged-to-postpone-travel-as-uttarakhand-faces-heavy-rainfall-warning"
-      },
-      {
-        "label": "Tripoto: a traveller's account of Everest Base Camp Mussoorie",
-        "url": "https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8"
       }
     ],
     date: "July 10  5 min",
