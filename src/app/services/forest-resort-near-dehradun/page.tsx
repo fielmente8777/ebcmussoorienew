@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "forest-resort-near-dehradun",
@@ -44,7 +46,7 @@ const articleData = {
        <p>One of the most undervalued aspects of genuine forest resort stays is what happens after dark. A property that limits artificial lighting preserves both the nocturnal wildlife activity near the accommodation and the stargazing quality above it. Ask about the property's lighting approach before booking.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Access to Walking Trails Through Working Forest</h3>
        <p>The forest experience requires walking inside it, not observing it from a terrace. Properties within the Mussoorie belt, especially near George Everest Peak, offer trail access that passes through active oak‑rhododendron forest zones.</p>
-       <p><strong>Everest Base Camp Mussoorie</strong> is positioned in the George Everest Peak forest zone and provides this kind of access as a core part of the stay. Guests can read the on‑ground experience details in this piece on <a href="/adventure-mussoorie" class="text-secondary underline">EBC Mussoorie's forest and outdoor setting</a>.</p>`,
+       <p><strong>Everest Base Camp Mussoorie</strong> is positioned in the George Everest Peak forest zone and provides this kind of access as a core part of the stay. Guests can read the on‑ground experience details in this piece on <a href="/activities/" class="text-secondary underline">EBC Mussoorie's forest and outdoor setting</a>.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Sensory Sequence of a Forest Resort Stay Near Dehradun</h2>
        <ul class="list-disc pl-6 space-y-1">
@@ -53,7 +55,7 @@ const articleData = {
          <li><strong>Afternoon:</strong> Forest light in the late afternoon has a quality that is specific to this elevation and latitude. The angle of the sun through the oak canopy produces patterns that photographers find specifically compelling.</li>
          <li><strong>Evening:</strong> As the temperature drops, the forest becomes active again. Insects produce a different sound layer from the morning birds, and the cooler air carries the smell of leaf litter and soil more distinctly than at midday.</li>
        </ul>
-       <p>Explore what staying at a forest‑adjacent glamping resort looks like in detail at <a href="/rooms" class="text-secondary underline">EBC Mussoorie's accommodation page</a>.</p>`,
+       <p>Explore what staying at a forest‑adjacent glamping resort looks like in detail at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's accommodation page</a>.</p>`,
     ],
   },
   faqs: [
@@ -90,7 +92,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("forest-resort-near-dehradun", articleData.metaData);
 
 export default function ForestResortPage() {
   const renderContent = (htmlString: string) => {
@@ -99,6 +101,7 @@ export default function ForestResortPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("forest-resort-near-dehradun", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

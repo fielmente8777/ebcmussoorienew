@@ -4,9 +4,21 @@ import BlogSocialSection from "./components/BlogSocialSection";
 import { blogPagedata } from "./components/pageData";
 import { SectionWithContainer } from "@/components/sectionComponants";
 
+import JsonLd from "@/components/seo/JsonLd";
+import { pageMeta } from "@/lib/seo";
+import { breadcrumbSchema } from "@/lib/schema";
+
+export const metadata = pageMeta({
+  title: "Mussoorie Travel Guides & Stories – EBC Mussoorie",
+  description: "Guides to Mussoorie from the team at EBC Mussoorie: treks, bird watching, the best time to visit, monsoon trips and hill stations near Delhi.",
+  path: "/blogs/",
+});
+
+
 export default function BlogPage() {
   return (
     <main className="">
+      <JsonLd data={[breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Blog", path: "/blogs/" }])]} />
       <HeroHeaderSection {...blogPagedata?.banner} />
 
       <SectionWithContainer sectionClassName="bg-primary">

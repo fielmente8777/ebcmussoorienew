@@ -7,6 +7,8 @@ interface IntroSectionProps {
   image: string;
   contentWrapperClassName?: string;
   quote?: string;
+  /** Render the title as the page's H1 (for pages whose banner has no heading). */
+  asPageTitle?: boolean;
 }
 
 const IntroSection: React.FC<IntroSectionProps> = ({
@@ -14,20 +16,22 @@ const IntroSection: React.FC<IntroSectionProps> = ({
   description,
   image,
   contentWrapperClassName = "",
+  asPageTitle = false,
 }) => {
+  const Heading = asPageTitle ? "h1" : "h2";
   return (
     <SectionWithContainer sectionClassName="bg-primary">
       <div
         className={`flex flex-col items-center justify-center gap-6 md:gap-12 mx-auto ${contentWrapperClassName}`}
       >
-        <h2
+        <Heading
           className="text-3xl lg:text-6xl/tight font-extralight text-center font-primary text-white"
           dangerouslySetInnerHTML={{ __html: title }}
-        ></h2>
+        />
         <div className="relative w-full max-w-3xl aspect-4/1 mx-auto">
           <Image
             src={image}
-            alt={title}
+            alt={title.replace(/<[^>]+>/g, "")}
             fill
             className="w-full h-auto rounded-lg"
           />

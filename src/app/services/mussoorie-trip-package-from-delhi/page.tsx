@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "mussoorie-trip-package-from-delhi",
@@ -35,7 +37,7 @@ const articleData = {
          <li><strong>Activity‑bundled packages:</strong> These include accommodation, select activities (Kempty Falls visit, local sightseeing, a bonfire evening), and some or all meals. Better suited for first‑time visitors who want a structured experience.</li>
          <li><strong>Glamping packages:</strong> These are property‑specific packages offered by resorts like <a href="/" class="text-secondary underline">Everest Base Camp Mussoorie</a>, which include tent accommodation, meals, outdoor activities like trekking near George Everest Peak, and a bonfire setup. These are the most experience‑dense of the three formats and have grown steadily in popularity among Delhi NCR travellers.</li>
        </ul>
-       <p>You can review what a current glamping package includes at <a href="/rooms" class="text-secondary underline">EBC Mussoorie's accommodation page</a> before comparing with operator‑led alternatives.</p>`,
+       <p>You can review what a current glamping package includes at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's accommodation page</a> before comparing with operator‑led alternatives.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">A Two‑Night Itinerary Framework for a Mussoorie Package from Delhi</h2>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Day 1: Departure and Arrival</h3>
@@ -87,7 +89,7 @@ const articleData = {
          <li>You want to combine Mussoorie with Dhanaulti or another stop</li>
          <li>You are experienced with mountain travel and prefer to organise each element separately</li>
        </ul>
-       <p>For most Delhi NCR first‑timers, a well‑structured glamping package from a property like <a href="/" class="text-secondary underline">Everest Base Camp Mussoorie</a> reduces friction significantly. As covered in <a href="/glamping-george-everest" class="text-secondary underline">this travel piece</a>, getting from Delhi to an Everest Base Camp in Mussoorie is more straightforward than most people expect.</p>`,
+       <p>For most Delhi NCR first‑timers, a well‑structured glamping package from a property like <a href="/" class="text-secondary underline">Everest Base Camp Mussoorie</a> reduces friction significantly. As covered in <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">this travel piece</a>, getting from Delhi to an Everest Base Camp in Mussoorie is more straightforward than most people expect.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Key Distances and Travel Times From Delhi to Mussoorie</h2>
        <table class="w-full border-collapse my-4 text-sm md:text-base">
@@ -162,7 +164,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("mussoorie-trip-package-from-delhi", articleData.metaData);
 
 export default function MussoorieTripPackagePage() {
   const renderContent = (htmlString: string) => {
@@ -171,6 +173,7 @@ export default function MussoorieTripPackagePage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("mussoorie-trip-package-from-delhi", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

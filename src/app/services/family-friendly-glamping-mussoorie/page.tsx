@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   // ✅ URL is exactly: family-friendly-glamping-mussoorie
@@ -53,7 +55,7 @@ const articleData = {
        <p>Duplex design with two bedrooms, separate entrances, spacious living areas, premium furnishings, and luxury bathrooms.</p>
        <p><strong>Best for:</strong> Multi-generational families, extended family groups, or families wanting the most space and privacy on the estate.</p>
 
-       <p>Full details are on the <a href="/rooms" class="text-secondary underline">EBC Mussoorie accommodation page</a>. Contact the property directly to confirm which unit suits your family size and dates.</p>`,
+       <p>Full details are on the <a href="/rooms/" class="text-secondary underline">EBC Mussoorie accommodation page</a>. Contact the property directly to confirm which unit suits your family size and dates.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Property Features That Matter to Parents</h2>
        <ul class="list-disc pl-6 space-y-1">
@@ -84,7 +86,7 @@ const articleData = {
          <li><strong>Bring your own indoor entertainment.</strong> Books, cards, and games. Do not rely on the property to fill a rainy afternoon.</li>
          <li><strong>Confirm any specific requirements in advance.</strong> Dietary needs, extra bedding, and pet arrangements all benefit from being agreed before arrival rather than on the day.</li>
        </ul>
-       <p>The <a href="https://www.hotelierindia.com/story/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a> covers how the property structures its outdoor experience, which is the element families respond to most.</p>`,
+       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> covers how the property structures its outdoor experience, which is the element families respond to most.</p>`,
     ],
   },
   faqs: [
@@ -121,7 +123,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("family-friendly-glamping-mussoorie", articleData.metaData);
 
 export default function FamilyFriendlyGlampingPage() {
   const renderContent = (htmlString: string) => {
@@ -130,6 +132,7 @@ export default function FamilyFriendlyGlampingPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("family-friendly-glamping-mussoorie", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   // ✅ URL is exactly: couple-resort-mussoorie-monsoon
@@ -46,7 +48,7 @@ const articleData = {
          <li><strong>On-site dining that removes the need to drive anywhere.</strong> The Park Cafe at EBC Mussoorie is a multi-cuisine restaurant with both indoor and alfresco seating. In monsoon, this matters more than in any other season. A couple should never need to drive down a wet ridge road at 8 PM to find dinner.</li>
          <li><strong>A bonfire that works in the evening clearing window.</strong> Private bonfire setups on the 20-acre estate are a confirmed EBC Mussoorie feature. For monsoon dates specifically, confirm with the property whether the setup can be arranged after evening rain stops and whether there is any covered seating alongside it.</li>
        </ul>
-       <p>Browse the <a href="/rooms" class="text-secondary underline">accommodation categories at EBC Mussoorie</a> before enquiring so you can name your preferred unit when you contact them.</p>`,
+       <p>Browse the <a href="/rooms/" class="text-secondary underline">accommodation categories at EBC Mussoorie</a> before enquiring so you can name your preferred unit when you contact them.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Which EBC Mussoorie Accommodation Suits a Monsoon Couple Stay</h2>
        <div class="overflow-x-auto">
@@ -112,7 +114,7 @@ const articleData = {
          <li>Road access can be affected for 24 to 48 hours after a heavy rainfall event. Book flexible cancellation terms.</li>
          <li>Stargazing on the George Everest ridge, which is excellent in October and April, is limited by monsoon cloud cover.</li>
        </ul>
-       <p>Confirm EBC Mussoorie's operational status and access conditions directly with the property before booking July or August dates. The <a href="https://www.hotelierindia.com/story/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a> gives useful context on the property's outdoor hospitality philosophy across seasons.</p>`,
+       <p>Confirm EBC Mussoorie's operational status and access conditions directly with the property before booking July or August dates. The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> gives useful context on the property's outdoor hospitality philosophy across seasons.</p>`,
     ],
   },
   faqs: [
@@ -149,7 +151,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("couple-resort-mussoorie-monsoon", articleData.metaData);
 
 export default function CoupleResortMussoorieMonsoonPage() {
   const renderContent = (htmlString: string) => {
@@ -158,6 +160,7 @@ export default function CoupleResortMussoorieMonsoonPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("couple-resort-mussoorie-monsoon", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

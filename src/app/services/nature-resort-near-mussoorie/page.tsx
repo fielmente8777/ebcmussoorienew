@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "nature-resort-mussoorie",
@@ -59,13 +61,13 @@ const articleData = {
          <li><strong>Low-density accommodation:</strong> High-density properties with 30 or more rooms create noise and foot traffic that disturbs the immediate wildlife environment. A property with fewer than ten units is significantly better for nature observation.</li>
          <li><strong>Dark sky access:</strong> A property that limits artificial lighting after a certain hour preserves both the stargazing quality and the nocturnal wildlife activity nearby.</li>
        </ul>
-       <p><strong>Everest Base Camp Mussoorie</strong>, positioned near George Everest Peak in an area of active forest and open ridge terrain, reflects this approach. The property's location places guests at the edge of the oak-rhododendron forest zone with direct trekking access toward the peak, which passes through the most biologically active sections of the local forest. You can review the accommodation format at <a href="/rooms" class="text-secondary underline">EBC Mussoorie's rooms and tents page</a>.</p>`,
+       <p><strong>Everest Base Camp Mussoorie</strong>, positioned near George Everest Peak in an area of active forest and open ridge terrain, reflects this approach. The property's location places guests at the edge of the oak-rhododendron forest zone with direct trekking access toward the peak, which passes through the most biologically active sections of the local forest. You can review the accommodation format at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms and tents page</a>.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The George Everest Peak Trek as a Nature Walk</h2>
        <p>Most visitors treat the George Everest Peak trek as a historical or scenic walk. It is also one of the best casual birding and botanical routes in the Mussoorie belt.</p>
        <p>The trail from Park Estate passes through three distinct vegetation bands over approximately three kilometres, giving walkers a visible transition from mixed shrub and open meadow near the lower trailhead into denser oak forest before emerging onto the exposed ridgeline near the peak itself.</p>
        <p>Morning departures before 8:00 AM produce the best bird activity. The summit area, open and rocky, is a good observation point for raptors, including Himalayan griffon vultures that use the thermal updrafts from the valley below.</p>
-       <p>The experience is documented with practical ground-level detail in this piece on <a href="/adventure-mussoorie" class="text-secondary underline">EBC Mussoorie and outdoor adventure near Mussoorie</a>.</p>`,
+       <p>The experience is documented with practical ground-level detail in this piece on <a href="/activities/" class="text-secondary underline">EBC Mussoorie and outdoor adventure near Mussoorie</a>.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">How to Evaluate a Nature Resort Near Mussoorie Before Booking</h2>
        <p>Ask these specific questions:</p>
@@ -76,7 +78,7 @@ const articleData = {
          <li>What is the total accommodation capacity?</li>
          <li>Are guests encouraged or equipped to explore the surrounding forest independently?</li>
        </ul>
-       <p>A property that cannot answer the first two clearly is probably using "nature resort" as a synonym for "hotel with a garden view." Review the accommodation format and setting at <a href="/rooms" class="text-secondary underline">EBC Mussoorie's rooms and tents page</a> to evaluate whether the property format matches a genuine nature stay.</p>`,
+       <p>A property that cannot answer the first two clearly is probably using "nature resort" as a synonym for "hotel with a garden view." Review the accommodation format and setting at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms and tents page</a> to evaluate whether the property format matches a genuine nature stay.</p>`,
     ],
   },
   faqs: [
@@ -113,7 +115,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("nature-resort-near-mussoorie", articleData.metaData);
 
 export default function NatureResortPage() {
   const renderContent = (htmlString: string) => {
@@ -122,6 +124,7 @@ export default function NatureResortPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("nature-resort-near-mussoorie", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "adventure-camping-near-dehradun",
@@ -53,8 +55,8 @@ const articleData = {
          <li>Elevation already established at roughly 2,000 metres, reducing early morning commute time to higher trailheads</li>
          <li>A genuine outdoor atmosphere that primes the physical mindset rather than requiring a transition from a comfortable city hotel</li>
        </ul>
-       <p><strong>Everest Base Camp Mussoorie</strong> is positioned with exactly this in mind. The premium glamping resort near George Everest Peak sits at the edge of accessible trail territory, making morning departures practical without sacrificing a proper night's sleep. You can explore the accommodation options at <a href="/rooms" class="text-secondary underline">EBC Mussoorie's rooms page</a>.</p>
-       <p>This piece on <a href="/adventure-mussoorie" class="text-secondary underline">adventure experiences at EBC Mussoorie</a> covers what the property's outdoor access looks like from the ground.</p>`,
+       <p><strong>Everest Base Camp Mussoorie</strong> is positioned with exactly this in mind. The premium glamping resort near George Everest Peak sits at the edge of accessible trail territory, making morning departures practical without sacrificing a proper night's sleep. You can explore the accommodation options at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms page</a>.</p>
+       <p>This piece on <a href="/activities/" class="text-secondary underline">adventure experiences at EBC Mussoorie</a> covers what the property's outdoor access looks like from the ground.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Building a Two-Night Adventure Camping Itinerary Near Dehradun</h2>
        <ul class="list-disc pl-6 space-y-1">
@@ -75,7 +77,7 @@ const articleData = {
          <li>Headlamp for pre-dawn starts</li>
          <li>Sun protection at altitude: SPF 50 sunscreen, UV-blocking sunglasses, and a hat</li>
        </ul>
-       <p>For guests staying at <a href="/" class="text-secondary underline">Everest Base Camp Mussoorie</a>, accommodation essentials like bedding and lighting are provided. Confirm what the property supplies versus what you need to bring when booking through <a href="/rooms" class="text-secondary underline">EBC Mussoorie's accommodation page</a>.</p>`,
+       <p>For guests staying at <a href="/" class="text-secondary underline">Everest Base Camp Mussoorie</a>, accommodation essentials like bedding and lighting are provided. Confirm what the property supplies versus what you need to bring when booking through <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's accommodation page</a>.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Safety Considerations for Adventure Camping Near Dehradun</h2>
        <p>Adventure activities carry inherent risk. Be accurate about these:</p>
@@ -121,7 +123,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("adventure-camping-near-dehradun", articleData.metaData);
 
 export default function AdventureCampingPage() {
   const renderContent = (htmlString: string) => {
@@ -130,6 +132,7 @@ export default function AdventureCampingPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("adventure-camping-near-dehradun", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

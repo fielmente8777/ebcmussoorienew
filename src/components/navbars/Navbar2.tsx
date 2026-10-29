@@ -17,30 +17,30 @@ import WhatsAppCta from "./WhatsAppCta";
 export const navLinks = [
   {
     label: "Rooms",
-    href: "/rooms",
+    href: "/rooms/",
     subLinks: [
-      { label: "The Andrew's Villa", href: "/rooms/the-andrews-villa" },
-      { label: "Twin Luxury Cottages", href: "/rooms/twin-luxury-cottages" },
-      { label: "Zenith Luxury Cottage", href: "/rooms/zenith-luxury-cottage" },
-      { label: "The Surveyor", href: "/rooms/the-surveyor" },
-      { label: "The Surveyor Suite", href: "/rooms/the-surveyor-suite" },
-      { label: "The Glamper", href: "/rooms/the-glamper" },
-      { label: "The Camper", href: "/rooms/the-camper" },
+      { label: "The Andrew's Villa", href: "/rooms/the-andrews-villa/" },
+      { label: "Twin Luxury Cottages", href: "/rooms/twin-luxury-cottages/" },
+      { label: "Zenith Luxury Cottage", href: "/rooms/zenith-luxury-cottage/" },
+      { label: "The Surveyor", href: "/rooms/the-surveyor/" },
+      { label: "The Surveyor Suite", href: "/rooms/the-surveyor-suite/" },
+      { label: "The Glamper", href: "/rooms/the-glamper/" },
+      { label: "The Camper", href: "/rooms/the-camper/" },
     ],
   },
 
   {
     label: "Family Stays",
-    href: "/family-stays",
+    href: "/family-stays/",
   },
 
   // {
   //   label: "For You",
-  //   href: "/for-you",
+  //   href: "/for-you/",
   //   subLinks: [
   //     {
   //       label: "Couples",
-  //       // href: "/for-you/couples",
+  //       // href: "/for-you/couples/",
   //       href: "#",
   //     },
   //     {
@@ -56,12 +56,12 @@ export const navLinks = [
 
   {
     label: "Packages",
-    href: "/packages",
+    href: "/packages/",
   },
 
   {
     label: "Blog",
-    href: "/blogs",
+    href: "/blogs/",
   },
   {
     label: "Park Cafe",
@@ -69,7 +69,7 @@ export const navLinks = [
   },
   {
     label: "Contact",
-    href: "/contact-us",
+    href: "/contact-us/",
   },
 ];
 

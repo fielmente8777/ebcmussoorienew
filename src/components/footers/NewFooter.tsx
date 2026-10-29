@@ -133,7 +133,11 @@ export default function NewFooter() {
             reserved.
           </p>
 
-          <p>Park Estate, Hathipaon Road, Mussoorie, Uttarakhand 248179</p>
+          <p className="flex flex-wrap gap-x-4 gap-y-1">
+            <span>Park Estate, Hathipaon Road, Mussoorie, Uttarakhand 248179</span>
+            <Link href="/privacy-policy/" className="hover:text-white transition">Privacy Policy</Link>
+            <Link href="/terms-and-conditions/" className="hover:text-white transition">Terms &amp; Conditions</Link>
+          </p>
         </div>
       </Container>
     </footer>

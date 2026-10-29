@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "mountain-weekend-getaway-delhi",
@@ -48,13 +50,13 @@ const articleData = {
          <li>Does not require a separate vehicle for daily activity access</li>
          <li>Has a functional outdoor space for the evening portion of the day</li>
        </ul>
-       <p>Glamping properties satisfy these conditions by design. The tent format places you outdoors from the moment you open the flap, and bonfire setups provide a built-in evening activity that does not require leaving the property. As detailed in this feature on <a href="/adventure-mussoorie" class="text-secondary underline">adventure in the heart of Mussoorie with EBC Mussoorie</a>, the property is specifically designed to make the most of a short mountain stay.</p>`,
+       <p>Glamping properties satisfy these conditions by design. The tent format places you outdoors from the moment you open the flap, and bonfire setups provide a built-in evening activity that does not require leaving the property. As detailed in this feature on <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">adventure in the heart of Mussoorie with EBC Mussoorie</a>, the property is specifically designed to make the most of a short mountain stay.</p>`,
 
       `<h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">A Practical Two-Night Mountain Weekend Itinerary from Delhi</h3>
        <p><strong>Friday evening or early Saturday:</strong> Depart by 4:00 to 5:00 AM Saturday or Friday night if distance allows. Arrive by early afternoon. Check in. Do nothing demanding. Adjust to the altitude and temperature. Evening bonfire.</p>
        <p><strong>Sunday (full day):</strong> Wake early for a morning trek or nature walk before the day heats up. Return by 9:00 AM. Breakfast. Explore the immediate area at a relaxed pace. Afternoon rest. Second evening outdoors.</p>
        <p><strong>Monday morning or Sunday late afternoon:</strong> Checkout. Drive back to Delhi. Arrive by early evening if departing by noon from Mussoorie.</p>
-       <p>This schedule is not rushed and does not try to cover too much ground. The mountain weekend getaway that works is the one that treats the setting as the experience rather than as a backdrop for a checklist. Explore current tent accommodations and availability at <a href="/rooms" class="text-secondary underline">EBC Mussoorie</a> to plan your dates around the season that suits you.</p>`,
+       <p>This schedule is not rushed and does not try to cover too much ground. The mountain weekend getaway that works is the one that treats the setting as the experience rather than as a backdrop for a checklist. Explore current tent accommodations and availability at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie</a> to plan your dates around the season that suits you.</p>`,
 
       `<h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Who Benefits Most from a Mountain Weekend Getaway from Delhi</h3>
        <p><strong>Couples and honeymooners:</strong> The combination of privacy, scenic surroundings, and unhurried time makes this format a strong alternative to city hotel staycations.</p>
@@ -97,7 +99,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("weekend-getaway-from-delhi-mountains", articleData.metaData);
 
 export default function MountainWeekendPage() {
   // Helper to render HTML content from the description array
@@ -107,6 +109,7 @@ export default function MountainWeekendPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("weekend-getaway-from-delhi-mountains", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "best-resort-near-dehradun-weekend",
@@ -38,7 +40,7 @@ const articleData = {
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Property: What Everest Base Camp Mussoorie Offers</h2>
        <p><strong>Everest Base Camp Mussoorie</strong> is a premium glamping resort and nature retreat near George Everest Peak in the Mussoorie hills of Uttarakhand. The property provides luxury tent accommodations with proper bedding, electricity, washroom access, and an outdoor setting that keeps the mountain character of the stay central rather than incidental.</p>
-       <p>The full accommodation breakdown is available at <a href="/rooms" class="text-secondary underline">EBC Mussoorie's rooms and tent page</a>, where current tent categories, inclusions, and availability can be reviewed before confirming dates.</p>
+       <p>The full accommodation breakdown is available at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms and tent page</a>, where current tent categories, inclusions, and availability can be reviewed before confirming dates.</p>
        <p>The property is designed around a specific philosophy: that the best weekend resort near Dehradun is not the one with the most amenities, but the one where the environment itself does the work. Nature, elevation, outdoor activity, and a well‑made bonfire evening deliver what a spa menu or a rooftop pool cannot.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Location Advantage: George Everest Peak as a Defining Feature</h2>
@@ -73,8 +75,8 @@ const articleData = {
          <li><strong>December to February:</strong> Cold, with overnight temperatures near or below freezing. Properties with proper heating provide a genuinely memorable winter mountain experience. Best for travellers who specifically want a cold‑weather glamping stay.</li>
          <li><strong>July to August:</strong> Monsoon season. Trail access is reduced, outdoor setups are weather‑dependent, and road conditions can be slower. Not recommended for activity‑focused weekend trips.</li>
        </ul>
-       <p>As detailed in this piece on <a href="/adventure-mussoorie" class="text-secondary underline">adventure in the heart of Mussoorie with EBC Mussoorie</a>, the property's seasonal experience varies significantly and choosing the right window materially improves the stay.</p>
-       <p>For travellers arriving by rail or air from outside Uttarakhand, Dehradun is the natural staging point, and the straightforward logic of this trip is covered well in this travel piece on <a href="/glamping-george-everest" class="text-secondary underline">reaching the EBC Mussoorie experience from a major city</a>.</p>`,
+       <p>As detailed in this piece on <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">adventure in the heart of Mussoorie with EBC Mussoorie</a>, the property's seasonal experience varies significantly and choosing the right window materially improves the stay.</p>
+       <p>For travellers arriving by rail or air from outside Uttarakhand, Dehradun is the natural staging point, and the straightforward logic of this trip is covered well in this travel piece on <a href="/rooms/" class="text-secondary underline">reaching the EBC Mussoorie experience from a major city</a>.</p>`,
     ],
   },
   faqs: [
@@ -111,7 +113,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("best-resort-near-dehradun-for-weekend", articleData.metaData);
 
 export default function BestResortNearDehradunPage() {
   const renderContent = (htmlString: string) => {
@@ -120,6 +122,7 @@ export default function BestResortNearDehradunPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("best-resort-near-dehradun-for-weekend", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

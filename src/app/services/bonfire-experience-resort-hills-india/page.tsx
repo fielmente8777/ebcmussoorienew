@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   // ✅ URL is exactly: bonfire-experience-resort-hills-india
@@ -47,7 +49,7 @@ const articleData = {
          <li><strong>The full-property social dynamic:</strong> With a maximum capacity of 28 guests without extra beds and up to 50 with extra beds across 14 accommodation units, the bonfire at EBC Mussoorie is not a public event. It is a private or semi-private experience depending on occupancy. Couples or small groups who book during lower-occupancy periods may have the bonfire clearing largely to themselves.</li>
          <li><strong>The Park Cafe integration:</strong> The on-site Park Cafe with indoor and alfresco seating provides the food and beverage service that makes an extended bonfire evening functional rather than just atmospheric. Hot drinks, outdoor BBQ arrangements, and group dining around the fire are available as part of the estate's confirmed hospitality features.</li>
        </ul>
-       <p>View the <a href="/rooms" class="text-secondary underline">accommodation options at EBC Mussoorie</a> to plan the right stay configuration for a bonfire-centred visit.</p>`,
+       <p>View the <a href="/rooms/" class="text-secondary underline">accommodation options at EBC Mussoorie</a> to plan the right stay configuration for a bonfire-centred visit.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Best Hill Regions in India for a Resort Bonfire Experience</h2>
        <ul class="list-disc pl-6 space-y-1">
@@ -66,7 +68,7 @@ const articleData = {
          <li><strong>Catering integration:</strong> Hot drinks, bhuttas (roasted corn), outdoor BBQ, or a properly set outdoor dinner alongside the fire extends the bonfire from a thirty-minute activity to a three-hour evening. Confirm what food and drink service is available at the bonfire location when booking.</li>
          <li><strong>Season-specific considerations:</strong> In monsoon (July to September), confirm whether the bonfire setup has partial cover for use after evening rain stops. In winter (December to February), confirm whether the fire size is adequate for the lower temperatures. In peak summer (May to June), confirm whether a bonfire is available even when daytime temperatures are warm.</li>
        </ul>
-       <p>For a first-person account of what the EBC Mussoorie estate evening experience actually feels like, <a href="https://www.tripoto.com/trip/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Tripoto account of EBC Mussoorie</a> gives grounded traveller-level detail.</p>`,
+       <p>For a first-person account of what the EBC Mussoorie estate evening experience actually feels like, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">this Tripoto account of EBC Mussoorie</a> gives grounded traveller-level detail.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Structuring a Stay Around the Bonfire Experience</h2>
        <p>If the bonfire evening is the centrepiece of a visit to EBC Mussoorie or any hill resort, the rest of the day should be structured to maximise arrival quality at the fire:</p>
@@ -76,7 +78,7 @@ const articleData = {
          <li><strong>Pre-bonfire:</strong> Shower, change into warm layers, be at the bonfire location by the time it is lit. Missing the first twenty minutes of a hill bonfire, when the fire is building, and the light is transitioning from dusk to dark, is missing the best part.</li>
          <li><strong>At the fire:</strong> Stay longer than you think you will. The quality of a hill bonfire evening tends to improve over the first hour as the fire settles, the temperature drops further, and the conversation deepens. Two to three hours is the natural duration of a well-managed bonfire evening.</li>
        </ul>
-       <p>As described in <a href="https://www.hotelierindia.com/story/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Hotelier India feature on EBC Mussoorie</a>, the property's outdoor experience design is built around exactly this kind of curated evening anchoring.</p>`,
+       <p>As described in <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">this Hotelier India feature on EBC Mussoorie</a>, the property's outdoor experience design is built around exactly this kind of curated evening anchoring.</p>`,
     ],
   },
   faqs: [
@@ -113,7 +115,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("bonfire-experience-resort-hills-india", articleData.metaData);
 
 export default function BonfireExperiencePage() {
   const renderContent = (htmlString: string) => {
@@ -122,6 +124,7 @@ export default function BonfireExperiencePage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("bonfire-experience-resort-hills-india", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

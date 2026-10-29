@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   // ✅ URL is exactly: team-building-retreat-monsoon-india
@@ -62,7 +64,7 @@ const articleData = {
          <li>Accommodation ranges from Glamper Rooms to Andrew's Villas, suitable for groups with mixed seniority levels</li>
        </ul>
        <p>The maximum corporate group capacity of 28 to 50 guests makes EBC Mussoorie suited to leadership teams, cross-functional groups, and mid-sized team retreats rather than all-hands company events. This scale is actually the sweet spot for team-building effectiveness: large enough for meaningful group dynamics, small enough for every participant to have a substantive experience.</p>
-       <p>View the <a href="/rooms" class="text-secondary underline">accommodation and group setup at EBC Mussoorie</a> and contact the property directly for monsoon-specific group availability and programme options.</p>`,
+       <p>View the <a href="/rooms/" class="text-secondary underline">accommodation and group setup at EBC Mussoorie</a> and contact the property directly for monsoon-specific group availability and programme options.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">A Practical Monsoon Retreat Agenda for a 2-Night Group Stay</h2>
        <p>Built around the monsoon weather pattern: clear mornings (6 to 11 AM), building cloud and rain (11 AM to 8 PM), potential clearing in the evening.</p>
@@ -91,7 +93,7 @@ const articleData = {
        <p>This is worth naming directly because it is not obvious from a planning spreadsheet.</p>
        <p>When a team is removed from the office environment and placed in a forest estate in active monsoon conditions, the social hierarchy of the workplace becomes less operative. The colleague who is authoritative in a conference room becomes navigating the same wet grass path as everyone else. The quiet team member who rarely speaks in meetings often finds a voice in informal outdoor settings.</p>
        <p>The George Everest estate context at EBC Mussoorie adds a layer: the heritage of the surveyor who mapped India at a scale and precision that defined the region creates a specific conversational context for a leadership team. It is not generic corporate retreat scenery. It has a specific identity and story that a facilitator or team lead can use deliberately.</p>
-       <p>As described in <a href="https://www.hotelierindia.com/story/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Hotelier India feature on EBC Mussoorie</a>, the property is built around outdoor experience as the foundation for a different kind of hospitality, which translates directly to a different quality of group dynamic for corporate retreats.</p>`,
+       <p>As described in <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">this Hotelier India feature on EBC Mussoorie</a>, the property is built around outdoor experience as the foundation for a different kind of hospitality, which translates directly to a different quality of group dynamic for corporate retreats.</p>`,
     ],
   },
   faqs: [
@@ -128,7 +130,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("team-building-retreat-monsoon-india", articleData.metaData);
 
 export default function TeamBuildingRetreatPage() {
   const renderContent = (htmlString: string) => {
@@ -137,6 +139,7 @@ export default function TeamBuildingRetreatPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("team-building-retreat-monsoon-india", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

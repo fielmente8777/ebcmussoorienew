@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "resort-near-mussoorie-with-bonfire",
@@ -45,7 +47,7 @@ const articleData = {
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Bonfire Evening as Part of a Larger Stay at Everest Base Camp Mussoorie</h2>
        <p><strong>Everest Base Camp Mussoorie</strong>, the premium glamping resort near George Everest Peak, treats the bonfire not as an optional extra but as a core component of what an evening at the property involves. The outdoor setting, positioned at ridge elevation in the oak-rhododendron forest zone, creates the conditions that make the bonfire format genuinely effective.</p>
        <p>The property is designed for guests who want the evening to be as much a part of the experience as the morning trek or the scenic arrival drive. The combination of cool Mussoorie temperatures, an open outdoor setup, and a forest setting produces the specific atmosphere that travellers from Delhi NCR, Chandigarh, and other major cities describe when they talk about why they came back.</p>
-       <p>You can review the full accommodation and experience format at <a href="/rooms" class="text-secondary underline">Everest Base Camp Mussoorie's rooms and tent page</a>.</p>`,
+       <p>You can review the full accommodation and experience format at <a href="/rooms/" class="text-secondary underline">Everest Base Camp Mussoorie's rooms and tent page</a>.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Building the Ideal Day Around a Bonfire Evening Near Mussoorie</h2>
        <p>A bonfire evening works best when the day before it has been physically engaged. Here is a sequence that consistently produces the most satisfying version of the experience:</p>
@@ -56,7 +58,7 @@ const articleData = {
          <li><strong>Evening:</strong> The bonfire setup begins as the temperature drops. Food is served outdoors. The fire builds over the course of an hour. Conversations slow. People stop checking their phones.</li>
        </ul>
        <p>This rhythm is why two nights is consistently the minimum worth recommending for a Mussoorie bonfire stay. One night does not allow the day before the fire to be built properly.</p>
-       <p>For a traveller's account of how this experience plays out at the George Everest Peak glamping zone, this piece on <a href="/adventure-mussoorie" class="text-secondary underline">EBC Mussoorie's outdoor experience setting</a> provides the ground-level detail.</p>`,
+       <p>For a traveller's account of how this experience plays out at the George Everest Peak glamping zone, this piece on <a href="/activities/" class="text-secondary underline">EBC Mussoorie's outdoor experience setting</a> provides the ground-level detail.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Who Benefits Most From a Bonfire-Centred Mountain Stay</h2>
        <ul class="list-disc pl-6 space-y-1">
@@ -109,7 +111,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("resort-near-mussoorie-with-bonfire", articleData.metaData);
 
 export default function BonfireResortPage() {
   const renderContent = (htmlString: string) => {
@@ -118,6 +120,7 @@ export default function BonfireResortPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("resort-near-mussoorie-with-bonfire", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "nature-retreat-near-dehradun",
@@ -39,7 +41,7 @@ const articleData = {
          <li>The specific sensory environment of deodar or oak forest: filtered light, resinous morning scent, wind in high canopy</li>
        </ul>
        <p><strong>Best location near Dehradun:</strong> Mussoorie hills, particularly the Hathipaon road and Cloud's End forest sections. The Jabarkhet Forest Reserve above Landour is adjacent to several properties in this zone.</p>
-       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> operates within this framework, with a forest and outdoor setting that makes the natural environment the centre of the stay experience. Their <a href="/rooms" class="text-secondary underline">accommodation and nature activity setup</a> reflects this approach clearly.</p>`,
+       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> operates within this framework, with a forest and outdoor setting that makes the natural environment the centre of the stay experience. Their <a href="/rooms/" class="text-secondary underline">accommodation and nature activity setup</a> reflects this approach clearly.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Nature Retreat Type 2: River and Valley Stay</h2>
        <p><strong>What it is:</strong> A stay along or near a Himalayan river or stream, where the water system defines the sensory and activity character of the retreat.</p>
@@ -93,8 +95,8 @@ const articleData = {
          <li><strong>Season selection:</strong> Each retreat type has a seasonal peak. Forest immersion works year-round with different characters in each season. River stays are best from October to March when water levels are settled. Meadow stays require May to October. Wildlife in Rajaji is best from November to June.</li>
          <li><strong>Booking lead time:</strong> Good nature retreat properties near Dehradun book up 2 to 3 weeks ahead for October to November and March to June. Off-season visits allow last-minute booking at most properties.</li>
        </ul>
-       <p>For a grounded sense of what an outdoor nature stay near Mussoorie actually feels like, this <a href="/adventure-mussoorie" class="text-secondary underline">Tripoto account of EBC Mussoorie</a> covers the experience from a traveller's perspective.</p>
-       <p>The <a href="#" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a> also gives context on the design philosophy behind the newer generation of nature-led properties in the Dehradun hills.</p>`,
+       <p>For a grounded sense of what an outdoor nature stay near Mussoorie actually feels like, this <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto account of EBC Mussoorie</a> covers the experience from a traveller's perspective.</p>
+       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> also gives context on the design philosophy behind the newer generation of nature-led properties in the Dehradun hills.</p>`,
     ],
   },
   faqs: [
@@ -131,7 +133,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("nature-retreat-near-dehradun", articleData.metaData);
 
 export default function NatureRetreatPage() {
   const renderContent = (htmlString: string) => {
@@ -140,6 +142,7 @@ export default function NatureRetreatPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("nature-retreat-near-dehradun", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

@@ -9,6 +9,9 @@ import LinkButton from "@/components/buttons/LinkButton";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { servicesData } from "../components/servicesData";
+import { pageMeta } from "@/lib/seo";
+import JsonLd from "@/components/seo/JsonLd";
+import { breadcrumbSchema } from "@/lib/schema";
 
 interface Params {
   params: Promise<{
@@ -16,43 +19,38 @@ interface Params {
   }>;
 }
 
+// Placeholder entries in servicesData that must never be published.
+const PLACEHOLDER_SLUGS = new Set(["page-url", "test"]);
+// Amenity pages whose claims (butler laundry, valet & EV charging, private chef,
+// resident naturalist guides) are not yet confirmed by EBC. Kept reachable, but
+// out of search until verified.
+const UNVERIFIED_SLUGS = new Set(["laundry-service", "valet-parking", "private-chef", "guided-trekking"]);
+
+const publishedServices = servicesData.filter((s) => !PLACEHOLDER_SLUGS.has(s.slug));
+
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
-  return servicesData.map((service) => ({
+  return publishedServices.map((service) => ({
     slug: service.slug,
   }));
 }
 
 export async function generateMetadata({ params }: Params) {
   const resolvedParams = await params;
-  const post = servicesData.find((item) => item.slug === resolvedParams.slug);
-
-  if (!post) {
-    return {
-      title: "Service Not Found | EBC Mussoorie",
-      description: "The requested service details page could not be found.",
-    };
-  }
-
-  return {
+  const post = publishedServices.find((item) => item.slug === resolvedParams.slug);
+  if (!post) return {};
+  return pageMeta({
     title: post.metaData.title,
     description: post.metaData.description,
-    alternates: {
-      canonical: `https://ebcmussoorie.com/services/${post.slug}/`,
-    },
-    openGraph: {
-      title: post.metaData.title,
-      description: post.metaData.description,
-      url: `https://ebcmussoorie.com/services/${post.slug}/`,
-      siteName: "EBC Mussoorie",
-      locale: "en_IN",
-      type: "website",
-    },
-  };
+    path: `/services/${post.slug}/`,
+    noindex: UNVERIFIED_SLUGS.has(post.slug),
+  });
 }
 
 export default async function ServiceDetailsPage({ params }: Params) {
   const resolvedParams = await params;
-  const data = servicesData.find((item) => item.slug === resolvedParams.slug);
+  const data = publishedServices.find((item) => item.slug === resolvedParams.slug);
 
   if (!data) {
     notFound();
@@ -62,6 +60,12 @@ export default async function ServiceDetailsPage({ params }: Params) {
 
   return (
     <main className="min-h-screen">
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: "Home", path: "/" },
+          { name: data.metaData.title.replace(/\s*\|.*$/, ""), path: `/services/${data.slug}/` },
+        ])}
+      />
 
       {/* ── 1. HERO BANNER ─────────────────────────────────── */}
       <HeroBanner {...data.banner} />

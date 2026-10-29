@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "deodar-forest-resort-mussoorie",
@@ -45,7 +47,7 @@ const articleData = {
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What a Deodar Forest Resort Experience Actually Includes</h2>
        <p>The best deodar forest resorts near Mussoorie orient their guests' experience around the forest itself:</p>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>Morning forest walks:</strong> A guided walk through a mature deodar forest at 7 AM in Mussoorie, with a naturalist who can identify bird calls and explain the ecology, is one of the most genuinely distinctive experiences the hill station offers. <a href="/" class="text-secondary underline">EBC Mussoorie</a> integrates outdoor activity into its stay framework; its <a href="/rooms" class="text-secondary underline">property and experience setup</a> reflects this outdoor‑led philosophy.</li>
+         <li><strong>Morning forest walks:</strong> A guided walk through a mature deodar forest at 7 AM in Mussoorie, with a naturalist who can identify bird calls and explain the ecology, is one of the most genuinely distinctive experiences the hill station offers. <a href="/" class="text-secondary underline">EBC Mussoorie</a> integrates outdoor activity into its stay framework; its <a href="/rooms/" class="text-secondary underline">property and experience setup</a> reflects this outdoor‑led philosophy.</li>
          <li><strong>Bird watching in the forest canopy:</strong> Deodar forest supports specific bird species. The Himalayan griffon is visible overhead. The white‑throated laughingthrush, the black‑throated tit, and various Himalayan flycatcher species are common in well‑forested Mussoorie sections. A property adjacent to mature deodar cover will have reliable morning birdwatching within its own grounds.</li>
          <li><strong>Campfire evenings under the canopy:</strong> A campfire within a deodar forest clearing, in the evening when the temperature drops and the scent of resin is strongest, is a qualitatively different experience from a bonfire at a poolside resort. The forest setting changes the atmosphere entirely.</li>
          <li><strong>The sound environment:</strong> This is underrated in most travel descriptions. A mature deodar forest in the early morning has a specific soundscape: wind through needled branches, bird calls that carry differently in a high‑canopy forest than in open terrain, and a quiet that is genuinely different from urban silence. Guests who have stayed in a room surrounded by open sky and a room within a forest canopy describe the sleep quality differently, and there is research supporting this observation.</li>
@@ -63,8 +65,8 @@ const articleData = {
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Ecological Context: Why Forest Resorts Matter Beyond Tourism</h2>
        <p>Mussoorie's forest cover has declined significantly over the decades due to construction. Properties that actively conserve the deodar and oak cover within their boundaries are doing something ecologically meaningful, not just aesthetically desirable.</p>
        <p>Guests choosing to stay at a property that protects its forest cover are choosing to support that outcome. This is worth factoring into your selection beyond the purely experiential dimension.</p>
-       <p>For a traveller account of the forest setting and outdoor experience at a property in the Mussoorie hills, the <a href="/adventure-mussoorie" class="text-secondary underline">Tripoto piece on EBC Mussoorie</a> gives a grounded, first‑person view of what this environment feels like from the inside.</p>
-       <p>The <a href="#" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a> also places the property within the broader shift toward nature‑first hospitality in the Mussoorie hills.</p>`,
+       <p>For a traveller account of the forest setting and outdoor experience at a property in the Mussoorie hills, the <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto piece on EBC Mussoorie</a> gives a grounded, first‑person view of what this environment feels like from the inside.</p>
+       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> also places the property within the broader shift toward nature‑first hospitality in the Mussoorie hills.</p>`,
     ],
   },
   faqs: [
@@ -101,7 +103,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("deodar-forest-resort-mussoorie", articleData.metaData);
 
 export default function DeodarForestResortPage() {
   const renderContent = (htmlString: string) => {
@@ -110,6 +112,7 @@ export default function DeodarForestResortPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("deodar-forest-resort-mussoorie", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

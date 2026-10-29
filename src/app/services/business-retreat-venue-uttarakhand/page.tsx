@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   // ✅ URL is exactly: business-retreat-venue-uttarakhand
@@ -45,7 +47,7 @@ const articleData = {
          <li><strong>Exclusivity potential:</strong> Can your group take the whole property? At 14 units, a group of 20 to 28 can effectively do so at EBC Mussoorie. This eliminates the risk of sharing common areas with leisure guests or another group.</li>
          <li><strong>Outdoor programme capability:</strong> Confirmed features at EBC Mussoorie relevant to retreat programming include private bonfire setups, outdoor BBQ and picnic arrangements, the 20-acre estate for walking sessions, and the adjacent George Everest heritage site.</li>
        </ul>
-       <p>Review the <a href="/rooms" class="text-secondary underline">accommodation and estate setup</a> before contacting the property.</p>`,
+       <p>Review the <a href="/rooms/" class="text-secondary underline">accommodation and estate setup</a> before contacting the property.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Assessment Layer Three: Infrastructure Fit</h2>
        <ul class="list-disc pl-6 space-y-1">
@@ -82,7 +84,7 @@ const articleData = {
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Why the Environment Matters for Retreat Outcomes</h2>
        <p>Worth stating directly, because it is the actual reason to leave the office.</p>
        <p>When a team is removed from its normal environment, the workplace social hierarchy becomes less operative. The person who dominates a conference room often becomes more collaborative on a forest trail. The person who rarely speaks in meetings often speaks first around a fire.</p>
-       <p>A venue where the environment does part of that work, through forest cover, altitude, physical separation from urban patterns, and communal meals without city-schedule interruption, produces different retreat outcomes from a venue that merely provides a scenic backdrop. The <a href="https://www.hotelierindia.com/story/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a> covers how the property builds its guest experience around this principle.</p>`,
+       <p>A venue where the environment does part of that work, through forest cover, altitude, physical separation from urban patterns, and communal meals without city-schedule interruption, produces different retreat outcomes from a venue that merely provides a scenic backdrop. The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> covers how the property builds its guest experience around this principle.</p>`,
     ],
   },
   faqs: [
@@ -119,7 +121,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("business-retreat-venue-uttarakhand", articleData.metaData);
 
 export default function BusinessRetreatVenuePage() {
   const renderContent = (htmlString: string) => {
@@ -128,6 +130,7 @@ export default function BusinessRetreatVenuePage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("business-retreat-venue-uttarakhand", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

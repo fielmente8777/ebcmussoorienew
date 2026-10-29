@@ -9,9 +9,21 @@ import { parkCafePageData } from "./components/pageData";
 import LinkButton from "@/components/buttons/LinkButton";
 import TestimonialSection from "../couples-and-honeymoon/components/TestimonialSection";
 
+import JsonLd from "@/components/seo/JsonLd";
+import { pageMeta } from "@/lib/seo";
+import { breadcrumbSchema, restaurantSchema } from "@/lib/schema";
+
+export const metadata = pageMeta({
+  title: "Park Café – Restaurant at EBC Mussoorie, Hathipaon Road",
+  description: "Multi-cuisine café at EBC Mussoorie with dishes from the Garhwal hills, breakfasts, barbecues and picnic add-ons, in the forest at Park Estate.",
+  path: "/park-cafe/",
+});
+
+
 export default function ParkCafePage() {
   return (
     <main>
+      <JsonLd data={[breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Park Café", path: "/park-cafe/" }]), restaurantSchema()]} />
       <HeroBanner {...parkCafePageData.banner} />
       <FamilyStaySection {...parkCafePageData?.about} />
 

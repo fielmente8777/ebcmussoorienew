@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "monsoon-glamping-near-dehradun",
@@ -53,7 +55,7 @@ const articleData = {
          <li>What is the rescheduling policy if road access is disrupted after booking?</li>
        </ul>
        <p>Getting written answers to these before paying a deposit removes the primary risk factors of a monsoon booking at any Mussoorie hill property.</p>
-       <p>For a traveller-level sense of what the property and its forested estate feel like across seasons, <a href="https://www.tripoto.com/trip/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Tripoto account of EBC Mussoorie</a> gives grounded first-person detail on the experience.</p>`,
+       <p>For a traveller-level sense of what the property and its forested estate feel like across seasons, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">this Tripoto account of EBC Mussoorie</a> gives grounded first-person detail on the experience.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">How to Structure a Monsoon Glamping Weekend Near Dehradun</h2>
        <p>The itinerary logic for a monsoon stay is different from summer or post-monsoon travel. It needs to be built around the weather pattern rather than against it.</p>
@@ -72,7 +74,7 @@ const articleData = {
          <li>Some outdoor activities at hill properties are restricted or unavailable during active monsoon. Ask specifically which activities EBC Mussoorie offers in this period before expecting your full summer itinerary.</li>
        </ul>
        <p>Travellers who understand these tradeoffs and are drawn to the specific atmospheric qualities of monsoon in the Dehradun hills (the mist, the forest density, the waterfalls, the quiet) will find a well-chosen stay genuinely rewarding.</p>
-       <p>As covered in <a href="https://www.hotelierindia.com/story/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Hotelier India feature on EBC Mussoorie</a>, the property's outdoor and forest-led hospitality design is what makes it suited to the monsoon format where the property itself needs to be the experience on restricted-activity days.</p>`,
+       <p>As covered in <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">this Hotelier India feature on EBC Mussoorie</a>, the property's outdoor and forest-led hospitality design is what makes it suited to the monsoon format where the property itself needs to be the experience on restricted-activity days.</p>`,
     ],
   },
   faqs: [
@@ -104,7 +106,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("monsoon-glamping-near-dehradun", articleData.metaData);
 
 export default function MonsoonGlampingPage() {
   const renderContent = (htmlString: string) => {
@@ -113,6 +115,7 @@ export default function MonsoonGlampingPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("monsoon-glamping-near-dehradun", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

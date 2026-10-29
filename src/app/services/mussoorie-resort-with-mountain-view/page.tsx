@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "mussoorie-resort-with-mountain-view",
@@ -41,7 +43,7 @@ const articleData = {
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The George Everest Peak Advantage for Mountain Views</h2>
        <p>George Everest Peak, at approximately 2,000 metres, provides one of the most complete view corridors available near Mussoorie precisely because of its open ridge exposure. The survey point at the summit was selected by Sir George Everest and his team specifically because of its unobstructed sightlines across the Himalayan range.</p>
        <p>From the peak, on a clear morning in October or November, the panorama spans from the lower Garhwal ranges in the near distance to the high Himalayan snowline in the far north. The Doon Valley is simultaneously visible to the south, creating the dual‑aspect view that makes this particular ridge position distinctive.</p>
-       <p>Resorts positioned near George Everest Peak, including <strong>Everest Base Camp Mussoorie</strong>, benefit from this sightline advantage. The morning trek from the property to the peak transforms a hotel‑view experience into an active, earned view experience from a historically documented vantage point. Browse accommodation options close to this view corridor at <a href="/rooms" class="text-secondary underline">EBC Mussoorie's rooms and tent page</a>.</p>`,
+       <p>Resorts positioned near George Everest Peak, including <strong>Everest Base Camp Mussoorie</strong>, benefit from this sightline advantage. The morning trek from the property to the peak transforms a hotel‑view experience into an active, earned view experience from a historically documented vantage point. Browse accommodation options close to this view corridor at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms and tent page</a>.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">When Are Mountain Views From Mussoorie Actually Clear?</h2>
        <p>This is the question most resort websites avoid answering honestly.</p>
@@ -60,12 +62,12 @@ const articleData = {
          <li><strong>Are there photographs taken in October or November specifically?</strong> A property that can only show photographs taken in the peak monsoon green season (vivid, lush, and appealing) may not be able to confirm what the same view looks like in the clear October light that reveals the actual mountain range.</li>
          <li><strong>What is between the property and the horizon?</strong> Foreground ridges, taller trees, or neighbouring buildings can block the view corridor. Ask for a description of what is between the accommodation unit and the mountains it claims to show.</li>
        </ul>
-       <p>As covered in this travel feature on the <a href="/adventure-mussoorie" class="text-secondary underline">EBC Mussoorie experience and setting near George Everest Peak</a>, the property's position on the ridge near the peak creates view access that is the result of deliberate location selection rather than incidental marketing.</p>`,
+       <p>As covered in this travel feature on the <a href="/activities/" class="text-secondary underline">EBC Mussoorie experience and setting near George Everest Peak</a>, the property's position on the ridge near the peak creates view access that is the result of deliberate location selection rather than incidental marketing.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Doon Valley View: An Underrated Complement to Mountain Views</h2>
        <p>Most of the conversation about Mussoorie views focuses on the Himalayan peaks to the north. The Doon Valley view to the south is equally compelling and more consistently reliable.</p>
        <p>The valley, sitting at approximately 640 metres, is visible from south‑facing positions on the Mussoorie ridge on almost any clear day, regardless of season. The visual depth of the drop from 2,000 metres to the valley floor, combined with the patchwork of the city and agricultural land below, creates a panoramic view that provides scale and context to the elevation at which the ridge sits.</p>
-       <p>Properties near George Everest Peak often have access to both the northern Himalayan view corridor and the southern Doon Valley view, depending on the specific position of each accommodation unit. This traveller's account of the <a href="/glamping-near-mussoorie" class="text-secondary underline">Mussoorie glamping zone</a> gives a ground‑level description of how both views are presented.</p>`,
+       <p>Properties near George Everest Peak often have access to both the northern Himalayan view corridor and the southern Doon Valley view, depending on the specific position of each accommodation unit. This traveller's account of the <a href="/services/glamping-near-mussoorie/" class="text-secondary underline">Mussoorie glamping zone</a> gives a ground‑level description of how both views are presented.</p>`,
     ],
   },
   faqs: [
@@ -102,7 +104,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("mussoorie-resort-with-mountain-view", articleData.metaData);
 
 export default function MountainViewResortPage() {
   const renderContent = (htmlString: string) => {
@@ -111,6 +113,7 @@ export default function MountainViewResortPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("mussoorie-resort-with-mountain-view", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

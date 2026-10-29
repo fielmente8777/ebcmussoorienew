@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "private-villa-stay-near-dehradun",
@@ -98,8 +100,8 @@ const articleData = {
          <li><strong>Want river and adventure alongside rest:</strong> Rishikesh corridor.</li>
          <li><strong>Want the highest altitude in this zone:</strong> Kanatal at 2,500 metres.</li>
        </ul>
-       <p>The Tripoto community has documented the Mussoorie-area experience extensively. This <a href="/adventure-mussoorie" class="text-secondary underline">first-person account of a stay at EBC Mussoorie</a> gives a useful ground-level view of what the Mussoorie hills feel like as a destination for a private retreat.</p>
-       <p>For additional context on the overall hospitality landscape around Mussoorie, this <a href="#" class="text-secondary underline">Hotelier India feature</a> covers how property operators in the area are approaching the premium experiential segment.</p>`,
+       <p>The Tripoto community has documented the Mussoorie-area experience extensively. This <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">first-person account of a stay at EBC Mussoorie</a> gives a useful ground-level view of what the Mussoorie hills feel like as a destination for a private retreat.</p>
+       <p>For additional context on the overall hospitality landscape around Mussoorie, this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature</a> covers how property operators in the area are approaching the premium experiential segment.</p>`,
     ],
   },
   faqs: [
@@ -136,7 +138,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("private-villa-stay-near-dehradun", articleData.metaData);
 
 export default function PrivateVillaStayPage() {
   const renderContent = (htmlString: string) => {
@@ -145,6 +147,7 @@ export default function PrivateVillaStayPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("private-villa-stay-near-dehradun", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

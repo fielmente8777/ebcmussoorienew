@@ -9,7 +9,7 @@ export const blogPagedata = {
   },
   cards: blogData.map((blog) => ({
     id: blog.id,
-    slug: `/blogs/${blog.slug}`,
+    slug: `/blogs/${blog.slug}/`,
     image: blog.image,
     category: blog.Category,
     date: blog.date,

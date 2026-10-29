@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   // ✅ URL is exactly: romantic-monsoon-getaway-india
@@ -83,8 +85,8 @@ const articleData = {
          <li><strong>Day 2 (Full day):</strong> 6 AM estate walk in the morning mist. This is the private, atmospheric outdoor time that anchors the romantic dimension of the stay. Slow breakfast. Mid-morning to afternoon: indoor time in the accommodation, rain on the windows, the valley below disappearing into cloud. Late afternoon: the park or terrace as the rain eases. 8 PM bonfire on the estate if conditions allow. This evening is the centrepiece.</li>
          <li><strong>Day 3 (Morning departure):</strong> Final morning mist walk. Breakfast. Depart by 10 AM with buffer for road conditions.</li>
        </ul>
-       <p>For a first-person account of what the EBC Mussoorie estate and evening experience feel like from a couple's perspective, <a href="https://www.tripoto.com/trip/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Tripoto account of EBC Mussoorie</a> provides the most useful external reference.</p>
-       <p>The <a href="https://www.hotelierindia.com/story/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a> covers the property's outdoor hospitality philosophy in detail, which is directly relevant to why it works specifically for intimate, nature-led stays.</p>`,
+       <p>For a first-person account of what the EBC Mussoorie estate and evening experience feel like from a couple's perspective, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">this Tripoto account of EBC Mussoorie</a> provides the most useful external reference.</p>
+       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> covers the property's outdoor hospitality philosophy in detail, which is directly relevant to why it works specifically for intimate, nature-led stays.</p>`,
     ],
   },
   faqs: [
@@ -121,7 +123,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("romantic-monsoon-getaway-india", articleData.metaData);
 
 export default function RomanticMonsoonGetawayPage() {
   const renderContent = (htmlString: string) => {
@@ -130,6 +132,7 @@ export default function RomanticMonsoonGetawayPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("romantic-monsoon-getaway-india", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

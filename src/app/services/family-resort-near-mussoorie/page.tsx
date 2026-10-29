@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "family-resort-near-mussoorie",
@@ -40,7 +42,7 @@ const articleData = {
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Why the Mussoorie Belt Works Well for Family Travel</h2>
        <p>Mussoorie and the surrounding area check most of the boxes for family mountain travel. The George Everest Peak zone, specifically, is accessible from Dehradun in about 1.5 hours, sits at a manageable 2,000 metres, where altitude is not a factor for children, and has trekking trails that range from gentle ridge walks to more active two to three-hour climbs depending on the family's fitness level.</p>
-       <p><strong>Everest Base Camp Mussoorie</strong>, the premium glamping resort near George Everest Peak, accommodates families and is designed with enough outdoor space to give children room to engage with the setting rather than just observe it from a window. You can review accommodation options at <a href="/rooms" class="text-secondary underline">EBC Mussoorie's rooms page</a>.</p>`,
+       <p><strong>Everest Base Camp Mussoorie</strong>, the premium glamping resort near George Everest Peak, accommodates families and is designed with enough outdoor space to give children room to engage with the setting rather than just observe it from a window. You can review accommodation options at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms page</a>.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Activities That Work for Families Near Mussoorie</h2>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Gentle Nature Walks</h3>
@@ -62,7 +64,7 @@ const articleData = {
          <li>Are the trekking options graded by difficulty or age suitability?</li>
          <li>What is the policy on young children sharing accommodation with parents?</li>
        </ul>
-       <p>You can review how Everest Base Camp Mussoorie structures its accommodation for different group types at <a href="/rooms" class="text-secondary underline">EBC Mussoorie's rooms and tent page</a>. For a first-hand traveler perspective on reaching this part of Mussoorie from Delhi with a family, this piece on <a href="/glamping-george-everest" class="text-secondary underline">the Everest Base Camp near Mussoorie</a> is a useful reference.</p>`,
+       <p>You can review how Everest Base Camp Mussoorie structures its accommodation for different group types at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms and tent page</a>. For a first-hand traveler perspective on reaching this part of Mussoorie from Delhi with a family, this piece on <a href="/rooms/" class="text-secondary underline">the Everest Base Camp near Mussoorie</a> is a useful reference.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Best Time to Visit Mussoorie with Family</h2>
        <ul class="list-disc pl-6 space-y-1">
@@ -107,7 +109,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("family-resort-near-mussoorie", articleData.metaData);
 
 export default function FamilyResortPage() {
   const renderContent = (htmlString: string) => {
@@ -116,6 +118,7 @@ export default function FamilyResortPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("family-resort-near-mussoorie", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

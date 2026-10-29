@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "glamping-near-mussoorie",
@@ -32,7 +34,7 @@ const articleData = {
        <p>Mussoorie is a ridge town, approximately 15 kilometres long, positioned at around 2,000 metres above sea level. The main town centres around Landour, Library Chowk, and Mall Road. But the glamping properties that deliver the best outdoor experience sit outside the town proper, in the forested zones that extend east and west along the ridge.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">East of Mussoorie town</h3>
        <p>The area toward <strong>George Everest Peak</strong> is the strongest glamping zone near Mussoorie. The Peak itself sits about 6 kilometres from Library Chowk and is accessible via a trekking trail from Park Estate. Properties in this area sit at elevations between 1,900 and 2,100 metres in oak and rhododendron forest, with Doon Valley views on one side and forested ridgelines on the other.</p>
-       <p><strong>Everest Base Camp Mussoorie</strong> is located in this zone. The resort is positioned near the George Everest Peak trekking access point and provides direct trail access without requiring a vehicle to reach the trailhead. You can explore the accommodation options at <a href="/rooms" class="text-secondary underline">EBC Mussoorie's rooms page</a>.</p>
+       <p><strong>Everest Base Camp Mussoorie</strong> is located in this zone. The resort is positioned near the George Everest Peak trekking access point and provides direct trail access without requiring a vehicle to reach the trailhead. You can explore the accommodation options at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms page</a>.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">West of Mussoorie toward Kempty</h3>
        <p>Lower in elevation, more accessible by road from Dehradun, but with less dramatic ridge scenery than the eastern zone. Some operator-led camps in this area are seasonal and not permanently structured.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Dhanaulti (30 kilometres beyond Mussoorie)</h3>
@@ -55,7 +57,7 @@ const articleData = {
          <li><strong>Named location specificity:</strong> A listing that names its exact location (e.g., near George Everest Peak, Hathipaon, or Landour ridge) is more credible than one that says only "near Mussoorie" or "in the Uttarakhand hills."</li>
          <li><strong>Activity access from the property:</strong> Confirm whether trekking, bonfires, or nature walks are done from the property itself or require a booked excursion to a separate location.</li>
        </ul>
-       <p>For a detailed look at what the George Everest Peak glamping zone includes as an experience, this piece on <a href="/adventure-mussoorie" class="text-secondary underline">adventure in Mussoorie with EBC Mussoorie</a> provides specific on-ground context.</p>`,
+       <p>For a detailed look at what the George Everest Peak glamping zone includes as an experience, this piece on <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">adventure in Mussoorie with EBC Mussoorie</a> provides specific on-ground context.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Seasonal Considerations for Glamping Near Mussoorie</h2>
        <ul class="list-disc pl-6 space-y-1">
@@ -65,7 +67,7 @@ const articleData = {
          <li><strong>September to November:</strong> Second-best window. Post-monsoon clarity is less crowded than summer and ideal for morning treks and bonfire evenings.</li>
          <li><strong>December to February:</strong> Cold, with night temperatures near or below freezing. Some properties remain open with appropriate heating. A different experience from summer, and genuinely worthwhile for the right traveller.</li>
        </ul>
-       <p>Browse current accommodation availability and tent formats at <a href="/rooms" class="text-secondary underline">EBC Mussoorie's rooms page</a>.</p>`,
+       <p>Browse current accommodation availability and tent formats at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms page</a>.</p>`,
     ],
   },
   faqs: [
@@ -102,7 +104,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("glamping-near-mussoorie", articleData.metaData);
 
 export default function GlampingNearMussooriePage() {
   const renderContent = (htmlString: string) => {
@@ -111,6 +113,7 @@ export default function GlampingNearMussooriePage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("glamping-near-mussoorie", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "weekend-trip-from-delhi-to-mountains",
@@ -53,7 +55,7 @@ const articleData = {
        <ul class="list-disc pl-6 space-y-1">
          <li><strong>Standard hotels:</strong> Good for travellers who want a familiar setup and are primarily using the property as a base for sightseeing.</li>
          <li><strong>Boutique properties:</strong> Better suited to travellers who want character, personalised service, and fewer guests on the property at the same time.</li>
-         <li><strong>Glamping resorts:</strong> The strongest option for nature‑focused travellers, couples, and groups who want an experience that feels different from a city hotel. <a href="/rooms" class="text-secondary underline">EBC Mussoorie's glamping format</a> sits within the natural landscape above Mussoorie rather than inside the town, which changes the feel of the stay entirely.</li>
+         <li><strong>Glamping resorts:</strong> The strongest option for nature‑focused travellers, couples, and groups who want an experience that feels different from a city hotel. <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's glamping format</a> sits within the natural landscape above Mussoorie rather than inside the town, which changes the feel of the stay entirely.</li>
          <li><strong>Homestays:</strong> Budget‑friendly, locally run, and often the best way to understand the specific character of a small hill town.</li>
        </ul>`,
 
@@ -78,7 +80,7 @@ const articleData = {
          <li>The Library and Landour area for quieter walks and vintage bookshops</li>
        </ul>
        <p>For travellers who want to go beyond the town and stay somewhere that feels less like a hill station tourist zone, a property like <a href="/" class="text-secondary underline">EBC Mussoorie</a> sits outside the main crowd while remaining accessible.</p>
-       <p>Read more about what an adventure‑style mountain stay near Mussoorie actually looks like in this detailed <a href="/adventure-mussoorie" class="text-secondary underline">trip account on Tripoto</a>.</p>`,
+       <p>Read more about what an adventure‑style mountain stay near Mussoorie actually looks like in this detailed <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">trip account on Tripoto</a>.</p>`,
     ],
   },
   faqs: [
@@ -115,7 +117,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("weekend-trip-from-delhi-mountains", articleData.metaData);
 
 export default function WeekendTripPage() {
   const renderContent = (htmlString: string) => {
@@ -124,6 +126,7 @@ export default function WeekendTripPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("weekend-trip-from-delhi-mountains", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

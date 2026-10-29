@@ -17,7 +17,7 @@ const denPageData = {
     title: "EXCLUSIVE PRIVATE VENUE",
     subTitle: `An exclusive, reservation-only venue designed for gatherings that require total privacy.`,
     description: [
-      "George’s Den is our signature indoor lounge, strategically designed to deliver a seamless blend of relaxation, celebrations, and business in a premium, high-conversion setting. With elegant interiors, ambient lighting, and plush seating, it creates an instantly appealing environment for guests looking to unwind, host, or engage.",
+      "George’s Den is our signature indoor lounge, a private space in the forest to relax, celebrate or meet. With elegant interiors, ambient lighting and plush seating, it is made for guests who want to unwind, host a gathering or get some work done together.",
       "The lounge features a curated menu of mocktails, cocktails, and speciality coffee, making it a high-demand space for everything from casual evenings to curated social experiences. Whether it’s a relaxed coffee meet, a lively celebration, or an exclusive cocktail evening, George’s Den enhances every occasion with a refined touch.",
     ],
     image: "/gallery/den/DSC04144-1-1.png",
@@ -37,7 +37,7 @@ const denPageData = {
     image: "/gallery/den/den3.png",
     title: 'Explore - <i>"The Den"</i>',
     description: [
-      "George’s Den is our signature indoor lounge, strategically designed to deliver a seamless blend of relaxation, celebrations, and business in a premium, high-conversion setting. With elegant interiors, ambient lighting, and plush seating, it creates an instantly appealing environment for guests looking to unwind, host, or engage.",
+      "George’s Den is our signature indoor lounge, a private space in the forest to relax, celebrate or meet. With elegant interiors, ambient lighting and plush seating, it is made for guests who want to unwind, host a gathering or get some work done together.",
       "The lounge features a curated menu of mocktails, cocktails, and speciality coffee, making it a high-demand space for everything from casual evenings to curated social experiences. Whether it’s a relaxed coffee meet, a lively celebration, or an exclusive cocktail evening, George’s Den enhances every occasion with a refined touch.",
     ],
   },

@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   // ✅ URL is exactly: misty-resort-near-mussoorie
@@ -54,7 +56,7 @@ const articleData = {
          <li><strong>Altitude above the town is an advantage:</strong> Properties at the western end of the Mussoorie ridge, in the George Everest zone, sit slightly higher and further from the built area than properties in the town centre. They are more consistently inside the mist envelope in the morning hours.</li>
          <li>The estate grounds give guests walkable forest access from early morning. The altitude puts the property at or above the typical morning mist ceiling. The forest cover means the mist is inside the canopy rather than just visible from it.</li>
        </ul>
-       <p>The <a href="https://www.tripoto.com/trip/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">Tripoto account of EBC Mussoorie</a> gives a first-person sense of what the estate and its forest surroundings feel like from a guest perspective.</p>`,
+       <p>The <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto account of EBC Mussoorie</a> gives a first-person sense of what the estate and its forest surroundings feel like from a guest perspective.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The EBC Mussoorie Estate as a Misty Forest Environment</h2>
        <p>Several specific features of EBC Mussoorie's 20-acre estate make it suited to the misty resort experience:</p>
@@ -71,7 +73,7 @@ const articleData = {
          <li><strong>What to pack:</strong> A warm fleece for morning walks even in October. A waterproof layer for monsoon visits. Walking shoes with grip for wet grass and forest paths. A camera that performs well in low-contrast misty light (mist washes out contrast, so a camera with good raw file latitude handles it better than smartphone cameras in auto mode).</li>
          <li><strong>How to use the mist window:</strong> Set an alarm for 5:30 AM. Be outside on the estate by 6 AM with a flask of tea. The best mist conditions are usually gone by 8:30 to 9 AM. Missing the window by sleeping in until breakfast is the most common way to lose the specific experience this kind of stay offers.</li>
        </ul>
-       <p>For additional context on EBC Mussoorie's outdoor and nature-led hospitality design, the <a href="https://www.hotelierindia.com/story/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a> covers how the property integrates the natural environment with the guest experience throughout the year.</p>`,
+       <p>For additional context on EBC Mussoorie's outdoor and nature-led hospitality design, the <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> covers how the property integrates the natural environment with the guest experience throughout the year.</p>`,
     ],
   },
   faqs: [
@@ -103,7 +105,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("misty-resort-near-mussoorie", articleData.metaData);
 
 export default function MistyResortPage() {
   const renderContent = (htmlString: string) => {
@@ -112,6 +114,7 @@ export default function MistyResortPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("misty-resort-near-mussoorie", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

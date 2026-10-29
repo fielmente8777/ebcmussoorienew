@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   // ✅ URL is exactly: honeymoon-in-mussoorie-monsoon
@@ -59,7 +61,7 @@ const articleData = {
          <li><strong>Andrew's Villas</strong>, the property's highest tier, are duplex villas with two bedrooms, separate entrances, and spacious living areas. For a honeymoon couple who wants the most private and spacious accommodation on the estate, this is the option to consider.</li>
        </ul>
        <p>The property's confirmed features relevant to a honeymoon include: Park Cafe with indoor and alfresco dining, private bonfire setups on the estate, outdoor BBQ arrangements, high-speed WiFi across all units, confirmed pet-friendly facilities, and stargazing access on the George Everest ridge (weather permitting).</p>
-       <p>View the <a href="/rooms" class="text-secondary underline">full accommodation range at EBC Mussoorie</a> and contact the property directly to discuss which unit best fits your honeymoon brief and monsoon dates.</p>`,
+       <p>View the <a href="/rooms/" class="text-secondary underline">full accommodation range at EBC Mussoorie</a> and contact the property directly to discuss which unit best fits your honeymoon brief and monsoon dates.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Questions to Confirm Before Booking a Monsoon Honeymoon at EBC Mussoorie</h2>
        <p>Do not rely on general website descriptions for a July to August booking. Ask the property directly:</p>
@@ -98,8 +100,8 @@ const articleData = {
          <li>Road access can be disrupted for 24 to 48 hours after heavy rainfall. If your travel dates are inflexible, this is a real risk.</li>
          <li>The panoramic Himalayan peak views visible from Lal Tibba on clear October days are not reliably available in July. Visibility is low on most active monsoon days.</li>
        </ul>
-       <p>For couples who understand these tradeoffs and are drawn to the privacy, atmosphere, and intimacy that a monsoon stay produces, the experience is genuinely distinctive. As covered in <a href="https://www.hotelierindia.com/story/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Hotelier India feature on EBC Mussoorie</a>, the property's outdoor-led hospitality design delivers an experience that is specifically suited to intimate, nature-immersive stays.</p>
-       <p>For a first-person account of the property and its surroundings, <a href="https://www.tripoto.com/trip/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Tripoto trip account of EBC Mussoorie</a> gives grounded traveller-level detail.</p>`,
+       <p>For couples who understand these tradeoffs and are drawn to the privacy, atmosphere, and intimacy that a monsoon stay produces, the experience is genuinely distinctive. As covered in <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">this Hotelier India feature on EBC Mussoorie</a>, the property's outdoor-led hospitality design delivers an experience that is specifically suited to intimate, nature-immersive stays.</p>
+       <p>For a first-person account of the property and its surroundings, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">this Tripoto trip account of EBC Mussoorie</a> gives grounded traveller-level detail.</p>`,
     ],
   },
   faqs: [
@@ -136,7 +138,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("honeymoon-in-mussoorie-monsoon", articleData.metaData);
 
 export default function HoneymoonMussooriePage() {
   const renderContent = (htmlString: string) => {
@@ -145,6 +147,7 @@ export default function HoneymoonMussooriePage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("honeymoon-in-mussoorie-monsoon", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

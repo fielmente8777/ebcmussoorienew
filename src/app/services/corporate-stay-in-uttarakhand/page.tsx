@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "corporate-stay-uttarakhand",
@@ -32,7 +34,7 @@ const articleData = {
        <p><strong>Best for:</strong> Leadership retreats, creative strategy offsites, couples-format incentive travel, wellness retreats</p>
        <p><strong>Distance from Delhi:</strong> 290 km, 6 to 7 hours, or fly to Dehradun (35 min) plus 1-hour road</p>
        <p><strong>What this zone offers:</strong> The Mussoorie ridge and the forest zones above Dehradun have the highest concentration of quality boutique and glamping-format properties in Uttarakhand. This is the most accessible Himalayan environment for a corporate group, sitting at 2,000 metres with valley views, forest trails, and cool temperatures year-round.</p>
-       <p>Properties like <a href="/" class="text-secondary underline">EBC Mussoorie</a> serve both the leisure and corporate segments from the same outdoor-led framework. Their <a href="/rooms" class="text-secondary underline">accommodation and group setup</a> is configured for nature-first stays, which makes them effective for offsites where the physical environment is intended to change group dynamics rather than simply provide a nice backdrop.</p>
+       <p>Properties like <a href="/" class="text-secondary underline">EBC Mussoorie</a> serve both the leisure and corporate segments from the same outdoor-led framework. Their <a href="/rooms/" class="text-secondary underline">accommodation and group setup</a> is configured for nature-first stays, which makes them effective for offsites where the physical environment is intended to change group dynamics rather than simply provide a nice backdrop.</p>
        <p><strong>What this zone does not offer:</strong> Beach, water sports, large MICE infrastructure (for groups above 60), or the entertainment variety of a city hotel. It is a focused, high-quality environment rather than an all-inclusive resort.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Zone 2: Rishikesh and Haridwar</h2>
@@ -106,7 +108,7 @@ const articleData = {
          <li>Not confirming WiFi performance for the actual group size. A 10 Mbps connection that serves a couple beautifully will fail a group of 20 running video calls.</li>
          <li>Skipping the dietary advance communication. Kitchen teams at hill properties need lead time to source specific ingredients for restricted diets. Last-minute dietary requests in the hills are genuinely difficult to accommodate.</li>
        </ul>
-       <p>As noted in this <a href="/adventure-mussoorie" class="text-secondary underline">Tripoto feature on EBC Mussoorie</a>, the property's Mussoorie location offers a specific combination of adventure spirit and comfort infrastructure that works for both individual travellers and groups.</p>`,
+       <p>As noted in this <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto feature on EBC Mussoorie</a>, the property's Mussoorie location offers a specific combination of adventure spirit and comfort infrastructure that works for both individual travellers and groups.</p>`,
     ],
   },
   faqs: [
@@ -143,7 +145,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("corporate-stay-in-uttarakhand", articleData.metaData);
 
 export default function CorporateStayUttarakhandPage() {
   const renderContent = (htmlString: string) => {
@@ -152,6 +154,7 @@ export default function CorporateStayUttarakhandPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("corporate-stay-in-uttarakhand", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

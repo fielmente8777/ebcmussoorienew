@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "digital-detox-retreat-near-delhi",
@@ -81,7 +83,7 @@ const articleData = {
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Best Locations for a Digital Detox Retreat Near Delhi</h2>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Mussoorie and the Garhwal Hills (290 km)</h3>
        <p>The most accessible genuine natural environment near Delhi for a digital detox stay. Properties in the forest zones above Mussoorie, away from the commercial town centre, have naturally reduced mobile signal and are far enough from urban digital infrastructure to create genuine disconnection.</p>
-       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> sits in this zone. The property's outdoor glamping format, forest setting, and nature‑activity integration create the structural conditions for a real digital detox rather than an aspirational one. Their <a href="/rooms" class="text-secondary underline">accommodation and experience design</a> is built around the natural environment as the primary guest experience, which is exactly the framework that effective digital detox requires.</p>
+       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> sits in this zone. The property's outdoor glamping format, forest setting, and nature‑activity integration create the structural conditions for a real digital detox rather than an aspirational one. Their <a href="/rooms/" class="text-secondary underline">accommodation and experience design</a> is built around the natural environment as the primary guest experience, which is exactly the framework that effective digital detox requires.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Lansdowne (250 km)</h3>
        <p>The quietest hill station within a reasonable range of Delhi. Very limited mobile signal in parts of the town and the surrounding forest. Minimal commercial activity. The forest walks, Bhulla Taal lake, and cantonment stillness produce a natural attention‑restoration environment without requiring a specific retreat programme.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Chakrata (320 km)</h3>
@@ -117,8 +119,8 @@ const articleData = {
          <li><strong>48 hours before:</strong> Complete any genuinely urgent work. Clear your inbox to a manageable state. Download offline maps, books, or music if the property permits.</li>
          <li><strong>On arrival:</strong> Set your phone to aeroplane mode rather than just leaving it in the room. The physical action of switching to aeroplane mode is more effective than relying on willpower.</li>
        </ul>
-       <p>For a traveller's perspective on what a nature‑led, outdoor stay experience near Mussoorie actually feels like, the <a href="/adventure-mussoorie" class="text-secondary underline">Tripoto account of EBC Mussoorie</a> is worth reading before you plan.</p>
-       <p>As reported in this <a href="#" class="text-secondary underline">Hotelier India feature</a>, EBC Mussoorie's approach to tranquil outdoor hospitality creates exactly the structural environment that genuine disconnection requires.</p>`,
+       <p>For a traveller's perspective on what a nature‑led, outdoor stay experience near Mussoorie actually feels like, the <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto account of EBC Mussoorie</a> is worth reading before you plan.</p>
+       <p>As reported in this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature</a>, EBC Mussoorie's approach to tranquil outdoor hospitality creates exactly the structural environment that genuine disconnection requires.</p>`,
     ],
   },
   faqs: [
@@ -155,7 +157,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("digital-detox-retreat-near-delhi", articleData.metaData);
 
 export default function DigitalDetoxRetreatPage() {
   const renderContent = (htmlString: string) => {
@@ -164,6 +166,7 @@ export default function DigitalDetoxRetreatPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("digital-detox-retreat-near-delhi", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

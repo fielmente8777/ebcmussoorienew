@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   // ✅ URL is exactly: best-family-resort-near-delhi-monsoon
@@ -87,7 +89,7 @@ const articleData = {
          </table>
        </div>
        <p class="mt-4">Total capacity is 28 guests without extra beds and up to 50 with extra beds across 14 units, which keeps the property intimate rather than crowded even at full occupancy.</p>
-       <p>Compare the categories on the <a href="/rooms" class="text-secondary underline">EBC Mussoorie accommodation page</a> before enquiring.</p>`,
+       <p>Compare the categories on the <a href="/rooms/" class="text-secondary underline">EBC Mussoorie accommodation page</a> before enquiring.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Families Should Not Expect</h2>
        <p>Being clear about this prevents disappointment:</p>
@@ -115,7 +117,7 @@ const articleData = {
          <li><strong>Rishikesh (240 km)</strong> – Lower altitude means warmer, and river activities are restricted during high monsoon flow. Better for families with teenagers than young children.</li>
          <li><strong>Mussoorie (290 km)</strong> – The best balance of accessibility, accommodation quality, and property-level self-sufficiency for a monsoon family stay.</li>
        </ul>
-       <p>For a traveller-level view of the EBC Mussoorie estate and its surroundings, <a href="https://www.tripoto.com/trip/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Tripoto account</a> gives useful ground detail.</p>`,
+       <p>For a traveller-level view of the EBC Mussoorie estate and its surroundings, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">this Tripoto account</a> gives useful ground detail.</p>`,
     ],
   },
   faqs: [
@@ -152,7 +154,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("best-family-resort-near-delhi-monsoon", articleData.metaData);
 
 export default function BestFamilyResortNearDelhiMonsoonPage() {
   const renderContent = (htmlString: string) => {
@@ -161,6 +163,7 @@ export default function BestFamilyResortNearDelhiMonsoonPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("best-family-resort-near-delhi-monsoon", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   // ✅ URL is exactly: glamping-tent-monsoon-experience
@@ -71,7 +73,7 @@ const articleData = {
          <li><strong>Covered outdoor space:</strong> A private sit-out or verandah with some weather protection for use during light rain.</li>
          <li><strong>Communal indoor space:</strong> A restaurant or lounge where guests can gather on full-rain days.</li>
        </ul>
-       <p>For a ground-level view of the EBC Mussoorie estate and outdoor experience, <a href="https://www.tripoto.com/trip/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Tripoto account</a> gives useful traveller-level detail.</p>`,
+       <p>For a ground-level view of the EBC Mussoorie estate and outdoor experience, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">this Tripoto account</a> gives useful traveller-level detail.</p>`,
     ],
   },
   faqs: [
@@ -108,7 +110,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("glamping-tent-monsoon-experience", articleData.metaData);
 
 export default function GlampingTentExperiencePage() {
   const renderContent = (htmlString: string) => {
@@ -117,6 +119,7 @@ export default function GlampingTentExperiencePage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("glamping-tent-monsoon-experience", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

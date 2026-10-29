@@ -77,23 +77,24 @@ export const footerNavLinks = [
 ];
 export const roomFooterLinks = [
   { name: "All Rooms", href: "/rooms/" },
-  { name: "The Andrew's Villa", href: "/rooms/the-andrews-villa" },
-  { name: "Twin Luxury Cottages", href: "/rooms/twin-luxury-cottages" },
-  { name: "Zenith Luxury Cottage", href: "/rooms/zenith-luxury-cottage" },
-  { name: "The Surveyor", href: "/rooms/the-surveyor" },
-  { name: "The Surveyor Suite", href: "/rooms/the-surveyor-suite" },
-  { name: "The Glamper", href: "/rooms/the-glamper" },
+  { name: "The Andrew's Villa", href: "/rooms/the-andrews-villa/" },
+  { name: "Twin Luxury Cottages", href: "/rooms/twin-luxury-cottages/" },
+  { name: "Zenith Luxury Cottage", href: "/rooms/zenith-luxury-cottage/" },
+  { name: "The Surveyor", href: "/rooms/the-surveyor/" },
+  { name: "The Surveyor Suite", href: "/rooms/the-surveyor-suite/" },
+  { name: "The Glamper", href: "/rooms/the-glamper/" },
   { name: "The Camper", href: "/rooms/the-camper/" },
 ];
 export const exploreFooterLinks = [
-  { name: "Experiences", href: "/activities" },
+  { name: "Experiences", href: "/activities/" },
   { name: "Park Cafe", href: "/park-cafe/" },
   { name: "Gallery", href: "/gallery/" },
-  // { name: "About Us", href: "/about-us/" },
+  { name: "About Us", href: "/about-us/" },
   { name: "Den", href: "/den/" },
-  { name: "Blog & Guides", href: "/blogs/" },
-  { name: "Packages & Pricing", href: "/packages" },
-  { name: "FAQ", href: "/faq" },
+  { name: "Blog", href: "/blogs/" },
+  { name: "Travel Guides", href: "/services/" },
+  { name: "Packages & Pricing", href: "/packages/" },
+  { name: "FAQ", href: "/faq/" },
   { name: "Location & Directions", href: contacts.addresses[0].addressUrl },
 ];
 export const forYouFooterLinks = [

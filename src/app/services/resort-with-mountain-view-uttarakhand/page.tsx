@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "resort-with-mountain-view-in-uttarakhand",
@@ -52,7 +54,7 @@ const articleData = {
        <p><strong>Resort positioning:</strong> Basic accommodation dominates in Chopta. This is not a luxury resort zone. The trade-off for the view quality is accommodation simplicity.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Lal Tibba, Mussoorie (Garhwal)</h3>
        <p>The highest point in Mussoorie is at 2,290 metres. On clear October and November mornings, Bandarpunch and Kedarnath are visible through fixed binoculars at the viewpoint. Properties near the Lal Tibba and Landour section of Mussoorie are the best-positioned in the hill station for northern peak views.</p>
-       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> is positioned in the forested hills above the Mussoorie valley. Their <a href="/rooms" class="text-secondary underline">accommodation and outdoor viewing setup</a> is situated within the Mussoorie hills zone, giving guests access to the forest setting that defines the Garhwal hill experience alongside the valley and ridge views.</p>
+       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> is positioned in the forested hills above the Mussoorie valley. Their <a href="/rooms/" class="text-secondary underline">accommodation and outdoor viewing setup</a> is situated within the Mussoorie hills zone, giving guests access to the forest setting that defines the Garhwal hill experience alongside the valley and ridge views.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Ranikhet and Almora (Kumaon)</h3>
        <p>Ranikhet at 1,829 metres offers a long Himalayan horizon view from its cantonment golf course and several resort positions on the northern ridge. Almora, at 1,638 metres, has a lower but still productive view of the Kumaon Himalaya. Both are less visited than Mussoorie and Nainital, which reduces crowd interference with viewpoints.</p>`,
 
@@ -74,8 +76,8 @@ const articleData = {
          <li>Are there trees or structures between the property and the peak view that reduce the sightline?</li>
        </ul>
        <p>A property that cannot answer these specifically has a view that does not justify specific marketing.</p>
-       <p>For a ground‑level perspective on what a well‑positioned outdoor stay in the Mussoorie hills looks and feels like, the <a href="/adventure-mussoorie" class="text-secondary underline">Tripoto piece on EBC Mussoorie</a> is useful context.</p>
-       <p>The <a href="#" class="text-secondary underline">Hotelier India coverage of EBC Mussoorie</a> also provides useful framing on how the better Uttarakhand hill properties position their outdoor experience alongside accommodation quality.</p>`,
+       <p>For a ground‑level perspective on what a well‑positioned outdoor stay in the Mussoorie hills looks and feels like, the <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto piece on EBC Mussoorie</a> is useful context.</p>
+       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India coverage of EBC Mussoorie</a> also provides useful framing on how the better Uttarakhand hill properties position their outdoor experience alongside accommodation quality.</p>`,
     ],
   },
   faqs: [
@@ -112,7 +114,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("resort-with-mountain-view-uttarakhand", articleData.metaData);
 
 export default function MountainViewResortUttarakhandPage() {
   const renderContent = (htmlString: string) => {
@@ -121,6 +123,7 @@ export default function MountainViewResortUttarakhandPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("resort-with-mountain-view-uttarakhand", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

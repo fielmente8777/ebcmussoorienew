@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "honeymoon-resort-mussoorie",
@@ -43,7 +45,7 @@ const articleData = {
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Why a Glamping Resort Works Well for a Mussoorie Honeymoon</h2>
        <p><strong>Everest Base Camp Mussoorie</strong>, a premium glamping resort near George Everest Peak, is designed around the kind of experience that works for couples. The tent format provides privacy. The location near the peak provides morning trekking access. The setting provides evenings that do not require leaving the property.</p>
-       <p>The property combines nature access with comfort in a way that suits the honeymoon format better than a conventional hotel, where the outdoor component is usually a balcony or a poolside area rather than a forest path from your front door. You can look at the accommodation setup at <a href="/rooms" class="text-secondary underline">EBC Mussoorie's tent and room page</a> to understand the format before making a booking decision.</p>`,
+       <p>The property combines nature access with comfort in a way that suits the honeymoon format better than a conventional hotel, where the outdoor component is usually a balcony or a poolside area rather than a forest path from your front door. You can look at the accommodation setup at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's tent and room page</a> to understand the format before making a booking decision.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">A Honeymoon Itinerary Framework for Mussoorie</h2>
        <ul class="list-disc pl-6 space-y-1">
@@ -63,7 +65,7 @@ const articleData = {
          <li>What is the cancellation policy if travel is disrupted?</li>
          <li>Are early check-in or late checkout options available for honeymoon guests?</li>
        </ul>
-       <p>As covered in this travel feature on <a href="/glamping-george-everest" class="text-secondary underline">glamping near George Everest Peak</a>, the location and setting of the right property transform the entire experience.</p>`,
+       <p>As covered in this travel feature on <a href="/rooms/" class="text-secondary underline">glamping near George Everest Peak</a>, the location and setting of the right property transform the entire experience.</p>`,
     ],
   },
   faqs: [
@@ -100,7 +102,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("honeymoon-resort-mussoorie", articleData.metaData);
 
 export default function HoneymoonResortPage() {
   const renderContent = (htmlString: string) => {
@@ -109,6 +111,7 @@ export default function HoneymoonResortPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("honeymoon-resort-mussoorie", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "stargazing-resort-near-delhi",
@@ -63,7 +65,7 @@ const articleData = {
          <li><strong>Knowledgeable orientation, even basic:</strong> A simple star map, a brief verbal orientation on what is currently visible, or a constellation guide at the property adds significant value. Stargazing without context is pleasant. With context, it is memorable.</li>
          <li><strong>Clear‑sky proximity to accommodation:</strong> Forest cover, which provides wonderful privacy and shade, can also block significant portions of the sky. The best stargazing positions are in open clearings or on exposed ridgelines with maximum sky coverage.</li>
        </ul>
-       <p><strong>Everest Base Camp Mussoorie</strong>'s position near George Everest Peak, on an open ridge at 2,000 metres, provides this sky access. The property's outdoor setting is designed around the outdoor experience being the centrepiece of the stay, which includes clear‑night stargazing as part of the evening experience. You can review the accommodation layout and outdoor access format at <a href="/rooms" class="text-secondary underline">EBC Mussoorie's rooms and tents page</a>.</p>`,
+       <p><strong>Everest Base Camp Mussoorie</strong>'s position near George Everest Peak, on an open ridge at 2,000 metres, provides this sky access. The property's outdoor setting is designed around the outdoor experience being the centrepiece of the stay, which includes clear‑night stargazing as part of the evening experience. You can review the accommodation layout and outdoor access format at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms and tents page</a>.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Best Months for Stargazing Near Mussoorie From Delhi</h2>
        <ul class="list-disc pl-6 space-y-1">
@@ -71,8 +73,8 @@ const articleData = {
          <li><strong>March to May:</strong> Good conditions in March and April before pre‑monsoon haze begins building in May.</li>
          <li><strong>June to September:</strong> Monsoon season. Cloud cover makes stargazing unreliable. Brief clear windows occur, but cannot be counted on for a trip planned specifically around astronomy.</li>
        </ul>
-       <p>For a traveller's perspective on the overall experience of reaching and staying near George Everest Peak from Delhi, this piece on the <a href="/adventure-mussoorie" class="text-secondary underline">EBC Mussoorie Everest Base Camp experience</a> covers the setting and outdoor access in practical terms.</p>
-       <p>The Mussoorie ridge represents the most accessible genuinely dark‑sky opportunity for Delhi‑based travellers, and a well‑chosen property in this zone converts what is usually a background amenity into the reason for the trip. As this travel feature explains, the journey from Delhi to an <a href="/glamping-george-everest" class="text-secondary underline">Everest Base Camp in Mussoorie</a> is considerably more straightforward than most NCR travellers assume.</p>`,
+       <p>For a traveller's perspective on the overall experience of reaching and staying near George Everest Peak from Delhi, this piece on the <a href="/activities/" class="text-secondary underline">EBC Mussoorie Everest Base Camp experience</a> covers the setting and outdoor access in practical terms.</p>
+       <p>The Mussoorie ridge represents the most accessible genuinely dark‑sky opportunity for Delhi‑based travellers, and a well‑chosen property in this zone converts what is usually a background amenity into the reason for the trip. As this travel feature explains, the journey from Delhi to an <a href="/rooms/" class="text-secondary underline">Everest Base Camp in Mussoorie</a> is considerably more straightforward than most NCR travellers assume.</p>`,
     ],
   },
   faqs: [
@@ -109,7 +111,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("stargazing-resort-near-delhi", articleData.metaData);
 
 export default function StargazingResortPage() {
   const renderContent = (htmlString: string) => {
@@ -118,6 +120,7 @@ export default function StargazingResortPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("stargazing-resort-near-delhi", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

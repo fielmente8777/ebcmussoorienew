@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "corporate-offsite-mussoorie",
@@ -35,7 +37,7 @@ const articleData = {
          <li><strong>Conference-style properties</strong> within or near the town offer hotel‑standard meeting rooms, banquet facilities, and predictable service. They work well for large groups (50 plus) where meeting logistics dominate the agenda.</li>
          <li><strong>Experience-style properties</strong> outside the main town, typically boutique nature resorts or glamping properties, offer a different setting: smaller group capacity, outdoor meeting spaces, integrated activity programmes, and a more intentional environment. They work best for leadership retreats, strategy offsites, and team cohesion programmes where the quality of conversation matters more than the scale of the event.</li>
        </ul>
-       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> sits in the second category. The property's outdoor format, location above the Mussoorie valley, and integration of activity and accommodation make it suited to groups of 10 to 35, where the goal is genuine engagement rather than a formatted conference. View their <a href="/rooms" class="text-secondary underline">accommodation and retreat setup</a> to understand what the physical space looks like before contacting them for a group proposal.</p>`,
+       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> sits in the second category. The property's outdoor format, location above the Mussoorie valley, and integration of activity and accommodation make it suited to groups of 10 to 35, where the goal is genuine engagement rather than a formatted conference. View their <a href="/rooms/" class="text-secondary underline">accommodation and retreat setup</a> to understand what the physical space looks like before contacting them for a group proposal.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Building Your Mussoorie Corporate Offsite Agenda</h2>
        <p>A two‑night offsite in Mussoorie works best when it is structured around three distinct purposes, one per half‑day block:</p>
@@ -73,8 +75,8 @@ const articleData = {
        <p>This is worth naming directly because it is the actual reason to go to Mussoorie rather than a hotel in Gurgaon.</p>
        <p>When people are physically removed from their normal environments, their social roles within a group become more fluid. The colleague who is quiet in the conference room will often speak first on a trail. The senior leader who dominates in a formal session often becomes more collaborative when the structure is removed.</p>
        <p>These shifts are not guaranteed, but the conditions at an outdoor hill property create more opportunities for them than a city hotel does. The combination of altitude, natural surroundings, physical activity, and communal meals without city‑schedule interruption changes the baseline social temperature of a group.</p>
-       <p>This is why the most effective corporate offsites tend to happen at properties where the environment is doing part of the work, not just providing a backdrop. As described in this <a href="#" class="text-secondary underline">Hotelier India piece on EBC Mussoorie</a>, the property is built around this exact principle: tranquil outdoor experience as the foundation for a different kind of hospitality, which translates directly into a different quality of corporate retreat experience.</p>
-       <p>For a traveller's perspective on the location and atmosphere, this <a href="/adventure-mussoorie" class="text-secondary underline">Tripoto trip account</a> gives a useful sense of what the property and its surroundings feel like from the ground.</p>`,
+       <p>This is why the most effective corporate offsites tend to happen at properties where the environment is doing part of the work, not just providing a backdrop. As described in this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India piece on EBC Mussoorie</a>, the property is built around this exact principle: tranquil outdoor experience as the foundation for a different kind of hospitality, which translates directly into a different quality of corporate retreat experience.</p>
+       <p>For a traveller's perspective on the location and atmosphere, this <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline" target="_blank" rel="noopener">Tripoto trip account</a> gives a useful sense of what the property and its surroundings feel like from the ground.</p>`,
     ],
   },
   faqs: [
@@ -111,7 +113,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("corporate-offsite-mussoorie", articleData.metaData);
 
 export default function CorporateOffsitePage() {
   const renderContent = (htmlString: string) => {
@@ -120,6 +122,7 @@ export default function CorporateOffsitePage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("corporate-offsite-mussoorie", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

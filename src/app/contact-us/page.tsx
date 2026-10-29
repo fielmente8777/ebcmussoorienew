@@ -4,9 +4,21 @@ import EnquirySection from "./components/EnquirySection";
 import InfoCardsSection from "./components/InforCardSection";
 import { contactUsPageData } from "./components/pageData";
 
+import JsonLd from "@/components/seo/JsonLd";
+import { pageMeta } from "@/lib/seo";
+import { breadcrumbSchema } from "@/lib/schema";
+
+export const metadata = pageMeta({
+  title: "Contact & Directions – EBC Mussoorie, Hathipaon Road",
+  description: "Call or WhatsApp +91 91190 01126, email info@ebcmussoorie.com, or visit us at Park Estate, Hathipaon Road, Mussoorie 248179. WhatsApp replies within 2 hours.",
+  path: "/contact-us/",
+});
+
+
 export default function ContactUsPage() {
   return (
     <main className="bg-black">
+      <JsonLd data={[breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Contact Us", path: "/contact-us/" }])]} />
       <ContactHeroSection {...contactUsPageData?.bannerDta} />
       <ContactCardsSection {...contactUsPageData?.contactCards} />
       <EnquirySection
