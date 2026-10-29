@@ -11,58 +11,65 @@ const articleData = {
   metaData: {
     title: "Camping in Mussoorie: What to Know Before You Book a Site | EBC Mussoorie",
     description:
-      "A complete guide to camping in Mussoorie – types of camping, best seasons, packing tips, and family suitability. Make an informed choice for your mountain stay.",
+      "Camping in Mussoorie comes in three forms: basic tents, operator camps and glamping. Compare seasons, packing and family fit before you book a site.",
   },
   banner: {
     title: "Camping in Mussoorie",
     subTitle: "What to Know Before You Book a Site",
     description:
-      "From basic tent setups to premium glamping – understand the differences and choose the right experience for your travel group.",
+      "From a basic tent to a furnished glamping stay, here is how the options differ, and how to pick the right one for your group.",
     image: "/banner/bnr2.png",
   },
   intro: {
     title: "Understanding Your Camping Options",
     description: [
-      "There is a version of camping in Mussoorie where you carry a tent, find a flat patch of hillside, and spend the night next to a gas stove. That version exists. Then there is a version where you sleep in a properly furnished tent with a real mattress, hot water, and a bonfire laid out for you. Both count as camping, but they are completely different experiences, and choosing between them without knowing the difference is how most trips go wrong. This guide covers what camping in Mussoorie actually involves, the types of camping available, what to expect across seasons, and how to choose the right setup for your travel group.",
+      "There is a kind of camping in Mussoorie where you carry your own tent. You find a flat patch of hillside and cook on a gas stove. That kind still exists. Then there is the kind where you sleep in a furnished tent, on a proper mattress, with hot water and a bonfire laid out for you. Both count as camping. But they are very different trips, and mixing them up is how most plans go wrong. This guide covers what camping here really involves and the main types on offer. It also covers what each season brings, and how to pick the right setup for your group.",
     ],
   },
   details: {
     title: "Types of Camping & Practical Tips",
     subtitle: "Make an informed choice",
     description: [
-      "Basic Tent Camping: Basic tent camping near Mussoorie typically involves rented tent setups at designated forest-adjacent sites. You bring or rent a sleeping bag, manage your own meals or eat at a nearby dhaba, and have limited access to washroom facilities. This is the most affordable format, and suits experienced campers or those specifically looking for a raw outdoor experience. Downside: weather dependency is high, comfort is minimal, and it is not suitable for families with young children, older travellers, or those visiting in winter.",
-      "Glamping: Glamping, short for glamorous camping, sits at the opposite end. Furnished tents with proper beds, electricity, attached or nearby washrooms, and meals are included or available. The outdoor setting is preserved, but comfort is not compromised. Everest Base Camp Mussoorie is a premium glamping resort near George Everest Peak that operates on this model. The location combines scenic mountain surroundings with a hospitality setup closer to a boutique hotel than a campsite.",
-      "Seasonal and Operator-Led Camp Setups: Several travel operators run seasonal camps near Mussoorie, particularly during the October to November and March to May windows. These are usually group-format, with fixed itineraries that include meals, guided treks, and bonfire evenings. Quality varies significantly between operators.",
-      "Where Can You Camp Near Mussoorie? The areas most commonly used for camping near Mussoorie include: George Everest Peak area (accessible via Park Estate, offering forest cover, elevation, and trekking access – this is where Everest Base Camp Mussoorie operates), Dhanaulti (about 30 kilometres from Mussoorie, at a higher elevation, in a deodar forest setting, popular with operators running group camps), Bhatta Falls area (lower elevation, more accessible, but less scenic for overnight stays), and Landour ridge (limited camping options but strong appeal for day hikers and nature walkers). For travellers interested in the George Everest Peak zone specifically, this travel piece on Did You Know That Just 7 Hours From Delhi, There's An Everest Base Camp? gives a useful ground-level perspective on the area.",
-      "What Is the Best Season for Camping in Mussoorie? Season selection is the single most important planning decision for a camping trip here. March to May: Temperatures range from 10 to 22 degrees Celsius. Trails are dry, evenings are cool, and bonfire conditions are good. This is the best window for first-time campers. June: Early June is manageable, but the pre-monsoon humidity begins to build. Book early in the month if you must travel in summer. July to August: Monsoon season. Landslides, waterlogged trails, and persistent rainfall make outdoor camping genuinely difficult and, in some areas, risky. Not recommended for camping-focused visits. September to November: Second-best window of the year. Clear skies, post-monsoon greenery, and reduced crowd density. Excellent for stargazing and bonfire evenings. December to February: Cold, with temperatures dropping near or below freezing at night. Experienced campers with appropriate gear find this period rewarding. Not suitable for glamping beginners or families with young children without proper cold-weather preparation.",
-      "What Should You Pack for Camping in Mussoorie? Essential items regardless of camp type: layered clothing, including a warm fleece or jacket, even in summer; waterproof outer layer; sturdy closed-toe shoes or trekking shoes; sunscreen and lip balm at altitude; personal medications and a basic first aid kit; power bank for devices. For basic tent camping, additionally: sleeping bag rated for sub-10 degrees Celsius; headlamp with spare batteries; a portable water filter or sufficient bottled water. For glamping stays, most of the above, beyond clothing and personal items, is provided by the property.",
-      "Is Camping in Mussoorie Suitable for Families and Couples? Yes, with the right format. Glamping properties like Everest Base Camp Mussoorie accommodate families, couples, and small groups, with enclosed tent structures, proper bedding, and washroom access that basic campsites do not offer. If you are travelling with children or want a more comfortable setup, a glamping format is significantly more practical than basic tent camping. Explore what this looks like in practice through the rooms and tent accommodations at EBC Mussoorie before committing to a booking.",
+      "Basic Tent Camping: Most basic camps near Mussoorie use rented tents at set sites near the forest. You bring or rent a sleeping bag. You cook your own meals or eat at a nearby dhaba, and washrooms are limited. This is the lowest-cost format. It suits seasoned campers and anyone who wants a raw night outdoors. The downside is real. You are at the mercy of the weather and comfort is thin. It is a poor fit for young children, older guests or a winter trip.",
+      "Glamping: Glamping, short for glamorous camping, sits at the other end. You get a furnished tent with a proper bed, power, a washroom close by, and meals on hand. You keep the outdoor setting without giving up comfort. Everest Base Camp Mussoorie is a premium glamping resort near George Everest Peak that runs on this model. It sits in deodar, pine and rhododendron forest at 2,160 m. The feel is closer to a boutique hotel than a campsite.",
+      "Seasonal Camps Run by Operators: Several travel firms run seasonal camps near Mussoorie. Most run from October to November and from March to May. These are mostly group trips on a fixed plan, with meals, guided treks and bonfire evenings. Quality varies a great deal from one operator to the next.",
+      "Where Can You Camp Near Mussoorie? These are the areas most used for camping near Mussoorie. The George Everest Peak area comes first. You reach it through Park Estate, and it has forest cover, height and good trekking access. This is where Everest Base Camp Mussoorie sits. Dhanaulti is about 24 km from Mussoorie and higher up, in a deodar forest. Group camp operators like it. The Bhatta Falls area is lower and easier to reach, but less scenic for a night out. Landour ridge has few camping options, but day hikers and nature walkers love it.",
+      "For a ground-level view of the George Everest Peak zone, read the travel piece titled Did You Know That Just 8 Hours From Delhi, There's An Everest Base Camp? In practice, Delhi is about 280 km away by road. Plan on 5.5 to 6.5 hours.",
+      "What Is the Best Season for Camping in Mussoorie? The season is the biggest choice you will make for a camping trip here. Each window feels quite different.",
+      "March to May: Days run from 10 to 22 degrees Celsius. Trails are dry, evenings are cool and bonfires burn well. This is the best window for first-time campers.",
+      "June: Early June is fine, but the air grows humid as the rains draw near. If you must come in summer, aim for early in the month. May and June are busy, so book ahead.",
+      "July to September: This is the monsoon. Rain is steady and trails get wet. Basic tent camping is hard work now, and a weather-proofed stay is the sensible choice. At EBC every tent and cottage is weather-proofed, and the forest turns deep green with mist moving through the deodars. Landslides can close hill roads, so check advisories before you drive and give yourself a spare day.",
+      "October to November: This is the second-best window of the year. Skies clear, the hills stay green after the rains, and crowds thin out. These are the clearest skies of all, and nights are great for stargazing and long bonfires.",
+      "December to February: It is cold, and nights drop near or below freezing. Seasoned campers with the right gear love this time. For beginners and families with small children, a basic tent is a hard ask. A glamping stay with proper bedding makes far more sense, and you should still pack warm layers.",
+      "What Should You Pack for Camping in Mussoorie? Some things matter for every kind of camp. Pack layers, with a warm fleece or jacket, even in summer. Add a waterproof outer layer and sturdy closed-toe or trekking shoes. Bring sunscreen and lip balm, since the sun is strong up here. Carry your own medicines, a basic first aid kit and a power bank.",
+      "For basic tent camping, add a sleeping bag rated for below 10 degrees Celsius. Bring a headlamp with spare batteries, plus a water filter or enough bottled water. For a glamping stay, the property covers most of this. You only need clothes and personal items.",
+      "Is Camping in Mussoorie Suitable for Families and Couples? Yes, with the right format. Glamping resorts like Everest Base Camp Mussoorie host families, couples and small groups. You get closed tents, proper beds and washrooms that basic sites lack. If you travel with children or simply want more comfort, glamping is far more practical than a basic tent. At EBC, every room includes breakfast for two, the evening bonfire and a guided forest walk from 7 to 9 AM. Look through the rooms and tents at EBC Mussoorie before you book, so you know just what you are getting.",
     ],
   },
   faqs: [
     {
       question: "Is camping in Mussoorie safe?",
-      answer: "Organised camping sites and glamping resorts offer structured and supervised setups. Independent remote camping carries standard outdoor risks and requires proper preparation.",
+      answer: "Organised camps and glamping resorts give you a set, supervised base. Camping alone in remote spots carries the usual outdoor risks, so prepare well. In the monsoon, pick a weather-proofed stay over a basic tent.",
     },
     {
       question: "Can beginners try camping in Mussoorie?",
-      answer: "Yes. Glamping is specifically well-suited to beginners who want the outdoor experience without technical camping skills.",
+      answer: "Yes. Glamping suits beginners well. You get the outdoors without needing any camping skills.",
     },
     {
       question: "Is camping available in winter near Mussoorie?",
-      answer: "Some properties operate year-round, but cold-weather preparation is essential. Confirm availability and conditions directly with your chosen property.",
+      answer: "Some properties stay open all year, but you must prepare for the cold. At EBC, December and January bring crisp, cold nights by the bonfire. Confirm dates and conditions with your chosen property.",
     },
     {
       question: "Are pets allowed at camping sites near Mussoorie?",
-      answer: "Some glamping properties are pet-friendly with applicable restrictions. Confirm the policy before booking.",
+      answer: "Some glamping properties welcome pets, often with rules. EBC Mussoorie welcomes pets if you tell the team before you arrive. For any other site, check the policy before you book.",
     },
     {
       question: "What is the difference between camping and glamping?",
-      answer: "Camping typically involves basic tent setups with minimal facilities. Glamping provides furnished tents, proper beds, electricity, and washroom access in the same outdoor setting.",
+      answer: "Camping usually means a basic tent with few facilities. Glamping gives you a furnished tent, a proper bed, power and a washroom in the same outdoor setting.",
     },
     {
       question: "How do I book a camping spot near Mussoorie?",
-      answer: "Glamping properties can be booked directly through their websites. Operator-led camps are usually bookable through travel platforms or directly with the operator.",
+      answer: "Book glamping properties directly on their own websites. Operator camps are usually booked through travel platforms or with the operator itself.",
     },
   ],
 };

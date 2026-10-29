@@ -12,141 +12,142 @@ const articleData = {
   metaData: {
     title: "Couple Resort in Mussoorie During Monsoon: Why the Off-Season Is the Better Season for Two | EBC Mussoorie",
     description:
-      "A complete guide to a couple's monsoon stay in Mussoorie – why the off-season delivers more privacy, better rates, and a more atmospheric experience than peak season.",
+      "A couple's monsoon stay in Mussoorie gives you more privacy, mist in the deodars and a quieter resort than May. How to choose the room and plan the days.",
   },
   banner: {
     title: "Couple Resort in Mussoorie During Monsoon",
     subTitle: "Why the Off-Season Is the Better Season for Two",
     description:
-      "The couples who book Mussoorie in May are looking at the same ridge and valley as those who book it in July. They are not having the same trip. The monsoon version is the better one.",
+      "Couples who book Mussoorie in May look at the same ridge and valley as those who book it in July. They are not having the same trip. The monsoon version is the better one.",
     image: "/banner/bnr2.png", // Replace with a couple/monsoon banner if available
   },
   intro: {
     title: "Couple Resort in Mussoorie During Monsoon",
     description: [
-      "The couples who book Mussoorie in May are looking at the same ridge, the same forest, and the same valley as the couples who book it in July. They are not having the same trip. May brings crowds, peak rates, and a hill station operating at capacity. July brings mist through deodar canopy, a valley that disappears under cloud by mid-morning, evenings cool enough that a fire matters, and a property that is largely yours. For couples who understand what they are choosing, the monsoon version of a Mussoorie stay is the better one.",
-      "This guide covers what a monsoon couple's stay in Mussoorie actually involves, what to look for in the property, and how to plan the two or three days so the weather works for you.",
+      "Couples who book Mussoorie in May see the same ridge, the same forest and the same valley as couples who book it in July. They are not having the same trip. May brings crowds and a hill station running at full stretch. July brings mist through the deodar canopy. The valley vanishes under cloud by mid-morning. Evenings turn cool enough that a fire matters, and the property feels largely yours. For couples who know what they are choosing, the monsoon version of a Mussoorie stay is the better one.",
+      "This guide covers what a monsoon stay for two really involves and what to look for in the property. It also shows how to plan two or three days so the weather works for you.",
     ],
   },
   details: {
     title: "The Monsoon Couple's Guide",
     subtitle: "Plan Your Intimate Escape",
     description: [
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Case for a Monsoon Couple Stay, Stated Plainly</h2>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Case for a Monsoon Couple Stay: Why Go in July?</h2>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>Privacy becomes structural, not aspirational.</strong> Occupancy across Mussoorie properties drops significantly in July and August. At a boutique property with a small unit count, this means a couple can have the estate walk, the dining terrace, and the bonfire clearing effectively to themselves. Privacy stops being something you hope for and becomes a feature of the season.</li>
-         <li><strong>The sensory environment is at its most distinctive.</strong> Deodar forest at 6,800 feet after overnight rain has a specific scent that exists in no other season and at no other altitude. Add the sound of rain on a forest canopy, mist that reduces visibility to 25 metres at 6 AM, and evening air at 14 degrees Celsius, and you have a sensory environment that a dry-season stay simply does not produce.</li>
-         <li><strong>Rates allow a property upgrade.</strong> The budget that covers a mid-tier Mussoorie hotel in May often covers a premium boutique property in July. Couples consistently underuse this. A monsoon stay at a better property produces a better trip than a peak-season stay at an average one.</li>
-         <li><strong>The evenings are the best of the year.</strong> The Mussoorie monsoon weather pattern is reliable enough to plan around: clear or lightly overcast mornings, building cloud through late morning, active rain from mid-afternoon, and clearing on many evenings by 8 to 9 PM. When it clears, the valley lights of Dehradun appear below the ridge through moving cloud. Sitting beside a fire in that setting is the moment most couples cite afterwards.</li>
+         <li><strong>Privacy comes built in.</strong> Mussoorie gets far fewer visitors in July and August. At a small boutique property, that means a couple can often have the estate walk, the dining spots and the bonfire clearing to themselves. Privacy stops being something you hope for. It becomes part of the season.</li>
+         <li><strong>The forest is at its most vivid.</strong> Deodar forest at 2,160 m after a night of rain has a scent you will not find in any other season. Add rain on the canopy and mist that cuts the view to 25 metres at 6 AM. Then add evening air at 14 degrees Celsius. A dry-season stay simply cannot give you that.</li>
+         <li><strong>The best rooms are easier to get.</strong> In May and June, the most sought-after cottages book out early. In July, you have a far better chance at the room you really want. Couples rarely make use of this. A monsoon stay in a better room makes a better trip than a peak-season stay in an average one.</li>
+         <li><strong>The evenings are the best of the year.</strong> The monsoon here follows a pattern you can plan around. Early mornings often bring mist in the forest, then a drier spell. Cloud builds by late morning, and rain tends to set in by afternoon. On many evenings, it clears by 8 to 9 PM. When it does, the lights of Dehradun appear below the ridge through moving cloud. Sitting by a fire in that setting is the moment most couples talk about afterwards.</li>
        </ul>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What a Monsoon Couple Property Must Actually Have</h2>
-       <p>Four requirements. Everything else is secondary.</p>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Must a Monsoon Couple Property Actually Have?</h2>
+       <p>There are four must-haves. Everything else comes second.</p>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>A private covered outdoor space attached to the accommodation.</strong> This is the single most important feature for a monsoon couple stay. A private sit-out or verandah with partial cover means you can sit outside with rain falling nearby rather than being sealed inside a room for six hours. At EBC Mussoorie, the Glamper Rooms are built around exactly this: spacious interiors with a private sit-out and forest-facing orientation.</li>
-         <li><strong>Structurally weather-resistant accommodation.</strong> Sustained Mussoorie monsoon rainfall tests the accommodation structure. EBC Mussoorie's range includes the Zenith Luxury Cottage, a standalone unit with large panoramic windows, and the Twin Luxury Cottages with air conditioning and modern bathrooms, alongside the signature Glamper Rooms. These are year-round structures rather than seasonal setups.</li>
-         <li><strong>On-site dining that removes the need to drive anywhere.</strong> The Park Cafe at EBC Mussoorie is a multi-cuisine restaurant with both indoor and alfresco seating. In monsoon, this matters more than in any other season. A couple should never need to drive down a wet ridge road at 8 PM to find dinner.</li>
-         <li><strong>A bonfire that works in the evening clearing window.</strong> Private bonfire setups on the 20-acre estate are a confirmed EBC Mussoorie feature. For monsoon dates specifically, confirm with the property whether the setup can be arranged after evening rain stops and whether there is any covered seating alongside it.</li>
+         <li><strong>A private covered outdoor space attached to your room.</strong> This is the single most important feature for a monsoon stay for two. A private deck, sit-out or veranda lets you sit outside with the rain falling close by. Without one, you are sealed in a room for six hours. At EBC Mussoorie, the Glamper and the Surveyor Suite each have a private deck. The Zenith has a private veranda, and The Surveyor has a large private sit-out terrace.</li>
+         <li><strong>Rooms built to handle the rain.</strong> Steady monsoon rain tests every structure. At EBC, all tents and cottages are weather-proofed. The range runs from the Zenith Luxury Cottage, a freestanding forest cottage with air conditioning and heating, to the Twin Luxury Cottages and the Glamper tents. These are built for every season, not set up for one.</li>
+         <li><strong>Food on site, so you never need to drive.</strong> Park Café is a multi-cuisine café on the estate. Breakfast can come to your room, and a candlelit dinner at your cottage can be set up with 24 hours' notice. In the monsoon this matters more than in any other season. A couple should never have to drive down a wet ridge road at 8 PM to find dinner.</li>
+         <li><strong>A bonfire for the evening clearing.</strong> EBC lights a bonfire every evening, and couples can ask for a private setup at their cottage. For monsoon dates, ask whether it can be lit once the evening rain stops, and whether there is covered seating close by.</li>
        </ul>
-       <p>Browse the <a href="/rooms/" class="text-secondary underline">accommodation categories at EBC Mussoorie</a> before enquiring so you can name your preferred unit when you contact them.</p>`,
+       <p>Browse the <a href="/rooms/" class="text-secondary underline">room categories at EBC Mussoorie</a> before you enquire, so you can name the room you want.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Which EBC Mussoorie Accommodation Suits a Monsoon Couple Stay</h2>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Which EBC Mussoorie Accommodation Suits a Monsoon Couple Stay?</h2>
        <div class="overflow-x-auto">
          <table class="min-w-full border border-secondary/20 text-sm">
            <thead>
              <tr class="bg-secondary/10">
                <th class="border border-secondary/20 px-4 py-2 text-left font-semibold text-secondary">Category</th>
-               <th class="border border-secondary/20 px-4 py-2 text-left font-semibold text-secondary">Units</th>
+               <th class="border border-secondary/20 px-4 py-2 text-left font-semibold text-secondary">Type</th>
                <th class="border border-secondary/20 px-4 py-2 text-left font-semibold text-secondary">Why it works in monsoon</th>
              </tr>
            </thead>
            <tbody>
              <tr>
-               <td class="border border-secondary/20 px-4 py-2 font-medium">Glamper Room</td>
-               <td class="border border-secondary/20 px-4 py-2">4 rooms</td>
-               <td class="border border-secondary/20 px-4 py-2">Private sit-out and forest-facing orientation; the signature couple unit</td>
+               <td class="border border-secondary/20 px-4 py-2 font-medium">The Glamper</td>
+               <td class="border border-secondary/20 px-4 py-2">Luxury tent</td>
+               <td class="border border-secondary/20 px-4 py-2">Canvas tent with a private deck and forest views; the classic way to hear rain on canvas</td>
              </tr>
              <tr>
-               <td class="border border-secondary/20 px-4 py-2 font-medium">Camper Room</td>
-               <td class="border border-secondary/20 px-4 py-2">1 room</td>
-               <td class="border border-secondary/20 px-4 py-2">Cosy entry-level luxury with king bed; suited to couples who prioritise the estate over the room</td>
+               <td class="border border-secondary/20 px-4 py-2 font-medium">The Camper</td>
+               <td class="border border-secondary/20 px-4 py-2">Forest glamping</td>
+               <td class="border border-secondary/20 px-4 py-2">Compact unit set right in the forest, with heating; suits couples who care more about the estate than the room</td>
              </tr>
              <tr>
                <td class="border border-secondary/20 px-4 py-2 font-medium">Zenith Luxury Cottage</td>
-               <td class="border border-secondary/20 px-4 py-2">1 cottage</td>
-               <td class="border border-secondary/20 px-4 py-2">Standalone cottage with large panoramic windows; the best rain-view unit on the estate</td>
+               <td class="border border-secondary/20 px-4 py-2">Signature cottage</td>
+               <td class="border border-secondary/20 px-4 py-2">Freestanding cottage with a private, east-facing veranda and forest and mountain views; the best spot to watch mist roll in</td>
              </tr>
              <tr>
-               <td class="border border-secondary/20 px-4 py-2 font-medium">Surveyor Room</td>
-               <td class="border border-secondary/20 px-4 py-2">1 room</td>
-               <td class="border border-secondary/20 px-4 py-2">Spacious premium room with scenic meadow views and a work-friendly setup</td>
+               <td class="border border-secondary/20 px-4 py-2 font-medium">The Surveyor</td>
+               <td class="border border-secondary/20 px-4 py-2">Suite</td>
+               <td class="border border-secondary/20 px-4 py-2">EBC's most generous living space, with a large private sit-out terrace; room to spread out on a rainy afternoon</td>
              </tr>
              <tr>
-               <td class="border border-secondary/20 px-4 py-2 font-medium">Surveyor Suite</td>
-               <td class="border border-secondary/20 px-4 py-2">1 suite</td>
-               <td class="border border-secondary/20 px-4 py-2">Largest suite category; king bed with foldable queen on request, for couples travelling with a child or family member</td>
+               <td class="border border-secondary/20 px-4 py-2 font-medium">The Surveyor Suite</td>
+               <td class="border border-secondary/20 px-4 py-2">Premium glamping</td>
+               <td class="border border-secondary/20 px-4 py-2">Set deep in the forest canopy with a private deck; you sit among the trees as the rain comes through</td>
              </tr>
              <tr>
                <td class="border border-secondary/20 px-4 py-2 font-medium">Twin Luxury Cottages</td>
-               <td class="border border-secondary/20 px-4 py-2">1 set (2 interconnecting rooms, common balcony)</td>
-               <td class="border border-secondary/20 px-4 py-2">Air-conditioned interconnecting rooms with a shared balcony; suits two couples travelling together</td>
+               <td class="border border-secondary/20 px-4 py-2">Two interconnected cottages</td>
+               <td class="border border-secondary/20 px-4 py-2">Two king bedrooms and a shared garden terrace; suits two couples travelling together</td>
              </tr>
              <tr>
-               <td class="border border-secondary/20 px-4 py-2 font-medium">Andrew's Villas</td>
-               <td class="border border-secondary/20 px-4 py-2">2 villas (4 rooms total)</td>
-               <td class="border border-secondary/20 px-4 py-2">Duplex villas with separate entrances, sleeping up to 8; the most private and spacious option on the estate</td>
+               <td class="border border-secondary/20 px-4 py-2 font-medium">The Andrew's Villa</td>
+               <td class="border border-secondary/20 px-4 py-2">Flagship villa</td>
+               <td class="border border-secondary/20 px-4 py-2">Own entrance, private terrace and bonfire area, Himalayan views; the most private option and the most requested for honeymoons</td>
              </tr>
            </tbody>
          </table>
        </div>
-       <p class="mt-4">Total property inventory is 14 units, accommodating 28 guests without extra beds and up to 50 with extra beds.</p>
-       <p>For a monsoon stay where interior time is guaranteed, the Zenith Luxury Cottage's panoramic window design and the Glamper Room's private sit-out are the two strongest choices for a couple. Confirm availability directly with the property.</p>`,
+       <p class="mt-4">The property has 14 rooms in all. They sleep 28 guests without extra beds and up to 50 with extra beds.</p>
+       <p>For a monsoon stay, you will spend long hours indoors. For a couple, the two strongest picks are the Zenith, for its veranda and views, and Andrew's Villa, for its privacy. The Glamper is the pick if you want the sound of rain on canvas. Confirm availability with the property.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Monsoon Couple Itinerary That Actually Works</h2>
-       <p><strong>Arrival day:</strong> Leave Delhi mid-morning. The Delhi-Dehradun Expressway covers 210 km in about 2.5 hours, and the Dehradun to Mussoorie spur adds roughly another hour, putting total driving time at around 3.5 to 4 hours. In active monsoon, allow 5 hours to account for slower conditions on the Mussoorie Road switchbacks. Aim to arrive at EBC Mussoorie by around 12 noon. Lunch at the Park Cafe while rooms are prepared. Once settled, walk the estate in the afternoon if conditions allow, dinner at the Park Cafe, bonfire on the estate if the rain eases in the evening.</p>
-       <p><strong>Full day:</strong> 5:45 AM. Get up. This is not negotiable if you want the best of a monsoon stay. The forest is inside cloud between roughly 6 and 8 AM, and this window is the reason to be here. Walk the estate. The George Everest House heritage site sits adjacent to the 20-acre property, and the restored surveyor's estate emerging out of mist is one of the more atmospheric sights in the Mussoorie hills. Breakfast at the Park Cafe, ideally alfresco under cover while the cloud builds below the ridge. Mid-morning to late afternoon: interior time. Read. Watch the valley disappear. This is not wasted time on a monsoon trip; it is the rhythm of the season. Evening: bonfire when the rain eases. Stay out longer than you plan to.</p>
-       <p><strong>Departure morning:</strong> One more mist walk before breakfast. Depart by 10 AM with a road-condition buffer built into the day. With the expressway, a mid-morning departure still gets you into Delhi comfortably by mid-afternoon.</p>`,
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Does a Monsoon Couple Itinerary That Actually Works Look Like?</h2>
+       <p><strong>Arrival day:</strong> Leave Delhi early, by about 7 AM. EBC is about 280 km away, and the drive takes 5.5 to 6.5 hours in normal conditions. The Delhi–Dehradun Expressway, inaugurated in April 2026, can shorten the first leg; check current journey times before you set out. In active monsoon, allow extra time for the hill road above Dehradun. Check-in is at 2:00 PM. Have a late lunch at Park Café, then walk the estate if the rain allows. After dinner, sit by the bonfire if the evening clears. Ask for kafuli or mandua ki roti from the Garhwali kitchen.</p>
+       <p><strong>Full day:</strong> Get up at 5:45 AM. This is not optional if you want the best of a monsoon stay. The forest sits inside cloud from about 6 to 8 AM, and that window is the reason to be here. Join the guided walk, which runs daily from 7 to 9 AM. Sir George Everest's house and observatory are a short walk away. The old surveyor's estate rising out of the mist is one of the most striking sights in these hills. Have breakfast on your veranda or in your room while the cloud builds below the ridge.</p>
+       <p>Mid-morning to late afternoon is indoor time. Read. Watch the valley vanish. This is not wasted time on a monsoon trip. It is the rhythm of the season. In the evening, head to the bonfire when the rain eases. Stay out longer than you plan to.</p>
+       <p><strong>Departure morning:</strong> Take one more mist walk before breakfast. Leave mid-morning with a buffer for the roads. You should reach Delhi by late afternoon or early evening.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Tradeoffs, Named Honestly</h2>
        <ul class="list-disc pl-6 space-y-1">
-         <li>Sightseeing to Kempty Falls, Lal Tibba, and Landour in sequence each day will not work. Plan one outing at most, in the morning.</li>
-         <li>Panoramic Himalayan peak views from the ridge are not reliably visible in July and August. If clear peak views are the point of your trip, book October instead.</li>
-         <li>Road access can be affected for 24 to 48 hours after a heavy rainfall event. Book flexible cancellation terms.</li>
-         <li>Stargazing on the George Everest ridge, which is excellent in October and April, is limited by monsoon cloud cover.</li>
+         <li>You cannot string together Kempty Falls, Lal Tibba and Landour every day. Plan one outing at most, in the morning. This is a season for slow stays, not long treks.</li>
+         <li>The Himalayan peaks are not reliably visible from the ridge in July and August. If clear peak views are the point of your trip, book October instead.</li>
+         <li>Landslides can close hill roads for 24 to 48 hours after heavy rain. Check advisories before you drive, and keep your plans flexible. Read EBC's cancellation and date-change terms on the packages page before you book.</li>
+         <li>Stargazing on the George Everest ridge is best from October to November and February to March. Monsoon cloud limits it.</li>
        </ul>
-       <p>Confirm EBC Mussoorie's operational status and access conditions directly with the property before booking July or August dates. The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> gives useful context on the property's outdoor hospitality philosophy across seasons.</p>`,
+       <p>EBC Mussoorie stays open right through the monsoon, and for two people it is the quietest the estate gets. The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline" target="_blank" rel="noopener">Hotelier India feature on EBC Mussoorie</a> gives useful context on how the property thinks about outdoor hospitality through the seasons.</p>`,
     ],
   },
   faqs: [
     {
       question: "Is Mussoorie good for couples in monsoon?",
       answer:
-        "At the right property, yes. Privacy is higher, rates are lower, and the atmospheric quality is at its peak. Sightseeing variety is the tradeoff.",
+        "At the right property, yes. There is more privacy, the best rooms are easier to book, and the mist and forest are at their most vivid. The tradeoff is less sightseeing and slower roads.",
     },
     {
       question: "Which EBC Mussoorie room is best for a couple in monsoon?",
       answer:
-        "The Glamper Room for the private sit-out. The Zenith Luxury Cottage for panoramic rain views from inside a standalone cottage.",
+        "The Zenith Luxury Cottage, for its private east-facing veranda and forest views. Andrew's Villa, for full privacy with its own entrance and bonfire area. The Glamper, if you want to hear rain on canvas from a private deck.",
     },
     {
       question: "Is the bonfire available during monsoon?",
       answer:
-        "Confirm directly with EBC Mussoorie for your specific dates. Availability depends on evening conditions.",
+        "EBC lights a bonfire every evening. In the monsoon it depends on the rain, so it is usually lit once the evening clears. Check with EBC Mussoorie for your dates.",
     },
     {
       question: "How far is the property from Delhi?",
       answer:
-        "Approximately 290 km, 6 to 7 hours by road in normal conditions. Allow longer in active monsoon.",
+        "About 280 km, or 5.5 to 6.5 hours by road in normal conditions. Allow longer in active monsoon.",
     },
     {
       question: "Is EBC Mussoorie pet-friendly?",
       answer:
-        "Yes, confirmed pet-friendly. Confirm any conditions when booking.",
+        "Yes. Pets are welcome. Just tell the team before you arrive so they can prepare.",
     },
     {
       question: "What should a couple pack for a monsoon stay?",
       answer:
-        "Two rain jackets, waterproof shoes with grip, a warm mid-layer for 14-degree evenings, and quick-dry clothing.",
+        "Two rain jackets, waterproof shoes with good grip, a warm mid-layer for 14-degree evenings, and quick-dry clothes.",
     },
   ],
 };

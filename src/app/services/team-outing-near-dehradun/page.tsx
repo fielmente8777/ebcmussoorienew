@@ -11,67 +11,71 @@ const articleData = {
   metaData: {
     title: "Team Outing Near Dehradun: 7 Formats That Actually Work for Indian Corporate Groups | EBC Mussoorie",
     description:
-      "A practical guide to team outings near Dehradun – 7 formats that actually work, from adventure days to strategy retreats. Match your team's size and objective with the right format.",
+      "Seven team outing formats near Dehradun that work, from adventure days to strategy retreats, and how to match each one to your team's size and goal.",
   },
   banner: {
     title: "Team Outing Near Dehradun",
     subTitle: "7 Formats That Actually Work for Indian Corporate Groups",
     description:
-      "Seven outing formats that deliver real value – from adventure days to strategy retreats. Match your team's size and objective with the right approach.",
+      "Seven outing formats that bring real value, from adventure days to strategy retreats. Match the format to your team's size and goal.",
     image: "/banner/bnr2.png",
   },
   intro: {
     title: "Team Outing Near Dehradun",
     description: [
-      "A team outing near Dehradun has become a standard item on the Indian corporate calendar, particularly for Delhi NCR‑based companies. But the format of these outings varies wildly in quality and outcome. Some produce a genuine change in how a team works together. Others are a day of forced fun that everyone politely endures before returning to the same dynamics on Monday. This guide covers seven outing formats that actually work, how to match them to your team's size and objective, and the practical planning details that make the difference between a successful outing and a logistical scramble.",
-      "The numbers are simple: Delhi to Dehradun is approximately 300 km, 4 to 5 hours by road or 35 minutes by direct flight. Mussoorie above Dehradun is 35 km from the city, another 45 to 60 minutes by road. Altitude sits at 1,400 metres in Dehradun and 2,005 metres in Mussoorie. This geography means a team leaving Delhi on a Friday evening can be in the hills by dinner, have two full days of activity, rest, or structured team programming, and be back in Delhi by Sunday evening. The expressway has made this equation significantly better over the last three years. What used to be a 7‑hour ordeal through Meerut and Haridwar is now manageable and even comfortable as a group drive.",
+      "A team outing near Dehradun is now a fixture on the Indian corporate calendar, above all for companies in Delhi NCR. But these outings vary hugely in quality. Some truly change how a team works together. Others are a day of forced fun that everyone politely sits through, before the same old habits return on Monday. This guide covers seven formats that work and how to match them to your team's size and goal. It also covers the planning details that separate a good outing from a scramble.",
+      "The distances are simple. EBC Mussoorie, on the hills above Dehradun, is about 280 km from Delhi, or 5.5 to 6.5 hours by road via Roorkee or Haridwar. From Dehradun, it is 35 km, or 1 to 1.5 hours. Dehradun sits in the valley, while Mussoorie rises to about 2,005 metres and EBC to 2,160 m. You can also take the Shatabdi Express from Delhi to Dehradun in about 5.5 hours. Or fly into Jolly Grant Airport, about 55 km from EBC. A team that leaves Delhi early on a Friday can be in the hills by dinner. It then gets two full days of activity, rest or team sessions, and is home by Sunday evening.",
     ],
   },
   details: {
     title: "7 Team Outing Formats That Work Near Dehradun",
     subtitle: "A Planner's Guide",
     description: [
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Format 1: The Adventure Day Out</h2>
-       <p><strong>Best for:</strong> Young teams, sales teams, teams that bond through physical challenge</p>
-       <p><strong>What it involves:</strong> A structured day of sequential outdoor activities: a morning trek (3 to 4 hours), afternoon river activities near Rishikesh (which is 45 minutes from Dehradun and offers some of India's best white‑water rafting), and evening campfire at a hill property above Dehradun.</p>
-       <p><strong>Key logistics:</strong> Book a property near Mussoorie or in the Dehradun hills that can serve as your base. Coordinate the Rishikesh rafting booking separately (reputable operators include those registered with the Uttarakhand Tourism Development Board). Ensure transport between activity points is planned; the distances are manageable, but timing matters.</p>`,
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Format 1: Is the Adventure Day Out Right for Your Team?</h2>
+       <p><strong>Best for:</strong> Young teams, sales teams and teams that bond through physical challenge.</p>
+       <p><strong>What it involves:</strong> A full day of outdoor activities, one after another. Start with a morning trek of 3 to 4 hours. In the afternoon, head to the river near Rishikesh, about 45 minutes from Dehradun, which has some of India's best white-water rafting. End with a campfire at a hill property above Dehradun.</p>
+       <p><strong>Key logistics:</strong> Book a property near Mussoorie or in the Dehradun hills as your base. Book the Rishikesh rafting on its own, with an operator registered with the Uttarakhand Tourism Development Board. Rafting is usually suspended through the peak monsoon, when the Ganga runs high, so plan this format for the drier months. Sort out transport between each stop. The distances are short, but timing matters.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Format 2: The Strategy Retreat</h2>
-       <p><strong>Best for:</strong> Leadership teams, cross‑functional project teams, companies in a transition phase</p>
-       <p><strong>What it involves:</strong> A facilitated 2‑day working session at a hill property with structured agenda blocks in the morning, outdoor breaks in the afternoon, and informal dinner discussions in the evening. The goal is not to escape work but to do it better by removing the office environment.</p>
-       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a>'s property setup specifically supports this format. The combination of covered outdoor meeting space, nature‑trail access for break periods, and group dining creates the conditions for a productive strategy session rather than a standard hotel conference experience.</p>`,
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Format 2: When Does a Strategy Retreat Make Sense?</h2>
+       <p><strong>Best for:</strong> Leadership teams, cross-functional project teams and companies going through change.</p>
+       <p><strong>What it involves:</strong> Two days of guided work sessions at a hill property. Plan focused agenda blocks in the morning, outdoor breaks in the afternoon and relaxed dinner talks in the evening. The goal is not to escape work. It is to do better work, away from the office.</p>
+       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> is set up for this format. The Den gives your group a private indoor space on the estate. Guided walks through the deodar forest fill the breaks, and Park Café handles group meals. A dedicated host looks after the details. The result feels like real work in good company, not a hotel conference.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Format 3: The Wellness Offsite</h2>
-       <p><strong>Best for:</strong> Teams experiencing high stress or burnout, HR initiatives around employee wellbeing, post‑project recovery</p>
-       <p><strong>What it involves:</strong> A low‑agenda two‑night stay focused on rest, nature exposure, yoga or guided meditation (can be arranged through local practitioners), forest walks, and unstructured time. The absence of a packed schedule is the point.</p>
-       <p><strong>What to avoid:</strong> Do not turn a wellness offsite into a disguised strategy retreat. If leadership uses the wellness framing to add a full day of presentations, the team will notice, and the trust cost outweighs any wellbeing benefit.</p>`,
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Format 3: Can a Wellness Offsite Help a Tired Team?</h2>
+       <p><strong>Best for:</strong> Teams under heavy stress or close to burnout, HR wellbeing programmes, and recovery after a big project.</p>
+       <p><strong>What it involves:</strong> A light two-night stay built around rest and time in nature. Add yoga or guided meditation through local teachers, forest walks and plenty of free time. The empty schedule is the purpose.</p>
+       <p><strong>What to avoid:</strong> Do not turn a wellness offsite into a strategy retreat in disguise. If leaders use the wellness label to slip in a full day of presentations, the team will notice. The loss of trust will outweigh any wellbeing gain.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Format 4: The Photography and Creative Challenge</h2>
-       <p><strong>Best for:</strong> Design teams, communications teams, cross‑functional teams where individual voice matters</p>
-       <p><strong>What it involves:</strong> Each team member gets a creative brief for a 90‑minute photography walk around the property and surrounding landscape. The output is reviewed at a group evening session. The creative brief can be metaphorical (capture "the team's biggest challenge") or literal (document the best of a specific trail). Facilitated discussion around the photographs creates conversations that a standard team session rarely produces. This works particularly well at nature properties near Dehradun, where the landscape provides genuine visual variety.</p>`,
+       <p><strong>Best for:</strong> Design teams, communications teams and mixed teams where each person's voice matters.</p>
+       <p><strong>What it involves:</strong> Each team member gets a creative brief for a 90-minute photo walk around the property and the land around it. The group reviews the photos together in the evening. The brief can be a metaphor, such as "capture the team's biggest challenge". It can also be literal, such as "show the best of this trail".</p>
+       <p>A guided talk about the photos sparks conversations that a normal team session rarely does. This format works best at nature properties near Dehradun, where the landscape gives real variety. At EBC, deodar forest, ridge trails and over 50 recorded bird species give every photographer plenty to work with.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Format 5: The Overnight Trek</h2>
-       <p><strong>Best for:</strong> Teams of 8 to 20, physically active groups, companies that want a high‑memory experience</p>
-       <p><strong>What it involves:</strong> An overnight trek on a defined route in the Mussoorie or Chakrata area. Nag Tibba (3,022 metres) is the most accessible overnight summit trek from Mussoorie, with a well‑maintained trail that most fit individuals can complete with a day of preparation. A local trekking operator handles guide, camping gear, and meals on the trail.</p>
-       <p><strong>Critical note:</strong> This format requires advanced fitness communication to the team. Do not organise an overnight trek for a group that has not been told to prepare physically. This creates medical risk and resentment in equal measure.</p>`,
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Format 5: Is an Overnight Trek Too Much for Your Team?</h2>
+       <p><strong>Best for:</strong> Teams of 8 to 20, active groups, and companies that want an outing that stays with people.</p>
+       <p><strong>What it involves:</strong> An overnight trek on a set route in the Mussoorie or Chakrata area. Nag Tibba, at 3,022 metres, is the easiest overnight summit trek from Mussoorie. Its trail is well kept, and most fit people can manage it with some preparation. A local trekking operator provides the guide, camping gear and meals on the trail.</p>
+       <p><strong>Critical note:</strong> Tell the team well ahead how fit they need to be. Never spring an overnight trek on a group that has not been told to prepare. It creates medical risk and resentment in equal measure. Save this format for the drier months, not the monsoon.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Format 6: The Community Contribution Day</h2>
-       <p><strong>Best for:</strong> Companies with CSR objectives, teams that want purpose alongside fun, newer teams building shared identity</p>
-       <p><strong>What it involves:</strong> A morning session at a local school, community conservation project, or forest department restoration initiative near Dehradun, coordinated through a registered NGO or community organisation. Afternoon return to the property for debrief and social time. This format works because it builds a shared reference point that is not about the company itself. Teams that work together on something that matters externally often develop stronger internal cohesion than those that only do internal team activities.</p>`,
+       <p><strong>Best for:</strong> Companies with CSR goals, teams that want purpose as well as fun, and newer teams building a shared identity.</p>
+       <p><strong>What it involves:</strong> A morning spent helping out near Dehradun. It could be at a local school, a village conservation project or a tree-planting drive run by the forest department. Arrange it through a registered NGO or community group. In the afternoon, return to the property to reflect and relax together.</p>
+       <p>This format works because it gives the team a shared story that is not about the company. Teams that work together on something that matters outside often bond more strongly than teams that only do internal activities.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Format 7: The Half‑Day Activity Day (For Budget and Time‑Constrained Groups)</h2>
-       <p><strong>Best for:</strong> Large teams, companies with budget constraints, quarterly or monthly cadence outings</p>
-       <p><strong>What it involves:</strong> A day trip from Dehradun or Delhi to a hill property near Mussoorie. Morning activity (nature walk, outdoor challenge, team game), group lunch on the property, and afternoon departure. No overnight stay required. This format delivers a reset without a two‑night budget. The limitation is depth: a day outing does not produce the same quality of relationship‑building as an overnight. But it is significantly better than a restaurant dinner as a team outing format.</p>`,
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Format 7: The Half-Day Activity Day (For Time-Pressed Groups)</h2>
+       <p><strong>Best for:</strong> Large teams, groups short on time, and outings that repeat every month or quarter.</p>
+       <p><strong>What it involves:</strong> A day trip from Dehradun or Delhi to a hill property near Mussoorie. Plan a morning activity, such as a nature walk, an outdoor challenge or a team game. Follow it with a group lunch on site, then leave in the afternoon. No overnight stay is needed. Park Café at EBC is open to day visitors who call ahead, and it sits on the site of Sir George Everest's old stables.</p>
+       <p>This format gives a team a reset without two nights away. The limit is depth. A day out does not build relationships as well as an overnight stay. Still, it beats a restaurant dinner by a wide margin as a team outing.</p>`,
 
-      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Planning Logistics: What to Sort First</h2>
+      `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Should You Sort First When Planning Logistics?</h2>
        <p>In order of priority:</p>
        <ul class="list-disc pl-6 space-y-1">
-         <li>Date and group size confirmed before approaching properties. A tentative inquiry without these numbers cannot be quoted accurately.</li>
-         <li>Property selected and booked with a confirmed deposit at least 4 weeks before for weekend dates.</li>
-         <li>Transport arranged for the full group, including the Dehradun airport pickup if team members are flying.</li>
-         <li>Activity operators confirmed separately if activities are not handled by the property.</li>
-         <li>Dietary and medical requirements communicated to the property kitchen at least one week in advance.</li>
-         <li>The day‑of coordinator is assigned from the planning team on‑site to handle real‑time logistics.</li>
+         <li>Fix the date and group size before you approach any property. Without them, no one can give you a true quote.</li>
+         <li>Choose and book the property, with a confirmed deposit, at least 4 weeks ahead for weekend dates.</li>
+         <li>Arrange transport for the whole group, including pickups at Jolly Grant Airport for anyone flying in.</li>
+         <li>If the property is not running the activities, book the operators yourself.</li>
+         <li>Send dietary and medical needs to the property kitchen at least one week in advance.</li>
+         <li>Name one person from the planning team as the on-site coordinator for the day.</li>
+         <li>In the monsoon, build a spare half-day into the plan.</li>
        </ul>`,
     ],
   },
@@ -79,32 +83,32 @@ const articleData = {
     {
       question: "What is the minimum group size for a team outing near Dehradun?",
       answer:
-        "Most properties handle groups of 8 or more for a meaningful team outing. Smaller groups of 4 to 7 can use standard room bookings rather than corporate packages.",
+        "Most properties treat 8 or more as a group for a team outing. EBC Mussoorie hosts corporate groups of 8 to 48 guests. Smaller groups of 4 to 7 can simply book rooms in the usual way.",
     },
     {
       question: "Is a Dehradun team outing feasible as a day trip from Delhi?",
       answer:
-        "A day trip is feasible but tiring. You lose roughly 10 hours to travel for a 4 to 5‑hour activity window. An overnight stay is strongly recommended.",
+        "It is possible, but tiring. You spend more than 10 hours on the road for a 4 to 5-hour activity window. We strongly suggest an overnight stay.",
     },
     {
       question: "How do we handle a team with mixed fitness levels on an outdoor outing?",
       answer:
-        "Choose activity formats with multiple difficulty options, or run two parallel streams. Trail walks with a defined easy route and an extended route accommodate most fitness ranges without exclusion.",
+        "Choose activities with more than one level, or run two groups side by side. Trail walks with a short, easy route and a longer one suit most fitness levels without leaving anyone out. The guided morning walk at EBC is easy to moderate and lasts 45 to 90 minutes, so most people can join.",
     },
     {
       question: "Are there team outing venues near Dehradun that handle their own facilitation?",
       answer:
-        "Some do. <a href='/adventure-mussoorie' class='text-secondary underline'>EBC Mussoorie</a> integrates outdoor experiences within the stay framework. For structured facilitation (psychometric debrief, leadership tools), bring an external facilitator.",
+        "Some do. <a href='/activities/' class='text-secondary underline'>EBC Mussoorie's activities</a> show how the resort builds outdoor time into the stay itself, with guided walks and bonfire evenings. For formal work, such as personality tests or leadership tools, bring your own trainer.",
     },
     {
       question: "What is a reasonable per‑person budget for a 2‑night team outing near Dehradun?",
       answer:
-        "Rs 6,000 to 15,000 per person, all‑inclusive (accommodation, meals, activities, group transport from Delhi) covers most quality properties in the Mussoorie hills.",
+        "It depends on the room type, meals, activities and group transport, so ask each property for one all-inclusive group quote. Compare quotes on what is included, not just the headline figure. At EBC Mussoorie, every room includes breakfast, the evening bonfire, the guided morning walk, Wi-Fi and parking, and full-board options are available for groups.",
     },
     {
       question: "When should we avoid planning a team outing near Dehradun?",
       answer:
-        "Heavy monsoon months (mid‑July to mid‑August) carry road disruption risk. The Char Dham Yatra peak period (May to June) increases highway traffic significantly. Plan around these windows where possible.",
+        "No season is off limits, but two need care. The monsoon, from July to September, is the quietest time in the hills, and EBC stays open with weather-proofed rooms. Roads can close after heavy rain or landslides, though. Check advisories, keep dates flexible and plan a slow stay, not a trek. The Char Dham Yatra peak in May and June brings heavy highway traffic, so leave early on those dates.",
     },
   ],
 };
