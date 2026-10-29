@@ -1,4 +1,13 @@
 import blogData from "./blogData";
+import { contacts } from "@/utils/constant";
+
+/** First ~140 characters of the summary, cut at a word boundary. */
+const excerpt = (text = "") => {
+  const clean = text.replace(/\s+/g, " ").trim();
+  if (clean.length <= 140) return clean;
+  const cut = clean.slice(0, 140);
+  return `${cut.slice(0, cut.lastIndexOf(" "))}…`;
+};
 
 export const blogPagedata = {
   banner: {
@@ -14,7 +23,7 @@ export const blogPagedata = {
     category: blog.Category,
     date: blog.date,
     title: blog.title.replace(/\n/g, "").trim(),
-    description: blog.subtitle?.slice(0, 140) + "...",
+    description: excerpt(blog.subtitle),
     buttonLabel: "READ MORE",
   })),
   // cards: blogData.map((card) => ({
@@ -37,7 +46,7 @@ export const blogPagedata = {
       },
       {
         label: "FOLLOW ON FACEBOOK",
-        href: "https://www.facebook.com",
+        href: contacts.socialContacts.facebook,
         variant: "outline",
       },
     ],

@@ -172,6 +172,7 @@ export function blogPostingSchema(post: {
   description: string;
   path: string;
   image?: string;
+  dateModified?: string;
 }): Json {
   return {
     "@context": "https://schema.org",
@@ -181,6 +182,7 @@ export function blogPostingSchema(post: {
     url: absoluteUrl(post.path),
     mainEntityOfPage: { "@type": "WebPage", "@id": absoluteUrl(post.path) },
     ...(post.image ? { image: absoluteUrl(post.image) } : {}),
+    ...(post.dateModified ? { dateModified: post.dateModified } : {}),
     inLanguage: "en-IN",
     author: { "@type": "Organization", name: SITE_NAME, url: `${SITE_URL}/` },
     publisher: { "@id": RESORT_ID },

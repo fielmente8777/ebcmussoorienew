@@ -22,6 +22,13 @@ export const dynamicParams = false;
 
 const clean = (text?: string) => (text ?? "").replace(/\s+/g, " ").trim();
 
+/** "2026-10-30" -> "30 October 2026" (fixed format so server and client agree). */
+function formatDate(iso: string): string {
+  const [y, m, d] = iso.split("-").map(Number);
+  const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  return `${d} ${months[m - 1]} ${y}`;
+}
+
 /** Meta description: the post's subtitle or opening paragraph, cut at a word boundary. */
 function describe(post: Post): string {
   const firstPara = "content" in post && post.content?.[0]?.subtitle?.[0];
@@ -95,6 +102,7 @@ export default async function LandingPage({ params }: Params) {
             description: describe(data),
             path: postPath,
             image: existingPublicAsset(data.image, DEFAULT_OG_IMAGE),
+            dateModified: data.updated,
           }),
           breadcrumbSchema([
             { name: "Home", path: "/" },
@@ -120,6 +128,12 @@ export default async function LandingPage({ params }: Params) {
             <p className="text-[#686868] md:text-xl font-medium">
               {data.subtitle}
             </p>
+            {data.updated && (
+              <p className="text-sm text-[#6B7280]">
+                By the EBC Mussoorie team · Updated{" "}
+                <time dateTime={data.updated}>{formatDate(data.updated)}</time>
+              </p>
+            )}
           </div>
 
           {/* divider */}
@@ -134,8 +148,8 @@ export default async function LandingPage({ params }: Params) {
             {data.image && (
               <div className="w-full max-w-xl border-4 border-background-2 relative aspect-4/3 md:aspect-[4/2.7] overflow-hidden rounded-2xl">
                 <Image
-                  src={data.image}
-                  alt={data.title}
+                  src={existingPublicAsset(data.image, DEFAULT_OG_IMAGE)}
+                  alt={clean(data.imgTitle || data.title)}
                   fill
                   className="object-cover"
                 />
@@ -162,16 +176,6 @@ export default async function LandingPage({ params }: Params) {
               <p className=" text-primary md:text-xl">{data.imgTitle}</p>
             )}
           </div>
-          {data.title2 && (
-            <div className="space-y-3 mt-6">
-              <h2 className="font-light font-primary md:text-3xl text-lg">
-                {data.title2}
-              </h2>
-              <p className="text-[#686868] md:text-[1.375rem]">
-                {data.subtitle2}
-              </p>
-            </div>
-          )}
           <div className="space-y-6 mt-4">
             {data.content?.map((item, index) => (
               <div className="space-y-3" key={index}>
@@ -198,6 +202,23 @@ export default async function LandingPage({ params }: Params) {
             ))}
           </div>
 
+          {(data.related?.length ?? 0) > 0 && (
+            <nav aria-labelledby="read-next" className="mt-12 space-y-3">
+              <h2 id="read-next" className="font-light font-primary md:text-3xl text-lg">
+                Plan your trip
+              </h2>
+              <ul className="list-disc pl-5 space-y-1 text-[#686868] md:text-[1.375rem]">
+                {data.related?.map((link) => (
+                  <li key={link.href}>
+                    <Link href={link.href} className="text-primary underline underline-offset-4">
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          )}
+
           {(data?.faqs?.length ?? 0) > 0 && (
             <div className="mt-14 rounded-[2rem] bg-[#FAF7F0] p-8 md:p-12">
               <div className="mb-8">
@@ -215,6 +236,22 @@ export default async function LandingPage({ params }: Params) {
                 ))}
               </div>
             </div>
+          )}
+          {(data.sources?.length ?? 0) > 0 && (
+            <section aria-labelledby="sources" className="mt-10 space-y-2">
+              <h2 id="sources" className="font-light font-primary md:text-2xl text-lg">
+                Sources
+              </h2>
+              <ul className="list-disc pl-5 space-y-1 text-sm md:text-base text-[#686868]">
+                {data.sources?.map((source) => (
+                  <li key={source.url}>
+                    <a href={source.url} target="_blank" rel="noopener" className="underline underline-offset-4">
+                      {source.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
           )}
         </article>
       </SectionWithContainer>
