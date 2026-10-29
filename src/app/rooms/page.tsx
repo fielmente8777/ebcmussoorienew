@@ -3,9 +3,21 @@ import { roomPageDataNew } from "./components/roomPageDataNew";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import RoomPageCard from "./components/RoomPageCard";
 
+import JsonLd from "@/components/seo/JsonLd";
+import { pageMeta } from "@/lib/seo";
+import { breadcrumbSchema } from "@/lib/schema";
+
+export const metadata = pageMeta({
+  title: "Tents, Cottages & Private Villa – Rooms at EBC Mussoorie",
+  description: "Compare seven ways to stay at EBC Mussoorie, from The Camper forest tent to Andrew's Villa. Every stay includes breakfast, Wi-Fi and free parking.",
+  path: "/rooms/",
+});
+
+
 export default function RoomsPage() {
   return (
     <main>
+      <JsonLd data={[breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Rooms", path: "/rooms/" }])]} />
       {/* <ThreeGridTextBanner {...roomPageData.banner} />
       <IntroSection {...roomPageData.introData} />
       {roomPageData.rooms.map((room, index) => (

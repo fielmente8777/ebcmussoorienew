@@ -1,4 +1,12 @@
 import { SectionWithContainer } from "@/components/sectionComponants";
+import { pageMeta } from "@/lib/seo";
+
+export const metadata = pageMeta({
+  title: "Privacy Policy – EBC Mussoorie",
+  description: "How EBC Mussoorie collects, uses and protects the personal information you share through ebcmussoorie.com and our booking enquiries.",
+  path: "/privacy-policy/",
+});
+
 
 const list = [
   "How we use your information",
@@ -37,9 +45,13 @@ function page() {
   return (
     <SectionWithContainer sectionClassName="bg-primary">
       <div className=" text-white content-class">
-        <h2 className="text-center font-primary font-medium text-2xl">
+        {/* H1 for SEO, sized exactly as the previous H2 (.content-class h2) so the page looks unchanged. */}
+        <h1
+          className="text-center font-primary font-medium text-2xl"
+          style={{ fontSize: "clamp(1.6rem, 3vw, 2.125rem)" }}
+        >
           Privacy <i>Policy</i>
-        </h2>
+        </h1>
 
         <div className="mt-4">
           <div className="space-y-3">

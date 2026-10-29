@@ -85,7 +85,7 @@ export const roomPageDataNew = {
       buttons: [
         {
           label: "Full Details",
-          href: "/rooms/twin-luxury-cottages",
+          href: "/rooms/twin-luxury-cottages/",
         },
         {
           label: "Book via WhatsApp",
@@ -161,7 +161,7 @@ export const roomPageDataNew = {
       buttons: [
         {
           label: "Full Details",
-          href: "/rooms/the-surveyor",
+          href: "/rooms/the-surveyor/",
         },
         {
           label: "Book via WhatsApp",
@@ -243,7 +243,7 @@ export const roomPageDataNew = {
       buttons: [
         {
           label: "Full Details",
-          href: "/rooms/the-glamper",
+          href: "/rooms/the-glamper/",
         },
         {
           label: "Book via WhatsApp",
@@ -284,7 +284,7 @@ export const roomPageDataNew = {
       buttons: [
         {
           label: "Full Details",
-          href: "/rooms/the-camper",
+          href: "/rooms/the-camper/",
         },
         {
           label: "Book via WhatsApp",

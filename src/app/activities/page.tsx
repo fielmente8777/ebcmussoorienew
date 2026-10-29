@@ -4,9 +4,21 @@ import { SectionWithContainer } from "@/components/sectionComponants";
 import ActivitiesCards from "./components/ActivitiesCards";
 import DayTrips from "./components/DayTrips";
 
+import JsonLd from "@/components/seo/JsonLd";
+import { pageMeta } from "@/lib/seo";
+import { breadcrumbSchema } from "@/lib/schema";
+
+export const metadata = pageMeta({
+  title: "Things to Do at EBC Mussoorie: Treks, Birding & Stargazing",
+  description: "Forest walks, bird watching, stargazing sessions, bonfire evenings, picnics and day trips to Kempty Falls, Dhanaulti and Lal Tibba from EBC Mussoorie.",
+  path: "/activities/",
+});
+
+
 export default function ActivitiesPage() {
   return (
     <main>
+      <JsonLd data={[breadcrumbSchema([{ name: "Home", path: "/" }, { name: "Activities", path: "/activities/" }])]} />
       {/* <ThreeGridTextBanner {...activitiesPageData.bannerData} />
       <IntroSection {...activitiesPageData.introData} />
       {activitiesPageData.ActivitiesData.map((activity, index) => (

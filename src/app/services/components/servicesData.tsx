@@ -183,7 +183,7 @@ export const servicesData: ServiceDetail[] = [
       ],
       actions: [
         { label: "BOOK YOUR STAY", href: bookingLink },
-        { label: "CONTACT US", href: "/contact-us" },
+        { label: "CONTACT US", href: "/contact-us/" },
       ],
     },
   },
@@ -379,7 +379,7 @@ export const servicesData: ServiceDetail[] = [
       ],
       actions: [
         { label: "BOOK YOUR STAY", href: bookingLink },
-        { label: "VIEW ALL ACTIVITIES", href: "/activities" },
+        { label: "VIEW ALL ACTIVITIES", href: "/activities/" },
       ],
     },
   },
@@ -474,7 +474,7 @@ export const servicesData: ServiceDetail[] = [
       ],
       actions: [
         { label: "BOOK YOUR STAY", href: bookingLink },
-        { label: "CONTACT US", href: "/contact-us" },
+        { label: "CONTACT US", href: "/contact-us/" },
       ],
     },
   },
@@ -568,7 +568,7 @@ export const servicesData: ServiceDetail[] = [
       ],
       actions: [
         { label: "BOOK YOUR STAY", href: bookingLink },
-        { label: "CONTACT US", href: "/contact-us" },
+        { label: "CONTACT US", href: "/contact-us/" },
       ],
     },
   },
@@ -662,7 +662,7 @@ export const servicesData: ServiceDetail[] = [
       ],
       actions: [
         { label: "BOOK YOUR STAY", href: bookingLink },
-        { label: "CONTACT US", href: "/contact-us" },
+        { label: "CONTACT US", href: "/contact-us/" },
       ],
     },
   },
@@ -756,7 +756,7 @@ export const servicesData: ServiceDetail[] = [
       ],
       actions: [
         { label: "BOOK YOUR STAY", href: bookingLink },
-        { label: "CONTACT US", href: "/contact-us" },
+        { label: "CONTACT US", href: "/contact-us/" },
       ],
     },
   },

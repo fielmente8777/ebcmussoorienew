@@ -8,6 +8,9 @@ import Call from "@/components/ContactButton/Call";
 import Whatsapp from "@/components/ContactButton/WhatsApp";
 import { contacts } from "@/utils/constant";
 import Script from "next/script";
+import type { Metadata } from "next";
+import { DEFAULT_OG_IMAGE, HOME_DESCRIPTION, HOME_TITLE, SITE_NAME, SITE_URL } from "@/lib/seo";
+import Analytics from "@/components/seo/Analytics";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -74,10 +77,15 @@ const cormorant = Cormorant_Garamond({
 //   variable: "--font-pppangaia",
 // });
 
-export const metadata = {
-  title: "Camping in Mussoorie | Glamping near Dehradun - EBC Mussoorie",
-  description:
-    "EBC Mussoorie is the best luxury resorts in mussoorie. We are offering camping in near mussorie, dehradun, rishikesh, dehradun and near Delhi. Visit our Property!",
+// Site-wide defaults only. Each page sets its own title, description and
+// canonical through pageMeta(); the root deliberately sets no canonical so a
+// page can never inherit the homepage's.
+export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  title: HOME_TITLE,
+  description: HOME_DESCRIPTION,
+  openGraph: { siteName: SITE_NAME, locale: "en_IN", type: "website", images: [DEFAULT_OG_IMAGE] },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function RootLayout({
@@ -92,6 +100,7 @@ export default function RootLayout({
       suppressHydrationWarning={true}
     >
       <body>
+        <Analytics />
         <AppProvider>
           <Navbar2 />
           {children}

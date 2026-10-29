@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "resorts-with-bonfires-near-dehradun",
@@ -59,7 +61,7 @@ const articleData = {
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Resorts Near Dehradun That Include Bonfires in Their Experience</h2>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Mussoorie Ridge Properties</h3>
        <p>The Mussoorie hills above Dehradun have the highest concentration of quality bonfire‑enabled resort stays near the city. Properties on the Hathipaon road, the Cloud's End stretch, and the forest zones above Landour offer outdoor bonfire setups within mature deodar and oak surroundings.</p>
-       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> integrates outdoor evening experiences, including campfire and bonfire setups, into their stay framework as part of the hill glamping format. Their <a href="/rooms" class="text-secondary underline">accommodation and experience setup</a> is built around the principle that evenings at altitude, with a fire, in a forest setting, are the centrepiece of the stay rather than an add‑on service.</p>
+       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> integrates outdoor evening experiences, including campfire and bonfire setups, into their stay framework as part of the hill glamping format. Their <a href="/rooms/" class="text-secondary underline">accommodation and experience setup</a> is built around the principle that evenings at altitude, with a fire, in a forest setting, are the centrepiece of the stay rather than an add‑on service.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Dhanaulti and Kanatal Properties</h3>
        <p>Properties in Dhanaulti and Kanatal, above Mussoorie toward Tehri, operate at higher altitudes (2,200 to 2,500 metres) and in thinner crowds. Bonfire evenings at this altitude in October and November are cooler and quieter than on the more visited Mussoorie ridge sections.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Rishikesh Riverside Properties</h3>
@@ -74,8 +76,8 @@ const articleData = {
          <li><strong>Ask about rain contingency:</strong> What happens if it rains? Is there a covered outdoor area or an indoor fireplace alternative?</li>
          <li><strong>Book evening snacks or dinner around the fire specifically:</strong> If bonfire dining is something you want, request it specifically when booking rather than assuming the property will offer it.</li>
        </ul>
-       <p>The <a href="/adventure-mussoorie" class="text-secondary underline">Tripoto community documentation of EBC Mussoorie</a> includes traveller‑level detail on what the outdoor evening experience at a premium Mussoorie hill property actually looks like.</p>
-       <p>For a broader view of how hospitality properties in the Mussoorie hills are designing the evening experience around the outdoor setting, this <a href="#" class="text-secondary underline">Hotelier India feature</a> covers the philosophy well.</p>`,
+       <p>The <a href="/activities/" class="text-secondary underline">Tripoto community documentation of EBC Mussoorie</a> includes traveller‑level detail on what the outdoor evening experience at a premium Mussoorie hill property actually looks like.</p>
+       <p>For a broader view of how hospitality properties in the Mussoorie hills are designing the evening experience around the outdoor setting, this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline">Hotelier India feature</a> covers the philosophy well.</p>`,
     ],
   },
   faqs: [
@@ -112,7 +114,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("resort-with-bonfire-near-dehradun", articleData.metaData);
 
 export default function BonfireResortsPage() {
   const renderContent = (htmlString: string) => {
@@ -121,6 +123,7 @@ export default function BonfireResortsPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("resort-with-bonfire-near-dehradun", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

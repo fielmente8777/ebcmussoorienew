@@ -27,13 +27,13 @@ const ExploreMoreBLogs: React.FC<Props> = ({ title, cta, cards }) => {
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
         {cards.map((card, index) => (
           <Link
-            href={card.slug}
+            href={`/blogs/${card.slug}/`}
             key={index}
             className="relative block w-full aspect-4/3 rounded-3xl overflow-hidden "
           >
             <Image
               src={card.src}
-              alt={card.title}
+              alt={card.title.trim()}
               fill
               className="object-cover p-2 bg-background-1 rounded-3xl"
             />

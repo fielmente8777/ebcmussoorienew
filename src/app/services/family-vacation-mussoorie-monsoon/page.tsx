@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   // ✅ URL is exactly: family-vacation-mussoorie-monsoon
@@ -47,7 +49,7 @@ const articleData = {
          <li><strong>On-site dining without a drive:</strong> The Park Cafe at EBC Mussoorie is a multi-cuisine restaurant with indoor and alfresco seating. For families, not having to negotiate a wet ridge road for every meal is a material advantage.</li>
          <li><strong>Something to do outdoors that works in short windows:</strong> Private bonfire setups and outdoor BBQ arrangements at the estate give the evening a structure that children engage with. The morning estate walk and the adjacent George Everest heritage site give the mornings a purpose.</li>
        </ul>
-       <p>Review the <a href="/rooms" class="text-secondary underline">accommodation options at EBC Mussoorie</a> and confirm which category fits your family size before enquiring.</p>`,
+       <p>Review the <a href="/rooms/" class="text-secondary underline">accommodation options at EBC Mussoorie</a> and confirm which category fits your family size before enquiring.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">A Realistic Monsoon Family Itinerary</h2>
        <p><strong>Day one, arrival:</strong> Leave Delhi in the morning rather than the evening. The 290 km drive takes 6 to 7 hours in dry conditions and longer in rain, and arriving with children after dark on a wet ridge road is not the way to start. Arrive mid to late afternoon. Let the children explore the grounds. Early dinner at the Park Cafe. Bonfire if the evening clears.</p>
@@ -71,7 +73,7 @@ const articleData = {
          <li>Long day trips to Dhanaulti or Chakrata are not sensible with children in active monsoon.</li>
        </ul>
        <p>Confirm EBC Mussoorie's operational status and access for your specific July or August dates before booking.</p>
-       <p>The <a href="https://www.hotelierindia.com/story/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a> covers the property's outdoor-led hospitality design, which is the reason it works for families whose plans need to flex around weather.</p>`,
+       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a> covers the property's outdoor-led hospitality design, which is the reason it works for families whose plans need to flex around weather.</p>`,
     ],
   },
   faqs: [
@@ -108,7 +110,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("family-vacation-mussoorie-monsoon", articleData.metaData);
 
 export default function FamilyVacationMussoorieMonsoonPage() {
   const renderContent = (htmlString: string) => {
@@ -117,6 +119,7 @@ export default function FamilyVacationMussoorieMonsoonPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("family-vacation-mussoorie-monsoon", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

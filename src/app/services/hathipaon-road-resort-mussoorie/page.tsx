@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "hathipaon-road-resort-mussoorie",
@@ -54,7 +56,7 @@ const articleData = {
        <p>Deodar trees in this section are older and taller than those in disturbed or partially cleared areas. The canopy density is higher. Bird activity is more consistent because the forest is less fragmented.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">View Quality</h3>
        <p>South‑facing properties on Hathipaon Road have an open Doon Valley view without the foreground obstruction of town buildings. The sightline is cleaner, and the impression of height is more accurate.</p>
-       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> is positioned in the hills above Mussoorie in a forested setting that shares the character of the Hathipaon road zone: away from the commercial centre, within mature forest cover, and oriented toward the outdoor experience rather than the hill station tourist circuit. Their <a href="/rooms" class="text-secondary underline">accommodation and outdoor experience setup</a> illustrates what premium outdoor stays in this part of the Mussoorie hills look and function like.</p>`,
+       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> is positioned in the hills above Mussoorie in a forested setting that shares the character of the Hathipaon road zone: away from the commercial centre, within mature forest cover, and oriented toward the outdoor experience rather than the hill station tourist circuit. Their <a href="/rooms/" class="text-secondary underline">accommodation and outdoor experience setup</a> illustrates what premium outdoor stays in this part of the Mussoorie hills look and function like.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Types of Properties Are on Hathipaon Road?</h2>
        <p>The road has a small but diverse set of accommodation types:</p>
@@ -80,10 +82,10 @@ const articleData = {
          <li><strong>Confirm the specific address, not just 'near Mall Road':</strong> Many Mussoorie properties describe themselves as well‑located without specifying which section of the ridge they are actually on. Ask for the Google Maps pin.</li>
          <li><strong>Ask about walking access to Cloud's End and Camel's Back Road:</strong> The best Hathipaon road properties are within walking distance of both. This makes the entire area's trails accessible without needing transport.</li>
          <li><strong>Check the road approach:</strong> Some Hathipaon road properties are accessed via narrow internal roads that are manageable in clear conditions but challenging after snowfall or heavy monsoon rain. Confirm road access for your vehicle type.</li>
-         <li><strong>Verify forest coverage:</strong> As covered in the <a href="/deodar-forest-resort-mussoorie" class="text-secondary underline">deodar forest section</a> of this broader Mussoorie guide, the forest setting on Hathipaon road varies by specific property location. Request photographs from within the property grounds rather than relying on landscape shots.</li>
+         <li><strong>Verify forest coverage:</strong> As covered in the <a href="/services/deodar-forest-resort-mussoorie/" class="text-secondary underline">deodar forest section</a> of this broader Mussoorie guide, the forest setting on Hathipaon road varies by specific property location. Request photographs from within the property grounds rather than relying on landscape shots.</li>
        </ul>
-       <p>For a traveller's perspective on the overall quality of outdoor stays in the Mussoorie hills, this <a href="/adventure-mussoorie" class="text-secondary underline">Tripoto account of EBC Mussoorie</a> gives a first‑person view of what the premium outdoor experience feels like in this zone.</p>
-       <p>The <a href="#" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a> also provides useful context on the philosophy behind the newer generation of Mussoorie hill properties that are using the forest and ridge setting as their primary hospitality asset.</p>`,
+       <p>For a traveller's perspective on the overall quality of outdoor stays in the Mussoorie hills, this <a href="/activities/" class="text-secondary underline">Tripoto account of EBC Mussoorie</a> gives a first‑person view of what the premium outdoor experience feels like in this zone.</p>
+       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a> also provides useful context on the philosophy behind the newer generation of Mussoorie hill properties that are using the forest and ridge setting as their primary hospitality asset.</p>`,
     ],
   },
   faqs: [
@@ -120,7 +122,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("hathipaon-road-resort-mussoorie", articleData.metaData);
 
 export default function HathipaonRoadResortPage() {
   const renderContent = (htmlString: string) => {
@@ -129,6 +131,7 @@ export default function HathipaonRoadResortPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("hathipaon-road-resort-mussoorie", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

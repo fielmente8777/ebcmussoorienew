@@ -76,7 +76,7 @@ Himalayan forest.`,
         price: "From ₹20,000 / night",
         primaryButton: {
           label: "View Details",
-          href: "/rooms/the-andrews-villa",
+          href: "/rooms/the-andrews-villa/",
         },
 
         secondaryButton: {
@@ -114,7 +114,7 @@ breathe.`,
         price: "From ₹16,000 / night",
         primaryButton: {
           label: "View Details",
-          href: "/rooms/the-surveyor",
+          href: "/rooms/the-surveyor/",
         },
 
         secondaryButton: {

@@ -24,7 +24,7 @@ export const homePageData = {
   bannerData: {
     video: {
       src: "https://eazotel-client-webp-images.s3.ap-south-1.amazonaws.com/Ebc-New-Ui-Image/0408-2.mp4",
-      poster: "/home/video-poster.png",
+      poster: "/home/video-poster.webp",
     },
     title: "Wake up in the Himalayas.",
     subtitle: "Sleep under the Stars.",
@@ -154,7 +154,7 @@ Himalayan forest.`,
         image: "/andrew-villa/Suite-Bedroom-2.png",
         primaryButton: {
           label: "View Room",
-          href: "/rooms/the-andrews-villa",
+          href: "/rooms/the-andrews-villa/",
         },
         secondaryButton: {
           label: "Book Now",
@@ -171,7 +171,7 @@ couples travelling together.`,
         image: "/Twin-Luxury-Cottages/Suite-Bedroom-2.png",
         primaryButton: {
           label: "View Room",
-          href: "/rooms/twin-luxury-cottages",
+          href: "/rooms/twin-luxury-cottages/",
         },
         secondaryButton: {
           label: "Book Now",
@@ -187,7 +187,7 @@ EBC's original icon of Himalayan glamping.`,
         image: "/The Zenith/RoomImage1.jpg",
         primaryButton: {
           label: "View Room",
-          href: "/rooms/zenith-luxury-cottage",
+          href: "/rooms/zenith-luxury-cottage/",
         },
         secondaryButton: {
           label: "Book Now",
@@ -204,7 +204,7 @@ breathe.`,
         image: landingpageImgSrc + "surveyor_suite/img2.webp",
         primaryButton: {
           label: "View Room",
-          href: "/rooms/the-surveyor",
+          href: "/rooms/the-surveyor/",
         },
         secondaryButton: {
           label: "Book Now",
@@ -221,7 +221,7 @@ behind.`,
         image: landingpageImgSrc + "surveyor-new/DSC_6610.webp",
         primaryButton: {
           label: "View Room",
-          href: "/rooms/the-surveyor-suite",
+          href: "/rooms/the-surveyor-suite/",
         },
         secondaryButton: {
           label: "Book Now",
@@ -238,7 +238,7 @@ within.`,
         image: "/The Glamper/RoomImage1.jpg",
         primaryButton: {
           label: "View Room",
-          href: "/rooms/the-glamper",
+          href: "/rooms/the-glamper/",
         },
         secondaryButton: {
           label: "Book Now",
@@ -254,7 +254,7 @@ pure, elemental, and utterly memorable.`,
         image: "/The Camper/RoomImage1.jpg",
         primaryButton: {
           label: "View Room",
-          href: "/rooms/the-camper",
+          href: "/rooms/the-camper/",
         },
         secondaryButton: {
           label: "Book Now",
@@ -288,7 +288,7 @@ pure, elemental, and utterly memorable.`,
           "Safe, spacious and full of wonder, the family holiday that leaves screens behind.",
         ],
         image: "/landing/family.png",
-        link: "/family-stays",
+        link: "/family-stays/",
       },
       {
         title: "Couples & <i>Honeymoon</i>",
@@ -296,7 +296,7 @@ pure, elemental, and utterly memorable.`,
           "Private bonfires, starlit skies and Himalayan mornings made for two.",
         ],
         image: "/landing/couples.png",
-        link: "/couples-and-honeymoon",
+        link: "/couples-and-honeymoon/",
       },
       {
         title: "Corporate & <i>MICE</i>",
@@ -304,7 +304,7 @@ pure, elemental, and utterly memorable.`,
           "Ideal for corporate retreats, team offsites, executive stays, and business gatherings in a peaceful mountain setting.",
         ],
         image: "/IMG_5930.webp",
-        link: "/corporate-and-mice",
+        link: "/corporate-and-mice/",
       },
     ],
     link: {
@@ -428,7 +428,7 @@ pure, elemental, and utterly memorable.`,
     image: "/home/activities.png",
     link: {
       label: "EXPLORE ACTIVITIES",
-      href: "/activities",
+      href: "/activities/",
     },
   },
 
@@ -525,7 +525,7 @@ pure, elemental, and utterly memorable.`,
     ],
     link: {
       label: "CONTACT US",
-      href: "/contact-us",
+      href: "/contact-us/",
     },
   },
 
@@ -644,7 +644,7 @@ pure, elemental, and utterly memorable.`,
       { label: "Check Availability via WhatsApp", href: contacts.WhatsAppCta },
       {
         label: "View Packages",
-        href: "/packages",
+        href: "/packages/",
       },
     ],
   },

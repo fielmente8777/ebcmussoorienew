@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "bird-watching-resort-uttarakhand",
@@ -78,8 +80,8 @@ const articleData = {
          <li>Binoculars with a minimum 8x42 specification for forest birding; 10x42 for open habitat and high altitude</li>
          <li>Corbett jeep safari permits require booking; self‑booking through the official Uttarakhand Forest Department portal</li>
        </ul>
-       <p>For a sense of how the forest and nature experience around the Mussoorie hills is designed at a well‑run outdoor property, this <a href="/adventure-mussoorie" class="text-secondary underline">Tripoto account of EBC Mussoorie</a> gives useful ground‑level detail.</p>
-       <p>The <a href="#" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a> also covers how the property integrates natural surroundings into the overall guest experience.</p>`,
+       <p>For a sense of how the forest and nature experience around the Mussoorie hills is designed at a well‑run outdoor property, this <a href="/activities/" class="text-secondary underline">Tripoto account of EBC Mussoorie</a> gives useful ground‑level detail.</p>
+       <p>The <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a> also covers how the property integrates natural surroundings into the overall guest experience.</p>`,
     ],
   },
   faqs: [
@@ -116,7 +118,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("bird-watching-resort-uttarakhand", articleData.metaData);
 
 export default function BirdWatchingResortPage() {
   const renderContent = (htmlString: string) => {
@@ -125,6 +127,7 @@ export default function BirdWatchingResortPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("bird-watching-resort-uttarakhand", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

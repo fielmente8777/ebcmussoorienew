@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "luxury-cottage-mussoorie",
@@ -57,12 +59,12 @@ const articleData = {
          <li><strong>Heating system type and reliability:</strong> In winter and autumn, confirm whether heating is through a central system, individual room units, or a fireplace. Ask how quickly the cottage heats up from cold if you arrive late in the evening.</li>
          <li><strong>Staff proximity and privacy balance:</strong> A cottage stay should feel private. Properties where staff quarters or other service infrastructure are visible from your veranda compromise the solitude that is one of the cottage format's primary appeals.</li>
        </ul>
-       <p>For travellers weighing the cottage format against the luxury glamping tent format, browsing the accommodation details at <a href="/rooms" class="text-secondary underline">EBC Mussoorie's rooms page</a> gives a useful comparison point for what a premium tent setup in the same zone looks like.</p>`,
+       <p>For travellers weighing the cottage format against the luxury glamping tent format, browsing the accommodation details at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms page</a> gives a useful comparison point for what a premium tent setup in the same zone looks like.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Mussoorie Belt as a Cottage Location</h2>
        <p>The area around Mussoorie and George Everest Peak offers some of the most compelling positions for standalone cottages in the Garhwal hills. The ridge topography creates natural view corridors that cottages can be designed around, and the forest zones provide privacy screening between units without requiring dense landscaping.</p>
        <p>Everest Base Camp Mussoorie's broader zone, near the George Everest Peak area, includes both glamping tent formats and the wider accommodation landscape that forms the character of this part of the Mussoorie hills.</p>
-       <p>This detailed piece on <a href="/glamping-near-mussoorie" class="text-secondary underline">glamping and outdoor stays near George Everest Peak</a> covers the outdoor character of this zone and what staying here involves across seasons.</p>
+       <p>This detailed piece on <a href="/services/glamping-near-mussoorie/" class="text-secondary underline">glamping and outdoor stays near George Everest Peak</a> covers the outdoor character of this zone and what staying here involves across seasons.</p>
        <p>For the traveller who has visited Mussoorie in a standard hotel before and found it generic, a luxury cottage in the right part of the ridge is the format that makes the hill station feel genuinely different.</p>`,
     ],
   },
@@ -100,7 +102,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("luxury-cottage-mussoorie", articleData.metaData);
 
 export default function LuxuryCottagePage() {
   const renderContent = (htmlString: string) => {
@@ -109,6 +111,7 @@ export default function LuxuryCottagePage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("luxury-cottage-mussoorie", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

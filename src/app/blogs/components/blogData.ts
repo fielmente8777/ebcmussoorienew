@@ -1,5 +1,5 @@
 
-const blogData = [
+const allBlogPosts = [
   {
     id: 1,
     Category: "EBC",
@@ -2327,5 +2327,21 @@ const blogData = [
     ],
   },
 ];
+
+/**
+ * Duplicate posts that used to be published at two URLs (differing only in
+ * letter case). The key is the retired slug, the value is the slug we keep.
+ * Retired slugs are excluded from listings and permanently redirect.
+ */
+export const blogSlugAliases: Record<string, string> = {
+  "Unleashing-Adventure-Exploring-the-Thrilling-Trekking-Trails-at-Everest-Base-Camp":
+    "unleashing-adventure-exploring-the-thrilling-trekking-trails-at-Everest-base-camp",
+  "unplugging-in-nature-the-healing-power-of-a-digital-detox-retreat":
+    "Unplugging-in-Nature-The-Healing-Power-of-a-Digital-Detox-Retreat",
+  "Enjoying-the-best-luxury-camping-in-mussoorie-a-comprehensive-guide-to-ebc-mussoorie":
+    "enjoying-the-best-luxury-camping-in-mussoorie-a-comprehensive-guide-to-ebc-mussoorie",
+};
+
+const blogData = allBlogPosts.filter((post) => !(post.slug in blogSlugAliases));
 
 export default blogData;

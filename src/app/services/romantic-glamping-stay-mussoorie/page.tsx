@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   // ✅ URL is exactly: romantic-glamping-stay-mussoorie
@@ -53,7 +55,7 @@ const articleData = {
 
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Four: The scale keeps it private</h3>
        <p>Fourteen units. Maximum 28 guests without extra beds, up to 50 with. That is the entire property. A couple is not sharing a lobby with two hundred people or queuing for a breakfast buffet.</p>
-       <p>See the <a href="/rooms" class="text-secondary underline">full accommodation range at EBC Mussoorie</a> to compare categories.</p>`,
+       <p>See the <a href="/rooms/" class="text-secondary underline">full accommodation range at EBC Mussoorie</a> to compare categories.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Choosing Your Unit</h2>
        <div class="overflow-x-auto">
@@ -123,7 +125,7 @@ const articleData = {
          <li>Cancellation and rescheduling terms</li>
          <li>Pet arrangements if applicable, since the property is confirmed pet-friendly</li>
        </ul>
-       <p>For a first-person account of what the estate and its surroundings feel like on the ground, the <a href="https://www.tripoto.com/trip/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">Tripoto trip account of EBC Mussoorie</a> is the most useful external reference available.</p>`,
+       <p>For a first-person account of what the estate and its surroundings feel like on the ground, the <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" target="_blank" rel="noopener noreferrer" class="text-secondary underline">Tripoto trip account of EBC Mussoorie</a> is the most useful external reference available.</p>`,
     ],
   },
   faqs: [
@@ -160,7 +162,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("romantic-glamping-stay-mussoorie", articleData.metaData);
 
 export default function RomanticGlampingStayPage() {
   const renderContent = (htmlString: string) => {
@@ -169,6 +171,7 @@ export default function RomanticGlampingStayPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("romantic-glamping-stay-mussoorie", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

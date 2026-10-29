@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "best-glamping-uttarakhand",
@@ -80,8 +82,8 @@ const articleData = {
          <li><strong>Best for adventure activities:</strong> Rishikesh corridor</li>
          <li><strong>Best for first-time glampers:</strong> Garhwal Highlands (Mussoorie belt) for infrastructure reliability and accessibility</li>
        </ul>
-       <p>The Garhwal Highlands, specifically the Mussoorie to Dhanaulti corridor, consistently outperforms other zones on the criteria that matter to most weekend travellers: drive time from Delhi, quality of infrastructure, and natural setting. You can explore what a well-run glamping property in this zone looks like at <a href="/rooms" class="text-secondary underline">EBC Mussoorie's accommodation page</a>.</p>
-       <p>For a traveller's-eye view of what the George Everest Peak glamping zone delivers specifically, this piece on <a href="/glamping-george-everest" class="text-secondary underline">glamping near an Uttarakhand Everest Base Camp</a> gives ground-level detail.</p>`,
+       <p>The Garhwal Highlands, specifically the Mussoorie to Dhanaulti corridor, consistently outperforms other zones on the criteria that matter to most weekend travellers: drive time from Delhi, quality of infrastructure, and natural setting. You can explore what a well-run glamping property in this zone looks like at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's accommodation page</a>.</p>
+       <p>For a traveller's-eye view of what the George Everest Peak glamping zone delivers specifically, this piece on <a href="/rooms/" class="text-secondary underline">glamping near an Uttarakhand Everest Base Camp</a> gives ground-level detail.</p>`,
     ],
   },
   faqs: [
@@ -118,7 +120,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("best-glamping-in-uttarakhand", articleData.metaData);
 
 export default function GlampingUttarakhandPage() {
   const renderContent = (htmlString: string) => {
@@ -127,6 +129,7 @@ export default function GlampingUttarakhandPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("best-glamping-in-uttarakhand", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

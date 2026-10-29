@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "luxury-camping-mussoorie",
@@ -52,7 +54,7 @@ const articleData = {
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Why Mussoorie Is a Strong Setting for Luxury Camping</h2>
        <p>At roughly 2,000 metres, Mussoorie offers a climate that makes the tent format more appealing than in warmer destinations. The cool evenings are the point, not a problem to manage around. A luxury tent that handles the cold well transforms the temperature into an asset: the warmth inside the tent becomes something you actively appreciate rather than fight against.</p>
-       <p>The area near <strong>George Everest Peak</strong> specifically offers forest cover, ridge‑adjacent positioning, and a setting that looks good from inside a tent as much as in a photograph. <strong>Everest Base Camp Mussoorie</strong> operates in this zone as a premium luxury camping resort, with the infrastructure and setting to match the label. You can review the tent accommodation specifics at <a href="/rooms" class="text-secondary underline">EBC Mussoorie's rooms page</a> to verify the standard before comparing alternatives.</p>`,
+       <p>The area near <strong>George Everest Peak</strong> specifically offers forest cover, ridge‑adjacent positioning, and a setting that looks good from inside a tent as much as in a photograph. <strong>Everest Base Camp Mussoorie</strong> operates in this zone as a premium luxury camping resort, with the infrastructure and setting to match the label. You can review the tent accommodation specifics at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's rooms page</a> to verify the standard before comparing alternatives.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Common Luxury Camping Red Flags to Watch For</h2>
        <ul class="list-disc pl-6 space-y-1">
@@ -64,7 +66,7 @@ const articleData = {
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What Luxury Camping in Mussoorie Costs and What It Should Include</h2>
        <p>Pricing varies significantly between properties. A well‑run luxury camping setup in Mussoorie at current market rates typically includes accommodation, breakfast, dinner, and access to on‑property outdoor setups in the per‑night rate. Activities like guided treks, additional meals, and transport are usually priced separately unless stated otherwise in the package.</p>
-       <p>Before booking, request a written breakdown of inclusions versus additional charges to avoid surprises at checkout. As outlined in this piece on <a href="/glamping-near-mussoorie" class="text-secondary underline">the Everest Base Camp glamping experience near Mussoorie</a>, understanding what you are paying for upfront makes the trip significantly more enjoyable.</p>`,
+       <p>Before booking, request a written breakdown of inclusions versus additional charges to avoid surprises at checkout. As outlined in this piece on <a href="/services/glamping-near-mussoorie/" class="text-secondary underline">the Everest Base Camp glamping experience near Mussoorie</a>, understanding what you are paying for upfront makes the trip significantly more enjoyable.</p>`,
     ],
   },
   faqs: [
@@ -101,7 +103,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("luxury-camping-mussoorie", articleData.metaData);
 
 export default function LuxuryCampingPage() {
   const renderContent = (htmlString: string) => {
@@ -110,6 +112,7 @@ export default function LuxuryCampingPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("luxury-camping-mussoorie", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

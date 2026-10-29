@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "peaceful-resort-uttarakhand-mountains",
@@ -48,7 +50,7 @@ const articleData = {
        <p><strong>Best for:</strong> Couples, small groups, and solo travellers seeking genuine mountain quiet without the distance of a Lansdowne or Chakrata trip.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Hathipaon and Cloud's End area, Mussoorie (290 km from Delhi)</h3>
        <p>Within Mussoorie itself, the western ridge section toward Cloud's End is as distinct from Mall Road noise as geography allows within the same hill station. Properties in the forest zones here are quiet on weekdays and manageable on most weekends.</p>
-       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> sits within the forested hillside above the Mussoorie valley, positioned away from the commercial corridor that generates the noise most guests associate with Mussoorie weekends. Their <a href="/rooms" class="text-secondary underline">accommodation setup</a> is designed around the outdoor and forest experience that this quieter zone makes possible.</p>
+       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> sits within the forested hillside above the Mussoorie valley, positioned away from the commercial corridor that generates the noise most guests associate with Mussoorie weekends. Their <a href="/rooms/" class="text-secondary underline">accommodation setup</a> is designed around the outdoor and forest experience that this quieter zone makes possible.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Munsiyari (470 km from Delhi)</h3>
        <p>The most peaceful large‑scale mountain environment accessible from Delhi, though it requires a 10 to 11‑hour drive rather than a weekend trip. Munsiyari sits at 2,200 metres facing the Panchachuli range (five peaks above 6,000 metres) and sees a fraction of the visitors that Mussoorie, Nainital, and Rishikesh receive.</p>
        <p><strong>Best for:</strong> 4 to 7‑night trips specifically seeking the most profound natural quiet available within range of Delhi.</p>`,
@@ -73,8 +75,8 @@ const articleData = {
          <li>Do you permit amplified music on the property?</li>
        </ul>
        <p>Read reviews specifically from guests who stayed on weekend dates in peak season. If those reviews do not mention noise or disruption, the property is genuinely quiet.</p>
-       <p>For additional context on what a nature‑forward, activity‑led stay near Mussoorie looks and feels like, this <a href="/adventure-mussoorie" class="text-secondary underline">Tripoto account of EBC Mussoorie</a> covers the guest experience specifically.</p>
-       <p>This <a href="#" class="text-secondary underline">Hotelier India piece</a> also covers EBC Mussoorie's design philosophy around tranquil outdoor hospitality, which is directly relevant to what peaceful resort guests are actually looking for.</p>`,
+       <p>For additional context on what a nature‑forward, activity‑led stay near Mussoorie looks and feels like, this <a href="/activities/" class="text-secondary underline">Tripoto account of EBC Mussoorie</a> covers the guest experience specifically.</p>
+       <p>This <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline">Hotelier India piece</a> also covers EBC Mussoorie's design philosophy around tranquil outdoor hospitality, which is directly relevant to what peaceful resort guests are actually looking for.</p>`,
     ],
   },
   faqs: [
@@ -111,7 +113,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("peaceful-resort-in-uttarakhand-mountains", articleData.metaData);
 
 export default function PeacefulResortPage() {
   const renderContent = (htmlString: string) => {
@@ -120,6 +122,7 @@ export default function PeacefulResortPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("peaceful-resort-in-uttarakhand-mountains", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

@@ -2,16 +2,32 @@ import { SectionWithContainer } from "@/components/sectionComponants";
 import Image from "next/image";
 import Link from "next/link";
 import Accordion2 from "@/components/accordion/Accordion2";
-import blogData from "../components/blogData";
+import blogData, { blogSlugAliases } from "../components/blogData";
 import ExploreMoreBLogs from "./components/ExploreMoreBLogs";
 
+import { notFound, permanentRedirect } from "next/navigation";
+import JsonLd from "@/components/seo/JsonLd";
+import { pageMeta } from "@/lib/seo";
+import { blogPostingSchema, breadcrumbSchema, faqSchema } from "@/lib/schema";
+
 interface Params {
-  params: {
-    slug: string;
-  };
-  searchParams: {
-    [key: string]: string | string[] | undefined;
-  };
+  params: Promise<{ slug: string }>;
+}
+
+type Post = (typeof blogData)[number];
+
+// Only slugs generated at build time exist; anything else is a real 404.
+export const dynamicParams = false;
+
+const clean = (text?: string) => (text ?? "").replace(/\s+/g, " ").trim();
+
+/** Meta description: the post's subtitle or opening paragraph, cut at a word boundary. */
+function describe(post: Post): string {
+  const firstPara = "content" in post && post.content?.[0]?.subtitle?.[0];
+  const source = clean(("subtitle" in post && post.subtitle) || firstPara || post.title);
+  if (source.length <= 158) return source;
+  const cut = source.slice(0, 155);
+  return `${cut.slice(0, cut.lastIndexOf(" ")).replace(/[,;:\-–—]$/, "")}…`;
 }
 
 function getRandomBlog(currentSlug: string, count = 3) {
@@ -22,57 +38,32 @@ function getRandomBlog(currentSlug: string, count = 3) {
 }
 
 export async function generateStaticParams() {
-  const blogPosts = await blogData;
-
-  return blogPosts.map((post) => ({
-    slug: post.slug,
-    fallback: false,
-  }));
+  return [...blogData.map((post) => post.slug), ...Object.keys(blogSlugAliases)].map(
+    (slug) => ({ slug })
+  );
 }
 
 export async function generateMetadata({ params }: Params) {
-  const path = await params;
-  const post = blogData.find((post) => post.slug === path.slug);
-
-  return {
-    title: post?.title,
-    description: post?.subtitle,
-    alternate: {
-      canonical: `https://fielmente.com/${post?.slug}/`,
-    },
-    openGraph: {
-      title: post?.title,
-      description: post?.subtitle,
-      url: `https://fielmente.com/${post?.slug}/`,
-      siteName: "Fielmente",
-      locale: "en_IN",
-      type: "website",
-      images: [
-        {
-          url: `https://fielmente.com/${post?.slug}-og.png`,
-          width: 1200,
-        },
-      ],
-    },
-    robots: {
-      index: true,
-      follow: true,
-      nocache: true,
-      googleBot: {
-        index: true,
-        follow: true,
-        noimageindex: true,
-        "max-video-preview": -1,
-        "max-image-preview": "large",
-        "max-snippet": -1,
-      },
-    },
-  };
+  const { slug } = await params;
+  const post = blogData.find((p) => p.slug === slug);
+  if (!post) return {};
+  return pageMeta({
+    // Keep titles within ~60 characters so Google shows them whole.
+    title: clean(post.title).length <= 44 ? `${clean(post.title)} | EBC Mussoorie` : clean(post.title),
+    description: describe(post),
+    path: `/blogs/${post.slug}/`,
+    image: post.image,
+    type: "article",
+  });
 }
 
 export default async function LandingPage({ params }: Params) {
   const path = await params;
+  if (blogSlugAliases[path.slug]) {
+    permanentRedirect(`/blogs/${blogSlugAliases[path.slug]}/`);
+  }
   const data = blogData.find((post) => post.slug === path.slug);
+  if (!data) notFound();
 
   const randomBLogs = getRandomBlog(path.slug);
 
@@ -80,7 +71,7 @@ export default async function LandingPage({ params }: Params) {
     title: "Explore More Blogs",
     cta: {
       title: "View all Blogs",
-      url: "/blogs",
+      url: "/blogs/",
     },
     cards: [
       ...randomBLogs.map((item) => ({
@@ -91,21 +82,32 @@ export default async function LandingPage({ params }: Params) {
     ],
   };
 
-  if (!data) {
-    return (
-      <main>
-        <h1>404</h1>
-      </main>
-    );
-  }
+  const postPath = `/blogs/${data.slug}/`;
+  const faqs = "faqs" in data && data.faqs ? data.faqs : [];
 
   return (
     <main>
+      <JsonLd
+        data={[
+          blogPostingSchema({
+            title: clean(data.title),
+            description: describe(data),
+            path: postPath,
+            image: data.image,
+          }),
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Blog", path: "/blogs/" },
+            { name: clean(data.title), path: postPath },
+          ]),
+          ...(faqs.length ? [faqSchema(faqs)] : []),
+        ]}
+      />
       <SectionWithContainer>
         <article className="md:max-w-6xl w-full mx-auto space-y-2.5">
           <div className="flex flex-col gap-3">
             <p className="text-[#6B7280] flex items-center gap-1">
-              <Link href="/blogs">Blogs</Link>{" "}
+              <Link href="/blogs/">Blogs</Link>{" "}
               <span>
                 <NextIcon />
               </span>{" "}

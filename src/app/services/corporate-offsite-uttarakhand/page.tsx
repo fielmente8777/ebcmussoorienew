@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   // ✅ URL is exactly: corporate-offsite-uttarakhand
@@ -60,7 +62,7 @@ const articleData = {
          <li>Location away from Mall Road traffic and crowds</li>
        </ul>
        <p>The unit count means a group of 20 to 28 can effectively take the whole property, which is the single most valuable characteristic for an offsite where you want the environment to belong to your team rather than being shared with leisure guests.</p>
-       <p>Review the <a href="/rooms" class="text-secondary underline">accommodation and group setup at EBC Mussoorie</a> before contacting the property for a group proposal.</p>`,
+       <p>Review the <a href="/rooms/" class="text-secondary underline">accommodation and group setup at EBC Mussoorie</a> before contacting the property for a group proposal.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Zone 2: Rishikesh</h2>
        <ul class="list-disc pl-6 space-y-1">
@@ -148,7 +150,7 @@ const articleData = {
          <li><strong>July to August</strong> – possible with careful planning. Covered meeting space and indoor alternatives are essential. Confirm road access and property operational status before finalising dates.</li>
          <li><strong>December to February</strong> – cold and quiet. Suitable for indoor-heavy agendas with bonfire evenings. Confirm heating arrangements.</li>
        </ul>
-       <p>As described in <a href="https://www.hotelierindia.com/story/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Hotelier India feature on EBC Mussoorie</a>, the property is designed around outdoor experience as the foundation of the stay, which translates directly into a different quality of group dynamic than a conference hotel produces.</p>`,
+       <p>As described in <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Hotelier India feature on EBC Mussoorie</a>, the property is designed around outdoor experience as the foundation of the stay, which translates directly into a different quality of group dynamic than a conference hotel produces.</p>`,
     ],
   },
   faqs: [
@@ -185,7 +187,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("corporate-offsite-uttarakhand", articleData.metaData);
 
 export default function CorporateOffsiteUttarakhandPage() {
   const renderContent = (htmlString: string) => {
@@ -194,6 +196,7 @@ export default function CorporateOffsiteUttarakhandPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("corporate-offsite-uttarakhand", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

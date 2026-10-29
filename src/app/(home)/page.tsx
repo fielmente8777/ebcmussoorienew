@@ -13,9 +13,21 @@ import { Section } from "@/components/sectionComponants";
 import Image from "next/image";
 import OurGuests from "./components/OurGuests";
 
+import JsonLd from "@/components/seo/JsonLd";
+import { pageMeta, HOME_DESCRIPTION, HOME_TITLE } from "@/lib/seo";
+import { resortSchema, websiteSchema } from "@/lib/schema";
+
+export const metadata = pageMeta({
+  title: HOME_TITLE,
+  description: HOME_DESCRIPTION,
+  path: "/",
+});
+
+
 export default function Home() {
   return (
     <main>
+      <JsonLd data={[resortSchema(), websiteSchema()]} />
       <VideoBanner {...homePageData.bannerData} />
       {/* <PetFriendly {...homePageData.PetFriendly} />
       <Partner partners={homePageData.partners} />

@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "luxury-resort-mussoorie-guide",
@@ -45,7 +47,7 @@ const articleData = {
          <li><strong>Boutique Properties:</strong> Smaller, independently operated, usually with a more personal hospitality approach. Rooms may vary more between units, but the overall experience tends to feel more curated. Best for couples and small group travellers.</li>
          <li><strong>Luxury Nature Resorts and Glamping Properties:</strong> The most distinct category in Mussoorie's current accommodation landscape. These properties sit outside the town, within forested or hillside settings, and focus on connecting guests with the landscape while maintaining high accommodation standards.</li>
        </ul>
-       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> sits in this category. As covered in a <a href="#" class="text-secondary underline">Hotelier India feature</a>, the property combines outdoor adventure with well‑designed accommodation above the Mussoorie valley. It is particularly suited to guests who want their surroundings to be the experience rather than a backdrop to standard hotel stays.</p>`,
+       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a> sits in this category. As covered in a <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline">Hotelier India feature</a>, the property combines outdoor adventure with well‑designed accommodation above the Mussoorie valley. It is particularly suited to guests who want their surroundings to be the experience rather than a backdrop to standard hotel stays.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What to Look for When Comparing Luxury Resorts in Mussoorie</h2>
        <p>Use this as a checklist when evaluating properties:</p>
@@ -74,7 +76,7 @@ const articleData = {
          <li><strong>Campfire and evening programming:</strong> Particularly relevant for nature resorts and glamping properties; a structured evening experience on the property can anchor the stay in a way a standard hotel room does not</li>
          <li><strong>Corporate retreat capability:</strong> If you are evaluating the property for a group, look specifically for meeting infrastructure, team activity options, and experience with handling group logistics</li>
        </ul>
-       <p>For guests wanting to explore what an outdoor adventure‑based luxury stay near Mussoorie actually looks like, this <a href="#" class="text-secondary underline">Tripoto trip account</a> gives a useful first‑person perspective.</p>`,
+       <p>For guests wanting to explore what an outdoor adventure‑based luxury stay near Mussoorie actually looks like, this <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" class="text-secondary underline">Tripoto trip account</a> gives a useful first‑person perspective.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">When to Book and What to Expect at Peak Times</h2>
        <ul class="list-disc pl-6 space-y-1">
@@ -120,7 +122,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("luxury-resort-mussoorie", articleData.metaData);
 
 export default function LuxuryResortGuidePage() {
   const renderContent = (htmlString: string) => {
@@ -129,6 +131,7 @@ export default function LuxuryResortGuidePage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("luxury-resort-mussoorie", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

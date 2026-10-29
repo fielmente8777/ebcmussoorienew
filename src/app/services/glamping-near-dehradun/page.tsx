@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "glamping-near-dehradun",
@@ -39,7 +41,7 @@ const articleData = {
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What the Glamping Landscape Looks Like Near Dehradun</h2>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">The Mussoorie Ridge Zone</h3>
-       <p>This is the primary glamping zone within reach of Dehradun. Properties in this area sit at elevations between 1,800 and 2,200 metres, surrounded by oak and rhododendron forest, with views that open out across the Doon Valley or toward the Himalayan snowline, depending on orientation. <strong>Everest Base Camp Mussoorie</strong> is located in this zone, close to George Everest Peak. The property provides premium furnished tent accommodations, trekking access, and curated outdoor experiences designed for leisure travellers from major Indian cities. You can review specific tent options at <a href="/rooms" class="text-secondary underline">EBC Mussoorie's accommodation page</a>.</p>
+       <p>This is the primary glamping zone within reach of Dehradun. Properties in this area sit at elevations between 1,800 and 2,200 metres, surrounded by oak and rhododendron forest, with views that open out across the Doon Valley or toward the Himalayan snowline, depending on orientation. <strong>Everest Base Camp Mussoorie</strong> is located in this zone, close to George Everest Peak. The property provides premium furnished tent accommodations, trekking access, and curated outdoor experiences designed for leisure travellers from major Indian cities. You can review specific tent options at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie's accommodation page</a>.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">The Dhanaulti Zone</h3>
        <p>Dhanaulti sits about 30 kilometres beyond Mussoorie at an elevation of approximately 2,286 metres. It is quieter than Mussoorie and surrounded by dense deodar forest, maintained partly by the Uttarakhand Forest Department. Several operator-led seasonal camps run here between September and June.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">The Chakrata Zone</h3>
@@ -63,7 +65,7 @@ const articleData = {
          <li>Guided or self-guided trekking access to nearby trails</li>
          <li>Meals, either included in the package or available on the property</li>
        </ul>
-       <p>The experience near Dehradun is defined by the elevation shift. You wake up in a different climate zone from the city below, with cooler air, a quieter sound environment, and morning light that reads differently at altitude. As detailed in this piece on <a href="/adventure-mussoorie" class="text-secondary underline">adventure in the heart of Mussoorie with EBC Mussoorie</a>, the combination of proximity to Dehradun and the quality of the outdoor setting makes this zone particularly effective for short-stay travellers.</p>`,
+       <p>The experience near Dehradun is defined by the elevation shift. You wake up in a different climate zone from the city below, with cooler air, a quieter sound environment, and morning light that reads differently at altitude. As detailed in this piece on <a href="/activities/" class="text-secondary underline">adventure in the heart of Mussoorie with EBC Mussoorie</a>, the combination of proximity to Dehradun and the quality of the outdoor setting makes this zone particularly effective for short-stay travellers.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Seasonal Guide for Glamping Near Dehradun</h2>
        <ul class="list-disc pl-6 space-y-1">
@@ -119,7 +121,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("glamping-near-dehradun", articleData.metaData);
 
 export default function GlampingNearDehradunPage() {
   const renderContent = (htmlString: string) => {
@@ -128,6 +130,7 @@ export default function GlampingNearDehradunPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("glamping-near-dehradun", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

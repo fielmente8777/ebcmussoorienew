@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "luxury-private-villa-mussoorie",
@@ -58,7 +60,7 @@ const articleData = {
        </ul>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">What Is Included in the Rate</h3>
        <p>Luxury villa pricing in Mussoorie varies significantly based on what is included. Some properties price accommodation only and charge separately for every meal, activity, and service. Others operate on a fully inclusive model. For a fair comparison between properties, always get a fully‑loaded per‑night cost: accommodation, meals for your group, standard activities (campfire, nature walk), and transport from Dehradun if offered.</p>
-       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a>, while positioned as a luxury glamping resort rather than a private villa, offers a useful benchmark for understanding what premium outdoor accommodation near Mussoorie looks like in terms of setting and inclusions. Their <a href="/rooms" class="text-secondary underline">accommodation and experience setup</a> illustrates how the better Mussoorie properties structure their offering.</p>`,
+       <p><a href="/" class="text-secondary underline">EBC Mussoorie</a>, while positioned as a luxury glamping resort rather than a private villa, offers a useful benchmark for understanding what premium outdoor accommodation near Mussoorie looks like in terms of setting and inclusions. Their <a href="/rooms/" class="text-secondary underline">accommodation and experience setup</a> illustrates how the better Mussoorie properties structure their offering.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Best Seasons for a Luxury Villa Stay in Mussoorie</h2>
        <p>Each season produces a genuinely different experience:</p>
@@ -90,12 +92,12 @@ const articleData = {
          <li><strong>Day 3 morning:</strong> Breakfast, checkout, scenic drive back through Dhanaulti or Kempty Falls if time allows</li>
        </ul>
        <p>This structure leaves enough white space for the stay to feel restorative rather than itinerary‑driven.</p>
-       <p>For a traveller's perspective on what the better Mussoorie hill properties feel like from the inside, this <a href="/adventure-mussoorie" class="text-secondary underline">Tripoto trip account of EBC Mussoorie</a> gives useful ground‑level detail on the experience of being at a premium Mussoorie outdoor property.</p>`,
+       <p>For a traveller's perspective on what the better Mussoorie hill properties feel like from the inside, this <a href="/activities/" class="text-secondary underline">Tripoto trip account of EBC Mussoorie</a> gives useful ground‑level detail on the experience of being at a premium Mussoorie outdoor property.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What the Luxury Private Villa Market in Mussoorie Looks Like Right Now</h2>
        <p>The Mussoorie villa market has grown significantly since 2020. A combination of remote work demand, post‑pandemic preference for private over shared spaces, and rising incomes among urban Indian professionals has driven investment in boutique and private villa properties across the Mussoorie hills.</p>
        <p>This growth means more options, but also more variation in quality. The term "luxury" is applied loosely. Properties that opened recently without a track record of reviews require more due diligence than established properties.</p>
-       <p>The safest approach is to book properties that have been independently covered by travel media or that have a verified review history across multiple platforms. As covered in this <a href="#" class="text-secondary underline">Hotelier India feature</a>, the better Mussoorie properties earn coverage through what they actually deliver rather than marketing spend.</p>`,
+       <p>The safest approach is to book properties that have been independently covered by travel media or that have a verified review history across multiple platforms. As covered in this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline">Hotelier India feature</a>, the better Mussoorie properties earn coverage through what they actually deliver rather than marketing spend.</p>`,
     ],
   },
   faqs: [
@@ -132,7 +134,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("luxury-private-villa-mussoorie", articleData.metaData);
 
 export default function LuxuryPrivateVillaPage() {
   const renderContent = (htmlString: string) => {
@@ -141,6 +143,7 @@ export default function LuxuryPrivateVillaPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("luxury-private-villa-mussoorie", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

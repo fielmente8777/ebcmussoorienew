@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "couples-resort-mussoorie",
@@ -48,7 +50,7 @@ const articleData = {
        <p>The old cantonment area of Landour has a distinctly slower pace than Mussoorie town. A few hours here, visiting the Char Dukan tea stalls and the old colonial buildings on the upper ridge, rounds out a trip without requiring much physical effort.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Lal Tibba Viewpoint</h3>
        <p>At 2,275 metres, this is the highest point in Mussoorie. On a clear day between October and February, peaks including Bandarpunch and Kedarnath are visible. The Japanese telescope at the viewpoint allows a closer look at the snow line.</p>
-       <p>Browse the full experience and accommodation format at <a href="/rooms" class="text-secondary underline">EBC Mussoorie</a> to plan the right itinerary around your stay.</p>`,
+       <p>Browse the full experience and accommodation format at <a href="/rooms/" class="text-secondary underline">EBC Mussoorie</a> to plan the right itinerary around your stay.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Practical Checklist Before You Book a Couples Resort in Mussoorie</h2>
        <p>Use these questions to filter your shortlist:</p>
@@ -65,7 +67,7 @@ const articleData = {
        <p><strong>Best windows:</strong> September to November for clear skies, open trails, and low crowd density. March to May for warmth, colour, and comfortable evenings.</p>
        <p><strong>Avoid:</strong> July and August. Monsoon rainfall limits outdoor activities and adds road risk on mountain approaches.</p>
        <p><strong>Worth considering:</strong> December and January for couples who want a quieter, colder Mussoorie. Properties with good heating and cold-weather setups make winter visits memorable, though less active.</p>
-       <p>As outlined in this detailed piece on <a href="/glamping-george-everest" class="text-secondary underline">glamping and outdoor adventures near George Everest Peak</a>, the property experience varies significantly by season and choosing the right window makes a material difference.</p>`,
+       <p>As outlined in this detailed piece on <a href="/rooms/" class="text-secondary underline">glamping and outdoor adventures near George Everest Peak</a>, the property experience varies significantly by season and choosing the right window makes a material difference.</p>`,
     ],
   },
   faqs: [
@@ -102,7 +104,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("couples-resort-mussoorie", articleData.metaData);
 
 export default function CouplesResortPage() {
   const renderContent = (htmlString: string) => {
@@ -111,6 +113,7 @@ export default function CouplesResortPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("couples-resort-mussoorie", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

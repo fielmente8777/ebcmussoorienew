@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   slug: "mice-resort-near-delhi-hills",
@@ -40,7 +42,7 @@ const articleData = {
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">The Hill MICE Zone Near Delhi: What Exists and Where</h2>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Mussoorie and the Garhwal Hills (290 km from Delhi)</h3>
-       <p>The strongest zone for meetings‑format MICE near Delhi. Properties here range from large ridge‑top hotels with proper banquet infrastructure to boutique glamping resorts suited to incentive travel and small leadership meetings. For incentive‑format MICE, <a href="/" class="text-secondary underline">EBC Mussoorie</a> offers an outdoor, nature‑led experience in the Mussoorie hills that serves the "memorable and distinctive" requirement of incentive travel directly. Their <a href="/rooms" class="text-secondary underline">property and accommodation setup</a> is built around experiential stays, which is precisely what high‑performer incentive travel needs to deliver. For larger meetings above 40 persons, properties in and around the main Mussoorie ridge have banquet halls and conference rooms with standard AV infrastructure.</p>
+       <p>The strongest zone for meetings‑format MICE near Delhi. Properties here range from large ridge‑top hotels with proper banquet infrastructure to boutique glamping resorts suited to incentive travel and small leadership meetings. For incentive‑format MICE, <a href="/" class="text-secondary underline">EBC Mussoorie</a> offers an outdoor, nature‑led experience in the Mussoorie hills that serves the "memorable and distinctive" requirement of incentive travel directly. Their <a href="/rooms/" class="text-secondary underline">property and accommodation setup</a> is built around experiential stays, which is precisely what high‑performer incentive travel needs to deliver. For larger meetings above 40 persons, properties in and around the main Mussoorie ridge have banquet halls and conference rooms with standard AV infrastructure.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Rishikesh (240 km from Delhi)</h3>
        <p>Rishikesh works well for adventure‑incentive MICE. The rafting, camping, and outdoor challenge infrastructure near the Ganga is well‑developed and regularly used by Delhi‑based corporates. Properties with riverside meeting setups handle incentive and team meeting formats for groups of 20 to 60 effectively.</p>
        <h3 class="text-xl font-semibold mt-6 mb-2 text-secondary">Corbett Region (260 to 300 km from Delhi)</h3>
@@ -66,7 +68,7 @@ const articleData = {
          <li><strong>For meeting MICE (working sessions for functional teams):</strong> Prioritise infrastructure: meeting room capacity, WiFi, AV, dietary handling, and accommodation proximity to the meeting space. Distinctiveness is secondary to functionality.</li>
        </ul>
        <p>For companies that want both within a single trip, the hybrid Dehradun‑plus‑Mussoorie format described above is the most effective solution.</p>
-       <p>As covered in this <a href="#" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a>, the property is positioned around the intersection of adventure and hospitality. For incentive MICE groups from Delhi, this intersection is exactly the brief: an experience that feels earned and extraordinary rather than routine.</p>`,
+       <p>As covered in this <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a>, the property is positioned around the intersection of adventure and hospitality. For incentive MICE groups from Delhi, this intersection is exactly the brief: an experience that feels earned and extraordinary rather than routine.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Budget Framework for MICE Near Delhi Hills</h2>
        <p>A realistic budget framework for a 2‑night MICE event near Mussoorie for 25 people:</p>
@@ -145,7 +147,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("mice-resort-near-delhi-hills", articleData.metaData);
 
 export default function MICEResortPage() {
   const renderContent = (htmlString: string) => {
@@ -154,6 +156,7 @@ export default function MICEResortPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("mice-resort-near-delhi-hills", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

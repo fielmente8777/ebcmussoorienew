@@ -3,6 +3,8 @@ import Accordion2 from "@/components/accordion/Accordion2";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import SectionHeading from "@/components/typography/SectionHeading";
 import { SectionHeading2 } from "@/components/typography/SectionHeading2";
+import { guideMeta, guideSchema } from "../components/guides";
+import JsonLd from "@/components/seo/JsonLd";
 
 const articleData = {
   // ✅ URL is exactly: luxury-tent-stay-monsoon-india
@@ -42,7 +44,7 @@ const articleData = {
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">Regions in India Where Luxury Tent Stays Work in Monsoon</h2>
        <p>Not every glamping region in India handles monsoon equally well. The tents that perform in Uttarakhand monsoon are different from those needed for Rajasthan (which has different monsoon intensity) or Coorg (which is among the wettest places in India).</p>
        <ul class="list-disc pl-6 space-y-1">
-         <li><strong>Uttarakhand (July to September):</strong> The Mussoorie and Garhwal hills receive sustained and sometimes heavy monsoon rainfall. Luxury tents in this region need to be at the structural premium end: elevated floors, treated canvas, solid framing, and internal insulation. Properties on the ridge above Dehradun, including the George Everest area, receive direct monsoon rainfall and require the most weather-resistant tent specifications. EBC Mussoorie's accommodation range addresses this through a mix of formats: the Glamper Rooms are the property's signature glamping units, designed for year-round occupation rather than seasonal canvas camping. The Surveyor Suite, Zenith Luxury Cottage, and Twin Luxury Cottages are cottage-format units that provide additional structural weatherproofing. View the <a href="/rooms" class="text-secondary underline">full accommodation range at EBC Mussoorie</a> and confirm which specific unit formats are available for your monsoon dates.</li>
+         <li><strong>Uttarakhand (July to September):</strong> The Mussoorie and Garhwal hills receive sustained and sometimes heavy monsoon rainfall. Luxury tents in this region need to be at the structural premium end: elevated floors, treated canvas, solid framing, and internal insulation. Properties on the ridge above Dehradun, including the George Everest area, receive direct monsoon rainfall and require the most weather-resistant tent specifications. EBC Mussoorie's accommodation range addresses this through a mix of formats: the Glamper Rooms are the property's signature glamping units, designed for year-round occupation rather than seasonal canvas camping. The Surveyor Suite, Zenith Luxury Cottage, and Twin Luxury Cottages are cottage-format units that provide additional structural weatherproofing. View the <a href="/rooms/" class="text-secondary underline">full accommodation range at EBC Mussoorie</a> and confirm which specific unit formats are available for your monsoon dates.</li>
          <li><strong>Rajasthan (July to September):</strong> Rajasthan's monsoon is less intense than Uttarakhand but transforms the desert landscape. Luxury tent camps near Pushkar, Jaisalmer, and the Aravalli foothills near Alwar can be atmospheric in the monsoon period. The rainfall intensity is generally lower than the Himalayan foothills, making the structural requirements for tents slightly less critical, but proper flooring and drainage remain essential.</li>
          <li><strong>Coorg, Karnataka (June to September):</strong> Coorg receives approximately 2,500 mm of annual rainfall, most of it in monsoon. Luxury plantation tent stays in Coorg during this period require the most weather-resistant specifications. Properties here have typically been operating through monsoon for decades and know exactly what their tents can handle. Ask specifically about the tent construction and drainage before booking.</li>
          <li><strong>Spiti Valley, Himachal Pradesh (July to August):</strong> The rain shadow zone. Very little monsoon rainfall at 3,800 to 4,500 metres. Luxury tent camps in Spiti are technically usable in July and August without the standard monsoon risk. The challenge here is road access via Rohtang Pass rather than rainfall.</li>
@@ -67,13 +69,13 @@ const articleData = {
          <li>The <strong>Park Cafe</strong> with indoor and alfresco dining, the private bonfire estate setup, and the outdoor BBQ arrangements give guests the full range of outdoor and indoor social spaces that a monsoon luxury tent stay needs beyond the accommodation unit itself.</li>
        </ul>
        <p>Confirm operational status, tent specifications, and monsoon-specific availability directly with EBC Mussoorie before booking July to August dates.</p>
-       <p>As described in the <a href="https://www.hotelierindia.com/story/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a>, the property's approach to outdoor hospitality is designed around genuine quality rather than seasonal limitation.</p>`,
+       <p>As described in the <a href="https://www.hotelierindia.com/operations/experience-tranquil-adventure-in-the-heart-of-mussoorie-with-ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">Hotelier India feature on EBC Mussoorie</a>, the property's approach to outdoor hospitality is designed around genuine quality rather than seasonal limitation.</p>`,
 
       `<h2 class="text-2xl font-bold mt-8 mb-3 text-secondary">What to Expect on Each Day of a Monsoon Luxury Tent Stay</h2>
        <p><strong>A good day (light rain and clear morning):</strong> Forest walk at 6 AM in mist. Breakfast at 8 AM either in the tent's private sit-out or the communal restaurant. Morning activity (nature walk, birdwatching, photography) before 11 AM. Afternoon in the tent with a book or journaling while rain falls on the canvas. Clearing by evening. Bonfire outside with the smell of post-rain forest.</p>
        <p><strong>A full-rain day:</strong> Morning walk before the rain builds. Indoor rest or reading from late morning. Long lunch. Afternoon indoor activity. Bonfire or verandah time if the evening clears. The quality of the tent's interior, the view from its windows, and the quality of the indoor communal space determine how enjoyable this day is.</p>
        <p><strong>What not to plan for:</strong> Sightseeing excursions that require 2-hour drives. Long outdoor treks. Activities that assume dry conditions all day.</p>
-       <p>For a ground-level view of the EBC Mussoorie estate and outdoor experience, <a href="https://www.tripoto.com/trip/ebc-mussoorie" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Tripoto account</a> gives useful traveller-level detail.</p>`,
+       <p>For a ground-level view of the EBC Mussoorie estate and outdoor experience, <a href="https://tripoto.com/india/trips/did-you-know-that-just-8-hours-from-delhi-there-s-an-everest-base-camp-no-we-re-not-kidding-3aea3a54f8628a1c8" target="_blank" rel="noopener noreferrer" class="text-secondary underline">this Tripoto account</a> gives useful traveller-level detail.</p>`,
     ],
   },
   faqs: [
@@ -110,7 +112,7 @@ const articleData = {
   ],
 };
 
-export const metadata = articleData.metaData;
+export const metadata = guideMeta("luxury-tent-stay-monsoon-india", articleData.metaData);
 
 export default function LuxuryTentStayPage() {
   const renderContent = (htmlString: string) => {
@@ -119,6 +121,7 @@ export default function LuxuryTentStayPage() {
 
   return (
     <main className="bg-[#0C150D] text-[#F7F5EE]">
+      <JsonLd data={guideSchema("luxury-tent-stay-monsoon-india", articleData)} />
       <HeroBanner {...articleData.banner} />
 
       <SectionWithContainer sectionClassName="bg-[#0C150D] py-16">

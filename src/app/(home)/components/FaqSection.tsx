@@ -36,7 +36,7 @@ const FaqSection: React.FC<Props> = ({ title, faq, link }) => {
 
         <LinkButton
           label="View All FAQs"
-          href="/faq"
+          href="/faq/"
           className="bg-transparent w-fit mx-auto mt-4 text-secondary rounded-sm uppercase"
         />
       </div>
